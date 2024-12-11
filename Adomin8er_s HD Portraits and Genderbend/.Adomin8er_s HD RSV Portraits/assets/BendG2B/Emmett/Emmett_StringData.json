@@ -1,0 +1,87 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Corine",
+            "Entries": {
+                "Mon2": "I visited Emmett yesterday. He taught me a thing or two about mixing some drinks!#$b#The Saloon is my other part-time job, you see.$h",
+                "Wed4": "I sometimes visit the town, It's really nice to learn a thing or two from Gus and Emmett.#$b#They're amazing people.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Faye",
+            "Entries": {
+                "spring_23": "I would love to collaborate with Emmett on a new Flower Dance dress design. Maybe something inspired by actual flowers?",
+                "Fri4": "I'm going to go with Emmett next time he goes to the desert. Sandy really understands style, she's so fun to talk to.$h",
+                "Sun6": "I think Haley and Emmett would find they have more in common than they thought if they were closer and talked more.#$b#I guess when you're around someone all the time, it's harder to see."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Faye",
+            "Entries": {
+                "spring_23": "I would love to collaborate with Emmett on a new Flower Dance dress design. Maybe something inspired by actual flowers?",
+                "Fri4": "I'm going to go with Emmett next time he goes to the desert. Sandy really understands style, she's so fun to talk to.$h",
+                "Sun6": "I think Hayden and Emmett would find they have more in common than they thought if they were closer and talked more.#$b#I guess when you're around someone all the time, it's harder to see."
+            },
+            "when": {
+                "Haley_To_Hayden": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Philip",
+            "Entries": {
+                "Thu4": "I talked to Emmett the other day and he told me about the yoga classes he and Ysa are thinking about doing at the hotel.#$e#I might join them if I can find the time. Yoga is amazing for flexibility and core strength.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Philip",
+            "Entries": {
+                "Thu4": "I talked to EmEmmettily the other day and he told me about the yoga classes he and Ysa are thinking about doing at the hotel.#$e#I might join them if I can find the time. Yoga is amazing for flexibility and core strength.$h"
+            }
+        },
+        {
+            "LogName": "Ridgeside Gathering",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Clint": "I wonder if Emmett would like to dance with me at the concert.$h#$e#I shouldn't bother asking, he'll probably say no.$s"
+            }
+        },
+        {
+            "LogName": "EggFestival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Faye": "I love what Emmett has done with the painted eggs! He has such a nice eye for color."
+            }
+        },
+        {
+            "LogName": "Luau",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Ysabelle": "I'm going to join Emmett on the dance floor soon.#$b#You should totally join us!$h"
+            }
+        },
+        {
+            "LogName": "WinterStar",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Jeric": "My secret giver better not give me some low quality fabric and sewing materials.$s#$b#That's nice for Emmett and all, but I'm making high-class garments."
+            }
+        },
+        {
+            "LogName": "IceFest",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Ian": "My gloves have holes in them. I'm not bothered by the cold, so it's not that big of a deal.#$e#I wonder if Emmett can teach me how to mend them."
+            }
+        }
+    ]
+}

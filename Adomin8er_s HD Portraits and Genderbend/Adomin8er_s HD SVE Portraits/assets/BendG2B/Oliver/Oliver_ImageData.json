@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Olivia",
+            "FromFile": "assets/BendG2B/Oliver/OliverOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Olivia_Beach",
+            "FromFile": "assets/BendG2B/Oliver/OliverOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Olivia",
+            "FromFile": "assets/BendG2B/Oliver/OliverOW_Winter.png",
+            "When": {
+                "Season": "winter"
+            }
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits_SVE",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_OliviaPortrait": "OliverPortrait/painting/2 2/2 2/1/999/-1/Oliver Portrait/2/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits_SVE/true"
+            }
+        }
+    ]
+}

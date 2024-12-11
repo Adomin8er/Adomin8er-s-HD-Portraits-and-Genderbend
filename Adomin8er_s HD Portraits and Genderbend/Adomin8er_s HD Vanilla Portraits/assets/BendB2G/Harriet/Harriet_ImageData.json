@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Harve_Beach",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Wedding.png",
+            "When": {"DayEvent": "wedding"}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Harvey_Winter",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Winter.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "HarveyPortrait": "HarrietPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:HarveyPortrait]/247/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"
+            }
+        }
+    ]
+}

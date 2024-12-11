@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "LeahHouse_5_5": "Can you give me any tips on this art piece, Elena?$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "strings/schedules/Elliott",
+            "Entries": {
+                "JojaDay_Elliott": "%Elena is busy."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "strings/schedules/Victor",
+            "When": {
+                "Season": "Winter",
+                "Season |contains=Spring, Summer, Fall": false
+            },
+            "Entries": {
+                "CommunityDay_Victor": "Elena? I've read a few of her short stories. They're not my usual style, but the way she describes the beauty of the natural world is pretty phenomenal.$0#$b#Maybe I'll work up the courage to tell her sometime.$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "strings/schedules/Victor",
+            "When": {
+                "Season": "Winter",
+                "Season |contains=Spring, Summer, Fall": false
+            },
+            "Entries": {
+                "CommunityDay_Victor_Married": "How well do you know Elena? ..No, I'm not jealous! I was just wondering if you could introduce us. It's silly, but I've read some of her work, and I feel like we could have a lot to talk about.$0"
+            }
+        }
+    ]
+}

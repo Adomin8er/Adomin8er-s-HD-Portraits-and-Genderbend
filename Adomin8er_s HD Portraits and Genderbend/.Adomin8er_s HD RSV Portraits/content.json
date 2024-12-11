@@ -1,0 +1,3281 @@
+{
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "Acorn_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Aguar_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Alissa_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Althea_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Anton_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Ariah_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Belinda_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Bert_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Blair_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Bliss_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Bryle_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Carmen_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Corine_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Daia_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Ezekiel_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Faye_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Flor_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Freddie_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Helen_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Ian_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Irene_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Jeric_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Jio_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "June_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Keahi_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Kenneth_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Kiarra_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Kimpoi_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Kiwi_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Lenny_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Lola_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Lorenzo_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Lorraine_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Louie_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Maddie_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Maive_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Malaya_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Nadaline_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Naomi_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Olga_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Paula_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Philip_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Pika_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Pipo_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Raeriyala_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "RelicSpirit_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Richard_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Sari_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Sean_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Shanice_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Shiro_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Sonny_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Torts_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "TreehouseGirl_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Trinnie_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Undreya_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Ysabelle_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Yuuma_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Zachary_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Zayne_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    // Female Gender Bend
+    "Alex_To_Alexis": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Elliott_To_Elena": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Harvey_To_Harriet": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Sam_To_Samantha": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Sebastian_To_Sabrina": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Shane_To_Shaylin": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    // Male Gender Bend
+    "Abigail_To_Abel": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Emily_To_Emmett": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Haley_To_Hayden": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Leah_To_Leif": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Maru_To_Micah": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "Penny_To_Peter": {
+      "AllowValues": "true,false",
+      "Default": "false"
+    },
+    "MatureEvents": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    }
+  },
+  "DynamicTokens": [
+    /*********
+     ** RIDGESIDE VILLAGE TOKENS
+     *********/
+     {
+      "LogName": "IreneTraveling_Spring_True",
+			"Name": "IreneTraveling",
+			"Value": "true",
+			"When": {
+				"Season": "spring",
+				"Day": "15, 16, 17, 18, 19, 20, 21"
+			}
+		},
+		{
+      "LogName": "IreneTraveling_Fall_True",
+      "Name": "IreneTraveling",
+			"Value": "true",
+			"When": {
+				"Season": "fall",
+				"Day": "2, 3, 4, 5, 6, 7"
+			}
+		},
+		{
+      "LogName": "IreneTraveling_Spring_True",
+			"Name": "IreneTraveling",
+			"Value": "false",
+			"When": {
+				"Season": "spring",
+				"Query: {{Day}} < 15": "true",
+				"Query: {{Day}} > 21": "true"
+			}
+		},
+		{
+      "LogName": "IreneTraveling_Fall_False",
+			"Name": "IreneTraveling",
+			"Value": "false",
+			"When": {
+				"Season": "fall",
+				"Query: {{Day}} < 2": "true",
+				"Query: {{Day}} > 7": "true"
+			}
+		},
+    {
+      "LogName": "RandomNumber",
+			"Name": "RandomNumber",
+			"Value": "{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}}"
+		},
+    {
+      "LogName": "EmberNight",
+      "Name": "BONFIREEVENT",
+      "Value": "/warp farmer1 40 49/warp farmer2 39 49/warp farmer3 38 49/warp farmer4 41 49/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/fade/viewport 39 46/pause 2000/advancedMove farmer1 false 0 -5/pause 3000/faceDirection farmer1 0/playSound backpackIN/addObject 40 42 294/pause 2000/message \"...And my new year resolutions are...\"/pause 3000/emote farmer1 32/pause 1000/globalFade/viewport -1000 -1000/warp farmer1 40 49/faceDirection farmer1 0/"
+    },
+    {
+      "LogName": "FlorTheme_False",
+      "Name": "FlorMusic",
+      "Value": "50s",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVSAATExtra": "false"
+      }
+    },
+    {
+      "LogName": "FlorTheme_True",
+      "Name": "FlorMusic",
+      "Value": "FlorTheme",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVSAATExtra": "true"
+      }
+    },
+    {
+      "LogName": "SeanTheme_False",
+      "Name": "SeanMusic",
+      "Value": "50s",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVSAATExtra": "false"
+      }
+    },
+    {
+      "LogName": "SeanTheme_True",
+      "Name": "SeanMusic",
+      "Value": "SeanTheme",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVSAATExtra": "true"
+      }
+    },
+    {
+      "LogName": "ShiroTheme_False",
+      "Name": "ShiroMusic",
+      "Value": "desolate",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVSAATExtra": "false"
+      }
+    },
+    {
+      "LogName": "ShiroTheme_True",
+      "Name": "ShiroMusic",
+      "Value": "ShiroTheme",
+      "When": {
+        "HasMod |contains=Rafseazz.RSVSAATExtra": "true"
+      }
+    }
+  ],
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Acorn",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Acorn_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Acorn",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Acorn_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Acorn",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Acorn"
+      },
+      "When": {
+        "Acorn_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Aguar, Mods/AdamHDPortraits/BaseImages/Aguar_Beach, Mods/AdamHDPortraits/BaseImages/Aguar_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Aguar_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Aguar, Mods/HDPortraits/Aguar_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Aguar_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Aguar",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Aguar"
+      },
+      "When": {
+        "Aguar_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Aguar",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Aguar_Winter"
+      },
+      "When": {
+        "Aguar_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Aguar",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Aguar_Beach"
+      },
+      "When": {
+        "Aguar_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Alissa, Mods/AdamHDPortraits/BaseImages/Alissa_Beach, Mods/AdamHDPortraits/BaseImages/Alissa_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Alissa_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Alissa, Mods/HDPortraits/Alissa_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Alissa_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Alissa",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Alissa"
+      },
+      "When": {
+        "Alissa_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Alissa",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Alissa_Winter"
+      },
+      "When": {
+        "Alissa_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Alissa",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Alissa_Beach"
+      },
+      "When": {
+        "Alissa_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Althea",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Althea_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Althea",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Althea_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Althea",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Althea"
+      },
+      "When": {
+        "Althea_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Anton, Mods/AdamHDPortraits/BaseImages/Anton_Beach, Mods/AdamHDPortraits/BaseImages/Anton_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Anton_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Anton, Mods/HDPortraits/Anton_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Anton_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Anton",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Anton"
+      },
+      "When": {
+        "Anton_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Anton",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Anton_Winter"
+      },
+      "When": {
+        "Anton_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Anton",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Anton_Beach"
+      },
+      "When": {
+        "Anton_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Ariah, Mods/AdamHDPortraits/BaseImages/Ariah_Beach, Mods/AdamHDPortraits/BaseImages/Ariah_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Ariah_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Ariah, Mods/HDPortraits/Ariah_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Ariah_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ariah",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ariah"
+      },
+      "When": {
+        "Ariah_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ariah",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ariah_Winter"
+      },
+      "When": {
+        "Ariah_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ariah",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ariah_Beach"
+      },
+      "When": {
+        "Ariah_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Belinda",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Belinda_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Belinda",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Belinda_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Belinda",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Belinda"
+      },
+      "When": {
+        "Belinda_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Bert, Mods/AdamHDPortraits/BaseImages/Bert_Beach, Mods/AdamHDPortraits/BaseImages/Bert_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Bert_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Bert, Mods/HDPortraits/Bert_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Bert_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Bert",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Bert"
+      },
+      "When": {
+        "Bert_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Bert",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Bert_Winter"
+      },
+      "When": {
+        "Bert_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Bert",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Bert_Beach"
+      },
+      "When": {
+        "Bert_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Blair, Mods/AdamHDPortraits/BaseImages/Blair_Beach , Mods/AdamHDPortraits/BaseImages/Blair_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Blair_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Blair, Mods/HDPortraits/Blair_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Blair_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Blair",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Blair"
+      },
+      "When": {
+        "Blair_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Blair",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Blair_Winter"
+      },
+      "When": {
+        "Blair_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Blair",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Blair_Beach"
+      },
+      "When": {
+        "Blair_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Bliss",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Bliss_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Bliss",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Bliss_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Bliss",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Bliss"
+      },
+      "When": {
+        "Bliss_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Bryle",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Bryle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Bryle",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Bryle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Bryle",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Bryle"
+      },
+      "When": {
+        "Bryle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Bryle",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Bryle_Winter"
+      },
+      "When": {
+        "Bryle_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Carmen, Mods/AdamHDPortraits/BaseImages/Carmen_Beach,  Mods/AdamHDPortraits/BaseImages/Carmen_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Carmen_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Carmen, Mods/HDPortraits/Carmen_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Carmen_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Carmen",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Carmen"
+      },
+      "When": {
+        "Carmen_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Carmen",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Carmen_Winter"
+      },
+      "When": {
+        "Carmen_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Carmen",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Carmen_Beach"
+      },
+      "When": {
+        "Carmen_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Corine, Mods/AdamHDPortraits/BaseImages/Corine_Beach, Mods/AdamHDPortraits/BaseImages/Corine_Ninja, Mods/AdamHDPortraits/BaseImages/Corine_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Corine_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Corine, Mods/HDPortraits/Corine_Beach, Mods/HDPortraits/Corine_Ninja",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Corine_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Corine",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Corine"
+      },
+      "When": {
+        "Corine_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Corine",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Corine_Winter"
+      },
+      "When": {
+        "Corine_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Corine",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Corine_Ninja"
+      },
+      "When": {
+        "Corine_HD_portrait": "true",
+        "HasSeenEvent |contains=75160125": "true",
+			  "DayOfWeek": "Thursday",
+			  "LocationName |contains=Custom_Ridgeside_EzekielHouse": "false"
+
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Corine",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Corine_Beach"
+      },
+      "When": {
+        "Corine_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Daia, Mods/AdamHDPortraits/BaseImages/Daia_Beach, Mods/AdamHDPortraits/BaseImages/Daia_Party, Mods/AdamHDPortraits/BaseImages/Daia_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Daia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Daia, Mods/HDPortraits/Daia_Beach, Mods/HDPortraits/Daia_Party",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Daia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daia",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Daia"
+      },
+      "When": {
+        "Daia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daia_Party",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Daia_Party"
+      },
+      "When": {
+        "Daia_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daia",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Daia_Winter"
+      },
+      "When": {
+        "Daia_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Daia",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Daia_Beach"
+      },
+      "When": {
+        "Daia_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Ezekiel, Mods/AdamHDPortraits/BaseImages/Ezekiel_Beach, Mods/AdamHDPortraits/BaseImages/Ezekiel_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Ezekiel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Ezekiel, Mods/HDPortraits/Ezekiel_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Ezekiel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ezekiel",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ezekiel"
+      },
+      "When": {
+        "Ezekiel_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ezekiel",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ezekiel_Winter"
+      },
+      "When": {
+        "Ezekiel_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ezekiel",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ezekiel_Beach",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Faye, Mods/AdamHDPortraits/BaseImages/Faye_Beach, Mods/AdamHDPortraits/BaseImages/Faye_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Faye_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Faye, Mods/HDPortraits/Faye_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Faye_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Faye",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Faye"
+      },
+      "When": {
+        "Faye_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Faye",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Faye_Winter"
+      },
+      "When": {
+        "Faye_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Faye",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Faye_Beach"
+      },
+      "When": {
+        "Faye_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Flor, Mods/AdamHDPortraits/BaseImages/Flor_Beach, Mods/AdamHDPortraits/BaseImages/Flor_Dress, Mods/AdamHDPortraits/BaseImages/Flor_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Flor_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Flor, Mods/HDPortraits/Flor_Beach, Mods/HDPortraits/Flor_Dress",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Flor_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Flor",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Flor"
+      },
+      "When": {
+        "Flor_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Flor_Dress",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Flor_Dress"
+      },
+      "When": {
+        "Flor_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Flor",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Flor_Winter"
+      },
+      "When": {
+        "Flor_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Flor",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Flor_Beach"
+      },
+      "When": {
+        "Flor_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Freddie, Mods/AdamHDPortraits/BaseImages/Freddie_Beach, Mods/AdamHDPortraits/BaseImages/Freddie_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Freddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Freddie, Mods/HDPortraits/Freddie_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Freddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Freddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Freddie"
+      },
+      "When": {
+        "Freddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Freddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Freddie_Winter"
+      },
+      "When": {
+        "Freddie_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Freddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Freddie_Beach"
+      },
+      "When": {
+        "Freddie_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Helen",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Helen_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Helen",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Helen_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Helen",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Helen"
+      },
+      "When": {
+        "Helen_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Ian, Mods/AdamHDPortraits/BaseImages/Ian_Beach, Mods/AdamHDPortraits/BaseImages/Ian_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Ian_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Ian, Mods/HDPortraits/Ian_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Ian_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ian",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ian"
+      },
+      "When": {
+        "Ian_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ian",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ian_Winter"
+      },
+      "When": {
+        "Ian_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ian",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ian_Beach"
+      },
+      "When": {
+        "Ian_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Irene, Mods/AdamHDPortraits/BaseImages/Irene_Beach, Mods/AdamHDPortraits/BaseImages/Irene_Chef, Mods/AdamHDPortraits/BaseImages/Irene_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Irene_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Irene, Mods/HDPortraits/Irene_Beach, Mods/HDPortraits/Irene_Custom_Ridgeside_PurpleMansion",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Irene_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Irene",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Irene"
+      },
+      "When": {
+        "Irene_HD_portrait": "true"
+      }
+    },
+    {
+      "LogName": "Irene Chef Outfit Portrait",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Irene_Custom_Ridgeside_PurpleMansion",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Irene_Chef"
+      },
+      "When": {
+        "Irene_HD_portrait": "true",
+        "HasSeenEvent |contains=75160431": "false"
+      }
+    },
+    {
+      "LogName": "Irene Chef Outfit Portrait - traveling",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Irene",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Irene_Chef"
+      },
+      "When": {
+        "Irene_HD_portrait": "true",
+        "IreneTraveling": "true",
+			"HasSeenEvent |contains=75160431": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Irene",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Irene_Winter"
+      },
+      "When": {
+        "Irene_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Irene",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Irene_Beach"
+      },
+      "When": {
+        "Irene_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Jeric, Mods/AdamHDPortraits/BaseImages/Jeric_Beach, Mods/AdamHDPortraits/BaseImages/Jeric_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Jeric_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Jeric, Mods/HDPortraits/Jeric_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Jeric_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jeric",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jeric"
+      },
+      "When": {
+        "Jeric_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jeric",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jeric_Winter"
+      },
+      "When": {
+        "Jeric_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jeric",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jeric_Beach"
+      },
+      "When": {
+        "Jeric_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Jio, Mods/AdamHDPortraits/BaseImages/Jio_Beach, Mods/AdamHDPortraits/BaseImages/Jio_Unmask",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Jio_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Jio, Mods/HDPortraits/Jio_Beach, Mods/HDPortraits/Jio_Unmask",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Jio_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jio",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jio"
+      },
+      "When": {
+        "Jio_HD_portrait": "true"
+      }
+    },
+    {
+      "LogName": "Jio random take off mask",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jio",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jio_Unmask"
+      },
+      "When": {
+        "Jio_HD_portrait": "true",
+        "Hearts:Jio": "{{Range: 8,10}}",
+			  "RandomNumber": "{{Range: 4,6}}"
+      }
+    },
+    {
+      "LogName": "Jio unmasked at home when married",
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jio",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jio_Unmask"
+      },
+      "When": {
+        "Jio_HD_portrait": "true",
+        "Relationship:Jio": "Married",
+			  "LocationName": "FarmHouse"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Jio",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Jio_Beach"
+      },
+      "When": {
+        "Jio_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/June, Mods/AdamHDPortraits/BaseImages/June_Beach, Mods/AdamHDPortraits/BaseImages/June_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "June_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/June, Mods/HDPortraits/June_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "June_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/June",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/June"
+      },
+      "When": {
+        "June_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/June",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/June_Winter"
+      },
+      "When": {
+        "June_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/June",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/June_Beach"
+      },
+      "When": {
+        "June_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Keahi, Mods/AdamHDPortraits/BaseImages/Keahi_Beach, Mods/AdamHDPortraits/BaseImages/Keahi_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Keahi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Keahi, Mods/HDPortraits/Keahi_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Keahi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Keahi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Keahi"
+      },
+      "When": {
+        "Keahi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Keahi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Keahi_Winter"
+      },
+      "When": {
+        "Keahi_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Keahi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Keahi_Beach"
+      },
+      "When": {
+        "Keahi_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Kenneth, Mods/AdamHDPortraits/BaseImages/Kenneth_Beach, Mods/AdamHDPortraits/BaseImages/Kenneth_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Kenneth_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Kenneth, Mods/HDPortraits/Kenneth_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Kenneth_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kenneth",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kenneth"
+      },
+      "When": {
+        "Kenneth_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kenneth",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kenneth_Winter"
+      },
+      "When": {
+        "Kenneth_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kenneth",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kenneth_Beach"
+      },
+      "When": {
+        "Kenneth_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Kiarra, Mods/AdamHDPortraits/BaseImages/Kiarra_Beach, Mods/AdamHDPortraits/BaseImages/Kiarra_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Kiarra_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Kiarra, Mods/HDPortraits/Kiarra_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Kiarra_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kiarra",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kiarra"
+      },
+      "When": {
+        "Kiarra_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kiarra",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kiarra_Winter"
+      },
+      "When": {
+        "Kiarra_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kiarra",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kiarra_Beach"
+      },
+      "When": {
+        "Kiarra_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Kimpoi, Mods/AdamHDPortraits/BaseImages/Kimpoi_Beach",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Kimpoi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Kimpoi, Mods/HDPortraits/Kimpoi_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Kimpoi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kimpoi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kimpoi"
+      },
+      "When": {
+        "Kimpoi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kimpoi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kimpoi_Beach"
+      },
+      "When": {
+        "Kimpoi_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Kiwi, Mods/AdamHDPortraits/BaseImages/Kiwi_Beach",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Kiwi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Kiwi, Mods/HDPortraits/Kiwi_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Kiwi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kiwi, Mods/HDPortraits/Kiwi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kiwi"
+      },
+      "When": {
+        "Kiwi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Kiwi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Kiwi_Beach"
+      },
+      "When": {
+        "Kiwi_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Lenny, Mods/AdamHDPortraits/BaseImages/Lenny_Beach, Mods/AdamHDPortraits/BaseImages/Lenny_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Lenny_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Lenny, Mods/HDPortraits/Lenny_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Lenny_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lenny",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lenny"
+      },
+      "When": {
+        "Lenny_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lenny",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lenny_Winter"
+      },
+      "When": {
+        "Lenny_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lenny",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lenny_Beach"
+      },
+      "When": {
+        "Lenny_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Lola, Mods/AdamHDPortraits/BaseImages/Lola_Beach, Mods/AdamHDPortraits/BaseImages/Lola_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Lola_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Lola, Mods/HDPortraits/Lola_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Lola_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lola",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lola"
+      },
+      "When": {
+        "Lola_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lola",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lola_Winter"
+      },
+      "When": {
+        "Lola_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lola",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lola_Beach"
+      },
+      "When": {
+        "Lola_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Lorenzo, Mods/AdamHDPortraits/BaseImages/Lorenzo_Beach, Mods/AdamHDPortraits/BaseImages/Lorenzo_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Lorenzo_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Lorenzo, Mods/HDPortraits/Lorenzo_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Lorenzo_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lorenzo",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lorenzo"
+      },
+      "When": {
+        "Lorenzo_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lorenzo",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lorenzo_Winter"
+      },
+      "When": {
+        "Lorenzo_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lorenzo",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lorenzo_Beach"
+      },
+      "When": {
+        "Lorenzo_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Lorraine",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Lorraine_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Lorraine",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Lorraine_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Lorraine",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Lorraine"
+      },
+      "When": {
+        "Lorraine_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Louie, Mods/AdamHDPortraits/BaseImages/Louie_Beach, Mods/AdamHDPortraits/BaseImages/Louie_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Louie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Louie, Mods/HDPortraits/Louie_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Louie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Louie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Louie"
+      },
+      "When": {
+        "Louie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Louie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Louie_Winter"
+      },
+      "When": {
+        "Louie_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Louie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Louie_Beach"
+      },
+      "When": {
+        "Louie_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Maddie, Mods/AdamHDPortraits/BaseImages/Maddie_Ariel, Mods/AdamHDPortraits/BaseImages/Maddie_Beach, Mods/AdamHDPortraits/BaseImages/Maddie_Elsa, Mods/AdamHDPortraits/BaseImages/Maddie_Lab, Mods/AdamHDPortraits/BaseImages/Maddie_Merida, Mods/AdamHDPortraits/BaseImages/Maddie_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Maddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Maddie, Mods/HDPortraits/Maddie_Ariel, Mods/HDPortraits/Maddie_Beach, Mods/HDPortraits/Maddie_Elsa, Mods/HDPortraits/Maddie_Lab, Mods/HDPortraits/Maddie_Merida",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Maddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie_Ariel",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie_Ariel"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie_Elsa",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie_Elsa"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie_Lab"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true",
+        "LocationName |contains=Custom_Ridgeside_AguarLab": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie_Merida",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie_Merida"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie_Winter"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maddie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maddie_Beach"
+      },
+      "When": {
+        "Maddie_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Maive, Mods/AdamHDPortraits/BaseImages/Maive_Beach, Mods/AdamHDPortraits/BaseImages/Maive_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Maive_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Maive, Mods/HDPortraits/Maive_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Maive_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maive",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maive"
+      },
+      "When": {
+        "Maive_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maive",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maive_Winter"
+      },
+      "When": {
+        "Maive_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Maive",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Maive_Beach"
+      },
+      "When": {
+        "Maive_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Malaya, Mods/AdamHDPortraits/BaseImages/Malaya_Beach, Mods/AdamHDPortraits/BaseImages/Malaya_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Malaya_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Malaya, Mods/HDPortraits/Malaya_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Malaya_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Malaya",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Malaya"
+      },
+      "When": {
+        "Malaya_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Malaya",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Malaya_Winter"
+      },
+      "When": {
+        "Malaya_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Malaya",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Malaya_Beach"
+      },
+      "When": {
+        "Malaya_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Nadaline",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Nadaline_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Nadaline",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Nadaline_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Nadaline",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Nadaline"
+      },
+      "When": {
+        "Nadaline_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Naomi, Mods/AdamHDPortraits/BaseImages/Naomi_Beach, Mods/AdamHDPortraits/BaseImages/Naomi_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Naomi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Naomi, Mods/HDPortraits/Naomi_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Naomi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Naomi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Naomi"
+      },
+      "When": {
+        "Naomi_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Naomi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Naomi_Winter"
+      },
+      "When": {
+        "Naomi_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Naomi",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Naomi_Beach"
+      },
+      "When": {
+        "Naomi_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Olga, Mods/AdamHDPortraits/BaseImages/Olga_Beach, Mods/AdamHDPortraits/BaseImages/Olga_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Olga_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Olga, Mods/HDPortraits/Olga_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Olga_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Olga",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Olga"
+      },
+      "When": {
+        "Olga_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Olga",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Olga_Winter"
+      },
+      "When": {
+        "Olga_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Olga",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Olga_Beach"
+      },
+      "When": {
+        "Olga_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Paula, Mods/AdamHDPortraits/BaseImages/Paula_Beach, Mods/AdamHDPortraits/BaseImages/Paula_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Paula_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Paula, Mods/HDPortraits/Paula_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Paula_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Paula",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Paula"
+      },
+      "When": {
+        "Paula_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Paula",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Paula_Winter"
+      },
+      "When": {
+        "Paula_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Paula",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Paula_Beach"
+      },
+      "When": {
+        "Paula_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Philip, Mods/AdamHDPortraits/BaseImages/Philip_Beach, Mods/AdamHDPortraits/BaseImages/Philip_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Philip_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Philip, Mods/HDPortraits/Philip_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Philip_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Philip",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Philip"
+      },
+      "When": {
+        "Philip_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Philip",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Philip_Winter"
+      },
+      "When": {
+        "Philip_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Philip",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Philip_Beach"
+      },
+      "When": {
+        "Philip_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Pika, Mods/AdamHDPortraits/BaseImages/Pika_Beach, Mods/AdamHDPortraits/BaseImages/Pika_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Pika_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Pika, Mods/HDPortraits/Pika_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Pika_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Pika",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Pika"
+      },
+      "When": {
+        "Pika_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Pika",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Pika_Winter"
+      },
+      "When": {
+        "Pika_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Pika",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Pika_Beach"
+      },
+      "When": {
+        "Pika_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Pipo",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Pipo_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Pipo",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Pipo_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Pipo",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Pipo"
+      },
+      "When": {
+        "Pipo_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Raeriyala",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Raeriyala_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Raeriyala",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Raeriyala_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Raeriyala",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Raeriyala"
+      },
+      "When": {
+        "Raeriyala_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/RelicSpirit",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "RelicSpirit_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/RelicSpirit",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "RelicSpirit_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/RelicSpirit",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/RelicSpirit"
+      },
+      "When": {
+        "RelicSpirit_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Richard, Mods/AdamHDPortraits/BaseImages/Richard_Beach, Mods/AdamHDPortraits/BaseImages/Richard_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Richard_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Richard, Mods/HDPortraits/Richard_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Richard_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Richard",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Richard"
+      },
+      "When": {
+        "Richard_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Richard",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Richard_Winter"
+      },
+      "When": {
+        "Richard_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Richard",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Richard_Beach"
+      },
+      "When": {
+        "Richard_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Sari",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Sari_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Sari",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Sari_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sari",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sari"
+      },
+      "When": {
+        "Sari_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Sean, Mods/AdamHDPortraits/BaseImages/Sean_Beach, Mods/AdamHDPortraits/BaseImages/Sean_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Sean_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Sean, Mods/HDPortraits/Sean_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Sean_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sean",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sean"
+      },
+      "When": {
+        "Sean_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sean",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sean_Winter"
+      },
+      "When": {
+        "Sean_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sean",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sean_Beach"
+      },
+      "When": {
+        "Sean_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+        },
+        "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Shanice, Mods/AdamHDPortraits/BaseImages/Shanice_Beach, Mods/AdamHDPortraits/BaseImages/Shanice_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Shanice_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Shanice, Mods/HDPortraits/Shanice_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Shanice_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shanice",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Shanice"
+      },
+      "When": {
+        "Shanice_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shanice",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Shanice_Winter"
+      },
+      "When": {
+        "Shanice_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shanice",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Shanice_Beach"
+      },
+      "When": {
+        "Shanice_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Shiro, Mods/AdamHDPortraits/BaseImages/Shiro_Beach, Mods/AdamHDPortraits/BaseImages/Shiro_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Shiro_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Shiro, Mods/HDPortraits/Shiro_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Shiro_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shiro",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Shiro"
+      },
+      "When": {
+        "Shiro_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shiro",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Shiro_Winter"
+      },
+      "When": {
+        "Shiro_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Shiro",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Shiro_Beach"
+      },
+      "When": {
+        "Shiro_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Sonny, Mods/AdamHDPortraits/BaseImages/Sonny_Beach, Mods/AdamHDPortraits/BaseImages/Sonny_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Sonny_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Sonny, Mods/HDPortraits/Sonny_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Sonny_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sonny",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sonny"
+      },
+      "When": {
+        "Sonny_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sonny",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sonny_Winter"
+      },
+      "When": {
+        "Sonny_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Sonny",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Sonny_Beach"
+      },
+      "When": {
+        "Sonny_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Torts",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Torts_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Torts",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Torts_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Torts",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Torts"
+      },
+      "When": {
+        "Torts_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/TreehouseGirl",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "TreehouseGirl_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/TreehouseGirl",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "TreehouseGirl_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/TreehouseGirl",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/TreehouseGirl"
+      },
+      "When": {
+        "TreehouseGirl_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Trinnie, Mods/AdamHDPortraits/BaseImages/Trinnie_Beach, Mods/AdamHDPortraits/BaseImages/Trinnie_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Trinnie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Trinnie, Mods/HDPortraits/Trinnie_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Trinnie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Trinnie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Trinnie"
+      },
+      "When": {
+        "Trinnie_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Trinnie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Trinnie_Winter"
+      },
+      "When": {
+        "Trinnie_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Trinnie",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Trinnie_Beach"
+      },
+      "When": {
+        "Trinnie_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Undreya",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Undreya_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Undreya",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Undreya_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Undreya",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Undreya"
+      },
+      "When": {
+        "Undreya_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Ysabelle, Mods/AdamHDPortraits/BaseImages/Ysabelle_Ball, Mods/AdamHDPortraits/BaseImages/Ysabelle_Beach, Mods/AdamHDPortraits/BaseImages/Ysabelle_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Ysabelle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Ysabelle, Mods/HDPortraits/Ysabelle_Ball, Mods/HDPortraits/Ysabelle_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Ysabelle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ysabelle",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ysabelle"
+      },
+      "When": {
+        "Ysabelle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ysabelle_Ball",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ysabelle_Ball"
+      },
+      "When": {
+        "Ysabelle_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ysabelle",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ysabelle_Winter"
+      },
+      "When": {
+        "Ysabelle_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Ysabelle",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Ysabelle_Beach"
+      },
+      "When": {
+        "Ysabelle_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Yuuma, Mods/AdamHDPortraits/BaseImages/Yuuma_Beach, Mods/AdamHDPortraits/BaseImages/Yuuma_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Yuuma_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Yuuma, Mods/HDPortraits/Yuuma_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Yuuma_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Yuuma",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Yuuma"
+      },
+      "When": {
+        "Yuuma_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Yuuma",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Yuuma_Winter"
+      },
+      "When": {
+        "Yuuma_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Yuuma",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Yuuma_Beach",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Zachary",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Zachary_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Zachary",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Zachary_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Zachary",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Zachary"
+      },
+      "When": {
+        "Zachary_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/AdamHDPortraits/BaseImages/Zayne, Mods/AdamHDPortraits/BaseImages/Zayne_Beach, Mods/AdamHDPortraits/BaseImages/Zayne_Winter",
+      "FromFile": "assets/BaseImages/{{TargetWithoutPath}}.png",
+      "When": {
+        "Zayne_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HDPortraits/Zayne, Mods/HDPortraits/Zayne_Beach",
+      "FromFile": "assets/Size256.json",
+      "When": {
+        "Zayne_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Zayne",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Zayne"
+      },
+      "When": {
+        "Zayne_HD_portrait": "true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Zayne",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Zayne_Winter"
+      },
+      "When": {
+        "Zayne_HD_portrait": "true",
+        "Season": "Winter"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/HDPortraits/Zayne",
+      "Entries": {
+        "Portrait": "Mods/AdamHDPortraits/BaseImages/Zayne_Beach"
+      },
+      "When": {
+        "Zayne_HD_portrait": "true",
+        "LocationName |contains=IslandSouth": "true",
+        "Time": "{{Range: 1200, 1800}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    // Base Sprite Updates
+    {
+      "LogName": "Updated Sprites",
+      "Action": "Include",
+      "FromFile": "assets/BaseSprites/Sprites.json",
+      "When": {
+        "Corine_HD_portrait": "true"
+      }
+    },
+    // Male Gender Bend "Includes"
+    {
+      "LogName": "Alex To Alexis",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Alexis/Alexis_StringData.json",
+      "When": {
+        "Alex_To_Alexis": "true"
+      }
+    },
+    {
+      "LogName": "Elliott To Elena",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Elena/Elena_StringData.json",
+      "When": {
+        "Elliott_To_Elena": "true"
+      }
+    },
+    {
+      "LogName": "Harvey To Harriet",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Harriet/Harriet_StringData.json",
+      "When": {
+        "Harvey_To_Harriet": "true"
+      }
+    },
+    {
+      "LogName": "Sam To Samantha",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Samantha/Samantha_StringData.json",
+      "When": {
+        "Sam_To_Samantha": "true"
+      }
+    },
+    {
+      "LogName": "Sebastian To Sabrina",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Sabrina/Sabrina_StringData.json",
+      "When": {
+        "Sebastian_To_Sabrina": "true"
+      }
+    },
+    {
+      "LogName": "Shane To Shaylin",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Shaylin/Shaylin_StringData.json",
+      "When": {
+        "Shane_To_Shaylin": "true"
+      }
+    },
+    // Male Gender Bend "Includes"
+    {
+      "LogName": "Abigail To Abel",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Abel/Abel_StringData.json",
+      "When": {
+        "Abigail_To_Abel": "true"
+      }
+    },
+    {
+      "LogName": "Emily To Emmett",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Emmett/Emmett_StringData.json",
+      "When": {
+        "Emily_To_Emmett": "true"
+      }
+    },
+    {
+      "LogName": "Haley To Hayden",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Hayden/Hayden_StringData.json",
+      "When": {
+        "Haley_To_Hayden": "true"
+      }
+    },
+    {
+      "LogName": "Leah To Leif",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Leif/Leif_StringData.json",
+      "When": {
+        "Leah_To_Leif": "true"
+      }
+    },
+    {
+      "LogName": "Maru To Micah",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Micah/Micah_StringData.json",
+      "When": {
+        "Maru_To_Micah": "true"
+      }
+    },
+    {
+      "LogName": "Penny To Peter",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Peter/Peter_StringData.json",
+      "When": {
+        "Penny_To_Peter": "true"
+      }
+    }
+  ]
+}

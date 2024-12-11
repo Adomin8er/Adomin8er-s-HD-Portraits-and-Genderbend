@@ -1,0 +1,32 @@
+{
+    "Changes": [ 
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/BendG2B/Micah/MicahOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Maru_Beach",
+            "FromFile": "assets/BendG2B/Micah/MicahOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Maru_Winter",
+            "FromFile": "assets/BendG2B/Micah/MicahOW_Winter.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "MaruPortrait": "MicahPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:MaruPortrait]/227/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits/true"
+            }
+        }
+    ]
+}

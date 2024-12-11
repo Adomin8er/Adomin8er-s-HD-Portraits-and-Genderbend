@@ -1,0 +1,32 @@
+{
+    "Changes": [ 
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Haley_Beach",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Haley_Winter",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW_Winter.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "HaleyPortrait": "HaydenPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:HaleyPortrait]/223/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits/true"
+            }
+        }
+    ]
+}

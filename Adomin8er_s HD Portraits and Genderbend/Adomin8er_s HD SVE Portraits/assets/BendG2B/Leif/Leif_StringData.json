@@ -1,0 +1,116 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "LeahHouse_7_5": "Ah! What an astonishing painting, Leif. I feel the emotion!$0"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "Forest_112_34": "%Leif is watering his flowers."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueOlivia",
+            "Entries": {
+                "spouseRoom_Olivia": "I'm trying some Gotoran painting techniques I read about, but they're giving me some trouble.$0#$e#Maybe I should ask Leif for some help. I hate to bother him with amateur questions, but...$6#$b#If I can master these techniques, I can paint a truly moving portrait of you, sweetie. I'd like to do that.$4"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Olivia",
+            "Entries": {
+                "Sat2": "I picked up painting as a hobby several years ago. Leif has given me some great pointers!$3#$e#He's truly a doll, wouldn't you say?$1",
+                "summer_Sat8": "Leif taught me several brushstroke techniques. I envy his artistic skills.$3#$e#If I apply myself more, maybe I'll be able to paint a portrait of you one day!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Susan",
+            "Entries": {
+                "fall_Fri": "Mushrooms pop up in Cindersap Forest this time of year. Might forage for some soon.$0#$e#Andy and Leif usually take all of them, though...$3"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Forest.9": "It's Leif's personal garden.",
+                "Forest.11": "-Leif's Residence-",
+                "Forest.22": "Leif cuts his own wood.",
+                "Forest.42": "It's Leif's boat.",
+                "Forest.63": "It's a sculpture Leif's working on",
+                "LeahHouseSVE.1": "Leif's making a meal out of fresh forage.",
+                "LeahHouseSVE.3": "Paintings fill the walls of Leif's house.",
+                "LeahHouseSVE.4": "This is Leif's lantern."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/Town",
+            "Entries": {
+                "53/e 55/t 1500 1700": "none/-100 -100/farmer 28 57 1 Sophia 34 66 0 Andy 37 60 3 Olivia 30 65 0 Victor 29 65 0 Susan 27 63 1 Evelyn 37 58 3 Gus 30 56 2 Pam 31 56 2 Vincent 27 55 2 Jas 26 55 2 George 37 59 3 Leah 32 61 1 Shane 34 61 3 Robin 27 61 1 Demetrius 28 61 3 Emily 30 58 2 Clint 31 59 3 Harvey 34 57 2 Lewis 35 59 3 Marnie 35 58 3 Elliott 31 63 3 Maru 33 57 2 Sebastian 35 62 1 Abigail 35 63 1 Sam 36 61 2 Penny 37 62 3 Pierre 32 65 1 Caroline 33 65 3 Haley 28 59 1 Alex 28 58 1/specificTemporarySprite leahShow/skippable/animate LeahEx false true 100 4 5/viewport 33 60 true/move farmer 1 0 1/faceDirection Sebastian 2 true/faceDirection Alex 0 true/move farmer 1 0 1/faceDirection Sebastian 1 true/faceDirection Maru 3 true/move farmer 2 0 1/faceDirection Alex 1 true/faceDirection Maru 2 true/move farmer 0 1 2/faceDirection Shane 0 true/faceDirection Emily 2 true/move farmer 0 1 2/faceDirection Shane 3 true/move farmer 0 1 2/faceDirection Emily 0/move Shane 1 0 2/faceDirection Leah 0/speak Leah \"@! You're here!$h#$b#Okay... I guess I'd better introduce my pieces. Wish me luck!$l\"/pause 300/faceDirection Leah 2/pause 800/faceDirection Leah 1/faceDirection Leah 2/faceDirection Leah 3/faceDirection Leah 2/speak Leah \"Umm... Okay everyone!\"/faceDirection Sebastian 3 true/faceDirection Emily 1/faceDirection Demetrius 1 true/faceDirection Elliott 0/faceDirection Pierre 0 true/faceDirection Caroline 0 true/faceDirection Shane 3/faceDirection Sam 3 true/faceDirection Abigail 3/speak Leah \"Thanks for coming to my art show.$l\"/faceDirection Leah 1/speak Leah \"As some of you know, I came to this town because I wanted to draw inspiration from the beautiful surroundings.\"/faceDirection Leah 3/speak Leah \"This place really feels like home now.$h#$b#Okay. I'm going to introduce my sculptures now.\"/playMusic jaunty/move Leah -3 0 0/faceDirection farmer 3 true/faceDirection Marnie 3 true/faceDirection Emily 3 true/faceDirection Demetrius 0/move Leah 0 -1 0/speak Leah \"I haven't named this one, yet. She started out as an exercise in human anatomy, but I ended up seeing her through to completion.#$b#Her expression is intentionally unclear... is she embarrassed, amused, pained? I'll leave that for you to decide.\"/pause 1500/move Leah 0 1 2/faceDirection Demetrius 2 true/faceDirection Haley 2 true/faceDirection farmer 2/faceDirection Emily 2 true/faceDirection Clint 2 true/pause 500/speak Leah \"This one's called 'Post-Dimensional Nullspace'. It represents the boundary of human imagination.$u#$b#The shape and color came to me vividly when I was in a 'trance state'.\"/pause 1500/move Leah 3 0 2/faceDirection Demetrius 1 true/move Leah 0 1 1/faceDirection Haley 1/speak Leah \"I've been calling this one 'Egg Heads'. I wanted to create an animatronic humanoid statue to toy with the viewer's ability to properly attribute personhood to a physical entity. \"/pause 1500/move Leah 0 -1 0/pause 300/faceDirection Leah 2/speak Leah \"And the last one is called 'Wood Sculpture 3'. It's a celebration of my favorite sculpting material... wood.\"/faceDirection Leah 3/faceDirection Leah 1/faceDirection Leah 2/speak Leah \"Well, those are my sculptures!$l#$b#Oh! One last thing.\"/faceDirection Leah 0/speak Leah \"I'd like to say thanks to my special friend, @.#$b#He gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.^She gave me the idea for this show and the courage to go through with it. I know that sounds cheesy, but it's true.\"/faceDirection Emily 1/faceDirection Shane 3 true/faceDirection Haley 1/faceDirection Elliott 3/pause 400/speak Lewis \"I'm proud of you, Leif! Events like this really breathe life into our little town!$h\"/pause 100/textAboveHead Gus \"Great stuff!\"/faceDirection Leah 3/speak Demetrius \"I love your art, Leif! 'Post-Dimensional Nullspace' is my favorite.$h\"/textAboveHead Robin \"Great use of wood!\"/speak Penny \"Thanks for doing this!$h\"/faceDirection Leah 1/emote Leah 32/faceDirection Leah 2/pause 600/speak Olivia \"Exquisite art, Leah!$3\"/pause 200/speak Leah \"Thanks, everyone!$h\"/faceDirection Leah 0/emote Leah 20/pause 500/speak Lewis \"Now let's start the bidding on these wonderful art pieces... A marvelous addition to your home!$h#$b#Do I hear 5000g for the pink one?\"/jump Demetrius/mail afterArtShow/viewport move 2 0 8000/pause 5000/globalFade/viewport -1000 -1000/end dialogue Leah \"Wow! I'm exhausted.#$b#My show was a real success, wasn't it?$h\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/town",
+            "Entries": {
+                "1000010/f Leah 70/t 700 1600/w sunny/z winter/z fall/z summer/u 21 22 23 24 25 26 27 28/y 1": "breezy/-500 -500/farmer 102 94 2 Leah 100 104 2/pause 300/viewport 100 99 true/skippable/pause 250/playSound harvest/shake Leah 400/move farmer 0 4 2/emote farmer 8/move Leah 1 0 2/pause 400/playSound harvest/shake Leah 400/pause 500/move Leah 1 0 2/pause 550/playSound harvest/shake Leah 400/pause 450/move farmer 0 4 2 true/viewport move 0 1 2500 true/pause 800/faceDirection Leah 1 true/pause 300/faceDirection Leah 0 true/pause 450/emote Leah 16 true/pause 800/speak Leah \"@! Hello!$0#$b#It's a lovely day today! I dropped by to check on my green beans, and they're ready to harvest.$0#$b#Gus and Pierre were here a little while ago taking care of their crops too.$0\"/pause 500/move Leah 1 0 2/pause 800/playSound harvest/shake Leah 400/pause 1000/faceDirection Leah 2 true/pause 250/faceDirection Leah 0 true/pause 500/speak Leah \"Pelican Town's community garden is pretty nifty, wouldn't you agree, @?$0\"/pause 500/question fork0 \"#The community garden is a neat idea.#It's cute, but my farm can hold 40x more.\"/fork 1000010_GardenAmazing/pause 500/speak Leah \"...Well, not everyone is lucky enough to get free property, @.$2\"/friendship Leah -250/pause 1000/move Leah 1 0 2/pause 700/playSound harvest/shake Leah 400/move Leah 1 0 2/pause 800/playSound harvest/shake Leah 400/pause 500/move farmer 0 1 1/pause 300/faceDirection Leah 3/pause 350/speak Leah \"I'm very thankful for this community garden.$0#$b#I don't have much space to grow my own food...$7#$b#But thanks to this little plot of land we all share, I can.$0\"/pause 500/faceDirection Leah 2 true/pause 250/faceDirection Leah 1 true/pause 300/move Leah 1 0 2/pause 300/playSound harvest/shake Leah 400/pause 650/faceDirection Leah 3 true/pause 300/move Leah -3 0 0/move Leah 0 -1 3/pause 500/speak Leah \"Whew! That's all of them.$0#$b#Now I just need to decide what to cook with these tonight.$0\"/pause 500/speak Leah \"Here, try a fresh green bean, straight from the vine![188]$1\"/pause 800/faceDirection farmer 2 true/pause 250/farmerEat 188/pause 2750/faceDirection farmer 1/pause 300/emote farmer 32 true/pause 300/emote Leah 32 true/pause 500/globalFade/viewport -1000 -1000/pause 700/end dialogue Leah \"I wonder when Gus' coffee beans will be ready.$0#$e#He uses special fertilizer from Pierre's.$1\"",
+                "1000010_GardenAmazing": "pause 500/speak Leah \"Yes! It's spectacular!$1\"/pause 500/move Leah 1 0 2/pause 700/playSound harvest/shake Leah 400/move Leah 1 0 2/pause 700/playSound harvest/shake Leah 400/pause 500/move farmer 0 1 1/pause 300/faceDirection Leah 3/pause 350/speak Leah \"I'm very thankful for this community garden.$0#$b#I don't have much property to grow my own food...$7#$b#But thanks to this little plot of land we all share, I can.$0\"/pause 400/faceDirection Leah 2 true/pause 250/faceDirection Leah 1 true/pause 300/move Leah 1 0 2/pause 300/playSound harvest/shake Leah 400/pause 600/faceDirection Leah 3 true/pause 300/move Leah -3 0 0/move Leah 0 -1 3/pause 500/speak Leah \"Whew! That's all of them.$0#$b#Now I need to decide what to cook with these tonight.$0#$b#Here's a fresh green bean, straight from the vine![188]$1\"/pause 800/faceDirection farmer 2 true/pause 300/farmerEat 188/pause 2750/faceDirection farmer 1 true/pause 300/emote farmer 32 true/pause 400/emote Leah 32 true/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Leah 50/end dialogue Leah \"I wonder when Gus' coffee beans will be ready.$0#$e#He uses special fertilzer from Pierre's.$1\""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/events/town",
+            "Entries": {
+                "1000092_Cider": "pause 500/speak Pierre \"Follow me back here, @. I have a freshly made batch!$0#$b#Credit to Leah for the cover art on the bottles!$1\"/pause 500/jump farmer/pause 1400/move Pierre -5 0 0 true/pause 350/move farmer -6 0 0 true/viewport move -1 0 3500 true/pause 4000/playSound Milking/pause 1000/speak Pierre \"Here you are, @. It has a sweet kick to it.$1\"/pause 500/farmerEat 346/globalFade/viewport -1000 -1000/stopMusic/pause 750/message \"Pierre's spiced pumpkin cider was delicious. We went through the entire bottle.\"/pause 500/friendship Pierre 125/end dialogue Pierre \"Perhaps we can indulge in another bottle of my spiced pumpkin cider another time, farmer @!$1\""
+            }
+        },
+		{
+			"Action": "EditData",
+			"Target": "strings/schedules/Susan",
+			"When": {
+				"Season": "Spring"
+			},
+			"Entries": {
+				"CommunityDay_Susan": "Once these little sprouts I started in here are strong enough, I'll plant them in the community garden.$0"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "strings/schedules/Susan",
+			"When": {
+				"Season": "Summer"
+			},
+			"Entries": {
+				"CommunityDay_Susan": "Are you growing melons this season? I just promised Leif a few from my next batch - I think he'll really enjoy them!$0"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "strings/schedules/Susan",
+			"When": {
+				"Season": "Fall"
+			},
+			"Entries": {
+				"CommunityDay_Susan": "During the fall, I get so antsy when I step away from the farm.$4#$b#So many crops in the ground, and so close to the time for frost! I'm worried about my babies.$0"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "strings/schedules/Susan",
+			"When": {
+				"Season": "Winter"
+			},
+			"Entries": {
+				"CommunityDay_Susan": "I get a little lonely in the winter, when everything's so dark and dreary. I know the world's just sleeping, but the nights seem so long...$2#$b#This event has revitalized me a little.$0#$b#Thank you for helping to make it happen.$1"
+			}
+		}
+    ]
+}

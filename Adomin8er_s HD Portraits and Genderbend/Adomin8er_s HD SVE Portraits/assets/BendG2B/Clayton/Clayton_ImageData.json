@@ -1,0 +1,81 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Joja.png",
+            "When": {
+                "LocationName": "JojaMart"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png",
+            "When": {
+                "Spouse |contains=Claire": false,
+                "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday",
+                "HasSeenEvent |contains=502261": false,
+                "LocationName": "MovieTheater"
+              },
+              "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png",
+            "When": {
+                "Spouse": "Claire",
+                "DayOfWeek": "Monday, Wednesday, Thursday, Sunday",
+                "HasSeenEvent |contains=502261": false,
+                "LocationName": "MovieTheater"
+              },
+              "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Beach",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Winter.png",
+            "When": {
+                "Season": "winter",
+                "LocationName |contains=JojaMart": false,
+                "LocationName |contains=MovieTheater": false
+            }
+        },
+
+        {
+            "Action": "EditImage",
+            "Target": "Characters/ClaireJoja",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Joja.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/ClaireTheater",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits_SVE",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_ClairePortrait": "ClaytonPortrait/painting/2 2/2 2/1/999/-1/Clayton Portrait/4/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits_SVE/true"
+            }
+        }
+    ]
+}

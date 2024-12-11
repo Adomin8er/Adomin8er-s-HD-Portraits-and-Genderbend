@@ -1,0 +1,21 @@
+﻿{
+    "Name": "Adomin8ers_HD_Vanilla_Portraits_and_Genderbend",
+    "Author": "Adomin8er",
+    "Version": "1.2.301",
+    "Description": "Add HD Portraits to Vanilla Stardew Valley and choose to change Bachelors to Bachelorettes or Bachelorettes to Bachelors.",
+    "UniqueID": "Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend",
+    "UpdateKeys": [ "Nexus:19742" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+		// {
+		// 	"UniqueID": "tlitookilakin.HDPortraits",
+		// 	"IsRequired": true
+		// },
+        {
+			"UniqueID": "Platonymous.Portraiture",
+			"IsRequired": true
+		}
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam_Beach",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Wedding.png",
+            "When": {"DayEvent": "wedding"}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sam_Winter",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Winter.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "SebastianPortrait": "SabrinaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:SebastianPortrait]/253/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/BendB2G/Arcana/ArcanaOW.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits_SVE",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "ArcanaPortrait/painting/2 2/2 2/1/999/-1/Arcana Portrait/8/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits_SVE/true"
+            }
+        }
+    ]
+}

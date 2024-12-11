@@ -1,0 +1,86 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Shane",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Shane_JojaMart",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinJojaOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Shane_Beach",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Beach.png"
+        },
+        {
+            "LogName": "Cursors",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/BendB2G/Cursors.png",
+            "ToArea":
+            {
+                "X": 0,
+                "Y": 1391,
+                "Width": 30,
+                "Height": 30
+            },
+            "FromArea":
+            {
+                "X": 0,
+                "Y": 1391,
+                "Width": 30,
+                "Height": 30
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "LogName": "Cursors",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/BendB2G/Cursors.png",
+            "ToArea":
+            {
+                "X": 533,
+                "Y": 1864,
+                "Width": 19,
+                "Height": 27
+            },
+            "FromArea":
+            {
+                "X": 533,
+                "Y": 1864,
+                "Width": 19,
+                "Height": 27
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Shane",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Wedding.png",
+            "When": {"DayEvent": "wedding"}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Shane_Winter",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Winter.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "ShanePortrait": "ShaylinPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:ShanePortrait]/251/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"
+            }
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+﻿{
+    "Name": "Adomin8ers_HD_SVE_Portraits_and_Genderbend",
+    "Author": "Adomin8er",
+    "Version": "1.2.301",
+    "Description": "Adds HD Portraits to Stardew Valley Expanded and supports Vanilla changes for Bachelors to Bachelorettes. (Will add SVE genderbends later.)",
+    "UniqueID": "Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend",
+    "UpdateKeys": [ "Nexus:-1" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+		// {
+		// 	"UniqueID": "tlitookilakin.HDPortraits",
+		// 	"IsRequired": true
+		// },
+        {
+            "UniqueID": "Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend",
+			"IsRequired": true
+        },
+        {
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true
+		},
+        {
+			"UniqueID": "Platonymous.Portraiture",
+			"IsRequired": true
+		}
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sophia",
+            "FromFile": "assets/BendG2B/Soren/SorenOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sophia_Beach",
+            "FromFile": "assets/BendG2B/Soren/SorenOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/SophiaJPKsprite",
+            "FromFile": "assets/BendG2B/Soren/SorenOW_Cowboy.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sophia",
+            "FromFile": "assets/BendG2B/Soren/SorenOW_Winter.png",
+            "When": {
+                "Season": "winter"
+            }
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits_SVE",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SorenPortrait/painting/2 2/2 2/1/999/-1/Soren Portrait/0/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits_SVE/true"
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Changes": [ 
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Penny",
+            "FromFile": "assets/BendG2B/Peter/PeterOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Penny_Beach",
+            "FromFile": "assets/BendG2B/Peter/PeterOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Penny_Winter",
+            "FromFile": "assets/BendG2B/Peter/PeterOW_Winter.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "PennyPortrait": "PeterPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:PennyPortrait]/229/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits/true"
+            }
+        }
+    ]
+}
