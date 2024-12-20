@@ -245,30 +245,314 @@
       "Default": "false"
     },
     // Other
+
+    "Wizard_To_Sorceress": {
+      "Value": "true, false",
+      "Default": "false"
+    },
     "MatureEvents": {
       "AllowValues": "true, false",
       "Default": "false"
     }
   },
   "DynamicTokens": [
+    // Gender words DTs:
     {
-        "Name": "AHDVPnG_AlexisName",
+      "Name": "GenderWords_lower",
+      "Value": "he, she, him, her, her, his, hers, man, woman, men, women, boy, girl, father, mother, dad, mom, grandfather, grandmother, grandpa, grandma, son, daughter, brother, sister, husband, wife, uncle, aunt, king, queen, prince, princess, male, female, gentleman, lady, sir, ma'am, lord, lady, mr, mrs, master, mistress, nephew, niece, dress, pants, skirt, shorts, wizard, sorceress",
+    },
+    {
+      "Name": "GenderWords_upper",
+      "Value": "He, She, Him, Her, Her, His, Hers, Man, Woman, Men, Women, Boy, Girl, Father, Mother, Dad, Mom, Grandfather, Grandmother, Grandpa, Grandma, Son, Daughter, Brother, Sister, Husband, Wife, Uncle, Aunt, King, Queen, Prince, Princess, Male, Female, Gentleman, Lady, Sir, Ma'am, Lord, Lady, Mr, Mrs, Master, Mistress, Nephew, Niece, Dress, Pants, Skirt, Shorts, Wizard, Sorceress",
+    },
+
+    // Character based DTs:
+
+    // Abel
+    {
+        "Name": "AHDVPnG_Abel_Name_T",
+        "Value": "Abel",
+        "When": {
+            "Abigail_To_Abel": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Abel_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Abigail_To_Abel": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Abel_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Abigail_To_Abel": "true"
+      }
+    },
+    // Emmett
+    {
+        "Name": "AHDVPnG_Emmett_Name_T",
+        "Value": "Emmett",
+        "When": {
+            "Emily_To_Emmett": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Emmett_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Emily_To_Emmett": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Emmett_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Emily_To_Emmett": "true"
+      }
+    },
+    // Hayden
+    {
+        "Name": "AHDVPnG_Hayden_Name_T",
+        "Value": "Hayden",
+        "When": {
+            "Haley_To_Hayden": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Hayden_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Haley_To_Hayden": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Hayden_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Haley_To_Hayden": "true"
+      }
+    },
+    // Leif
+    {
+        "Name": "AHDVPnG_Leif_Name_T",
+        "Value": "Leif",
+        "When": {
+            "Leah_To_Leif": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Leif_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Leah_To_Leif": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Leif_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Leah_To_Alexis": "true"
+      }
+    },
+    // Micah
+    {
+        "Name": "AHDVPnG_Micah_Name_T",
+        "Value": "Micah",
+        "When": {
+            "Maru_To_Micah": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Micah_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Maru_To_Micah": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Micah_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Maru_To_Micah": "true"
+      }
+    },
+    // Peter
+    {
+        "Name": "AHDVPnG_Peter_Name_T",
+        "Value": "Peter",
+        "When": {
+            "Penny_To_Peter": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Peter_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Penny_To_Peter": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Peter_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Penny_To_Peter": "true"
+      }
+    },
+    // Alexis
+    {
+        "Name": "AHDVPnG_Alexis_Name_T",
         "Value": "Alexis",
         "When": {
             "Alex_To_Alexis": "true"
         }
     },
     {
-      "Name": "AHDVPnG_AlexisWords_lower",
-      "Value":"He, She",
+      "Name": "AHDVPnG_Alexis_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Alex_To_Alexis": "true"
       }
-  },
+    },
     {
-      "Name": "GenderbendTokens",
-      // "Value": "|AHDVPnG_Alexis={{AHDVPnG_AlexisName}}, "
-      "Value": "|AHDVPnG_Alexis={{AHDVPnG_AlexisName}} AHDVPnG_AlexisLower0={{AHDVPnG_AlexisWords_lower |valueAt=0}}"
+      "Name": "AHDVPnG_Alexis_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Alex_To_Alexis": "true"
+      }
+    },
+    // Elena
+    {
+        "Name": "AHDVPnG_Elena_Name_T",
+        "Value": "Elena",
+        "When": {
+            "Elliott_To_Elena": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Elena_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Elliott_To_Elena": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Elena_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Elliott_To_Elena": "true"
+      }
+    },
+    // Harriet
+    {
+        "Name": "AHDVPnG_Harriet_Name_T",
+        "Value": "Harriet",
+        "When": {
+            "Harvey_To_Harriet": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Harriet_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Harvey_To_Harriet": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Harriet_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Harvey_To_Harriet": "true"
+      }
+    },
+    // Sabrina
+    {
+        "Name": "AHDVPnG_Sabrina_Name_T",
+        "Value": "Sabrina",
+        "When": {
+            "Sebastian_To_Sabrina": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Sabrina_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Sebastian_To_Sabrina": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Sabrina_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Sebastian_To_Sabrina": "true"
+      }
+    },
+    // Samantha
+    {
+        "Name": "AHDVPnG_Samantha_Name_T",
+        "Value": "Samantha",
+        "When": {
+            "Sam_To_Samantha": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Samantha_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Sam_To_Samantha": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Samantha_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Sam_To_Samantha": "true"
+      }
+    },
+    // Shaylin
+    {
+        "Name": "AHDVPnG_Shaylin_Name_T",
+        "Value": "Shaylin",
+        "When": {
+            "Shane_To_Shaylin": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Shaylin_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Shane_To_Shaylin": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Shaylin_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Shane_To_Shaylin": "true"
+      }
+    },
+    // Sorceress
+    {
+        "Name": "AHDVPnG_Sorceress_Name_T",
+        "Value": "Sorceress",
+        "When": {
+            "Wizard_To_Sorceress": "true"
+        }
+    },
+    {
+      "Name": "AHDVPnG_Sorceress_Lower_T",
+      "Value": "{{GenderWords_Lower}}",
+      "When": {
+          "Wizard_To_Sorceress": "true"
+      }
+    },
+    {
+      "Name": "AHDVPnG_Sorceress_Upper_T",
+      "Value": "{{GenderWords_Upper}}",
+      "When": {
+          "Wizard_To_Sorceress": "true"
+      }
     }
   ],
 
