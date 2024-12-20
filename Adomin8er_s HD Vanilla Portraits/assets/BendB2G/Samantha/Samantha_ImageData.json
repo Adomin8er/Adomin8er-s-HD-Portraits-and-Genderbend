@@ -8,19 +8,30 @@
         },
         {
             "Action": "EditImage",
+            "Target": "Characters/Sam_Winter",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Characters/Sam_Beach",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Beach.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Sam",
-            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Wedding.png",
-            "When": {"DayEvent": "wedding"}
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
         },
         {
             "Action": "EditImage",
-            "Target": "Characters/Sam_Winter",
-            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Winter.png"
+            "Target": "Characters/Sam",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            }
         },
         
         {

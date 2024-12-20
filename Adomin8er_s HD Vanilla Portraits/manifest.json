@@ -9,12 +9,12 @@
         "UniqueID": "Pathoschild.ContentPatcher"
     },
 	"Dependencies": [
-		// {
-		// 	"UniqueID": "tlitookilakin.HDPortraits",
-		// 	"IsRequired": true
-		// },
         {
-			"UniqueID": "Platonymous.Portraiture",
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Platonymous.ScaleUp",
 			"IsRequired": true
 		}
     ]

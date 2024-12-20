@@ -1,0 +1,72 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Haley_spouse_y2": "{{i18n:Data_Festivals.fall16.Haley_spouse_y2}}",
+                "Sam_spouse": "{{i18n:Data_Festivals.fall16.Sam_spouse}}",
+                "Sebastian_spouse": "{{i18n:Data_Festivals.fall16.Sebastian_spouse}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Demetrius": "{{i18n:Data_Festivals.fall27.Demetrius}}",
+                "Haley_y2": "{{i18n:Data_Festivals.fall27.Haley_y2}}",
+                "Jodi_y2": "{{i18n:Data_Festivals.fall27.Jodi_y2}}",
+                "Sam_y2": "{{i18n:Data_Festivals.fall27.Sam_y2}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Maru_spouse": "{{i18n:Data_Festivals.spring13.Maru_spouse}}",
+                "Penny_spouse": "{{i18n:Data_Festivals.spring13.Penny_spouse}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Clint": "{{i18n:Data_Festivals.spring24.Clint}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Harvey_spouse": "{{i18n:Data_Festivals.summer11.Harvey_spouse}}",
+                "Maru_spouse": "{{i18n:Data_Festivals.summer11.Maru_spouse}}",
+                "Sebastian_spouse": "{{i18n:Data_Festivals.summer11.Sebastian_spouse}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Sam": "{{i18n:Data_Festivals.summer28.Sam}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Emily_spouse_y2": "{{i18n:Data_Festivals.winter25.Emily_spouse_y2}}",
+                "Leah_spouse_y2": "{{i18n:Data_Festivals.winter25.Leah_spouse_y2}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Clint": "{{i18n:Data_Festivals.winter8.Clint}}",
+                "Evelyn_y2": "{{i18n:Data_Festivals.winter8.Evelyn_y2}}",
+                "Pam_y2": "{{i18n:Data_Festivals.winter8.Pam_y2}}",
+                "Pierre_y2": "{{i18n:Data_Festivals.winter8.Pierre_y2}}"
+            }
+        }
+    ]
+}

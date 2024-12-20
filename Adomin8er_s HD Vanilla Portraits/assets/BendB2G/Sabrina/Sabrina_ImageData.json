@@ -8,8 +8,30 @@
         },
         {
             "Action": "EditImage",
+            "Target": "Characters/Sebastian_Winter",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Characters/Sebastian_Beach",
             "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            }
         },
         {
             "LogName": "Cursors",
@@ -32,17 +54,6 @@
                 "Height": 34
             },
             "PatchMode": "Replace"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/Sebastian",
-            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Wedding.png",
-            "When": {"DayEvent": "wedding"}
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/Sebastian_Winter",
-            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Winter.png"
         },
         
         {

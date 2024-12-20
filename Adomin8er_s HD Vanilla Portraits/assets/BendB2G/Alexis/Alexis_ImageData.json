@@ -8,19 +8,30 @@
         },
         {
             "Action": "EditImage",
+            "Target": "Characters/Alex_Winter",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Characters/Alex_Beach",
             "FromFile": "assets/BendB2G/Alexis/AlexisOW_Beach.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Alex",
-            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Wedding.png",
-            "When": {"DayEvent": "wedding"}
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
         },
         {
             "Action": "EditImage",
-            "Target": "Characters/Alex_Winter",
-            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Winter.png"
+            "Target": "Characters/Alex",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            }
         },
         {
             "LogName": "Women's Locker Change",

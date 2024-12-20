@@ -1,0 +1,67 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "PurchasedItem_Haley": "{{i18n:Data.ExtraDialogue.PurchasedItem_Haley}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "Emily": "{{i18n:Data.mail.Emily}}",
+                "EmilyCamping": "{{i18n:Data.mail.EmilyCamping}}",
+                "EmilyClothingTherapy": "{{i18n:Data.mail.EmilyClothingTherapy}}",
+                "EmilyCooking": "{{i18n:Data.mail.EmilyCooking}}",
+                "EmilyDoneCamping": "{{i18n:Data.mail.EmilyDoneCamping}}",
+                "KrobusCrafting": "{{i18n:Data.mail.KrobusCrafting}}",
+                "PennyCleanTrailer": "{{i18n:Data.mail.PennyCleanTrailer}}",
+                "Shane": "{{i18n:Data.mail.Shane}}",
+                "ShaneCooking": "{{i18n:Data.mail.ShaneCooking}}",
+                "Wizard": "{{i18n:Data.mail.Wizard}}",
+                "WizardReward": "{{i18n:Data.mail.WizardReward}}",
+                "WizardReward2": "{{i18n:Data.mail.WizardReward2}}",
+                "afterArtShow": "{{i18n:Data.mail.afterArtShow}}",
+                "afterSamShow": "{{i18n:Data.mail.afterSamShow}}",
+                "elliottBoat": "{{i18n:Data.mail.elliottBoat}}",
+                "elliottLetter1": "{{i18n:Data.mail.elliottLetter1}}",
+                "elliottLetter2": "{{i18n:Data.mail.elliottLetter2}}",
+                "elliottLetter3": "{{i18n:Data.mail.elliottLetter3}}",
+                "elliottLetter4": "{{i18n:Data.mail.elliottLetter4}}",
+                "elliottLetter5": "{{i18n:Data.mail.elliottLetter5}}",
+                "elliottLetter6": "{{i18n:Data.mail.elliottLetter6}}",
+                "elliottReading": "{{i18n:Data.mail.elliottReading}}",
+                "emilyStones": "{{i18n:Data.mail.emilyStones}}",
+                "haleyGarden": "{{i18n:Data.mail.haleyGarden}}",
+                "harveyBalloon": "{{i18n:Data.mail.harveyBalloon}}",
+                "joshMessage": "{{i18n:Data.mail.joshMessage}}",
+                "passedOut3_Billed": "{{i18n:Data.mail.passedOut3_Billed}}",
+                "passedOut3_NotBilled": "{{i18n:Data.mail.passedOut3_NotBilled}}",
+                "pennySpa": "{{i18n:Data.mail.pennySpa}}",
+                "samMessage": "{{i18n:Data.mail.samMessage}}",
+                "spring_6_2": "{{i18n:Data.mail.spring_6_2}}",
+                "summer_20_1": "{{i18n:Data.mail.summer_20_1}}",
+                "winter_12_1": "{{i18n:Data.mail.winter_12_1}}",
+                "winter_5_2": "{{i18n:Data.mail.winter_5_2}}",
+                "winter_6_1": "{{i18n:Data.mail.winter_6_1}}",
+                "wizardJunimoNote": "{{i18n:Data.mail.wizardJunimoNote}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SecretNotes",
+            "Entries": {
+                "1": "{{i18n:Data.SecretNotes.1}}",
+                "2": "{{i18n:Data.SecretNotes.2}}",
+                "3": "{{i18n:Data.SecretNotes.3}}",
+                "4": "{{i18n:Data.SecretNotes.4}}",
+                "5": "{{i18n:Data.SecretNotes.5}}",
+                "7": "{{i18n:Data.SecretNotes.7}}",
+                "8": "{{i18n:Data.SecretNotes.8}}",
+                "9": "{{i18n:Data.SecretNotes.9}}"
+            }
+        }
+    ]
+}
