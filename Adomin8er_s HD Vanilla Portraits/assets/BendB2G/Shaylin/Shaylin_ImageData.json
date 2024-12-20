@@ -13,61 +13,72 @@
         },
         {
             "Action": "EditImage",
+            "Target": "Characters/Shane_Winter",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Characters/Shane_Beach",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Beach.png"
         },
         {
-            "LogName": "Cursors",
             "Action": "EditImage",
-            "Target": "LooseSprites/Cursors",
-            "FromFile": "assets/BendB2G/Cursors.png",
-            "ToArea":
-            {
-                "X": 0,
-                "Y": 1391,
-                "Width": 30,
-                "Height": 30
-            },
-            "FromArea":
-            {
-                "X": 0,
-                "Y": 1391,
-                "Width": 30,
-                "Height": 30
-            },
-            "PatchMode": "Replace"
-        },
-        {
-            "LogName": "Cursors",
-            "Action": "EditImage",
-            "Target": "LooseSprites/Cursors",
-            "FromFile": "assets/BendB2G/Cursors.png",
-            "ToArea":
-            {
-                "X": 533,
-                "Y": 1864,
-                "Width": 19,
-                "Height": 27
-            },
-            "FromArea":
-            {
-                "X": 533,
-                "Y": 1864,
-                "Width": 19,
-                "Height": 27
-            },
-            "PatchMode": "Replace"
+            "Target": "Characters/Shane",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Shane",
-            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Wedding.png",
-            "When": {"DayEvent": "wedding"}
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            }
         },
         {
+            "LogName": "Cursors",
             "Action": "EditImage",
-            "Target": "Characters/Shane_Winter",
-            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Winter.png"
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/BendB2G/Cursors.png",
+            "ToArea":
+            {
+                "X": 0,
+                "Y": 1391,
+                "Width": 30,
+                "Height": 30
+            },
+            "FromArea":
+            {
+                "X": 0,
+                "Y": 1391,
+                "Width": 30,
+                "Height": 30
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            "LogName": "Cursors",
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/BendB2G/Cursors.png",
+            "ToArea":
+            {
+                "X": 533,
+                "Y": 1864,
+                "Width": 19,
+                "Height": 27
+            },
+            "FromArea":
+            {
+                "X": 533,
+                "Y": 1864,
+                "Width": 19,
+                "Height": 27
+            },
+            "PatchMode": "Replace"
         },
         
         {

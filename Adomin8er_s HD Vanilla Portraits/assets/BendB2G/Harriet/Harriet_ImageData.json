@@ -8,19 +8,30 @@
         },
         {
             "Action": "EditImage",
+            "Target": "Characters/Harvey_Winter",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
             "Target": "Characters/Harve_Beach",
             "FromFile": "assets/BendB2G/Harriet/HarrietOW_Beach.png"
         },
         {
             "Action": "EditImage",
             "Target": "Characters/Harvey",
-            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Wedding.png",
-            "When": {"DayEvent": "wedding"}
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
         },
         {
             "Action": "EditImage",
-            "Target": "Characters/Harvey_Winter",
-            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Winter.png"
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            }
         },
         
         {
