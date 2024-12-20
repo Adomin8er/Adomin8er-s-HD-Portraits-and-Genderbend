@@ -17,7 +17,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "Introduction": "{{i18n:Characters_Dialogue.Alex.Introduction {{GenderbendTokens}} }}",
+                "Introduction": "{{i18n:Characters_Dialogue.Alex.Introduction}}",
                 "dating_Alex": "{{i18n:Characters_Dialogue.Alex.dating_Alex}}",
                 "married_Haley": "{{i18n:Characters_Dialogue.Alex.married_Haley}}",
                 "winter_Sat": "{{i18n:Characters_Dialogue.Alex.winter_Sat}}",
