@@ -2,11 +2,11 @@
     "Changes": [
         {
             "Action": "EditData",
-            "LogName": "Abel personal/family data",
+            "LogName": "Sorceress personal/family data",
             "Target": "Data/Characters",
             "Fields": {
-                "Harvey": {
-                    "DisplayName": "Harriet",
+                "Wizard": {
+                    "DisplayName": "Sorceress",
                     "Gender": "Female"
                 }
             }

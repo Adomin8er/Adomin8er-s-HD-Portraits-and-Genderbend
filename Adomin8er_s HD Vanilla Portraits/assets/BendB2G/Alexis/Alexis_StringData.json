@@ -2,6 +2,7 @@
     "Changes": [
         {
             "Action": "EditData",
+            "LogName": "Alexis personal/family data",
             "Target": "Data/Characters",
             "Fields": {
                 "Alex": {
@@ -24,6 +25,7 @@
         },
         {
             "Action": "EditData",
+            "LogName": "Alexis schedule",
             "Target": "Characters/schedules/Alex",
             "Entries": {
                 "winter_17": "900 BathHouse_WomensLocker 21 14 2 alex_lift_weights/1500 Beach 27 24 1 \"Strings\\schedules\\Alex:winter_17.000\"/2400 JoshHouse 21 4 1 alex_sleep",

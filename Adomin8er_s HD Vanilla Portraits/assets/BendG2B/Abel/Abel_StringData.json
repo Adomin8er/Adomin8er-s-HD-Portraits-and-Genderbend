@@ -2,6 +2,7 @@
     "Changes": [
         {
             "Action": "EditData",
+            "LogName": "Abel personal/family data",
             "Target": "Data/Characters",
             "Fields": {
                 "Abigail": {

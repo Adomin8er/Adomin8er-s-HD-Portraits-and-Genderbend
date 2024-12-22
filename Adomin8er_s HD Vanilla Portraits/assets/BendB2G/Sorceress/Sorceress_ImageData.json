@@ -1,0 +1,10 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Sorceress standard outfit",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/BendB2G/Sorceress/SorceressOW.png"
+        }
+    ]
+}

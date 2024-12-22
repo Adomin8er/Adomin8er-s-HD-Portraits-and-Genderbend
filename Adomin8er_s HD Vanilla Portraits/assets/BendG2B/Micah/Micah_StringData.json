@@ -2,6 +2,7 @@
     "Changes": [
         {
             "Action": "EditData",
+            "LogName": "Micah personal/family data for Sebastian",
             "Target": "Data/Characters",
             "Fields": {
                 "Maru": {
@@ -28,10 +29,14 @@
                         "Sam": ""
                     }
                 }
+            },
+            "When":{
+                "Sebastian_To_Sabrina":"false"
             }
         },
         {
             "Action": "EditData",
+            "LogName": "Micah personal/family data for Sabrina",
             "Target": "Data/Characters",
             "Fields": {
                 "Maru": {
