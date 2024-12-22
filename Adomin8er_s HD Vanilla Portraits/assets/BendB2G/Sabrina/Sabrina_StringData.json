@@ -2,6 +2,7 @@
     "Changes": [
         {
             "Action": "EditData",
+            "LogName": "Sabrina personal/family data for Maru",
             "Target": "Data/Characters",
             "Fields": {
                 "Sebastian": {
@@ -22,10 +23,14 @@
                         "Sebastian": "[LocalizedText Strings\\Characters:Relative_HalfSister]"
                     }
                 }
+            },
+            "When":{
+                "Maru_To_Micah":"false"
             }
         },
         {
             "Action": "EditData",
+            "LogName": "Sabrina personal/family data for Micah",
             "Target": "Data/Characters",
             "Fields": {
                 "Sebastian": {

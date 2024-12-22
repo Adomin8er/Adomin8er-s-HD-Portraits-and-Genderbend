@@ -2,22 +2,26 @@
     "Changes": [
         {
             "Action": "EditImage",
+            "LogName": "Samantha standard outfit.",
             "Target": "Characters/Sam",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
             "Action": "EditImage",
+            "LogName": "Samantha winter outfit.",
             "Target": "Characters/Sam_Winter",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Winter.png"
         },
         {
             "Action": "EditImage",
+            "LogName": "Samantha beach outfit.",
             "Target": "Characters/Sam_Beach",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Beach.png"
         },
         {
             "Action": "EditImage",
+            "LogName": "Samantha wedding outfit.",
             "Target": "Characters/Sam",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_WeddingDance.png",
             "When": {
@@ -26,6 +30,7 @@
         },
         {
             "Action": "EditImage",
+            "LogName": "Samantha flower dance outfit.",
             "Target": "Characters/Sam",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_WeddingDance.png",
             "When": {
@@ -36,11 +41,13 @@
         
         {
             "Action": "Load", "Priority": "Low",
+            "LogName": "Samantha purchasable painting image.",
             "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
         },
         {
             "Action": "EditData",
+            "LogName": "Samantha purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "SebastianPortrait": "SabrinaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:SebastianPortrait]/253/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"

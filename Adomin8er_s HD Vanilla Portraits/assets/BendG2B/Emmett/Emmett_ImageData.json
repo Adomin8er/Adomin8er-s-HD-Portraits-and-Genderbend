@@ -2,27 +2,51 @@
     "Changes": [ 
         {
             "Action": "EditImage",
+            "LogName": "Emmett standard outfit.",
             "Target": "Characters/Emily",
             "FromFile": "assets/BendG2B/Emmett/EmmettOW.png"
         },
         {
             "Action": "EditImage",
+            "LogName": "Emmett winter outfit.",
+            "Target": "Characters/Emily_Winter",
+            "FromFile": "assets/BendG2B/Emmett/EmmettOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Emmett beach outfit.",
             "Target": "Characters/Emily_Beach",
             "FromFile": "assets/BendG2B/Emmett/EmmettOW_Beach.png"
         },
         {
             "Action": "EditImage",
-            "Target": "Characters/Emily_Winter",
-            "FromFile": "assets/BendG2B/Emmett/EmmettOW_Winter.png"
+            "LogName": "Emmett wedding outfit.",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/BendG2B/Emmett/EmmettOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Emmett flower dance outfit.",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/BendG2B/Emmett/EmmettOW_WeddingDance.png",
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            }
         },
         
         {
             "Action": "Load", "Priority": "Low",
+            "LogName": "Emmett purchasable painting image.",
             "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits",
             "FromFile": "assets/BendG2B/G2B_Portraits.png"
         },
         {
             "Action": "EditData",
+            "LogName": "Emmett purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "EmilyPortrait": "EmmettPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:EmilyPortrait]/225/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits/true"

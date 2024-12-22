@@ -2,27 +2,32 @@
     "Changes": [
         {
             "Action": "EditImage",
+            "LogName": "Shaylin standard outfit.",
             "Target": "Characters/Shane",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
             "Action": "EditImage",
+            "LogName": "Shaylin Joja Mart outfit.",
             "Target": "Characters/Shane_JojaMart",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinJojaOW.png"
         },
         {
             "Action": "EditImage",
+            "LogName": "Shaylin winter outfit.",
             "Target": "Characters/Shane_Winter",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Winter.png"
         },
         {
             "Action": "EditImage",
+            "LogName": "Shaylin beach outfit.",
             "Target": "Characters/Shane_Beach",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Beach.png"
         },
         {
             "Action": "EditImage",
+            "LogName": "Shaylin wedding outfit.",
             "Target": "Characters/Shane",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_WeddingDance.png",
             "When": {
@@ -31,6 +36,7 @@
         },
         {
             "Action": "EditImage",
+            "LogName": "Shaylin dance outfit.",
             "Target": "Characters/Shane",
             "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_WeddingDance.png",
             "When": {
@@ -83,11 +89,13 @@
         
         {
             "Action": "Load", "Priority": "Low",
+            "LogName": "Shaylin purchasable painting image.",
             "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
         },
         {
             "Action": "EditData",
+            "LogName": "Shaylin purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "ShanePortrait": "ShaylinPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:ShanePortrait]/251/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"
