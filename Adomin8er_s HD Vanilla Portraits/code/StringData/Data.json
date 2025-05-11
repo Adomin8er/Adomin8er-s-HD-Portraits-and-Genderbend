@@ -4,7 +4,29 @@
             "Action": "EditData",
             "Target": "Data/ExtraDialogue",
             "Entries": {
-                "PurchasedItem_Haley": "{{i18n:Data.ExtraDialogue.PurchasedItem_Haley |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}"
+                "PurchasedItem_Haley": "{{i18n:Data.ExtraDialogue.PurchasedItem_Haley |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}",
+                "PurchasedItem_Pierre_QualityHigh": "{{i18n:Data.ExtraDialogue.PurchasedItem_Pierre_QualityHigh |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SecretNotes",
+            "Entries": {
+                "1": "{{i18n:Data.SecretNotes.1 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "2": "{{i18n:Data.SecretNotes.2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+                "3": "{{i18n:Data.SecretNotes.3 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+                "4": "{{i18n:Data.SecretNotes.4 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "5": "{{i18n:Data.SecretNotes.5 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+                "7": "{{i18n:Data.SecretNotes.7 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Harriet_Lower00={{AHDPnG_Harriet_Lower_T |valueAt=0}} |AHDPnG_Harriet_Lower27={{AHDPnG_Harriet_Lower_T |valueAt=27}} |AHDPnG_Harriet_Upper00={{AHDPnG_Harriet_Upper_T |valueAt=0}} |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} |AHDPnG_Elena_Lower00={{AHDPnG_Elena_Lower_T |valueAt=0}} |AHDPnG_Elena_Upper00={{AHDPnG_Elena_Upper_T |valueAt=0}} |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
+                "8": "{{i18n:Data.SecretNotes.8 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "9": "{{i18n:Data.SecretNotes.9 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/hats",
+            "Entries": {
+                "AbigailsBow": "{{i18n:Data.hats.AbigailsBow |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
             }
         },
         {
@@ -23,6 +45,7 @@
                 "Wizard": "{{i18n:Data.mail.Wizard |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
                 "WizardReward": "{{i18n:Data.mail.Wizard |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} Reward}}",
                 "WizardReward2": "{{i18n:Data.mail.Wizard |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} Reward2}}",
+                "abbySpiritBoard": "{{i18n:Data.mail.abbySpiritBoard |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
                 "afterArtShow": "{{i18n:Data.mail.afterArtShow |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
                 "afterSamShow": "{{i18n:Data.mail.afterSamShow |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
                 "elliottBoat": "{{i18n:Data.mail.elliottBoat |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
@@ -47,20 +70,6 @@
                 "winter_5_2": "{{i18n:Data.mail.winter_5_2 |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
                 "winter_6_1": "{{i18n:Data.mail.winter_6_1 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T |valueAt=4}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}",
                 "wizardJunimoNote": "{{i18n:Data.mail.wizardJunimoNote |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/SecretNotes",
-            "Entries": {
-                "1": "{{i18n:Data.SecretNotes.1 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "2": "{{i18n:Data.SecretNotes.2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-                "3": "{{i18n:Data.SecretNotes.3 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "4": "{{i18n:Data.SecretNotes.4 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
-                "5": "{{i18n:Data.SecretNotes.5 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-                "7": "{{i18n:Data.SecretNotes.7 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Harriet_Lower00={{AHDPnG_Harriet_Lower_T |valueAt=0}} |AHDPnG_Harriet_Lower27={{AHDPnG_Harriet_Lower_T |valueAt=27}} |AHDPnG_Harriet_Upper00={{AHDPnG_Harriet_Upper_T |valueAt=0}} |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} |AHDPnG_Elena_Lower00={{AHDPnG_Elena_Lower_T |valueAt=0}} |AHDPnG_Elena_Upper00={{AHDPnG_Elena_Upper_T |valueAt=0}} |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
-                "8": "{{i18n:Data.SecretNotes.8 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "9": "{{i18n:Data.SecretNotes.9 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
             }
         }
     ]

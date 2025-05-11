@@ -4,13 +4,20 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
+        "Mon": "{{i18n:Characters_Dialogue.Abigail.Mon |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T |valueAt=4}} }}",
+        "Sat2": "{{i18n:Characters_Dialogue.Abigail.Sat2 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+        "Sat4": "{{i18n:Characters_Dialogue.Abigail.Sat4 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
         "dating_Abigail": "{{i18n:Characters_Dialogue.Abigail.dating_Abigail |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+        "dating_Abigail_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.dating_Abigail_memory_oneday |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
         "dating_Sam": "{{i18n:Characters_Dialogue.Abigail.dating_Sam |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Upper00={{AHDPnG_Samantha_Upper_T |valueAt=0}} |AHDPnG_Samantha_Lower57={{AHDPnG_Samantha_Lower_T |valueAt=57}} |AHDPnG_Samantha_Lower02={{AHDPnG_Samantha_Lower_T |valueAt=2}} }}",
         "dating_Sebastian_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.dating_Sebastian_memory_oneday |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
         "eventSeen_2_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.eventSeen_2_memory_oneday |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}",
         "eventSeen_733330_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.eventSeen_733330_memory_oneday |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+        "fall_Mon": "{{i18n:Characters_Dialogue.Abigail.fall_Mon |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+        "fall_Mon_inlaw_Abigail": "{{i18n:Characters_Dialogue.Abigail.fall_Mon_inlaw_Abigail |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}",
         "married_Sam": "{{i18n:Characters_Dialogue.Abigail.married_Sam |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower07={{AHDPnG_Samantha_Lower_T |valueAt=7}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} |AHDPnG_Samantha_Lower13={{AHDPnG_Samantha_Lower_T |valueAt=13}} }}",
-        "married_Sebastian": "{{i18n:Characters_Dialogue.Abigail.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}"
+        "married_Sebastian": "{{i18n:Characters_Dialogue.Abigail.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}",
+        "winter_Sat": "{{i18n:Characters_Dialogue.Abigail.winter_Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}"
       }
     },
     {
@@ -354,7 +361,7 @@
         "Introduction": "{{i18n:Characters_Dialogue.Sam.Introduction |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
         "Mon8": "{{i18n:Characters_Dialogue.Sam.Mon8 |AHDPnG_Samantha_Lower25={{AHDPnG_Samantha_Lower_T |valueAt=25}} }}",
         "Resort_Towel": "{{i18n:Characters_Dialogue.Sam.Resort_Towel |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower05={{AHDPnG_Samantha_Lower_T |valueAt=5}} }}",
-        "Resort_Towel_2": "{{i18n:Characters_Dialogue.Sam.Resort_Towel |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower05={{AHDPnG_Samantha_Lower_T |valueAt=5}} _2}}",
+        "Resort_Towel_2": "{{i18n:Characters_Dialogue.Sam.Resort_Towel_2 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
         "Wed6": "{{i18n:Characters_Dialogue.Sam.Wed6 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Lower57={{AHDPnG_Sabrina_Lower_T |valueAt=57}} }}",
         "dating_Sebastian": "{{i18n:Characters_Dialogue.Sam.dating_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} }}",
         "married_Sebastian": "{{i18n:Characters_Dialogue.Sam.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} }}"
@@ -376,8 +383,8 @@
         "Thu4": "{{i18n:Characters_Dialogue.Sebastian.Thu4 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}",
         "Thu8": "{{i18n:Characters_Dialogue.Sebastian.Thu8}}",
         "Tue6": "{{i18n:Characters_Dialogue.Sebastian.Tue6 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
-        "Wed2": "{{i18n:Characters_Dialogue.Sebastian.Wed2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
-        "Wed2_inlaw_Abigail": "{{i18n:Characters_Dialogue.Sebastian.Wed2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} _inlaw_Abigail}}",
+        "Wed2": "{{i18n:Characters_Dialogue.Sebastian.Wed2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "Wed2_inlaw_Abigail": "{{i18n:Characters_Dialogue.Sebastian.Wed2_inlaw_Abigail |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} _inlaw_Abigail}}",
         "Wed6": "{{i18n:Characters_Dialogue.Sebastian.Wed6 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
         "winter_Sun6": "{{i18n:Characters_Dialogue.Sebastian.winter_Sun6 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
         "winter_Wed": "{{i18n:Characters_Dialogue.Sebastian.winter_Wed |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"

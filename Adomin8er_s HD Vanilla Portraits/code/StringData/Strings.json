@@ -201,9 +201,6 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "BathHouse_MensLocker.4": "{{i18n:Strings.StringsFromMaps.BathHouse_MensLocker.4}}",
-                "BathHouse_WomensLocker.2": "{{i18n:Strings.StringsFromMaps.BathHouse_WomensLocker.2}}",
-                "BathHouse_WomensLocker.3": "{{i18n:Strings.StringsFromMaps.BathHouse_WomensLocker.3 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
                 "Blacksmith.4": "{{i18n:Strings.StringsFromMaps.Blacksmith.4 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "ElliottHouse.1": "{{i18n:Strings.StringsFromMaps.ElliottHouse.1 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
                 "ElliottHouse.2": "{{i18n:Strings.StringsFromMaps.ElliottHouse.2 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
@@ -233,6 +230,8 @@
             "Action": "EditData",
             "Target": "Strings/Weapons",
             "Entries": {
+                "AbbysPlanchette_Description": "{{i18n:Strings.Weapons.AbbysPlanchette_Description |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "AbbysPlanchette_Name": "{{i18n:Strings.Weapons.AbbysPlanchette_Name |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
                 "AlexsBat_Description": "{{i18n:Strings.Weapons.AlexsBat_Description |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
                 "AlexsBat_Name": "{{i18n:Strings.Weapons.AlexsBat_Name |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
                 "ElliottsPencil_Description": "{{i18n:Strings.Weapons.ElliottsPencil_Description |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} |AHDPnG_Elena_Lower05={{AHDPnG_Elena_Lower_T |valueAt=5}} }}",

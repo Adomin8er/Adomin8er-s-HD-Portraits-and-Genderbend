@@ -23,6 +23,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "Entries": {
+                "Caroline": "{{i18n:Data_Festivals.spring13.Caroline |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T  |valueAt=1}} }}",
                 "Maru_spouse": "{{i18n:Data_Festivals.spring13.Maru_spouse |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
                 "Penny_spouse": "{{i18n:Data_Festivals.spring13.Penny_spouse |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}"
             }
