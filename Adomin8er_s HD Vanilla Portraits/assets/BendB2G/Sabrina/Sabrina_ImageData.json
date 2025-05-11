@@ -67,14 +67,6 @@
             "LogName": "Sabrina purchasable painting image.",
             "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
-        },
-        {
-            "Action": "EditData",
-            "LogName": "Sabrina purchasable painting string data.",
-            "Target": "Data/Furniture",
-            "Entries": {
-                "SamPortrait": "SamanthaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:SamPortrait]/304/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"
-            }
         }
     ]
 }
