@@ -31,6 +31,14 @@
                 "winter_17": "900 BathHouse_WomensLocker 21 14 2 alex_lift_weights/1500 Beach 27 24 1 \"Strings\\schedules\\Alex:winter_17.000\"/2400 JoshHouse 21 4 1 alex_sleep",
                 "winter": "900 BathHouse_WomensLocker 21 14 2 alex_lift_weights/1500 Beach 27 24 1 \"Strings\\schedules\\Alex:winter_17.000\"/2400 JoshHouse 21 4 1 alex_sleep"
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Alexis's purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "AlexPortrait": "AlexPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:AlexPortrait]/249/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits/true"
+            }
         }
     ]
 }

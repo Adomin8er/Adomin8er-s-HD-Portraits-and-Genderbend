@@ -1,14 +1,14 @@
 {
     "Changes": [
         //NPCMapLocation support
-        //Alex
+        //Alex -> Alexis
         {
             "LogName": "NPCMapLocations Sprite Offset", 
             "Action": "EditData",
             "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
             "When": { "Alex_To_Alexis": "true" },
             "Entries": {
-                "Alex": { "MarkerCropOffset": 3 },
+                "Alex": { "MarkerCropOffset": 3 }
                 }
         },
 
