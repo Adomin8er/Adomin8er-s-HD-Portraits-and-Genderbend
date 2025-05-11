@@ -53,12 +53,12 @@
   "Sam_To_Samantha": "true",
   "Sebastian_To_Sabrina": "true",
   "Shane_To_Shaylin": "true",
-  "Abigail_To_Abel": "false",
-  "Emily_To_Emmett": "false",
-  "Haley_To_Hayden": "false",
-  "Leah_To_Leif": "false",
-  "Maru_To_Micah": "false",
-  "Penny_To_Peter": "false",
+  "Abigail_To_Abel": "true",
+  "Emily_To_Emmett": "true",
+  "Haley_To_Hayden": "true",
+  "Leah_To_Leif": "true",
+  "Maru_To_Micah": "true",
+  "Penny_To_Peter": "true",
   "Wizard_To_Sorceress": "true",
   "MatureEvents": "false"
 }
