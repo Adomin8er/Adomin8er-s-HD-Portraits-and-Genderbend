@@ -25,6 +25,23 @@
         },
         {
             "Action": "EditData",
+            "LogName": "Alexis gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Alex": {
+                    "DisplayName": "Alexis",
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
+        },
+
+        {
+            "Action": "EditData",
             "LogName": "Alexis schedule",
             "Target": "Characters/schedules/Alex",
             "Entries": {

@@ -15,6 +15,22 @@
                     }
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Hayden gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Haley": {
+                    "DisplayName": "Hayden",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

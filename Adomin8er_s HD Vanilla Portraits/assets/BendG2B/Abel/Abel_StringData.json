@@ -22,6 +22,22 @@
                     }
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Abel gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Abigail": {
+                    "DisplayName": "Abel",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

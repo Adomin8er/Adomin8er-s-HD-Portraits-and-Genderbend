@@ -9,20 +9,12 @@
         "UniqueID": "Pathoschild.ContentPatcher"
     },
 	"Dependencies": [
-		// {
-		// 	"UniqueID": "tlitookilakin.HDPortraits",
-		// 	"IsRequired": true
-		// },
         {
             "UniqueID": "Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend",
 			"IsRequired": true
         },
         {
 			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
-			"IsRequired": true
-		},
-        {
-			"UniqueID": "Platonymous.Portraiture",
 			"IsRequired": true
 		}
     ]

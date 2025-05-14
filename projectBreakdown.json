@@ -27,7 +27,6 @@
                     "B2G_Portraits.png": "Image data to be used for updating purchaseable portraits.",
                     "Cursors.png": "Extra images to be used in replacements."
                 },
-                "Size256.json": "Sets image size value. Potentially unused."
             },
             "code": {
                 "ModSupport": {

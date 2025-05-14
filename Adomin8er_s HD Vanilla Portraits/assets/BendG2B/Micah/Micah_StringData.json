@@ -68,6 +68,22 @@
             "When":{
                 "Sebastian_To_Sabrina":"true"
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Micah gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Maru": {
+                    "DisplayName": "Micah",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

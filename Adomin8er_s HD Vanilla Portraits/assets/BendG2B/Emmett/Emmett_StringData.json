@@ -15,6 +15,22 @@
                     }
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Emmett gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Emily": {
+                    "DisplayName": "Emmett",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

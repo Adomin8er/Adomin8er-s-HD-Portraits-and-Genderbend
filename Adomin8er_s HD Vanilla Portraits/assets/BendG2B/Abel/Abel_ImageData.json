@@ -27,16 +27,6 @@
                 "DayEvent": "wedding"
             }
         },
-        {
-            "Action": "EditImage",
-            "LogName": "Abel flower dance outfit.",
-            "Target": "Characters/Abigail",
-            "FromFile": "assets/BendG2B/Abel/AbelOW.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
-            }
-        },
         
         {
             "Action": "Load", "Priority": "Low",

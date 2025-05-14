@@ -2,30 +2,52 @@
     "Changes": [
         {
             "Action": "EditImage",
+            "LogName": "Layla standard outfit.",
             "Target": "Characters/Lance",
-            "FromFile": "assets/BendB2G/Layla/LaylaOW.png"
+            "FromFile": "assets/BendB2G/Layla/LaylaOW.png",
+            "When": {"DayEvent |contains=wedding": false}
         },
         {
             "Action": "EditImage",
+            "LogName": "Layla winter outfit.",
+            "Target": "Characters/Lance_Winter",
+            "FromFile": "assets/BendB2G/Layla/LaylaOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Layla beach outfit.",
             "Target": "Characters/Lance_Beach",
             "FromFile": "assets/BendB2G/Layla/LaylaOW_Beach.png"
         },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/Lance",
-            "FromFile": "assets/BendB2G/Layla/LaylaOW_Winter.png",
-            "When": {
-                "Season": "winter"
-            }
-        },
+        // {
+        //     "Action": "EditImage",
+        //     "LogName": "Layla wedding outfit.",
+        //     "Target": "Characters/Lance",
+        //     "FromFile": "assets/BendB2G/Layla/LaylaOW_WeddingDance.png",
+        //     "When": {
+        //         "DayEvent": "wedding"
+        //     }
+        // },
+        // {
+        //     "Action": "EditImage",
+        //     "LogName": "Layla flower dance outfit.",
+        //     "Target": "Characters/Lance",
+        //     "FromFile": "assets/BendB2G/Layla/LaylaOW_WeddingDance.png",
+        //     "When": {
+        //         "DayEvent": "flower dance",
+        //         "LocationName |contains=Temp": "true"
+        //     }
+        // },
         
         {
             "Action": "Load", "Priority": "Low",
+            "LogName": "Layla's purchasable painting image.",
             "Target": "Mods/Adomin8er.AdamHDPortraits/B2G_Portraits_SVE",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
         },
         {
             "Action": "EditData",
+            "LogName": "Layla's purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "FlashShifter.StardewValleyExpandedCP_LancePortrait": "LaylaPortrait/painting/2 2/2 2/1/999/-1/Layla Portrait/10/Mods\\Adomin8er.AdamHDPortraits\\B2G_Portraits_SVE/true"

@@ -22,19 +22,9 @@
             "Action": "EditImage",
             "LogName": "Leif wedding outfit.",
             "Target": "Characters/Leah",
-            "FromFile": "assets/BendG2B/Leif/LeifOW_WeddingDance.png",
+            "FromFile": "assets/BendG2B/Leif/LeifOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Leif flower dance outfit.",
-            "Target": "Characters/Leah",
-            "FromFile": "assets/BendG2B/Leif/LeifOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         

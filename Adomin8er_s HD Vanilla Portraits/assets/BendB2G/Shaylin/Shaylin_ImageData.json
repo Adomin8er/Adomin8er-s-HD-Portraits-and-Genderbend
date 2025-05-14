@@ -29,19 +29,9 @@
             "Action": "EditImage",
             "LogName": "Shaylin wedding outfit.",
             "Target": "Characters/Shane",
-            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_WeddingDance.png",
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Shaylin dance outfit.",
-            "Target": "Characters/Shane",
-            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         {
