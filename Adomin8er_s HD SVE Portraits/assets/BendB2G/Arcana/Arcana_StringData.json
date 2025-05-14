@@ -8,58 +8,25 @@
                 "Wizard": {
                     "DisplayName": "Arcana",
                     "Gender": "Female",
-                    "CanBeRomanced": "true",
-                    "SpouseRoom": {
-                        "MapAsset": "Custom_WizardsRoom",
-                        "MapSourceRect": {
-                          "X": 0,
-                          "Y": 0,
-                          "Width": 6,
-                          "Height": 9
-                        }
-                    },
-                    "SpousePatio": {
-                        "MapAsset": "Wizard_Spouse_Area",
-                        "MapSourceRect": {
-                            "X": 0,
-                            "Y": 0,
-                            "Width": 4,
-                            "Height": 4
-                        },
-                            "SpriteAnimationFrames": [
-                            [
-                                0,
-                                30000
-                            ],
-                            [
-                                21,
-                                400
-                            ],
-                            [
-                                20,
-                                66000
-                            ],
-                            [
-                                21,
-                                200
-                            ],
-                            [
-                                22,
-                                200
-                            ],
-                            [
-                                0,
-                                500
-                            ]
-                        ],
-                        "SpriteAnimationPixelOffset": {
-                            "X": 0,
-                            "Y": 0
-                        }
-                    }
+                    "CanBeRomanced": "true"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Arcana gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Wizard": {
+                    "DisplayName": "Arcana",
+                    "Gender": "Male"
                 }
             },
-            "When": null
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

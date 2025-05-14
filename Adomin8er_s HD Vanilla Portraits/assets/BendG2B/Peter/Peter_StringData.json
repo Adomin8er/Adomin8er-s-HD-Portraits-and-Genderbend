@@ -15,6 +15,22 @@
                     }
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Peter gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Penny": {
+                    "DisplayName": "Peter",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

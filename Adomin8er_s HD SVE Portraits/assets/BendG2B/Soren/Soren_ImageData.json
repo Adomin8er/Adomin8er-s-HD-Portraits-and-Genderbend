@@ -2,35 +2,52 @@
     "Changes": [
         {
             "Action": "EditImage",
+            "LogName": "Soren standard outfit.",
             "Target": "Characters/Sophia",
-            "FromFile": "assets/BendG2B/Soren/SorenOW.png"
+            "FromFile": "assets/BendG2B/Soren/SorenOW.png",
+            "When": {"DayEvent |contains=wedding": false}
         },
         {
             "Action": "EditImage",
+            "LogName": "Soren winter outfit.",
+            "Target": "Characters/Sophia_Winter",
+            "FromFile": "assets/BendG2B/Soren/SorenOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Soren beach outfit.",
             "Target": "Characters/Sophia_Beach",
             "FromFile": "assets/BendG2B/Soren/SorenOW_Beach.png"
         },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/SophiaJPKsprite",
-            "FromFile": "assets/BendG2B/Soren/SorenOW_Cowboy.png"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Characters/Sophia",
-            "FromFile": "assets/BendG2B/Soren/SorenOW_Winter.png",
-            "When": {
-                "Season": "winter"
-            }
-        },
+        // {
+        //     "Action": "EditImage",
+        //     "LogName": "Soren wedding outfit.",
+        //     "Target": "Characters/Sophia",
+        //     "FromFile": "assets/BendG2B/Soren/SorenOW_WeddingDance.png",
+        //     "When": {
+        //         "DayEvent": "wedding"
+        //     }
+        // },
+        // {
+        //     "Action": "EditImage",
+        //     "LogName": "Soren flower dance outfit.",
+        //     "Target": "Characters/Sophia",
+        //     "FromFile": "assets/BendG2B/Soren/SorenOW_WeddingDance.png",
+        //     "When": {
+        //         "DayEvent": "flower dance",
+        //         "LocationName |contains=Temp": "true"
+        //     }
+        // },
         
         {
             "Action": "Load", "Priority": "Low",
+            "LogName": "Sophia's purchasable painting image.",
             "Target": "Mods/Adomin8er.AdamHDPortraits/G2B_Portraits_SVE",
             "FromFile": "assets/BendG2B/G2B_Portraits.png"
         },
         {
             "Action": "EditData",
+            "LogName": "Sophia's purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SorenPortrait/painting/2 2/2 2/1/999/-1/Soren Portrait/0/Mods\\Adomin8er.AdamHDPortraits\\G2B_Portraits_SVE/true"

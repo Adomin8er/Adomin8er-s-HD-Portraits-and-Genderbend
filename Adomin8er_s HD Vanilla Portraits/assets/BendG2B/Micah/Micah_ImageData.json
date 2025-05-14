@@ -22,19 +22,9 @@
             "Action": "EditImage",
             "LogName": "Micah wedding outfit.",
             "Target": "Characters/Maru",
-            "FromFile": "assets/BendG2B/Micah/MicahOW_WeddingDance.png",
+            "FromFile": "assets/BendG2B/Micah/MicahOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Micah flower dance outfit.",
-            "Target": "Characters/Maru",
-            "FromFile": "assets/BendG2B/Micah/MicahOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         

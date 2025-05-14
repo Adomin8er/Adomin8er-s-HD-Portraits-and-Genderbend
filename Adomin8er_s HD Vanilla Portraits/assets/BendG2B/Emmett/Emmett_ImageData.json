@@ -22,19 +22,9 @@
             "Action": "EditImage",
             "LogName": "Emmett wedding outfit.",
             "Target": "Characters/Emily",
-            "FromFile": "assets/BendG2B/Emmett/EmmettOW_WeddingDance.png",
+            "FromFile": "assets/BendG2B/Emmett/EmmettOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Emmett flower dance outfit.",
-            "Target": "Characters/Emily",
-            "FromFile": "assets/BendG2B/Emmett/EmmettOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         

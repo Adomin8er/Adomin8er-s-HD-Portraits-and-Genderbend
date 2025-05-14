@@ -41,16 +41,6 @@
     },
     {
       "Action": "EditData",
-      "Target": "Data/Characters",
-      "When": {
-        "Hearts:Wizard": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
-      },
-      "Entries": {
-        "DisplayName": "{{i18n:Name.Magnus |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
       "Target": "Data/Cookingrecipes",
       "When": {},
       "Entries": {
@@ -171,7 +161,7 @@
         "FlashShifter.StardewValleyExpandedCP_OliviaPortrait": "OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}/2/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
         "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}/0/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
         "FlashShifter.StardewValleyExpandedCP_LancePortrait": "LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}/10/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-        "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "MagnusPortrait |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:MagnusPortrait |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}/8/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "MagnusPortrait |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:MagnusPortrait |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}/8/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
         "FlashShifter.StardewValleyExpandedCP_VictorPortrait": "VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}/6/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
         "FlashShifter.StardewValleyExpandedCP_ApplesPortrait": "ApplesPortrait/painting/2 2/2 2/1/999/-1/{{i18n:ApplesPortrait}}/12/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
         "FlashShifter.StardewValleyExpandedCP_ScarlettPortrait": "ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}/14/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true"
@@ -210,7 +200,7 @@
         "SophiaThankYouLetter": "{{i18n:Mail.SophiaThankYouLetter1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }} FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine {{i18n:Mail.SophiaThankYouLetter2 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
         "escortedGunther": "{{i18n:Mail.escortedGunther}}",
         "JojaSeeds": "{{i18n:Mail.JojaSeeds}}",
-        "MysteriousWizardLetter": "{{i18n:Mail.MysteriousWizardLetter |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "MysteriousWizardLetter": "{{i18n:Mail.MysteriousWizardLetter |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
         "GuntherGaldoranGemReward": "{{i18n:Mail.GuntherGaldoranReward1}} FlashShifter.StardewValleyExpandedCP_Galdoran_Gem {{i18n:Mail.GuntherGaldoranReward2}}",
         "LanceLifeElixirs": "{{i18n:Mail.LanceLifeElixirs |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
         "AndyPaycheck": "{{i18n:Mail.AndyPaycheck}}",

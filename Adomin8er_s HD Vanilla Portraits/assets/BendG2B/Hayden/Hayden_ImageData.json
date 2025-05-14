@@ -22,19 +22,9 @@
             "Action": "EditImage",
             "LogName": "Hayden wedding outfit.",
             "Target": "Characters/Haley",
-            "FromFile": "assets/BendG2B/Hayden/HaydenOW_WeddingDance.png",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Hayden flower dance outfit.",
-            "Target": "Characters/Haley",
-            "FromFile": "assets/BendG2B/Hayden/HaydenOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         

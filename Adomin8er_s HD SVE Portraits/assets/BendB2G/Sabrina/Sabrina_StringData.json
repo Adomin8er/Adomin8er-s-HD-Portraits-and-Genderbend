@@ -1,5 +1,11 @@
 {
     "Changes": [
-        // File available if needed.
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "Placeholder": "Placeholder Data"
+            }
+        }
     ]
 }

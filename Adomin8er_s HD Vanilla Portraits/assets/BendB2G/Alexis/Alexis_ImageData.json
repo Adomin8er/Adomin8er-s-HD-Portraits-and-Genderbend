@@ -23,19 +23,9 @@
             "Action": "EditImage",
             "LogName": "Alexis wedding outfit.",
             "Target": "Characters/Alex",
-            "FromFile": "assets/BendB2G/Alexis/AlexisOW_WeddingDance.png",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Alexis flower dance outfit.",
-            "Target": "Characters/Alex",
-            "FromFile": "assets/BendB2G/Alexis/AlexisOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         {

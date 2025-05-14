@@ -22,19 +22,9 @@
             "Action": "EditImage",
             "LogName": "Peter wedding outfit.",
             "Target": "Characters/Penny",
-            "FromFile": "assets/BendG2B/Peter/PeterOW_WeddingDance.png",
+            "FromFile": "assets/BendG2B/Peter/PeterOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Peter flower dance outfit.",
-            "Target": "Characters/Penny",
-            "FromFile": "assets/BendG2B/Peter/PeterOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         

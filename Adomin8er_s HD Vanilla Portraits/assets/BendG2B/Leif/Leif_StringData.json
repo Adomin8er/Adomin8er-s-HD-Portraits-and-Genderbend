@@ -10,6 +10,22 @@
                     "Gender": "Male"
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Leif gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Leah": {
+                    "DisplayName": "Leif",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

@@ -11,7 +11,7 @@
         "abigail_event2": "{{i18n:Abigail.Dialogue.03}}",
         "abigail_event3": "{{i18n:Abigail.Dialogue.04}}",
         "abigail_event4": "{{i18n:Abigail.Dialogue.05}}",
-        "abigail_event5": "{{i18n:Abigail.Dialogue.06 |AHDPnG_Sorceress_Lower02={{AHDPnG_Sorceress_Lower_T | valueAt=2}}  |AHDPnG_Sorceress_Upper55={{AHDPnG_Sorceress_Upper_T | valueAt=55}} }}",
+        "abigail_event5": "{{i18n:Abigail.Dialogue.06 |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Upper55={{AHDPnG_Arcana_Upper_T | valueAt=55}} }}",
         "abigail_event6": "{{i18n:Abigail.Dialogue.07}}",
         "abigail_event7": "{{i18n:Abigail.Dialogue.08}}",
         "abigail_event8": "{{i18n:Abigail.Dialogue.09}}",
@@ -19,8 +19,8 @@
         "abigail_event10": "{{i18n:Abigail.Dialogue.11}}",
         "abigail_event11": "{{i18n:Abigail.Dialogue.12}}",
         "abigail_event12": "{{i18n:Abigail.Dialogue.13 |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T | valueAt=0}}  |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
-        "abigail_event13": "{{i18n:Abigail.Dialogue.14 |AHDPnG_Sorceress_Lower05={{AHDPnG_Sorceress_Lower_T | valueAt=5}}  |AHDPnG_Sorceress_Lower02={{AHDPnG_Sorceress_Lower_T | valueAt=2}}  |AHDPnG_Sorceress_Lower02={{AHDPnG_Sorceress_Lower_T | valueAt=2}}  |AHDPnG_Sorceress_Upper55={{AHDPnG_Sorceress_Upper_T | valueAt=55}} }}",
-        "abigail_event14": "{{i18n:Abigail.Dialogue.15 |AHDPnG_Sorceress_Lower05={{AHDPnG_Sorceress_Lower_T | valueAt=5}}  |AHDPnG_Sorceress_Lower02={{AHDPnG_Sorceress_Lower_T | valueAt=2}}  |AHDPnG_Sorceress_Lower02={{AHDPnG_Sorceress_Lower_T | valueAt=2}}  |AHDPnG_Sorceress_Upper55={{AHDPnG_Sorceress_Upper_T | valueAt=55}} }}"
+        "abigail_event13": "{{i18n:Abigail.Dialogue.14 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T | valueAt=5}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Upper55={{AHDPnG_Arcana_Upper_T | valueAt=55}} }}",
+        "abigail_event14": "{{i18n:Abigail.Dialogue.15 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T | valueAt=5}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Upper55={{AHDPnG_Arcana_Upper_T | valueAt=55}} }}"
       }
     },
     {
@@ -1153,7 +1153,7 @@
         "dumped_Guys": "{{i18n:WizardDialogue.dumped}}",
         "secondChance_Guys": "{{i18n:WizardDialogue.SecondChance}}",
         "AdventureGuild_4_13": "{{i18n:WizardDialogue.AdventureGuild}}",
-        "Custom_ForestWest_52_117": "{{i18n:WizardDialogue.Forest West |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "Custom_ForestWest_52_117": "{{i18n:WizardDialogue.Forest West |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
         "wizard_event1": "{{i18n:WizardDialogue.Event01}}",
         "wizard_event2": "{{i18n:WizardDialogue.Event02}}",
         "wizard_event3": "{{i18n:WizardDialogue.Event03}}",
@@ -1166,7 +1166,7 @@
         "AcceptGift_(O)422": "{{i18n: Magnus.Gift422}}",
         "AcceptBirthdayGift_Positive": "{{i18n:Magnus.GiftBDPos}}",
         "wizardEnchantedGrove": "{{i18n:EnchantedGrove.Magnus}}",
-        "wizardsComplicatedRelationship": "{{i18n:Pierre.MatureEvent.Magnus |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "wizardsComplicatedRelationship": "{{i18n:Pierre.MatureEvent.Magnus |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
         "election": "{{i18n:Election.Magnus}}",
         "AuroraVineyardPurchased": "{{i18n:Aurora.Purchased.Magnus}}"
       }

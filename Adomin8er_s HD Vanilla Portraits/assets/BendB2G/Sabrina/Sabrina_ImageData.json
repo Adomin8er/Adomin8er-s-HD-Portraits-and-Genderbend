@@ -23,19 +23,9 @@
             "Action": "EditImage",
             "LogName": "Sabrina wedding outfit.",
             "Target": "Characters/Sebastian",
-            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_WeddingDance.png",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Sabrina dance outfit.",
-            "Target": "Characters/Sebastian",
-            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         {

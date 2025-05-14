@@ -23,19 +23,9 @@
             "Action": "EditImage",
             "LogName": "Harriet wedding outfit.",
             "Target": "Characters/Harvey",
-            "FromFile": "assets/BendB2G/Harriet/HarrietOW_WeddingDance.png",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Harriet flower dance outfit.",
-            "Target": "Characters/Harvey",
-            "FromFile": "assets/BendB2G/Harriet/HarrietOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         

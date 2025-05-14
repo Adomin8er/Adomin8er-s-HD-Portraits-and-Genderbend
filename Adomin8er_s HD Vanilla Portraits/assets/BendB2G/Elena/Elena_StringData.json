@@ -15,6 +15,22 @@
                     }
                 }
             }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Elena gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Elliott": {
+                    "DisplayName": "Elena",
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
         }
     ]
 }

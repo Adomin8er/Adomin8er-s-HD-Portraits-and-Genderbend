@@ -23,19 +23,9 @@
             "Action": "EditImage",
             "LogName": "Elena wedding outfit.",
             "Target": "Characters/Elliott",
-            "FromFile": "assets/BendB2G/Elena/ElenaOW_WeddingDance.png",
+            "FromFile": "assets/BendB2G/Elena/ElenaOW_Wedding.png",
             "When": {
                 "DayEvent": "wedding"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "LogName": "Elena flower dance outfit.",
-            "Target": "Characters/Elliott",
-            "FromFile": "assets/BendB2G/Elena/ElenaOW_WeddingDance.png",
-            "When": {
-                "DayEvent": "flower dance",
-                "LocationName |contains=Temp": "true"
             }
         },
         
