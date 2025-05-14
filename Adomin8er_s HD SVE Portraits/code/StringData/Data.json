@@ -1,0 +1,295 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Aquariumfish",
+      "When": {},
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP_Kittyfish": "0/float/////Mods\\FlashShifter.StardewValleyExpandedCP\\KittyfishAquariumFish",
+        "FlashShifter.StardewValleyExpandedCP_Water_Grub": "0/static/////Mods\\FlashShifter.StardewValleyExpandedCP\\WaterGrubAquariumFish",
+        "FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": "0/fish/////Mods\\FlashShifter.StardewValleyExpandedCP\\SnatcherWormAquariumFish"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Bundles",
+      "When": {
+        "SVECommunityBundles": true,
+        "HardSVECommunityBundles": false
+      },
+      "Entries": {
+        "Fish Tank/6": "River Fish/O DeluxeBait 30/145 1 0 143 1 0 706 1 0 699 1 0 FlashShifter.StardewValleyExpandedCP_Minnow 1 0 FlashShifter.StardewValleyExpandedCP_Goldfish 1 0/6/6//{{i18n:river.fish.bundle}}",
+        "Fish Tank/8": "Ocean Fish/O 690 5/131 1 0 130 1 0 150 1 0 701 1 0 FlashShifter.StardewValleyExpandedCP_Starfish 1 0/5///{{i18n:ocean.fish.bundle}}",
+        "Fish Tank/9": "Night Fishing/R 517 1/140 1 0 132 1 0 148 1 0 FlashShifter.StardewValleyExpandedCP_Frog 1 0/1///{{i18n:night.fish.bundle}}",
+        "Fish Tank/10": "Specialty Fish/O 242 5/128 1 0 156 1 0 164 1 0 734 1 0 FlashShifter.StardewValleyExpandedCP_King_Salmon 1 0 FlashShifter.StardewValleyExpandedCP_Butterfish 1 0/4///{{i18n:speciality.fish.bundle}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Bundles",
+      "When": {
+        "HardSVECommunityBundles": true
+      },
+      "Entries": {
+        "Fish Tank/6": "River Fish/O DeluxeBait 99/145 3 0 143 3 0 706 3 0 699 3 0 FlashShifter.StardewValleyExpandedCP_Minnow 3 0 FlashShifter.StardewValleyExpandedCP_Goldfish 3 0/6/6//{{i18n:river.fish.bundle}}",
+        "Fish Tank/8": "Ocean Fish/O 690 10/131 3 0 130 3 0 150 3 0 701 3 0 FlashShifter.StardewValleyExpandedCP_Starfish 3 0/5///{{i18n:ocean.fish.bundle}}",
+        "Fish Tank/9": "Night Fishing/R 517 1/140 3 0 132 3 0 148 3 0 FlashShifter.StardewValleyExpandedCP_Frog 3 0/1///{{i18n:night.fish.bundle}}",
+        "Fish Tank/10": "Specialty Fish/O 242 10/128 3 0 156 3 0 164 3 0 734 3 0 FlashShifter.StardewValleyExpandedCP_King_Salmon 3 0 FlashShifter.StardewValleyExpandedCP_Butterfish 3 0/4///{{i18n:speciality.fish.bundle}}",
+        "Bulletin Board/31": "Chef's/O 221 5/724 3 0 259 10 0 430 5 0 FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie 1 0 FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger 1 0 FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish 1 0 FlashShifter.StardewValleyExpandedCP_Candy 1 0/6///{{i18n:chef.bundle}}",
+        "Abandoned Joja Mart/36": "The Missing//348 2 1 807 2 0 74 2 0 454 10 2 795 2 2 445 2 0 FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo 1 0/1/6//{{i18n:the.missing.bundle}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "When": {
+        "Hearts:Wizard": "4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14"
+      },
+      "Entries": {
+        "DisplayName": "{{i18n:Name.Magnus |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Cookingrecipes",
+      "When": {},
+      "Entries": {
+        "Big Bark Burger": "FlashShifter.StardewValleyExpandedCP_Puppyfish 1 216 1 247 1/9999 9999/FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger/null/{{i18n:Object.Big-Bark-Burger.name}}",
+        "Frog Legs": "FlashShifter.StardewValleyExpandedCP_Frog 1 247 1 246 1/9999 9999/FlashShifter.StardewValleyExpandedCP_Frog_Legs/null/{{i18n:object.frog-legs.name}}",
+        "Glazed Butterfish": "FlashShifter.StardewValleyExpandedCP_Butterfish 1 246 2 247 2 245 1/9999 9999/FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish/null/{{i18n:Object.Glazed-Butterfish.name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Craftingrecipes",
+      "When": {},
+      "Entries": {
+        "Hedge Fence": "771 3 388 1//FlashShifter.StardewValleyExpandedCP_Hedge_Fence_Tilesheet/false/Farming 6/{{i18n:object.hedge-fence.name}}",
+        "Butter Churner": "388 25 390 25 84 1 335 1//FlashShifter.StardewValleyExpandedCP_Butter_Churner/true/Farming 3/{{i18n:machine.butter-churner.name}}",
+        "Yarn Spooler": "709 25 787 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1//FlashShifter.StardewValleyExpandedCP_Yarn_Spooler/true/Farming 9/{{i18n:machine.yarn-spooler.name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Engagementdialogue",
+      "When": {},
+      "Entries": {
+        "Claire0": "{{i18n:Claire.Engagement}}",
+        "Claire1": "{{i18n:Claire.Engagement}}",
+        "Olivia0": "{{i18n:Olivia.Engagement.1}}",
+        "Olivia1": "{{i18n:Olivia.Engagement.1}}",
+        "Scarlett0": "{{i18n:Scarlett.Engagement.1}}",
+        "Scarlett1": "{{i18n:Scarlett.Engagement.2}}",
+        "Sophia0": "{{i18n:Sophia.Engagement.1}}",
+        "Sophia1": "{{i18n:Sophia.Engagement.2}}",
+        "Victor0": "{{i18n:victor.engagement0}}",
+        "Victor1": "{{i18n:victor.engagement1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Engagementdialogue",
+      "When": {
+        "HasSeenEvent": "6951319"
+      },
+      "Entries": {
+        "Lance0": "{{i18n:Lance.engagement0}}",
+        "Lance1": "{{i18n:Lance.engagement0}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Extradialogue",
+      "When": {},
+      "Entries": {
+        "SummitEvent_Dialogue3_Sophia": "{{i18n:Summit.Dialogue.Sophia.01}}\"/pause 500/faceDirection farmer 1/pause 350/speak Sophia \"{{i18n:Summit.Dialogue.Sophia.02}}\"/pause 500/faceDirection Sophia 3/pause 300/speak Sophia \"{{i18n:Summit.Dialogue.Sophia.03}}",
+        "SummitEvent_Dialogue3_Victor": "{{i18n:Summit.Dialogue.Victor.01}}\"/pause 500/faceDirection Victor 3/pause 300/faceDirection farmer 1/pause 150/speak Victor \"{{i18n:Summit.Dialogue.Victor.02}}",
+        "SummitEvent_Dialogue3_Olivia": "{{i18n:Summit.Dialogue.Olivia.01}}\"/pause 500/faceDirection Olivia 3/pause 500/faceDirection farmer 1/pause 300/speak Olivia \"{{i18n:Summit.Dialogue.Olivia.02}}",
+        "SummitEvent_Dialogue3_Claire": "{{i18n:Summit.Dialogue.Claire.01}}\"/pause 500/faceDirection Claire 3/pause 500/faceDirection farmer 1/pause 300/speak Claire \"{{i18n:Summit.Dialogue.Claire.02}}",
+        "SummitEvent_Dialogue3_Lance": "{{i18n:Summit.Dialogue.Lance.01}}\"/pause 750/faceDirection Lance 3/pause 500/faceDirection farmer 1/pause 500/speak Lance \"{{i18n:Summit.Dialogue.Lance.02}}",
+        "SummitEvent_Dialogue3_Scarlett": "{{i18n:Summit.Dialogue.Scarlett.01}}\"/pause 500/faceDirection Scarlett 3/pause 500/faceDirection farmer 1/pause 300/speak Scarlett \"{{i18n:Summit.Dialogue.Scarlett.02}}",
+        "ArchaeologyHouse_Gunther_Room": "{{i18n:Gunther.Bedroom.01}}",
+        "Morris_BuyMovieTheater": "{{i18n:Morris.TheaterString.01}}",
+        "Morris_TheaterBought": "{{i18n:Morris.TheaterString.02}}",
+        "Morris_NoMoreCD": "{{i18n:Morris.TheaterString.03}}",
+        "PurchasedItem_Teen": "{{i18n:Mail.PurchasedItem1}}{2}{{i18n:Mail.PurchasedItem2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Extradialogue",
+      "When": {
+        "HasSeenEvent": "6665293"
+      },
+      "Entries": {
+        "SummitEvent_Intro_Morris": "{{i18n:Summit.Dialogue.Morris.01}}",
+        "SummitEvent_Dialogue1_Morris": "{{i18n:Summit.Dialogue.Morris.02}}",
+        "SummitEvent_Dialogue2_Morris": "{{i18n:Summit.Dialogue.Morris.03}}",
+        "SummitEvent_Outro_Morris": "{{i18n:Summit.Dialogue.Morris.04}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Extradialogue",
+      "When": {
+        "Relationship:MorrisTod": "Friendly"
+      },
+      "Entries": {
+        "Morris_Greeting": "{{i18n:Morris.Greeting}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Fish",
+      "When": {},
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP_Minnow": "Minnow/1/sinker/1/2/600 1800/spring summer fall winter/sunny/683 .4/1/.03/.2/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Butterfish": "Butterfish/80/dart/8/16/600 2600/spring summer/sunny/690 .04/2/.12/.1/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Puppyfish": "Puppyfish/90/mixed/5/9/600 2600/spring summer fall/both/690 .4 685 .1/3/.08/.3/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Frog": "Frog/70/sinker/2/5/1800 2600/spring summer/rainy/683 .4/3/.90/.5/5/false",
+        "FlashShifter.StardewValleyExpandedCP_Kittyfish": "Kittyfish/85/mixed/5/9/600 2600/fall winter/both/690 .4 685 .1/3/.25/.3/8/false",
+        "FlashShifter.StardewValleyExpandedCP_Seahorse": "Seahorse/25/mixed/1/3/800 1700/spring summer fall winter/both/690 .4 685 .1/4/.30/.2/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Lunaloo": "Lunaloo/70/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.15/.5/5/false",
+        "FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": "Baby Lunaloo/15/floater/4/8/1700 2600/spring summer fall winter/both/690 .4 685 .1/4/.05/.3/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": "Shiny Lunaloo/110/floater/8/12/1700 2600/spring summer fall winter/both/690 .4 685 .1/5/.05/.5/8/false",
+        "FlashShifter.StardewValleyExpandedCP_Bonefish": "Bonefish/70/sinker/2/6/600 2600/spring summer fall winter/both/690 .4/3/.80/.5/5/false",
+        "FlashShifter.StardewValleyExpandedCP_Undeadfish": "Undeadfish/80/mixed/3/7/600 2600/spring summer fall winter/both/690 .4/3/.80/.5/5/false",
+        "FlashShifter.StardewValleyExpandedCP_Goldenfish": "Goldenfish/60/mixed/4/9/600 2600/spring summer fall winter/both/690 .4/3/.99/.5/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Gemfish": "Gemfish/100/sinker/32/46/600 2600/spring summer fall winter/both/690 .4/3/.20/.5/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Daggerfish": "Daggerfish/50/dart/3/7/600 2600/spring summer fall winter/both/690 .4/3/.50/.5/0/false",
+        "FlashShifter.StardewValleyExpandedCP_Clownfish": "Clownfish/45/dart/2/5/1000 1700/summer/both/690 .4 685 .1/3/.25/.6/3/false",
+        "FlashShifter.StardewValleyExpandedCP_Starfish": "Starfish/75/sinker/5/10/600 2200/spring summer winter/both/690 .4 685 .1/4/.07/.4/5/false"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "When": {},
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP_Nostalgic_Farmer": "Nostalgic Farmer/painting/1 2/1 2/1/500/-1/{{i18n:furniture.nostalgic-farmer}}/248/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Furniture_TileSheet/true/collection_sve_furniturecatalogue2",
+        "FlashShifter.StardewValleyExpandedCP_ClairePortrait": "ClairePortrait |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ClairePortrait |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}/4/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_OliviaPortrait": "OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}/2/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}/0/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_LancePortrait": "LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}/10/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "MagnusPortrait |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:MagnusPortrait |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}/8/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_VictorPortrait": "VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}/6/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_ApplesPortrait": "ApplesPortrait/painting/2 2/2 2/1/999/-1/{{i18n:ApplesPortrait}}/12/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_ScarlettPortrait": "ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}/14/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "When": {},
+      "Entries": {
+        "AndyStrawberrySeeds": "{{i18n:Mail.AndyStrawberrySeeds}}",
+        "GuntherGift": "{{i18n:Mail.GuntherGift}}",
+        "AndyJojaCola": "{{i18n:Mail.AndyJojaCola}}",
+        "AndyAncientSeeds": "{{i18n:Mail.AndyAncientSeeds}}",
+        "SusanIntroduction": "{{i18n:Mail.SusanIntroduction}}",
+        "SusanFertilizer": "{{i18n:Mail.SusanFertilizer}}",
+        "SusanMelonSeeds": "{{i18n:Mail.SusanMelonSeeds}}",
+        "VictorDewey": "{{i18n:Mail.VictorDewey |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "OliviaWine": "{{i18n:Mail.OliviaWine |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "OliviaCellar": "{{i18n:Mail.OliviaCellar |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "GusSophia": "{{i18n:Mail.GusSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HaleyTalk": "{{i18n:Mail.HaleyTalk |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "KentSummit": "{{i18n:Mail.KentSummit}}",
+        "PierreSVERebate": "{{i18n:Mail.PierreSVERebate}}",
+        "SVEadvertisement2": "{{i18n:Mail.SVEadvertisement2}}",
+        "JasThankYouLetter": "{{i18n:Mail.JasThankYouLetter}}",
+        "winter_7": "{{i18n:Mail.winter_7}}",
+        "OliviaDatingLetter": "{{i18n:Mail.OliviaDatingLetter |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "OliviaPartyLetter": "{{i18n:Mail.OliviaPartyLetter |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "MarlonLetterCherryBomb": "{{i18n:Mail.MarlonLetterCherryBomb}}",
+        "MarlonLetterCherryBombX": "{{i18n:Mail.MarlonLetterCherryBombX}}",
+        "MarlonLetterBomb": "{{i18n:Mail.Marlon.LetterBomb}}",
+        "MarlonLetterMegaBomb": "{{i18n:Mail.MarlonLetterMegaBomb}}",
+        "MarlonLetterPotions": "{{i18n:Mail.MarlonLetterPotions}}",
+        "AndyPictureLetter": "{{i18n:Mail.AndyPictureLetter}}",
+        "SophiaThankYouLetter": "{{i18n:Mail.SophiaThankYouLetter1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }} FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine {{i18n:Mail.SophiaThankYouLetter2 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "escortedGunther": "{{i18n:Mail.escortedGunther}}",
+        "JojaSeeds": "{{i18n:Mail.JojaSeeds}}",
+        "MysteriousWizardLetter": "{{i18n:Mail.MysteriousWizardLetter |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "GuntherGaldoranGemReward": "{{i18n:Mail.GuntherGaldoranReward1}} FlashShifter.StardewValleyExpandedCP_Galdoran_Gem {{i18n:Mail.GuntherGaldoranReward2}}",
+        "LanceLifeElixirs": "{{i18n:Mail.LanceLifeElixirs |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "AndyPaycheck": "{{i18n:Mail.AndyPaycheck}}",
+        "QiGoldenPiggyBankReward": "{{i18n:Mail.QiGoldenPIggyBankReward1}}FlashShifter.StardewValleyExpandedCP_Golden_Piggy_Bank{{i18n:Mail.QiGoldenPIggyBankReward2}}",
+        "AndyCooking": "{{i18n:Mail.AndyCooking}}",
+        "VictorCooking": "{{i18n:Mail.VictorCooking |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "OliviaCooking": "{{i18n:Mail.OliviaCooking |AHDPnG_Oliver_Upper14={{AHDPnG_Oliver_Upper_T | valueAt=14}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "ClaireCooking": "{{i18n:Mail.ClaireCooking |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "GuntherSilvianCooking": "{{i18n:Mail.GuntherSilvianCooking}}",
+        "ScarlettCooking": "{{i18n:Mail.ScarlettCooking |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "MartinCooking": "{{i18n:Mail.MartinCooking}}",
+        "MorganCooking": "{{i18n:Mail.MorganCooking}}",
+        "LanceCooking": "{{i18n:Mail.LanceCooking |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "GusOrangeChicken": "{{i18n:Mail.GusOrangeChicken}}",
+        "HenchmanFired": "{{i18n:Mail.HenchmanFired}}",
+        "SusanCooking": "{{i18n:Mail.SusanCooking}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "When": {
+        "HasMod|contains=Aimon111.WitchSwampOverhaulCP": false
+      },
+      "Entries": {
+        "HenchmanMarshTonics": "{{i18n:Mail.HenchmanMarshTonics}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "When": {
+        "HasSeenEvent": "6665292"
+      },
+      "Entries": {
+        "quest10": "{{i18n:Mail.Mayor.01}}",
+        "quest35": "{{i18n:Mail.Mayor.02}}",
+        "quest100": "{{i18n:Mail.Mayor.03}}",
+        "EmilyClothingTherapy": "{{i18n:Mail.Mayor.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "foundLostTools": "{{i18n:Mail.Mayor.05}}",
+        "winter_18": "{{i18n:Mail.Mayor.06}}",
+        "spring_12": "{{i18n:Mail.Mayor.07}}",
+        "spring_23": "{{i18n:Mail.Mayor.08}}",
+        "summer_10": "{{i18n:Mail.Mayor.09}}",
+        "fall_9": "{{i18n:Mail.Mayor.10}}",
+        "fall_26": "{{i18n:Mail.Mayor.11}}",
+        "winter_7": "{{i18n:Mail.Mayor.12}}",
+        "summer_21_2": "{{i18n:Mail.Mayor.13}}",
+        "winter_24": "{{i18n:Mail.Mayor.14}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Npcgifttastes",
+      "When": {},
+      "Entries": {
+        "Andy": "{{i18n:Andy.Gifts.Loved}}/346 459 303 240 611 FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish FlashShifter.StardewValleyExpandedCP_Butterfish FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal_Supreme FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon/{{i18n:Andy.Gifts.Liked}}/167 296 20 18 16 396 399 410 420 422 416 414 FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Salal_Berry FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Bearberrys/{{i18n:Andy.Gifts.Disliked}}/60 62 64 66 68 70 72 80 82 84 86 418 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 578 FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose FlashShifter.StardewValleyExpandedCP_Thistle FlashShifter.StardewValleyExpandedCP_Goldenrod FlashShifter.StardewValleyExpandedCP_Galdoran_Gem FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Andy.Gifts.Hated}}/350 348 74 FlashShifter.StardewValleyExpandedCP_Puppyfish FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Andy.Gifts.Neutral}}/398 404 446 395 373 -74 FlashShifter.StardewValleyExpandedCP_Ancient_Fiber/",
+        "Claire": "{{i18n:gifts.claire.love}}/614 349 421 618 634 560 FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg ParrotEgg FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish/{{i18n:gifts.claire.like}}/613 635 636 637 638 88 90 607 815 408 395 FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:gifts.claire.dislike}}/396 16 152 153 218 219 226 296 309 310 311 283 346 459 303 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:gifts.claire.hate}}/167 342 412 416 330 372 723 722 721 720 718 717 716 715 233 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Clownfish/{{i18n:gifts.claire.neutral}}/394 393 392 406 410 414/",
+        "GuntherSilvian": "{{i18n:Gunther.Gifts.Loved}}/GoldenSpur FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba FlashShifter.StardewValleyExpandedCP_Baked_Potato FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop 207 557 212 104 106 107 108 109 121 122 124 125 578/{{i18n:Gunther.Gifts.Liked}}/FlashShifter.StardewValleyExpandedCP_Gold_Carrot 72 96 97 98 99 100 101 103 105 110 111 112 113 114 115 116 117 118 119 120 123 126 127 579 580 581 582 583 584 585 586 587 588 589 -2 -7 -12 -75 -79 -80 FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Rusty_Blade FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar FlashShifter.StardewValleyExpandedCP_Big_Conch/{{i18n:Gunther.Gifts.Disliked}}/346 -4 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Galdoran_Gem FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Gunther.Gifts.Hated}}/167 78 FlashShifter.StardewValleyExpandedCP_Daggerfish/{{i18n:Gunther.Gifts.Neutral}}/-15 -28 -81/",
+        "MarlonFay": "{{i18n:Marlon.Gifts.Loved}}/857 BasiliskPaw IceRod MagicQuiver FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop 244 773 413 437 439 680 FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aegis_Elixir/{{i18n:Marlon.Gifts.Liked}}/346 303 348 459 205 422 287 288 FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Frog_Legs/{{i18n:Marlon.Gifts.Disliked}}/-81 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Marlon.Gifts.Hated}}/-80 283 233 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Rusty_Blade FlashShifter.StardewValleyExpandedCP_Marsh_Tonic/{{i18n:Marlon.Gifts.Neutral}}/286 424 426 436 438 803 184 186 420 -28 FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia/",
+        "Martin": "{{i18n:Martin.Gifts.Loved}}/350 233 FlashShifter.StardewValleyExpandedCP_Candy FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger/{{i18n:Martin.Gifts.Liked}}/184 186 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola/{{i18n:Martin.Gifts.Disliked}}/-75 196 197 199 200 205 219 218 231 242 FlashShifter.StardewValleyExpandedCP_Mushroom_Colony FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Martin.Gifts.Hated}}/348 346 459 303 304 283 -4 80 648 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Clownfish FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Martin.Gifts.Neutral}}/270 FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Ancient_Fiber/",
+        "Morgan": "{{i18n:Morgan.Gift.Loved}}/IceRod 337 305 308 FlashShifter.StardewValleyExpandedCP_Frog FlashShifter.StardewValleyExpandedCP_Candy FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Glazed_Pear FlashShifter.StardewValleyExpandedCP_Void_Soul/{{i18n:Morgan.Gift.Liked}}/FlashShifter.StardewValleyExpandedCP_Gold_Carrot 268 155 768 769 773 772 392 394 FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Meteor_Carp FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Kittyfish FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Aegis_Elixir/{{i18n:Morgan.Gift.Disliked}}/395 399 402 406 410 248 256 190 188 -75 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Seaweed_Salad FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Morgan.Gift.Hated}}/348 346 283 459 303 FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Frog_Legs/{{i18n:Morgan.Gift.Neutral}}/446 -18 -4 -80 FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia FlashShifter.StardewValleyExpandedCP_Red_Baneberry FlashShifter.StardewValleyExpandedCP_Poison_Mushroom/",
+        "MorrisTod": "{{i18n:Morris.Gift.Loved}}/730 727 432 578 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Money_Bag FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Morris.Gift.Liked}}/72 336 348 430 428 FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola/{{i18n:Morris.Gift.Disliked}}/346 459 303 -81 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Morris.Gift.Hated}}/167 -74/{{i18n:Morris.Gift.Neutral}}/-75 -79 -80 FlashShifter.StardewValleyExpandedCP_Green_Mushroom/",
+        "Olivia": "{{i18n:Olivia.Gifts.Loved}}/348 124 125 220 221 FlashShifter.StardewValleyExpandedCP_Fish_Dumpling FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Goldenrod FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Olivia.Gifts.Liked |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}/336 432 276 608 421 FlashShifter.StardewValleyExpandedCP_Amber FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:Olivia.Gifts.Disliked}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink/{{i18n:Olivia.Gifts.Hated}}/330 284 149 151 459 346 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Frog FlashShifter.StardewValleyExpandedCP_Daggerfish/{{i18n:Olivia.Gifts.Neutral}}/446 402 418/",
+        "Scarlett": "{{i18n:Scarlett.Gifts.Loved}}/438 426  444 446 638 724 340 220 221 70 208 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal_Supreme FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Scarlett.Gifts.Liked}}/-79 -5 -6 -7 432 430 FlashShifter.StardewValleyExpandedCP_Gold_Carrot/{{i18n:Scarlett.Gifts.Disliked}}/350 346 459 206 227 303 342 397 418 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Scarlett.Gifts.Hated}}/-4 -28 -20 283 167 FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Frog/{{i18n:Scarlett.Gifts.Neutral}}/-12 -2 -80 -81 -74/",
+        "Sophia": "{{i18n:Gifts.Sophia.Loved}}/577 595 FairyBox FlashShifter.StardewValleyExpandedCP_Vegan_Cone FlashShifter.StardewValleyExpandedCP_Candy FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Puppyfish FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken FlashShifter.StardewValleyExpandedCP_Flower_Cookie/{{i18n:Gifts.Sophia.Liked}}/872 220 221 232 237 240 -80 428 376 446 FlashShifter.StardewValleyExpandedCP_Gold_Carrot/{{i18n:Gifts.Sophia.Disliked}}/456 393 457 397 199 215 242 244 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Seaweed_Salad FlashShifter.StardewValleyExpandedCP_Mushroom_Colony FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Gifts.Sophia.Hated}}/346 303 459 149 798 151 155 -4 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Clownfish FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger/{{i18n:Gifts.Sophia.Neutral}}/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/",
+        "Susan": "{{i18n:Susan.Gifts.Loved}}/611 230 211 220 221 223 222 608 233 234 612 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Gingerbread_Man FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie/{{i18n:Susan.Gifts.Liked}}/60 709 336 335 334 373 74 446 FlashShifter.StardewValleyExpandedCP_Gold_Carrot/{{i18n:Susan.Gifts.Disliked}}/346 459 303 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Susan.Gifts.Hated}}/167 226 283 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola/{{i18n:Susan.Gifts.Neutral}}/348 350 395 -74/",
+        "Victor": "{{i18n:gifts.victor.love}}/224 787 444 551 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Ramen FlashShifter.StardewValleyExpandedCP_Butterfish FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Ancient_Fiber FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:gifts.victor.like}}/254 346 348 349 392 394 FlashShifter.StardewValleyExpandedCP_Gold_Carrot/{{i18n:gifts.victor.dislike}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/{{i18n:gifts.victor.hate}}/205 404 420 422 609 610 196 213 218 219 225 403 FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Mushroom_Colony FlashShifter.StardewValleyExpandedCP_Green_Mushroom/{{i18n:gifts.victor.neutral}}/184 186 180 182 174 176 424 426/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Npcgifttastes",
+      "When": {
+        "HasSeenEvent": "6951319"
+      },
+      "Entries": {
+        "Lance": "{{i18n:Gifts.Lance.Loved}}/BasiliskPaw IceRod MagicQuiver 907 896 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Torpedo_Trout FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Gifts.Lance.Liked}}/257 FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar FlashShifter.StardewValleyExpandedCP_Gold_Carrot 281 422 886 905 74 797 261 688 689 690 446 96 97 98 99 121 122 158 159 161 160 162 163 166 305 306 704 909 857 FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Undeadfish FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo FlashShifter.StardewValleyExpandedCP_Salal_Berry FlashShifter.StardewValleyExpandedCP_Rusty_Blade FlashShifter.StardewValleyExpandedCP_Razor_Trout FlashShifter.StardewValleyExpandedCP_Radioactive_Bass FlashShifter.StardewValleyExpandedCP_Puppyfish FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Meteor_Carp FlashShifter.StardewValleyExpandedCP_Lunaloo FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Kittyfish FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Butterfish FlashShifter.StardewValleyExpandedCP_Bonefish FlashShifter.StardewValleyExpandedCP_Bearberrys FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Aegis_Elixir/{{i18n:Gifts.Lance.Disliked}}/-80 -74 338 80 82/{{i18n:Gifts.Lance.Hated}}/-81 330 283 206 211 216 233 234 245 220 221 222 223 224 279 612 611 608 604/{{i18n:Gifts.Lance.Neutral}}/-4 -28 286 287 288 829 396 393 397 392 394 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo 404 FlashShifter.StardewValleyExpandedCP_Mushroom_Colony 420/"
+      }
+    }
+  ]
+}

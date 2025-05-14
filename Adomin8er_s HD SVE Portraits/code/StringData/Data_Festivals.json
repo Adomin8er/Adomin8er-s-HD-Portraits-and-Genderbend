@@ -1,0 +1,640 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {},
+      "Entries": {
+        "Alesia": "{{i18n:Alesia.Fair}}",
+        "Andy": "{{i18n:Andy.Fair}}",
+        "Isaac": "{{i18n:Isaac.Fair}}",
+        "GuntherSilvian": "{{i18n:Gunther.Fair}}",
+        "MarlonFay": "{{i18n:Marlon.Fair}}",
+        "Martin": "{{i18n:Martin.Fair}}",
+        "Morgan": "{{i18n:Morgan.Fair}}",
+        "MorrisTod": "{{i18n:Morris.Fair}}",
+        "Olivia": "{{i18n:fair.Olivia.1 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}",
+        "Sandy": "{{i18n:Sandy.Fair}}",
+        "Scarlett": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Sophia": "{{i18n:fair.Sophia.1}}",
+        "Susan": "{{i18n:Susan.Fair}}",
+        "Victor": "{{i18n:fair.victor.1}}",
+        "Morgan_y2": "{{i18n:Morgan.Fair2}}",
+        "Lance_y2": "{{i18n:Lance.Fair2}}",
+        "Claire_y2": "{{i18n:Claire.Fair2 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+        "Susan_y2": "{{i18n:Susan.Fair2}}",
+        "Andy_y2": "{{i18n:Andy.Fair2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 2}}",
+        "Olivia_y2": "{{i18n:Olivia.Fair2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Fair2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Fair2}}",
+        "Martin_y2": "{{i18n:Martin.Fair2}}",
+        "Sophia_y2": "{{i18n:Sophia.Fair2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Fair2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "ApplesHere": "true"
+      },
+      "Entries": {
+        "Apples": "{{i18n:Apples.Fair}}",
+        "Apples_y2": "{{i18n:Apples.Fair}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Spouse": "Olivia"
+      },
+      "Entries": {
+        "Olivia": "{{i18n:fair.Olivia.2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}",
+        "Olivia_y2": "{{i18n:fair.Olivia.2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:fair.Sophia.2}}",
+        "Sophia_y2": "{{i18n:fair.Sophia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Spouse": "Victor"
+      },
+      "Entries": {
+        "Victor": "{{i18n:fair.victor.2}}",
+        "Victor_y2": "{{i18n:fair.victor.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {},
+      "Entries": {
+        "GuntherSilvian": "{{i18n:Gunther.Spirit}}",
+        "MarlonFay": "{{i18n:Marlon.Spirit}}",
+        "MorrisTod": "{{i18n:Morris.Spirit}}",
+        "Sandy": "{{i18n:Sandy.Spirit}}",
+        "Scarlett": "{{i18n:Scarlett.Spirit |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Susan": "{{i18n:Susan.Spirit}}",
+        "Claire_y2": "{{i18n:Claire.Halloween2 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Halloween2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Halloween2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Halloween2}}",
+        "Sandy_y2": "{{i18n:Sandy.Halloween2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Halloween2}}",
+        "Susan_y2": "{{i18n:Susan.Halloween2 |AHDPnG_Sorceress_Lower55={{AHDPnG_Sorceress_Lower_T | valueAt=55}} }}",
+        "Morgan_y2": "{{i18n:Morgan.Halloween2 |AHDPnG_Sorceress_Upper55={{AHDPnG_Sorceress_Upper_T | valueAt=55}}  |AHDPnG_Sorceress_Lower05={{AHDPnG_Sorceress_Lower_T | valueAt=5}} }}",
+        "Lance_y2": "{{i18n:Lance.Halloween2 |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "Andy_y2": "{{i18n:Andy.Halloween2}}",
+        "Olivia_y2": "{{i18n:Olivia.Halloween2}}",
+        "Martin_y2": "{{i18n:Martin.Halloween2}}",
+        "Sophia_y2": "{{i18n:Sophia.Halloween2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Spouse": "Olivia"
+      },
+      "Entries": {
+        "Olivia": "{{i18n:spirit.Olivia.3}}",
+        "Olivia_y2": "{{i18n:spirit.Olivia.3}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:spirit.Sophia.2}}",
+        "Sophia_y2": "{{i18n:spirit.Sophia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Spouse": "Victor"
+      },
+      "Entries": {
+        "Victor": "{{i18n:spirit.victor.2}}",
+        "Victor_y2": "{{i18n:spirit.victor.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Year": "1, 5, 9, 13, 17, 21, 25,  29, 33, 37, 41, 45, 49, 53, 56, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99"
+      },
+      "Entries": {
+        "Andy": "{{i18n:Andy.Spirit.01}}",
+        "Lance": "{{i18n:spirit.lance.1 |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "Martin": "{{i18n:Martin.Spirit.1}}",
+        "Morgan": "{{i18n:Morgan.Spirit.01}}",
+        "Olivia": "{{i18n:spirit.Olivia.1}}",
+        "Sophia": "{{i18n:spirit.Sophia.1}}",
+        "Victor": "{{i18n:spirit.victor.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Year": "3, 7, 11, 15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97"
+      },
+      "Entries": {
+        "Andy": "{{i18n:Andy.Spirit.02}}",
+        "Lance": "{{i18n:spirit.lance.2}}",
+        "Martin": "{{i18n:Martin.Spirit.2}}",
+        "Morgan": "{{i18n:Morgan.Spirit.02}}",
+        "Olivia": "{{i18n:spirit.Olivia.2}}",
+        "Sophia": "{{i18n:spirit.Sophia.1}}",
+        "Victor": "{{i18n:spirit.victor.3}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {},
+      "Entries": {
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"{{i18n:EggFestival.01}}\"/pause 800/playMusic none/speak Lewis \"{{i18n:EggFestival.02}}\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"{{i18n:EggFestival.03}}\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"{{i18n:EggFestival.04}}\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"{{i18n:EggFestival.05 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "mainEvent": "pause 400/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warpFarmers 27 69 0 25 68 1 27 70 0 33 68 3 33 70 3 30 71 0 29 72 0 27 72 0 left 34 70 3/pause 1000/viewport 27 67 true unfreeze/pause 2000/speak Lewis \"{{i18n:EggFestival.07}}\"/pause 100/jump Jas/pause 100/jump Vincent/pause 250/pause 1200/speak Lewis \"{{i18n:EggFestival.08}}\"/pause 100/faceDirection Vincent 3 true/faceDirection Jas 1 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0 /pause 800/faceDirection Lewis 3/faceDirection Lewis 2/faceDirection Lewis 1/faceDirection Lewis 2/pause 800/speak Lewis \"{{i18n:EggFestival.09}}\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"{{i18n:EggFestival.10}}\"/advancedMove Sophia false 0 -13 -12 0 0 20 16 0 0 16 -18 0 0 4 4 0 0 -12 8 0 4 5000/advancedMove Maru false -2 0 0 6 -9 0 0 -2 -9 0 0 -1 2 0 0 -12 6 0 0 -4 15 0 0 1 3 0 0 1 5 0 0 2 12 0 0 11/advancedMove Abigail false 0 21 -20 0 0 3 7 0 0 -2 26 0 0 5 25 0/advancedMove Jas false 0 12 8 0 0 10 3 0 0 4 14 0 0 -21 -5 0 0 7 -18 0/advancedMove Sam false 4 0 0 -4 2 0 0 -4 12 0 0 -6 18 0 0 20 0 -20 0 20/advancedMove Vincent false 0 3 24 0 0 22 15 0 0 -21 -25 0 4 7000/advancedMove Leo false -1 0 0 10 4 0 0 13 11 0 0 4 27 0 0 4 -12 0 0 -28 4 0 0 -7 10 0 0 -13/playSound whistle/playMusic tickTock/playerControl eggHunt",
+        "mainEvent_y2": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warpFarmers 29 70 0 26 68 1 27 70 0 33 68 3 33 70 3 30 71 0 29 72 0 27 72 0 left 34 70 3/pause 1000/positionOffset Demetrius 5 -10/positionOffset Jodi 5 -8/positionOffset Marnie -12 10/positionOffset Shane -6 -6/viewport 29 69 true unfreeze/pause 2000/speak Lewis \"{{i18n:EggFestival.07}}\"/pause 100/jump Jas/jump Vincent/pause 1000/speak Lewis \"{{i18n:EggFestival.08}}\"/pause 100/faceDirection Vincent 1 true/faceDirection Jas 3 true/pause 1000/faceDirection Vincent 0 true/faceDirection Jas 0/pause 800/faceDirection Lewis 3/pause 100/faceDirection Lewis 2/pause 125/faceDirection Lewis 1/pause 100/faceDirection Lewis 2/pause 800/speak Lewis \"{{i18n:EggFestival.09}}\"/pause 1000/waitForOtherPlayers startContest/jump Lewis/pause 1000/speak Lewis \"{{i18n:EggFestival.10}}\"/advancedMove Sophia false -1 0 0 -13 -11 0 0 6 -6 0 0 15 12 0 0 -1 19 0 0 -5 16 0 0 26/advancedMove Abigail false 0 5 -12 0 0 13 -6 0 0 4 31 0 0 10 -12 0 0 19 21 0 0 31/advancedMove Sam false 0 11 26 0 0 -9 -5 0 0 -19 17 0 0 20/advancedMove Jas false 3 0 0 2 20 0 0 28 12 0 0 -7 3 0 0 -20 -10 0 0 -9 -13 0/advancedMove Vincent false 4 0 0 2 20 0 0 28 12 0 0 -7 3 0 0 -20 -10 0 0 -9 -12 0/advancedMove Maru false 5 0 0 -7 11 0 0 2 19 0 0 8 -13 0 0 24 -15 0 0 -5 -2 0 0 10 6 0 0 -3/advancedMove Leo false 0 9 2 0 0 13 11 0 0 4 27 0 0 -3 4 0 0 -23/advancedMove Haley true 3 7000 2 5000/advancedMove Gus true 1 5500 0 -2 4 400 1 7000 2 400 0 2 2 400 1 1000/playSound whistle/playMusic tickTock/playerControl eggHunt",
+        "Andy": "{{i18n:Andy.Egg}}",
+        "GuntherSilvian": "{{i18n:Gunther.Egg |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Lance": "{{i18n:eggfestival.lance.1 |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T | valueAt=3}}  |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T | valueAt=4}}  |AHDPnG_Abel_Lower12={{AHDPnG_Abel_Lower_T | valueAt=12}} }}",
+        "MarlonFay": "{{i18n:Marlon.Egg}}",
+        "Martin": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "MorrisTod": "{{i18n:Morris.Egg}}",
+        "Olivia": "{{i18n:eggfestival.Olivia.1}}",
+        "Sandy": "{{i18n:Sandy.Egg}}",
+        "Scarlett": "{{i18n:Scarlett.Egg}}",
+        "Sophia": "{{i18n:eggfestival.Sophia.1}}",
+        "Susan": "{{i18n:Susan.Egg}}",
+        "Victor": "{{i18n:eggfestival.victor.1}}",
+        "Morgan_y2": "{{i18n:Morgan.Egg2}}",
+        "Lance_y2": "{{i18n:Lance.Egg2}}",
+        "Claire_y2": "{{i18n:Claire.Egg2}}",
+        "Susan_y2": "{{i18n:Susan.Egg2}}",
+        "Andy_y2": "{{i18n:Andy.Egg2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Egg2}}",
+        "Olivia_y2": "{{i18n:Olivia.Egg2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Egg2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Egg |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}",
+        "Martin_y2": "{{i18n:Martin.Egg2}}",
+        "Sophia_y2": "{{i18n:Sophia.Egg2}}",
+        "Sandy_y2": "{{i18n:Sandy.Egg2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "MorrisTod_y2": "{{i18n:Morris.Egg2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "HasSeenEvent": "8185290",
+        "Year": "1"
+      },
+      "Entries": {
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"{{i18n:EggFestival.01}}\"/pause 800/playMusic none/speak Lewis \"{{i18n:EggFestival.02}}\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"{{i18n:EggFestival.03}}\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"{{i18n:EggFestival.04}}\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/showFrame Sophia 39/jump Sophia/faceDirection Vincent 3/pause 800/speak Sophia \"!!!$9\"/pause 200/faceDirection Vincent 0/pause 200/speak Lewis \"{{i18n:EggFestival.AltA.05 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}\"/pause 200/showFrame Sophia 0/pause 200/faceDirection Sophia 1 true/move Sophia 3 0 0/pause 500/playSound coin/pause 600/move Sophia -3 0 3/pause 120/faceDirection Sophia 2 true/pause 150/faceDirection Sophia 1 true/pause 400/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "IsOddYear": false
+      },
+      "Entries": {
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/faceDirection Vincent 0/pause 300/move Abigail 0 -1 0/move Abigail 2 0 0/pause 300/speak Lewis \"{{i18n:EggFestival.05 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}\"/pause 300/playSound coin/pause 300/move Abigail -2 0 3/move Abigail 0 1 2/pause 250/faceDirection Abigail 1/pause 500/faceDirection Lewis 1/pause 400/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Spouse": "Olivia"
+      },
+      "Entries": {
+        "Olivia": "{{i18n:eggfestival.Olivia.2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}",
+        "Olivia_y2": "{{i18n:eggfestival.Olivia.2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:eggfestival.Sophia.2}}",
+        "Sophia_y2": "{{i18n:eggfestival.Sophia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Spouse": "Victor"
+      },
+      "Entries": {
+        "Victor": "{{i18n:eggfestival.victor.2}}",
+        "Victor_y2": "{{i18n:eggfestival.victor.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Year": "1"
+      },
+      "Entries": {
+        "afterEggHunt": "pause 100/playSound whistle/waitForOtherPlayers endContest/pause 1000/globalFade/viewport -1000 -1000/playMusic event1/loadActors MainEvent/warp farmer1 27 69 /warp farmer2 26 67/warp farmer3 32 67/warp farmer4 28 71/faceDirection farmer1 0/faceDirection farmer2 1/faceDirection farmer3 3/faceDirection farmer4 0/pause 1000/viewport 27 67 true/pause 2000/speak Lewis \"{{i18n:EggFestival.01}}\"/pause 800/playMusic none/speak Lewis \"{{i18n:EggFestival.02}}\"/playMusic none/pause 3000/cutscene eggHuntWinner/null/playMusic event1/pause 500/fork AbbyWin/move Lewis 0 1 2/speak Lewis \"{{i18n:EggFestival.03}}\"/awardFestivalPrize/null/move Lewis 0 -1 0/speak Lewis \"{{i18n:EggFestival.04}}\"/pause 600/viewport move 1 0 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "AbbyWin": "pause 100/jump Jas/pause 200/jump Vincent/pause 800/emote Penny 32 true/pause 200/move Lewis 1 0 2/move Lewis 0 1 2/pause 100/speak Lewis \"{{i18n:EggFestival.Alt.05}}\"/move Jas 0 -1 0 true/pause 150/move Vincent 0 -1 0 true/pause 800/playSound coin/pause 700/faceDirection Jas 1 true/pause 600/faceDirection Vincent 3 true/pause 400/jump Vincent/pause 500/faceDirection Lewis 1 true/pause 200/faceDirection Lewis 0/pause 300/move Lewis 0 -1 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {},
+      "Entries": {
+        "mainEvent": "pause 500/playMusic none/pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/warp farmer1 14 31/warp farmer2 9 32/warp farmer3 23 21/warp farmer4 12 21/faceDirection farmer1 0/faceDirection farmer3 2/faceDirection farmer4 2/faceDirection farmer 0/warp Girl1 13 24/warp Girl2 15 24/warp Girl3 11 24/warp Girl4 9 24/warp Girl5 17 24/warp Girl6 19 24/warp Guy1 13 27/warp Guy2 15 27/warp Guy3 11 27/warp Guy4 9 27/warp Guy5 17 27/warp Guy6 19 27/showFrame Girl1 40/showFrame Girl3 40/showFrame Girl5 40/showFrame Girl4 40/showFrame Girl2 40/showFrame Girl6 40/showFrame Guy6 44/showFrame Guy5 44/showFrame Guy4 44/showFrame Guy3 44/showFrame Guy2 44/showFrame Guy1 44/viewport 14 25 clamp true/pause 2000/playMusic FlowerDance/pause 600/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 9600/animate Girl1 false true 600 46 47/animate Girl6 false true 600 46 47/animate Girl3 false true 600 46 47/animate Girl5 false true 600 46 47/animate Girl4 false true 600 46 47/animate Girl2 false true 600 46 47/animate Guy5 false true 300 46 47/animate Guy6 false true 300 46 47/animate Guy3 false true 300 46 47/animate Guy2 false true 300 46 47/animate Guy4 false true 300 46 47/animate Guy1 false true 300 46 47/positionOffset Guy1 0 -2/positionOffset Guy6 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/pause 300/positionOffset Guy6 0 -2/positionOffset Guy1 0 -2/positionOffset Guy4 0 -2/positionOffset Guy3 0 -2/positionOffset Guy2 0 -2/positionOffset Guy5 0 -2/animate Girl1 false true 600 43 41 43 42/animate Girl6 false true 600 43 41 43 42/animate Girl3 false true 600 43 41 43 42/animate Girl5 false true 600 43 41 43 42/animate Girl4 false true 600 43 41 43 42/animate Girl2 false true 600 43 41 43 42/animate Guy5 false true 600 44 45/animate Guy6 false true 600 44 45/animate Guy3 false true 600 44 45/animate Guy2 false true 600 44 45/animate Guy4 false true 600 44 45/animate Guy1 false true 600 44 45/pause 7600/stopAnimation Girl3/stopAnimation Girl6/stopAnimation Girl5/stopAnimation Girl2/stopAnimation Girl1/stopAnimation Girl4/stopAnimation Guy3/stopAnimation Guy2/stopAnimation Guy6/stopAnimation Guy1/stopAnimation Guy5/stopAnimation Guy4/pause 3000/globalFade/viewport -1000 -1000/message \"{{i18n:FlowerDance.String1}}\"/waitForOtherPlayers festivalEnd/end",
+        "Andy": "{{i18n:Andy.Flower}}",
+        "GuntherSilvian": "{{i18n:Gunther.Flower}}",
+        "Lance": "{{i18n:flowerdance.lance.1 |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+        "MarlonFay": "{{i18n:Marlon.Flower}}",
+        "MorrisTod": "{{i18n:Morris.Flower.1 |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T | valueAt=3}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Scarlett": "{{i18n:Scarlett.Flower}}",
+        "Olivia": "{{i18n:flowerdance.Olivia.1}}",
+        "Sandy": "{{i18n:Sandy.Flower |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T | valueAt=4}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Sophia": "{{i18n:flowerdance.Sophia.1}}",
+        "Susan": "{{i18n:Susan.Flower}}",
+        "Victor": "{{i18n:flowerdance.victor.1}}",
+        "Martin": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Morgan_y2": "{{i18n:Morgan.Flower2}}",
+        "Lance_y2": "{{i18n:Lance.Flower2}}",
+        "Claire_y2": "{{i18n:Claire.Flower2}}",
+        "Susan_y2": "{{i18n:Susan.Flower2}}",
+        "Andy_y2": "{{i18n:Andy.Flower2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Flower2}}",
+        "Olivia_y2": "{{i18n:Olivia.Flower2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Flower2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Flower2}}",
+        "Martin_y2": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} 2}}",
+        "Sophia_y2": "{{i18n:Sophia.Flower2}}",
+        "Sandy_y2": "{{i18n:Sandy.Flower |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T | valueAt=4}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Flower2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "HasSeenEvent": "1005014"
+      },
+      "Entries": {
+        "Clint": "{{i18n:Clint.Dialogue.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Clint_y2": "{{i18n:Clint.Dialogue.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Spouse": "Olivia"
+      },
+      "Entries": {
+        "MorrisTod": "{{i18n:Morris.Flower.2}}",
+        "Olivia": "{{i18n:flowerdance.Olivia.2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Flower.2}}",
+        "Olivia_y2": "{{i18n:flowerdance.Olivia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:flowerdance.Sophia.2}}",
+        "Sophia_y2": "{{i18n:flowerdance.Sophia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Spouse": "Victor"
+      },
+      "Entries": {
+        "Victor": "{{i18n:flowerdance.victor.2}}",
+        "Victor_y2": "{{i18n:flowerdance.victor.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Spouse |contains=Wizard": false
+      },
+      "Entries": {
+        "Morgan": "{{i18n:Morgan.Flower.01}}",
+        "Morgan_y2": "{{i18n:Morgan.Flower.01}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Spouse |contains=Wizard": true
+      },
+      "Entries": {
+        "Morgan": "{{i18n:Morgan.Flower.02}}",
+        "Morgan_y2": "{{i18n:Morgan.Flower.02}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {},
+      "Entries": {
+        "Andy": "{{i18n:Andy.Luau}}",
+        "Claire": "{{i18n:luau.claire.1 |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}} }}",
+        "GuntherSilvian": "{{i18n:Gunther.Luau}}",
+        "MarlonFay": "{{i18n:Marlon.Luau}}",
+        "Morgan": "{{i18n:Morgan.Luau}}",
+        "MorrisTod": "{{i18n:Morris.Luau}}",
+        "Olivia": "{{i18n:luau.Olivia.1}}",
+        "Sandy": "{{i18n:Sandy.Luau |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Scarlett": "{{i18n:Scarlett.Luau |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Sophia": "{{i18n:luau.Sophia.1}}",
+        "Victor": "{{i18n:luau.victor.1 |AHDPnG_Oliver_Lower14={{AHDPnG_Oliver_Lower_T | valueAt=14}} }}",
+        "Morgan_y2": "{{i18n:Morgan.Luau2}}",
+        "Lance_y2": "{{i18n:Lance.Luau2}}",
+        "Claire_y2": "{{i18n:Claire.Luau2}}",
+        "Susan_y2": "{{i18n:Susan.Luau2}}",
+        "Andy_y2": "{{i18n:Andy.Luau2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Luau |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 2}}",
+        "Olivia_y2": "{{i18n:Olivia.Luau2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}",
+        "MarlonFay_y2": "{{i18n:Marlon.Luau2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Luau2}}",
+        "Martin_y2": "{{i18n:Martin.Luau2}}",
+        "Sophia_y2": "{{i18n:Sophia.Luau2}}",
+        "Sandy_y2": "{{i18n:Sandy.Luau |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Luau2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "HasSeenEvent |contains=6665293": false
+      },
+      "Entries": {
+        "Susan": "{{i18n:Susan.Luau.1}}",
+        "Susan_y2": "{{i18n:Susan.Luau.1}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "HasSeenEvent |contains=6665293": true
+      },
+      "Entries": {
+        "Susan": "{{i18n:Susan.Luau.2}}",
+        "Susan_y2": "{{i18n:Susan.Luau.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Spouse": "Claire"
+      },
+      "Entries": {
+        "Claire": "{{i18n:luau.claire.2}}",
+        "Claire_y2": "{{i18n:luau.claire.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Spouse": "Olivia"
+      },
+      "Entries": {
+        "Olivia": "{{i18n:luau.Olivia.2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}",
+        "Olivia_y2": "{{i18n:luau.Olivia.2 |AHDPnG_Oliver_Lower61={{AHDPnG_Oliver_Lower_T | valueAt=61}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:luau.Sophia.2}}",
+        "Sophia_y2": "{{i18n:luau.Sophia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Spouse": "Victor"
+      },
+      "Entries": {
+        "Victor": "{{i18n:luau.victor.2 |AHDPnG_Oliver_Lower14={{AHDPnG_Oliver_Lower_T | valueAt=14}} }}",
+        "Victor_y2": "{{i18n:luau.victor.2 |AHDPnG_Oliver_Lower14={{AHDPnG_Oliver_Lower_T | valueAt=14}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {},
+      "Entries": {
+        "mainEvent": "pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/changeLocation Beach/warpFarmers 28 36 2 29 35 2 34 36 2 37 35 2 25 36 2 10 39 3 30 35 2 33 35 2 36 35 2 up 25 33 3/positionOffset farmer 0 16/warp spouse 29 36/faceDirection spouse 2/specificTemporarySprite candleBoat/showFrame Pam 24/positionOffset Pam 0 12/showFrame Haley 30/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/move Lewis 1 0 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 18000/emote Jodi 16 true/pause 800/emote Emily 16 true/pause 700/emote Abigail 56 true/pause 8500/move Jas 0 1 2/pause 300/faceDirection Jas 3 true/pause 300/jump Jas 8 true/pause 500/emote Jas 20/pause 500/viewport move -1 0 8000/pause 4000/move Caroline -2 0 3 true/pause 4000/faceDirection Sebastian 2/move Abigail 1 0 2/showFrame Abigail 24/pause 500/viewport move 1 0 21000/pause 5000/move Lewis 0 1 2/showFrame Lewis 18/pause 3000/showFrame Haley 31/pause 100/showFrame Haley 24/pause 1000/showFrame Haley 31/pause 100/showFrame Haley 30/pause 1800/showFrame Jodi 25/pause 1000/showFrame Emily 27/showFrame Haley 31/pause 100/showFrame Haley 24/pause 1000/showFrame Haley 31/pause 100/showFrame Haley 30/pause 1000/move Clint -1 0 2/pause 2000/globalFade/viewport -1000 -1000/pause 2000/showFrame Sophia 26/pause 1000/message \"{{i18n:MoonlightJellies.Message}}\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+        "mainEvent_y2": "pause 500/globalFade/viewport -1000 -1000/loadActors MainEvent/changeLocation Beach/warpFarmers 28 36 2 26 36 2 32 35 2 40 35 2 27 35 2 30 35 2 37 34 2 39 34 2 up 42 35 3/positionOffset farmer 0 16/warp spouse 29 36/faceDirection spouse 2/warp Caroline 36 35/faceDirection Caroline 2 true/warp Pierre 37 35/faceDirection Pierre 2 true/specificTemporarySprite candleBoat/viewport 26 36 true/pause 2000/move Lewis 0 1 2/move Lewis -2 0 3/pause 400/showFrame Lewis 16 true/animate Lewis false false 200 25 16 17 17/pause 800/playSound parry/specificTemporarySprite candleBoatMove/pause 500/showFrame Lewis 0 true/animate Lewis false false 200 25 12/pause 400/faceDirection Lewis 2/pause 6000/specificTemporarySprite moonlightJellies/pause 10000/playMusic moonlightJellies/pause 18000/emote Robin 16/pause 250/emote Victor 16/pause 250/emote Jodi 56/pause 500/jump Maru/pause 500/emote Penny 20/pause 1250/emote Caroline 16/pause 1250/faceDirection Robin 1 true/pause 750/faceDirection Demetrius 3 true/pause 2000/faceDirection Robin 2 true/pause 750/faceDirection Demetrius 2 true/pause 2500/showFrame Willy 24/pause 500/showFrame Willy 25/pause 1500/viewport move -1 0 8000/pause 2650/showFrame Kent 16/pause 1500/move Jodi 0 1 2/pause 1500/showFrame Jodi 25/pause 4500/faceDirection Vincent 2 true/pause 300/faceDirection Vincent 1 true/pause 150/move Vincent 1 0 2/move Vincent 0 2 2/pause 600/jump Vincent/pause 400/viewport move 1 0 20000/pause 2000/faceDirection Vincent 1 true/pause 1000/faceDirection Vincent 2 true/pause 1000/move Lewis 1 0 2/move Lewis 0 1 2/showFrame Lewis 18/pause 4300/showFrame Demetrius 19/pause 3000/faceDirection Caroline 1 true/pause 1000/faceDirection Pierre 3 true/pause 2000/globalFade/viewport -1000 -1000/pause 2000/pause 1000/message \"{{i18n:MoonlightJellies.Message}}\"/playMusic none/pause 2000/waitForOtherPlayers festivalEnd/end",
+        "Andy": "{{i18n:Andy.Moonlight}}",
+        "GuntherSilvian": "{{i18n:Gunther.Moonlight}}",
+        "Morgan": "{{i18n:Morgan.Moonlight}}",
+        "MorrisTod": "{{i18n:Morris.Midnight}}",
+        "Scarlett": "{{i18n:Scarlett.Jellyfish}}",
+        "Sandy": "{{i18n:Sandy.Moonlight}}",
+        "Sophia": "{{i18n:moonlight.Sophia.1}}",
+        "Susan": "{{i18n:Susan.Moonlight}}",
+        "Victor": "{{i18n:moonlight.victor.1}}",
+        "Morgan_y2": "{{i18n:Morgan.Jellyfish2}}",
+        "Lance_y2": "{{i18n:Lance.Jellyfish2}}",
+        "Claire_y2": "{{i18n:Claire.Jellyfish2}}",
+        "Susan_y2": "{{i18n:Susan.Jellyfish2}}",
+        "Andy_y2": "{{i18n:Andy.Jellyfish2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Jellyfish2}}",
+        "Olivia_y2": "{{i18n:Olivia.Jellyfish2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Jellyfish2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Jellyfish2}}",
+        "Martin_y2": "{{i18n:Martin.Jellyfish2}}",
+        "Sophia_y2": "{{i18n:Sophia.Jellyfish2}}",
+        "Sandy_y2": "{{i18n:Sandy.Jellyfish2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Jellyfish2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:moonlight.Sophia.2 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Sophia_y2": "{{i18n:moonlight.Sophia.2 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {
+        "Spouse": "Victor"
+      },
+      "Entries": {
+        "Victor": "{{i18n:moonlight.victor.2}}",
+        "Victor_y2": "{{i18n:moonlight.victor.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter25",
+      "When": {},
+      "Entries": {
+        "Andy": "{{i18n:Andy.WinterStar}}",
+        "Claire": "{{i18n:Claire.WinterStar}}",
+        "GuntherSilvian": "{{i18n:Gunther.WinterStar}}",
+        "MarlonFay": "{{i18n:Marlon.WinterStar}}",
+        "Morgan": "{{i18n:Morgan.WinterStar}}",
+        "MorrisTod": "{{i18n:Morris.WinterStar}}",
+        "Sandy": "{{i18n:Sandy.WinterStar}}",
+        "Scarlett": "{{i18n:Scarlett.Christmas}}",
+        "Sophia": "{{i18n:winterstar.Sophia.1}}",
+        "Susan": "{{i18n:Susan.WinterStar}}",
+        "Morgan_y2": "{{i18n:Morgan.Christmas2}}",
+        "Lance_y2": "{{i18n:Lance.Christmas2}}",
+        "Claire_y2": "{{i18n:Claire.Christmas2}}",
+        "Susan_y2": "{{i18n:Susan.Christmas2}}",
+        "Andy_y2": "{{i18n:Andy.Christmas2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Christmas2}}",
+        "Olivia_y2": "{{i18n:Olivia.Christmas2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Christmas2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Christmas2}}",
+        "Martin_y2": "{{i18n:Martin.Christmas2}}",
+        "Sophia_y2": "{{i18n:Sophia.Christmas2}}",
+        "Sandy_y2": "{{i18n:Sandy.Christmas2}}",
+        "MorrisTod_y2": "{{i18n:Morris.Christmas2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter25",
+      "When": {
+        "HasSeenEvent": "1005014"
+      },
+      "Entries": {
+        "Clint": "{{i18n:Clint.Dialogue.06}}",
+        "Clint_y2": "{{i18n:Clint.Dialogue.06}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter25",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:winterstar.Sophia.2}}",
+        "Sophia_y2": "{{i18n:winterstar.Sophia.2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {},
+      "Entries": {
+        "Andy": "{{i18n:Andy.Ice}}",
+        "Claire": "{{i18n:ice.claire.1}}",
+        "GuntherSilvian": "{{i18n:Gunther.Ice}}",
+        "MarlonFay": "{{i18n:Marlon.Ice}}",
+        "Morgan": "{{i18n:Morgan.Ice}}",
+        "MorrisTod": "{{i18n:Morris.Ice}}",
+        "Scarlett": "{{i18n:Scarlett.Ice}}",
+        "Sandy": "{{i18n:Sandy.Ice}}",
+        "Sophia": "{{i18n:ice.Sophia.1}}",
+        "Susan": "{{i18n:Susan.Ice}}",
+        "Wizard": "{{i18n:WizardDialogue.Event07}}",
+        "Morgan_y2": "{{i18n:Morgan.Ice2}}",
+        "Lance_y2": "{{i18n:Lance.Ice2}}",
+        "Claire_y2": "{{i18n:Claire.Ice2}}",
+        "Susan_y2": "{{i18n:Susan.Ice2}}",
+        "Andy_y2": "{{i18n:Andy.Ice2}}",
+        "Scarlett_y2": "{{i18n:Scarlett.Ice2}}",
+        "Olivia_y2": "{{i18n:Olivia.Ice2}}",
+        "MarlonFay_y2": "{{i18n:Marlon.Ice2}}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Ice2}}",
+        "Martin_y2": "{{i18n:Martin.Ice2}}",
+        "Sophia_y2": "{{i18n:Sophia.Ice2}}",
+        "Sandy_y2": "{{i18n:Sandy.Ice2}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "HasSeenEvent": "1005014"
+      },
+      "Entries": {
+        "Clint": "{{i18n:Clint.Dialogue.05}}",
+        "Clint_y2": "{{i18n:Clint.Dialogue.05}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Spouse": "Claire"
+      },
+      "Entries": {
+        "Claire": "{{i18n:ice.claire.2 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Claire_y2": "{{i18n:ice.claire.2 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Spouse": "Sophia"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:ice.Sophia.2}}",
+        "Sophia_y2": "{{i18n:ice.Sophia.2}}"
+      }
+    }
+  ]
+}

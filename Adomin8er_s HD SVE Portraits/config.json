@@ -9,6 +9,7 @@
   "Claire_HD_portrait": "true",
   "Dusty_HD_portrait": "true",
   "Gunther_HD_portrait": "true",
+  "Henchman_HD_portrait": "true",
   "HighlandsDwarf_HD_portrait": "true",
   "Isaac_HD_portrait": "true",
   "Jace_HD_portrait": "true",
@@ -24,6 +25,7 @@
   "Morris_HD_portrait": "true",
   "Olivia_HD_portrait": "true",
   "Peaches_HD_portrait": "true",
+  "Sandy_HD_portrait": "true",
   "Scarlett_HD_portrait": "true",
   "Sophia_HD_portrait": "true",
   "Suki_HD_portrait": "true",
@@ -43,10 +45,13 @@
   "Maru_To_Micah": "false",
   "Penny_To_Peter": "false",
   "Lance_To_Layla": "false",
-  "Magnus_To_Arcana": "true",
+  "Magnus_To_Arcana": "false",
   "Victor_To_Victoria": "false",
   "Claire_To_Clayton": "false",
   "Olivia_To_Oliver": "false",
+  "Scarlett_To_Skyler": "false",
   "Sophia_To_Soren": "false",
-  "MatureEvents": "false"
+  "MatureEvents": "false",
+  "SVECommunityBundles": "true",
+  "HardSVECommunityBundles": "false"
 }
