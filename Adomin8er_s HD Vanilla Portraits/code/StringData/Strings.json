@@ -4,9 +4,9 @@
             "Action": "EditData",
             "Target": "Strings/1_6_Strings",
             "Entries": {
-                "DesertFestival_Haley2_marriage": "{{i18n:Strings.1_6_Strings.DesertFestival_Haley2_marriage |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
-                "WizardCatalogueDescription": "{{i18n:Strings.1_6_Strings.WizardCatalogueDescription |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} }}",
-                "WizardCatalogueLetter": "{{i18n:Strings.1_6_Strings.WizardCatalogueLetter |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} }}"
+                "DesertFestival_Haley2": "{{i18n:Strings.1_6_Strings.DesertFestival_Haley2_marriage |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "WizardCatalogueDescription": "{{i18n:Strings.1_6_Strings.WizardCatalogueDescription |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+                "WizardCatalogueLetter": "{{i18n:Strings.1_6_Strings.WizardCatalogueLetter |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}"
             }
         },
         {
@@ -36,13 +36,13 @@
             "Entries": {
                 "AbigailPortrait": "{{i18n:Strings.Furniture.AbigailPortrait |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
                 "AlexPortrait": "{{i18n:Strings.Furniture.AlexPortrait |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
-                "DarkWizardCushion": "{{i18n:Strings.Furniture.DarkWizardCushion |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "DecorativeWizardDoor": "{{i18n:Strings.Furniture.DecorativeWizardDoor |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
+                "DarkWizardCushion": "{{i18n:Strings.Furniture.DarkWizardCushion |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "DecorativeWizardDoor": "{{i18n:Strings.Furniture.DecorativeWizardDoor |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
                 "ElliottPortrait": "{{i18n:Strings.Furniture.ElliottPortrait |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
                 "EmilyPortrait": "{{i18n:Strings.Furniture.EmilyPortrait |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "HaleyPortrait": "{{i18n:Strings.Furniture.HaleyPortrait |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
                 "HarveyPortrait": "{{i18n:Strings.Furniture.HarveyPortrait |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-                "LargeWizardBookcase": "{{i18n:Strings.Furniture.LargeWizardBookcase |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
+                "LargeWizardBookcase": "{{i18n:Strings.Furniture.LargeWizardBookcase |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
                 "LeahPortrait": "{{i18n:Strings.Furniture.LeahPortrait |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
                 "LeahsSculpture": "{{i18n:Strings.Furniture.LeahsSculpture |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
                 "MaruPortrait": "{{i18n:Strings.Furniture.MaruPortrait |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
@@ -52,24 +52,24 @@
                 "SamsSkateboard": "{{i18n:Strings.Furniture.SamsSkateboard |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
                 "SebastianPortrait": "{{i18n:Strings.Furniture.SebastianPortrait |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
                 "ShanePortrait": "{{i18n:Strings.Furniture.ShanePortrait |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
-                "ShortWizardBookcase": "{{i18n:Strings.Furniture.ShortWizardBookcase |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "SmallWizardBookcase": "{{i18n:Strings.Furniture.SmallWizardBookcase |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardBed": "{{i18n:Strings.Furniture.WizardBed |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardBookcase": "{{i18n:Strings.Furniture.WizardBookcase |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardBookshelf": "{{i18n:Strings.Furniture.WizardBookshelf |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardCatalogue": "{{i18n:Strings.Furniture.WizardCatalogue |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardChair": "{{i18n:Strings.Furniture.WizardChair |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardCouch": "{{i18n:Strings.Furniture.WizardCouch |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardCushion": "{{i18n:Strings.Furniture.WizardCushion |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardDresser": "{{i18n:Strings.Furniture.WizardDresser |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardEndTable": "{{i18n:Strings.Furniture.WizardEndTable |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardFireplace": "{{i18n:Strings.Furniture.WizardFireplace |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardLamp": "{{i18n:Strings.Furniture.WizardLamp |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardStool": "{{i18n:Strings.Furniture.WizardStool |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardStudy": "{{i18n:Strings.Furniture.WizardStudy |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardTable": "{{i18n:Strings.Furniture.WizardTable |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardTeaTable": "{{i18n:Strings.Furniture.WizardTeaTable |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "WizardTower": "{{i18n:Strings.Furniture.WizardTower |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}"
+                "ShortWizardBookcase": "{{i18n:Strings.Furniture.ShortWizardBookcase |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "SmallWizardBookcase": "{{i18n:Strings.Furniture.SmallWizardBookcase |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardBed": "{{i18n:Strings.Furniture.WizardBed |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardBookcase": "{{i18n:Strings.Furniture.WizardBookcase |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardBookshelf": "{{i18n:Strings.Furniture.WizardBookshelf |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardCatalogue": "{{i18n:Strings.Furniture.WizardCatalogue |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardChair": "{{i18n:Strings.Furniture.WizardChair |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardCouch": "{{i18n:Strings.Furniture.WizardCouch |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardCushion": "{{i18n:Strings.Furniture.WizardCushion |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardDresser": "{{i18n:Strings.Furniture.WizardDresser |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardEndTable": "{{i18n:Strings.Furniture.WizardEndTable |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardFireplace": "{{i18n:Strings.Furniture.WizardFireplace |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardLamp": "{{i18n:Strings.Furniture.WizardLamp |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardStool": "{{i18n:Strings.Furniture.WizardStool |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardStudy": "{{i18n:Strings.Furniture.WizardStudy |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardTable": "{{i18n:Strings.Furniture.WizardTable |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardTeaTable": "{{i18n:Strings.Furniture.WizardTeaTable |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "WizardTower": "{{i18n:Strings.Furniture.WizardTower |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}"
             }
         },
         {
@@ -98,7 +98,7 @@
                 "Sebastian_love_DuringMovie_2": "{{i18n:Strings.MovieReactions.Sebastian_love_DuringMovie_2 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower05={{AHDPnG_Sabrina_Lower_T |valueAt=5}} }}",
                 "Shane_dislike_DuringMovie": "{{i18n:Strings.MovieReactions.Shane_dislike_DuringMovie |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
                 "Shane_love_DuringMovie_2": "{{i18n:Strings.MovieReactions.Shane_love_DuringMovie_2 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
-                "Wizard_fall_movie_0_DuringMovie_2": "{{i18n:Strings.MovieReactions.Wizard_fall_movie_0_DuringMovie_2 |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}"
+                "Wizard_fall_movie_0_DuringMovie_2": "{{i18n:Strings.MovieReactions.Wizard_fall_movie_0_DuringMovie_2 |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}"
             }
         },
         {
@@ -116,16 +116,16 @@
                 "Penny": "{{i18n:Strings.NPCNames.Penny |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
                 "Sebastian": "{{i18n:Strings.NPCNames.Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
                 "Shane": "{{i18n:Strings.NPCNames.Shane |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
-                "Wizard": "{{i18n:Strings.NPCNames.Wizard |AHDVPNG_Sorceress_Upper55={{AHDVPNG_Sorceress_Upper_T |valueAt=55}} }}"
+                "Wizard": "{{i18n:Strings.NPCNames.Wizard |AHDPnG_Sorceress_Upper56={{AHDPnG_Sorceress_Upper_T |valueAt=56}} }}"
             }
         },
         {
             "Action": "EditData",
             "Target": "Strings/Objects",
             "Entries": {
-                "Ectoplasm_Description": "{{i18n:Strings.Objects.Ectoplasm_Description |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
+                "Ectoplasm_Description": "{{i18n:Strings.Objects.Ectoplasm_Description |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
                 "HaleysLostBracelet_Name": "{{i18n:Strings.Objects.HaleysLostBracelet_Name |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
-                "MagicInkDescription": "{{i18n:Strings.Objects.MagicInkDescription |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Lower02={{AHDVPNG_Sorceress_Lower_T |valueAt=2}} }}"
+                "MagicInkDescription": "{{i18n:Strings.Objects.MagicInkDescription |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} |AHDPnG_Sorceress_Lower02={{AHDPnG_Sorceress_Lower_T |valueAt=2}} }}"
             }
         },
         {
@@ -145,10 +145,10 @@
                 "Emily_Objective_2_Text": "{{i18n:Strings.SpecialOrderStrings.Emily_Objective_2_Text |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "Emily_Objective_3_Text": "{{i18n:Strings.SpecialOrderStrings.Emily_Objective_3_Text |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "Emily_Objective_4_Text": "{{i18n:Strings.SpecialOrderStrings.Emily_Objective_4_Text |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Wizard2_Objective_1_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard2_Objective_1_Text |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "Wizard2_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard2_Text |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} }}",
-                "Wizard_Objective_0_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard_Objective_0_Text |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "Wizard_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard_Text |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} }}"
+                "Wizard2_Objective_1_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard2_Objective_1_Text |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "Wizard2_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard2_Text |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+                "Wizard_Objective_0_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard_Objective_0_Text |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "Wizard_Text": "{{i18n:Strings.SpecialOrderStrings.Wizard_Text |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}"
             }
         },
         {
@@ -165,9 +165,9 @@
                 "ItemDeliveryQuest.cs.13446": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13446 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
                 "ItemDeliveryQuest.cs.13473": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13473 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "ItemDeliveryQuest.cs.13476": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13476 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "ItemDeliveryQuest.cs.13546": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13546 |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
-                "ItemDeliveryQuest.cs.13548": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13548 |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} }}",
-                "ItemDeliveryQuest.cs.13551": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13551 |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
+                "ItemDeliveryQuest.cs.13546": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13546 |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
+                "ItemDeliveryQuest.cs.13548": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13548 |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} }}",
+                "ItemDeliveryQuest.cs.13551": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13551 |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
                 "ItemDeliveryQuest.cs.13557": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13557 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
                 "ItemDeliveryQuest.cs.13560": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13560 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
                 "ItemDeliveryQuest.cs.13568": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13568 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
@@ -176,7 +176,7 @@
                 "ItemDeliveryQuest.cs.13583": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13583 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
                 "ItemDeliveryQuest.cs.13593": "{{i18n:Strings.StringsFromCSFiles.ItemDeliveryQuest.cs.13593 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
                 "MapPage.PamHouseHomeOf": "{{i18n:Strings.StringsFromCSFiles.MapPage.PamHouseHomeOf |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-                "MapPage.cs.11067": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11067 |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
+                "MapPage.cs.11067": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11067 |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
                 "MapPage.cs.11070": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11070 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
                 "MapPage.cs.11072": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11072 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
                 "MapPage.cs.11074": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11074 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
@@ -185,7 +185,7 @@
                 "MapPage.cs.11088": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11088 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
                 "MapPage.cs.11093": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11093 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
                 "MapPage.cs.11095": "{{i18n:Strings.StringsFromCSFiles.MapPage.cs.11095 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
-                "SlayMonsterQuest.cs.13752": "{{i18n:Strings.StringsFromCSFiles.SlayMonsterQuest.cs.13752 |AHDVPNG_Sorceress_Name={{AHDVPNG_Sorceress_Name_T}} |AHDVPNG_Sorceress_Lower55={{AHDVPNG_Sorceress_Lower_T |valueAt=55}} }}",
+                "SlayMonsterQuest.cs.13752": "{{i18n:Strings.StringsFromCSFiles.SlayMonsterQuest.cs.13752 |AHDPnG_Sorceress_Name={{AHDPnG_Sorceress_Name_T}} |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}",
                 "SocializeQuest.cs.13786": "{{i18n:Strings.StringsFromCSFiles.SocializeQuest.cs.13786 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "TitleMenu.cs.11726": "{{i18n:Strings.StringsFromCSFiles.TitleMenu.cs.11726 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
                 "Utility.cs.5792": "{{i18n:Strings.StringsFromCSFiles.Utility.cs.5792 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
@@ -201,9 +201,9 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromMaps",
             "Entries": {
-                "BathHouse_MensLocker.4": "{{i18n:Strings.StringsFromMaps.BathHouse_MensLocker.4}}",
-                "BathHouse_WomensLocker.2": "{{i18n:Strings.StringsFromMaps.BathHouse_WomensLocker.2}}",
-                "BathHouse_WomensLocker.3": "{{i18n:Strings.StringsFromMaps.BathHouse_WomensLocker.3 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "BathHouse_MensLocker.4": "{{i18n:Strings.StringsFromMaps.BathHouse_MensLocker.4 }}",
+                "BathHouse_WomensLocker.2": "{{i18n:Strings.StringsFromMaps.BathHouse_WomensLocker.2 }}",
+                "BathHouse_WomensLocker.3": "{{i18n:Strings.StringsFromMaps.BathHouse_WomensLocker.3 }}",
                 "Blacksmith.4": "{{i18n:Strings.StringsFromMaps.Blacksmith.4 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "ElliottHouse.1": "{{i18n:Strings.StringsFromMaps.ElliottHouse.1 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
                 "ElliottHouse.2": "{{i18n:Strings.StringsFromMaps.ElliottHouse.2 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
@@ -233,6 +233,8 @@
             "Action": "EditData",
             "Target": "Strings/Weapons",
             "Entries": {
+                "AbbysPlanchette_Description": "{{i18n:Strings.Weapons.AbbysPlanchette_Description |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "AbbysPlanchette_Name": "{{i18n:Strings.Weapons.AbbysPlanchette_Name |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
                 "AlexsBat_Description": "{{i18n:Strings.Weapons.AlexsBat_Description |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
                 "AlexsBat_Name": "{{i18n:Strings.Weapons.AlexsBat_Name |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
                 "ElliottsPencil_Description": "{{i18n:Strings.Weapons.ElliottsPencil_Description |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} |AHDPnG_Elena_Lower05={{AHDPnG_Elena_Lower_T |valueAt=5}} }}",

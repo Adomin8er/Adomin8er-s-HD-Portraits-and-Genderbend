@@ -1,0 +1,10 @@
+{
+    "Changes": [
+//Sprite change
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Corine_Ninja",
+            "FromFile": "assets/BaseSprites/Corine_Ninja.png",
+        },
+    ]
+}

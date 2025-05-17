@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Flor",
+            "Entries": {
+                "Sat4": "I think I'll go relax at the beach today... #$b#Or... I'd like to see Elena but I don't want to bother her.$s#$b#I'll probably just stick with my normal routine...$s"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/June",
+            "Entries": {
+                "fall_Sun8": "Hi, @!$1#$b#You know, Elena and Leah are probably my closest friends in the valley.#$b#They're both artists too, so I guess it makes sense.#$b#And Faye and I are from the same country, so we have a lot in common.$1#$b#But you're my closest friend, for sure.$8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/June",
+            "Entries": {
+                "fall_Sun8": "Hi, @!$1#$b#You know, Elena and Leif are probably my closest friends in the valley.#$b#They're both artists too, so I guess it makes sense.#$b#And Faye and I are from the same country, so we have a lot in common.$1#$b#But you're my closest friend, for sure.$8"
+            },
+            "When": {
+                "Leah_To_Leif":"true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pika",
+            "Entries": {
+                "Fri2": "Elena visited me earlier and she asked for Tom Kha soup.#$b#She said it clears her writer's block...$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Flor": "Umm... I brought some of my old books to sell.#$b#I wonder if someone will buy them.#$e#Hey Elena, here's the sculpture design I've been telling you about!$h"
+            },
+            "When": {
+                "Relationship:Flor |contains= married": true
+            }
+        },
+        {
+            "LogName": "Ridgeside Gathering",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Flor_spouse": "Umm... I brought some of my old books to sell.#$b#I wonder if someone will buy them.#$e#Hey Elena, here's the sculpture design I've been telling you about!$h"
+            }
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Bert",
+            "Entries": {
+                "Fri8": "It's been a while since Abel visited!#$e#I mean, I understand him. He's busy doing him own things.#$e# It's also quite a trip to the village.#$e#I just miss my little nephew, that's all...$s"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ian",
+            "Entries": {
+                "Thu2": "Yesterday, Abel helped me move some boxes.#$b#His purple hair looks real good on him.$h#$b#Oh... h-hey!$l#$b#Don't tell him I said that!$a",
+                "Sun4": "Abel called me 'swole.'$s#$b#I'm not sure what that means...$s#$b#Is that a compliment or an insult?$s"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueJune",
+            "Entries": {
+                "spring_12": "Are you excited for the egg festival tomorrow?$1#$b#Watch out for Abel - he's clearly got his strategy down.$9"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Olga",
+            "Entries": {
+                "Tue8": "Abel, Caroline's son, has one heck of a rebellious streak...$s#$e#I hope Trinnie doesn't get any ideas.$a#$b# I mean, Abel's a good guy, really.#$b#It's always good to expand your horizons.#$b#Just... maybe not that much.$u"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sean",
+            "Entries": {
+                "summer_10": "You should've seen last year's Luau. A fight broke out and Abel hit me with his flute.#$b#It was a real lute-ow.$h#$b#Hey, 'luau' puns are hard."
+            }
+        },
+        {
+            "LogName": "Ridgeside Gathering",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "Pierre": "I was planning on setting up a stall as well, but Abel convinced me that the gathering is supposed to be about fun, not profit.$s#$b#Oh well, more food for me!$"
+            }
+        },
+        {
+            "LogName": "SpiritEve",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Kiarra": "Cousin, the spider in the maze is AWESOME. Don't know what Abel's freaking out over, though."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Flor": "I wonder if Abel will ever get tired of participating in the hunt.#$b#Not that I think he should!$u#$b#I'm really just wondering, I swear!$h"
+            },
+            "When": {
+                "Relationship:Flor |contains= married": true
+            }
+        },
+        {
+            "LogName": "EggFestival",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Sean": "I set up some fake egg stink bombs where I know Abel likes to search. Gotta support my boy Keahi!$h#$b#Not my fault Louie happened to find one first...",
+                "Flor": "Have you noticed how they don't seem to put an age limit on the Egg Hunt?#$b#It's most appealing for the children, but no one has an issue with young adults like Abel joining.",
+                "Flor_spouse": "I wonder if Abel will ever get tired of participating in the hunt.#$b#Not that I think he should!$u#$b#I'm really just wondering, I swear!$h"
+            }
+        },
+        {
+            "LogName": "EmberOfResolutions",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28",
+            "Entries": {
+                "Corine": "Happy New Year, @!#$e#I bet I could climb down this mountain. Hmmm...#$b#Sorry. I was just thinking of something fun to do.$h#$e#Want to climb down this mountain with me?$h#$e#Hmmm... Maybe I should ask Ysa or Abel?"
+            }
+        }
+    ]
+}

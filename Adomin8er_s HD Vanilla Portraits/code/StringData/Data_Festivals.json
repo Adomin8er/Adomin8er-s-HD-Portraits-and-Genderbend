@@ -14,7 +14,7 @@
             "Target": "Data/Festivals/fall27",
             "Entries": {
                 "Demetrius": "{{i18n:Data_Festivals.fall27.Demetrius |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}",
-                "Haley_y2": "{{i18n:Data_Festivals.fall27.Haley_y2 |AHDPnG_Emmett_Lower26={{AHDPnG_Emmett_Lower_T |valueAt=26}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "Haley_y2": "{{i18n:Data_Festivals.fall27.Haley_y2 |AHDPnG_Emmett_Lower27={{AHDPnG_Emmett_Lower_T |valueAt=27}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
                 "Jodi_y2": "{{i18n:Data_Festivals.fall27.Jodi_y2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
                 "Sam_y2": "{{i18n:Data_Festivals.fall27.Sam_y2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
             }
@@ -23,6 +23,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13",
             "Entries": {
+                "Caroline": "{{i18n:Data_Festivals.spring13.Caroline |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T  |valueAt=1}} }}",
                 "Maru_spouse": "{{i18n:Data_Festivals.spring13.Maru_spouse |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
                 "Penny_spouse": "{{i18n:Data_Festivals.spring13.Penny_spouse |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}"
             }
@@ -36,26 +37,26 @@
         },
         {
             "Action": "EditData",
-            "Target": "Data/Festivals/summer11",
+            "Target": "Data/Festivals/summer12",
             "Entries": {
-                "Harvey_spouse": "{{i18n:Data_Festivals.summer11.Harvey_spouse |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower04={{AHDPnG_Micah_Lower_T |valueAt=4}} }}",
-                "Maru_spouse": "{{i18n:Data_Festivals.summer11.Maru_spouse |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-                "Sebastian_spouse": "{{i18n:Data_Festivals.summer11.Sebastian_spouse |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
+                "Harvey_spouse": "{{i18n:Data_Festivals.summer12.Harvey_spouse |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower04={{AHDPnG_Micah_Lower_T |valueAt=4}} }}",
+                "Maru_spouse": "{{i18n:Data_Festivals.summer12.Maru_spouse |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+                "Sebastian_spouse": "{{i18n:Data_Festivals.summer12.Sebastian_spouse |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
             }
         },
         {
             "Action": "EditData",
-            "Target": "Data/Festivals/summer28",
+            "Target": "Data/Festivals/summer29",
             "Entries": {
-                "Sam": "{{i18n:Data_Festivals.summer28.Sam |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
+                "Sam": "{{i18n:Data_Festivals.summer29.Sam |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
             }
         },
         {
             "Action": "EditData",
-            "Target": "Data/Festivals/winter25",
+            "Target": "Data/Festivals/winter26",
             "Entries": {
-                "Emily_spouse_y2": "{{i18n:Data_Festivals.winter25.Emily_spouse_y2 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
-                "Leah_spouse_y2": "{{i18n:Data_Festivals.winter25.Leah_spouse_y2 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
+                "Emily_spouse_y2": "{{i18n:Data_Festivals.winter26.Emily_spouse_y2 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "Leah_spouse_y2": "{{i18n:Data_Festivals.winter26.Leah_spouse_y2 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
             }
         },
         {

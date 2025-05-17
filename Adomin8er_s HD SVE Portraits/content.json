@@ -37,7 +37,15 @@
       "AllowValues": "true,false",
       "Default": "true"
     },
+    "Gil_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
     "Gunther_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Henchman_HD_portrait": {
       "AllowValues": "true,false",
       "Default": "true"
     },
@@ -98,6 +106,10 @@
       "Default": "true"
     },
     "Peaches_HD_portrait": {
+      "AllowValues": "true,false",
+      "Default": "true"
+    },
+    "Sandy_HD_portrait": {
       "AllowValues": "true,false",
       "Default": "true"
     },
@@ -197,37 +209,50 @@
       "AllowValues": "true,false",
       "Default": "false"
     },
+    "Scarlett_To_Skyler": {
+      "AllowValues": "false",
+      "Default": "false"
+    },
     "Sophia_To_Soren": {
       "AllowValues": "true,false",
       "Default": "false"
     },
+
+    // Other
     "MatureEvents": {
       "AllowValues": "true, false",
       "Default": "false"
+    },
+
+    // Necessary SVE ConfigSchemas
+    "SVECommunityBundles": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Adds SVE objects to community center bundles. Doesn't affect remixed bundles and only applies on a newly created save file.",
+    },
+    "HardSVECommunityBundles": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Adds SVE objects to community center bundles and makes them more difficult. Doesn't affect remixed bundles and only applies on a newly created save file.",
     }
   },
   "DynamicTokens": [
-    {
-      "Name": "Date",
-      "Value": "{{Season}} {{Day}}"
-    },
-
     // Gender words DTs:
     {
-      "Name": "GenderWordsSwapped_lower",
-      "Value": "she, he, her, him, his, ${her^her}$, ${his^his}$, woman, man, women, men, girl, boy, mother, father, mom, dad, grandmother, grandfather, grandma, grandpa, daughter, son, granddaughter, grandson, sister, brother, wife, husband, aunt, uncle, queen, king, princess, prince, female, male, lady, gentleman, ma'am, sir, ${lady^lady}$, lord, mrs, mr, hun, ${son^son}$, mistress, master, niece, nephew, suit, dress, shorts, skirt, sorceress, wizard, gal, guy, miss, mister, ${dear^sweetie}$, herself, himself"
-    },
-    {
-      "Name": "GenderWordsSwapped_upper",
-      "Value": "She, He, Her, Him, His, ${Her^Her}$, ${His^His}$, Woman, Man, Women, Men, Girl, Boy, Mother, Father, Mom, Dad, Grandmother, Grandfather, Grandma, Grandpa, Daughter, Son, Granddaughter, Grandson, Sister, Brother, Wife, Husband, Aunt, Uncle, Queen, King, Princess, Prince, Female, Male, Lady, Gentleman, Ma'am, Sir, ${Lady^Lady}$, Lord, Mrs, Mr, Hun, ${Son^Son}$, Mistress, Master, Niece, Nephew, Suit, Dress, Shorts, Skirt, Sorceress, Wizard, Gal, Guy, Miss, Mister, ${Dear^Sweetie}$, Herself, Himself"
-    },
-    {
       "Name": "GenderWords_lower",
-      "Value": "he, she, him, her, ${her^her}$, his, hers, man, woman, men, women, boy, girl, father, mother, dad, mom, grandfather, grandmother, grandpa, grandma, son, daughter, grandson, granddaughter, brother, sister, husband, wife, uncle, aunt, king, queen, prince, princess, male, female, gentleman, lady, sir, ma'am, lord, ${lady^lady}$, mr, mrs, ${son^son}$, hun, master, mistress, nephew, niece, dress, suit, skirt, shorts, wizard, sorceress, guy, gal, mister, miss, sweetie, himself, herself" 
+      "Value": "he, she, him, her, ${her^her}$, his, hers, ${his^his}$, man, woman, men, women, boy, girl, father, mother, dad, mom, grandfather, grandmother, grandpa, grandma, son, daughter, grandson, granddaughter, brother, sister, husband, wife, uncle, aunt, king, queen, prince, princess, male, female, gentleman, lady, sir, ma'am, lord, ${lady^lady}$, mr, mrs, ${son^son}$, hun, master, mistress, nephew, niece, dress, suit, skirt, shorts, wizard, sorceress, guy, gal, mister, miss, sweetie, himself, herself" 
     },
     {
       "Name": "GenderWords_upper",
-      "Value": "He, She, Him, Her, ${Her^Her}$, His, Hers, Man, Woman, Men, Women, Boy, Girl, Father, Mother, Dad, Mom, Grandfather, Grandmother, Grandpa, Grandma, Son, Daughter, Grandson, Granddaughter, Brother, Sister, Husband, Wife, Uncle, Aunt, King, Queen, Prince, Princess, Male, Female, Gentleman, Lady, Sir, Ma'am, Lord, ${Lady^Lady}$, Mr, Mrs, ${Son^Son}$, Hun, Master, Mistress, Nephew, Niece, Dress, Suit, Skirt, Shorts, Wizard, Sorceress, Guy, Gal, Mister, Miss, Sweetie, Himself, Herself"
+      "Value": "He, She, Him, Her, ${Her^Her}$, His, Hers, ${His^His}$, Man, Woman, Men, Women, Boy, Girl, Father, Mother, Dad, Mom, Grandfather, Grandmother, Grandpa, Grandma, Son, Daughter, Grandson, Granddaughter, Brother, Sister, Husband, Wife, Uncle, Aunt, King, Queen, Prince, Princess, Male, Female, Gentleman, Lady, Sir, Ma'am, Lord, ${Lady^Lady}$, Mr, Mrs, ${Son^Son}$, Hun, Master, Mistress, Nephew, Niece, Dress, Suit, Skirt, Shorts, Wizard, Sorceress, Guy, Gal, Mister, Miss, Sweetie, Himself, Herself"
+    },
+    {
+      "Name": "GenderWordsSwapped_Lower",
+      "Value": "she, he, her, him, his, ${her^her}$, ${his^his}$, hers, woman, man, women, men, girl, boy, mother, father, mom, dad, grandmother, grandfather, grandma, grandpa, daughter, son, granddaughter, grandson, sister, brother, wife, husband, aunt, uncle, queen, king, princess, prince, female, male, lady, gentleman, ma'am, sir, ${lady^lady}$, lord, mrs, mr, hun, ${son^son}$, mistress, master, niece, nephew, suit, dress, shorts, skirt, sorceress, wizard, gal, guy, miss, mister, ${dear^sweetie}$, herself, himself"
+    },
+    {
+      "Name": "GenderWordsSwapped_Upper",
+      "Value": "She, He, Her, Him, His, ${Her^Her}$, ${His^His}$, Hers, Woman, Man, Women, Men, Girl, Boy, Mother, Father, Mom, Dad, Grandmother, Grandfather, Grandma, Grandpa, Daughter, Son, Granddaughter, Grandson, Sister, Brother, Wife, Husband, Aunt, Uncle, Queen, King, Princess, Prince, Female, Male, Lady, Gentleman, Ma'am, Sir, ${Lady^Lady}$, Lord, Mrs, Mr, Hun, ${Son^Son}$, Mistress, Master, Niece, Nephew, Suit, Dress, Shorts, Skirt, Sorceress, Wizard, Gal, Guy, Miss, Mister, ${Dear^Sweetie}$, Herself, Himself"
     },
 
     // Character based DTs TRUE:
@@ -501,21 +526,21 @@
         "Name": "AHDPnG_Sorceress_Name_T",
         "Value": "Sorceress",
         "When": {
-            "Wizard_To_Sorceress": "true"
+            "Magnus_To_Arcana": "true"
         }
     },
     {
       "Name": "AHDPnG_Sorceress_Lower_T",
       "Value": "{{GenderWordsSwapped_Lower}}",
       "When": {
-          "Wizard_To_Sorceress": "true"
+          "Magnus_To_Arcana": "true"
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Upper_T",
       "Value": "{{GenderWordsSwapped_Upper}}",
       "When": {
-          "Wizard_To_Sorceress": "true"
+          "Magnus_To_Arcana": "true"
       }
     },
     // Clayton
@@ -562,28 +587,28 @@
           "Olivia_To_Oliver": "true"
       }
     },
-    // Skyler
-    {
-        "Name": "AHDPnG_Skyler_Name_T",
-        "Value": "Skyler",
-        "When": {
-            "Scarlett_To_Skyler": "true"
-        }
-    },
-    {
-      "Name": "AHDPnG_Skyler_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
-      "When": {
-          "Scarlett_To_Skyler": "true"
-      }
-    },
-    {
-      "Name": "AHDPnG_Skyler_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
-      "When": {
-          "Scarlett_To_Skyler": "true"
-      }
-    },
+    // // Skyler
+    // {
+    //     "Name": "AHDPnG_Skyler_Name_T",
+    //     "Value": "Skyler",
+    //     "When": {
+    //         "Scarlett_To_Skyler": "true"
+    //     }
+    // },
+    // {
+    //   "Name": "AHDPnG_Skyler_Lower_T",
+    //   "Value": "{{GenderWordsSwapped_Lower}}",
+    //   "When": {
+    //       "Scarlett_To_Skyler": "true"
+    //   }
+    // },
+    // {
+    //   "Name": "AHDPnG_Skyler_Upper_T",
+    //   "Value": "{{GenderWordsSwapped_Upper}}",
+    //   "When": {
+    //       "Scarlett_To_Skyler": "true"
+    //   }
+    // },
     // Soren
     {
         "Name": "AHDPnG_Soren_Name_T",
@@ -655,21 +680,21 @@
         "Name": "AHDPnG_Victoria_Name_T",
         "Value": "Victoria",
         "When": {
-            "Victoria_To_Victoria": "true"
+            "Victor_To_Victoria": "true"
         }
     },
     {
       "Name": "AHDPnG_Victoria_Lower_T",
       "Value": "{{GenderWordsSwapped_Lower}}",
       "When": {
-          "Victoria_To_Victoria": "true"
+          "Victor_To_Victoria": "true"
       }
     },
     {
       "Name": "AHDPnG_Victoria_Upper_T",
       "Value": "{{GenderWordsSwapped_Upper}}",
       "When": {
-          "Victoria_To_Victoria": "true"
+          "Victor_To_Victoria": "true"
       }
     },
 
@@ -943,21 +968,21 @@
       "Name": "AHDPnG_Sorceress_Name_T",
       "Value": "Sorceress",
       "When": {
-        "Wizard_To_Sorceress": "false"
+        "Magnus_To_Arcana": "false"
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Lower_T",
       "Value": "{{GenderWords_Lower}}",
       "When": {
-        "Wizard_To_Sorceress": "false"
+        "Magnus_To_Arcana": "false"
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Upper_T",
       "Value": "{{GenderWords_Upper}}",
       "When": {
-        "Wizard_To_Sorceress": "false"
+        "Magnus_To_Arcana": "false"
       }
     },
     // Clayton
@@ -970,14 +995,14 @@
     },
     {
       "Name": "AHDPnG_Clayton_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Claire_To_Clayton": "false"
       }
     },
     {
       "Name": "AHDPnG_Clayton_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Claire_To_Clayton": "false"
       }
@@ -992,14 +1017,14 @@
     },
     {
       "Name": "AHDPnG_Oliver_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Olivia_To_Oliver": "false"
       }
     },
     {
       "Name": "AHDPnG_Oliver_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Olivia_To_Oliver": "false"
       }
@@ -1014,14 +1039,14 @@
     },
     {
       "Name": "AHDPnG_Skyler_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Scarlett_To_Skyler": "false"
       }
     },
     {
       "Name": "AHDPnG_Skyler_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Scarlett_To_Skyler": "false"
       }
@@ -1036,14 +1061,14 @@
     },
     {
       "Name": "AHDPnG_Soren_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Sophia_To_Soren": "false"
       }
     },
     {
       "Name": "AHDPnG_Soren_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Sophia_To_Soren": "false"
       }
@@ -1058,14 +1083,14 @@
     },
     {
       "Name": "AHDPnG_Arcana_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Magnus_To_Arcana": "false"
       }
     },
     {
       "Name": "AHDPnG_Arcana_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Magnus_To_Arcana": "false"
       }
@@ -1080,14 +1105,14 @@
     },
     {
       "Name": "AHDPnG_Layla_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Lance_To_Layla": "false"
       }
     },
     {
       "Name": "AHDPnG_Layla_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Lance_To_Layla": "false"
       }
@@ -1097,23 +1122,34 @@
         "Name": "AHDPnG_Victoria_Name_T",
         "Value": "Victoria",
         "When": {
-            "Victoria_To_Victoria": "false"
+            "Victor_To_Victoria": "false"
         }
     },
     {
       "Name": "AHDPnG_Victoria_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
-          "Victoria_To_Victoria": "false"
+          "Victor_To_Victoria": "false"
       }
     },
     {
       "Name": "AHDPnG_Victoria_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
-          "Victoria_To_Victoria": "false"
+          "Victor_To_Victoria": "false"
       }
+    },
+
+    // Necessary SVE Dynamic Tokens
+    {
+      "Name": "ApplesHere",
+      "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=7775927}}"
+    },
+    {
+      "Name": "IsOddYear",
+      "Value": "{{Query: {{Year}} % 2 = 1}}"
     }
+
   ],
   "Changes": [
     // Alesia
@@ -1315,7 +1351,7 @@
         "Claire_To_Clayton": "false"
       }
     },
-    // ClaireVendor
+    // Claire_Vendor
     {
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/TextureOverrides",
@@ -1334,6 +1370,130 @@
         "Claire_To_Clayton": "false"
       }
     },
+    // ClaireFake
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClaireFake_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaireFake_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Claire_HD_portrait": "true",
+        "Claire_To_Clayton": "false"
+      }
+    },
+    // Clayton
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClayton_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Claire_HD_portrait": "true",
+        "Claire_To_Clayton": "true"
+      }
+    },
+    // Clayton_Vendor
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClayton_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Claire_HD_portrait": "true",
+        "Claire_To_Clayton": "true"
+      }
+    },
+    // ClaytonFake
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClaytonFake_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaytonFake_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Claire**", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Claire_HD_portrait": "true",
+        "Claire_To_Clayton": "true"
+      }
+    },
     // Dusty
     {
       "Action": "EditData",
@@ -1348,6 +1508,18 @@
       },
       "When": {
         "Dusty_HD_portrait": "true"
+      }
+    },
+    // Gil
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDGil_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Gil.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Gil", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDGil_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Gil.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Gil", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Gil_HD_portrait": "true"
       }
     },
     // GuntherSilvian
@@ -1366,7 +1538,21 @@
         "Gunther_HD_portrait": "true"
       }
     },
-
+    // Henchman
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDHenchman_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Henchman.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Henchman", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDHenchman_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Henchman.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Henchman", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDHenchman_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Henchman.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Henchman", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDHenchman_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Henchman.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Henchman", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Henchman_HD_portrait": "true"
+      }
+    },
+    // HighlandsDwarf
     {
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/TextureOverrides",
@@ -1431,14 +1617,14 @@
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/TextureOverrides",
       "Entries": {
-        "19742_HDJunimos_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDJunimos_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimos", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+        "19742_HDJunimos_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDJunimos_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Junimos.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Junimo", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
       },
       "When": {
         "Junimos_HD_portrait": "true"
@@ -1483,6 +1669,45 @@
         "Lance_To_Layla": "false"
       }
     },
+    // Layla
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDLayla_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDLayla_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDLayla_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDLayla_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDLayla_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDLayla_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDLayla_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDLayla_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDLayla_08": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDLayla_09": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_08": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDLayla_Winter_09": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Layla/Layla_Winter.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Lance_Winter", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Lance_HD_portrait": "true",
+        "Lance_To_Layla": "true"
+      }
+    },
     // Jadu
     {
       "Action": "EditData",
@@ -1518,6 +1743,69 @@
         "19742_HDMagnus_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
         "19742_HDMagnus_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
         "19742_HDMagnus_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Magnus_HD_portrait": "true",
+        "Magnus_To_Arcana": "false"
+      }
+    },
+    // Magnus (Wizard)
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMagnusWizard_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 1, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 1, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 65, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 65, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 129, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 129, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 193, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 193, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 257, "Width": 62, "Height": 62}},
+        "19742_HDMagnusWizard_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Magnus.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 257, "Width": 62, "Height": 62}}
+      },
+      "When": {
+        "Magnus_HD_portrait": "true",
+        "Magnus_To_Arcana": "false"
+      }
+    },
+    // Arcana
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDArcana_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDArcana_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDArcana_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDArcana_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDArcana_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDArcana_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDArcana_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDArcana_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDArcana_08": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDArcana_09": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Magnus", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Magnus_HD_portrait": "true",
+        "Magnus_To_Arcana": "false"
+      }
+    },
+    // Arcana (Wizard)
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDArcanaWizard_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 1, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 1, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 65, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 65, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 129, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 129, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 193, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 193, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_08": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 1, "Y": 257, "Width": 62, "Height": 62}},
+        "19742_HDArcanaWizard_09": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Arcana/Arcana.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Wizard", "TargetRect": {"X": 65, "Y": 257, "Width": 62, "Height": 62}}
       },
       "When": {
         "Magnus_HD_portrait": "true",
@@ -1584,6 +1872,24 @@
         "Martin_HD_portrait": "true"
       }
     },
+    // MartinFake
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMartinFake_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMartinFake_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/**Martin**", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Martin_HD_portrait": "true"
+      }
+    },
     // Mermaid
     {
       "Action": "EditData",
@@ -1622,6 +1928,26 @@
         "Morgan_HD_portrait": "true"
       }
     },
+    // Morris
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMorris_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMorris_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMorris_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMorris_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMorris_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMorris_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMorris_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMorris_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMorris_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDMorris_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/MorrisTod.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Morris", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Morris_HD_portrait": "true"
+      }
+    },
     // MorrisTod
     {
       "Action": "EditData",
@@ -1650,6 +1976,47 @@
       },
       "When": {
         "Morris_HD_portrait": "true"
+      }
+    },
+    // Oliver
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDOliver_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDOliver_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDOliver_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDOliver_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDOliver_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDOliver_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDOliver_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDOliver_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDOliver_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDOliver_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Beach_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Beach.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Beach", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDOliver_Winter_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Oliver/Oliver_Winter.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Olivia_Winter", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Olivia_HD_portrait": "true",
+        "Olivia_To_Oliver": "true"
       }
     },
     // Olivia
@@ -1705,6 +2072,20 @@
         "Peaches_HD_portrait": "true"
       }
     },
+    // Sandy
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDSandy_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Sandy.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sandy", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSandy_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Sandy.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sandy", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSandy_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Sandy.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sandy", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSandy_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Sandy.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sandy", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Sandy_HD_portrait": "true"
+      }
+    },
     // Scarlett
     {
       "Action": "EditData",
@@ -1740,7 +2121,8 @@
         "19742_HDScarlett_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Scarlett_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
       },
       "When": {
-        "Scarlett_HD_portrait": "true"
+        "Scarlett_HD_portrait": "true",
+        "Scarlett_To_Skyler": "false"
       }
     },
     // ScarlettFake
@@ -1778,9 +2160,88 @@
         "19742_HDScarlett_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Scarlett_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
       },
       "When": {
-        "Scarlett_HD_portrait": "true"
+        "Scarlett_HD_portrait": "true",
+        "Scarlett_To_Skyler": "false"
       }
     },
+    // // Skyler
+    // {
+    //   "Action": "EditData",
+    //   "Target": "spacechase0.SpaceCore/TextureOverrides",
+    //   "Entries": {
+    //     "19742_HDSkyler_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Cosplay", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Cosplay", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Cosplay", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Cosplay", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Scarlett_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+    //   },
+    //   "When": {
+    //     "Scarlett_HD_portrait": "true",
+    //     "Scarlett_To_Skyler": "true"
+    //   }
+    // },
+    // // SkylerFake
+    // {
+    //   "Action": "EditData",
+    //   "Target": "spacechase0.SpaceCore/TextureOverrides",
+    //   "Entries": {
+    //     "19742_HDSkyler_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Cosplay", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Cosplay", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Cosplay", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Cosplay_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Cosplay.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Cosplay", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+    //     "19742_HDSkyler_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Skyler/Skyler_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/ScarlettFake_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+    //   },
+    //   "When": {
+    //     "Scarlett_HD_portrait": "true",
+    //     "Scarlett_To_Skyler": "true"
+    //   }
+    // },
     // Sophia
     {
       "Action": "EditData",
@@ -1858,6 +2319,83 @@
         "Sophia_To_Soren": "false"
       }
     },
+    // Soren
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDSoren_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDSoren_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDSoren_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDSoren_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDSoren_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDSoren_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDSoren_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDSoren_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDSoren_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDSoren_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDSoren_16": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:16", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 512, "Width": 64, "Height": 64}},
+        "19742_HDSoren_17": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:17", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 512, "Width": 64, "Height": 64}},
+        "19742_HDSoren_18": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:18", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 0, "Y": 576, "Width": 64, "Height": 64}},
+        "19742_HDSoren_19": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren.png}}:19", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia", "TargetRect": {"X": 64, "Y": 576, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_16": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:16", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 512, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_17": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:17", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 512, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_18": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:18", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 0, "Y": 576, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Makeup_19": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Makeup.png}}:19", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Makeup", "TargetRect": {"X": 64, "Y": 576, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_16": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:16", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 512, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_17": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:17", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 512, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_18": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:18", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 0, "Y": 576, "Width": 64, "Height": 64}},
+        "19742_HDSoren_Winter_19": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Soren/Soren_Winter.png}}:19", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Sophia_Winter", "TargetRect": {"X": 64, "Y": 576, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Sophia_HD_portrait": "true",
+        "Sophia_To_Soren": "true"
+      }
+    },
     // Suki
     {
       "Action": "EditData",
@@ -1868,9 +2406,7 @@
         "19742_HDSuki_IceFestival_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_IceFestival.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_IceFestival", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDSuki_IceFestival_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_IceFestival.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_IceFestival", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDSuki_DesertFestival_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_DesertFestival.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_DesertFestival", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDSuki_DesertFestival_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_DesertFestival.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_DesertFestival", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDSuki_DesertFestival_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_DesertFestival.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_DesertFestival", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDSuki_DesertFestival_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_DesertFestival.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_DesertFestival", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}}
+        "19742_HDSuki_DesertFestival_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Suki_DesertFestival.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Suki_DesertFestival", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}}
       },
       "When": {
         "Suki_HD_portrait": "true"
@@ -1943,6 +2479,45 @@
         "Victor_To_Victoria": "false"
       }
     },
+    // Victoria
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDVictoria_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_08": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_09": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_10": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_11": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDVictoria_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Victoria/Victoria_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Victor_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Victor_HD_portrait": "true",
+        "Victor_To_Victoria": "true"
+      }
+    },
     // Zoey
     {
       "Action": "EditData",
@@ -1954,6 +2529,13 @@
       "When": {
         "Zoey_HD_portrait": "true"
       }
+    },
+
+    // StringData Loads for i18n
+    {
+      "LogName": "Load String Data files for i18n",
+      "Action": "Include",
+      "FromFile": "code/StringData/Strings.json, code/StringData/Data_Events.json, code/StringData/Data_Festivals.json, code/StringData/Data.json, code/StringData/Characters_Dialogue.json"
     },
 
     // Vanilla Female Genderbend "Includes"
@@ -2054,15 +2636,7 @@
         "Penny_To_Peter": "true"
       }
     },
-    // Vanilla Male Genderbend "Includes"
-    {
-      "LogName": "Claire To Clayton",
-      "Action": "Include",
-      "FromFile": "assets/BendG2B/Clayton/Clayton_StringData.json, assets/BendG2B/Clayton/Clayton_ImageData.json",
-      "When": {
-        "Claire_To_Clayton": "true"
-      }
-    },
+    // SVE Male Genderbend "Includes"
     {
       "LogName": "Lance To Layla",
       "Action": "Include",
@@ -2078,6 +2652,23 @@
       "When": {
         "Magnus_To_Arcana": "true"
       }
+    },    
+    {
+      "LogName": "Victor To Victoria",
+      "Action": "Include",
+      "FromFile": "assets/BendB2G/Victoria/Victoria_StringData.json, assets/BendB2G/Victoria/Victoria_ImageData.json",
+      "When": {
+        "Victor_To_Victoria": "true"
+      }
+    },
+    // SVE Female Genderbend "Includes"
+    {
+      "LogName": "Claire To Clayton",
+      "Action": "Include",
+      "FromFile": "assets/BendG2B/Clayton/Clayton_StringData.json, assets/BendG2B/Clayton/Clayton_ImageData.json",
+      "When": {
+        "Claire_To_Clayton": "true"
+      }
     },
     {
       "LogName": "Olivia To Oliver",
@@ -2087,20 +2678,20 @@
         "Olivia_To_Oliver": "true"
       }
     },
+    // {
+    //   "LogName": "Scarlett To Skyler",
+    //   "Action": "Include",
+    //   "FromFile": "assets/BendG2B/Skyler/Skyler_StringData.json, assets/BendG2B/Skyler/Skyler_ImageData.json",
+    //   "When": {
+    //     "Scarlett_To_Skyler": "true"
+    //   }
+    // },
     {
       "LogName": "Sophia To Soren",
       "Action": "Include",
       "FromFile": "assets/BendG2B/Soren/Soren_StringData.json, assets/BendG2B/Soren/Soren_ImageData.json",
       "When": {
         "Sophia_To_Soren": "true"
-      }
-    },
-    {
-      "LogName": "Victor To Victoria",
-      "Action": "Include",
-      "FromFile": "assets/BendB2G/Victoria/Victoria_StringData.json, assets/BendB2G/Victoria/Victoria_ImageData.json",
-      "When": {
-        "Victor_To_Victoria": "true"
       }
     }
   ]
