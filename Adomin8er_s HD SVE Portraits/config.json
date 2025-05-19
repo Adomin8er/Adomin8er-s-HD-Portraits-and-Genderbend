@@ -52,7 +52,7 @@
   "Olivia_To_Oliver": "true",
   "Scarlett_To_Skyler": "false",
   "Sophia_To_Soren": "true",
-  "MatureEvents": "false",
   "SVECommunityBundles": "true",
-  "HardSVECommunityBundles": "false"
+  "HardSVECommunityBundles": "false",
+  "MatureEvents": "false"
 }

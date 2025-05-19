@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sean",
+            "Entries": {
+                "PlaceholderImage": "Placeholder Image Data"
+            }
+        }
+    ]
+}

@@ -3,237 +3,293 @@
   "ConfigSchema": {
     "Alesia_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Andy_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Apples_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Axel_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Brooklyn_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Camilla_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Chloe_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Claire_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Dusty_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Gil_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Gunther_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Henchman_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "HighlandsDwarf_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Isaac_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Jace_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Jolyne_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Junimos_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Lance_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Jadu_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Magnus_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Marlon_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Martin_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Mermaid_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Morgan_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Morris_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Olivia_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Peaches_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Sandy_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Scarlett_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Sophia_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Suki_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Susan_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Victor_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Zoey_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     // Vanilla Female Genderbend
     "Alex_To_Alexis": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Elliott_To_Elena": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Harvey_To_Harriet": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Sam_To_Samantha": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Sebastian_To_Sabrina": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Shane_To_Shaylin": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     // Vanilla Male Genderbend
     "Abigail_To_Abel": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Emily_To_Emmett": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Haley_To_Hayden": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Leah_To_Leif": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Maru_To_Micah": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Penny_To_Peter": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     // SVE Female Genderbend
     "Lance_To_Layla": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - SVE"
     },
     "Magnus_To_Arcana": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - SVE"
     },
     "Victor_To_Victoria": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - SVE"
     },
     // SVE Male Genderbend
     "Claire_To_Clayton": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - SVE"
     },
     "Olivia_To_Oliver": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - SVE"
     },
     "Scarlett_To_Skyler": {
       "AllowValues": "false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - SVE"
     },
     "Sophia_To_Soren": {
       "AllowValues": "true,false",
-      "Default": "false"
-    },
-
-    // Other
-    "MatureEvents": {
-      "AllowValues": "true, false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - SVE"
     },
 
     // Necessary SVE ConfigSchemas
     "SVECommunityBundles": {
       "AllowValues": "true, false",
       "Default": "true",
-      "Description": "Adds SVE objects to community center bundles. Doesn't affect remixed bundles and only applies on a newly created save file.",
+      "Section": "SVE Configs",
+      "Description": "Adds SVE objects to community center bundles. Doesn't affect remixed bundles and only applies on a newly created save file."
     },
     "HardSVECommunityBundles": {
       "AllowValues": "true, false",
       "Default": "false",
-      "Description": "Adds SVE objects to community center bundles and makes them more difficult. Doesn't affect remixed bundles and only applies on a newly created save file.",
+      "Section": "SVE Configs",
+      "Description": "Adds SVE objects to community center bundles and makes them more difficult. Doesn't affect remixed bundles and only applies on a newly created save file."
+    },
+
+    // Other
+    "MatureEvents": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Other"
     }
   },
   "DynamicTokens": [
@@ -255,7 +311,7 @@
       "Value": "She, He, Her, Him, His, ${Her^Her}$, ${His^His}$, Hers, Woman, Man, Women, Men, Girl, Boy, Mother, Father, Mom, Dad, Grandmother, Grandfather, Grandma, Grandpa, Daughter, Son, Granddaughter, Grandson, Sister, Brother, Wife, Husband, Aunt, Uncle, Queen, King, Princess, Prince, Female, Male, Lady, Gentleman, Ma'am, Sir, ${Lady^Lady}$, Lord, Mrs, Mr, Hun, ${Son^Son}$, Mistress, Master, Niece, Nephew, Suit, Dress, Shorts, Skirt, Sorceress, Wizard, Gal, Guy, Miss, Mister, ${Dear^Sweetie}$, Herself, Himself"
     },
 
-    // Character based DTs TRUE:
+    // Vanilla character based DTs TRUE:
 
     // Abel
     {
@@ -543,6 +599,9 @@
           "Magnus_To_Arcana": "true"
       }
     },
+
+    // SVE character based DTs TRUE:
+
     // Clayton
     {
         "Name": "AHDPnG_Clayton_Name_T",
@@ -698,7 +757,8 @@
       }
     },
 
-    // Character based DTs FALSE:
+    // Vanilla character based DTs FALSE:
+    
     // Abel
     {
     "Name": "AHDPnG_Abel_Name_T",
@@ -985,6 +1045,9 @@
         "Magnus_To_Arcana": "false"
       }
     },
+
+    // SVE character based DTs FALSE:
+
     // Clayton
     {
         "Name": "AHDPnG_Clayton_Name_T",
@@ -2642,7 +2705,8 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Layla/Layla_StringData.json, assets/BendB2G/Layla/Layla_ImageData.json",
       "When": {
-        "Lance_To_Layla": "true"
+        "Lance_To_Layla": "true",
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     },
     {
@@ -2650,7 +2714,8 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Arcana/Arcana_StringData.json, assets/BendB2G/Arcana/Arcana_ImageData.json",
       "When": {
-        "Magnus_To_Arcana": "true"
+        "Magnus_To_Arcana": "true",
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     },    
     {
@@ -2658,7 +2723,8 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Victoria/Victoria_StringData.json, assets/BendB2G/Victoria/Victoria_ImageData.json",
       "When": {
-        "Victor_To_Victoria": "true"
+        "Victor_To_Victoria": "true",
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     },
     // SVE Female Genderbend "Includes"
@@ -2667,7 +2733,8 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Clayton/Clayton_StringData.json, assets/BendG2B/Clayton/Clayton_ImageData.json",
       "When": {
-        "Claire_To_Clayton": "true"
+        "Claire_To_Clayton": "true",
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     },
     {
@@ -2675,7 +2742,8 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Oliver/Oliver_StringData.json, assets/BendG2B/Oliver/Oliver_ImageData.json",
       "When": {
-        "Olivia_To_Oliver": "true"
+        "Olivia_To_Oliver": "true",
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     },
     // {
@@ -2683,7 +2751,8 @@
     //   "Action": "Include",
     //   "FromFile": "assets/BendG2B/Skyler/Skyler_StringData.json, assets/BendG2B/Skyler/Skyler_ImageData.json",
     //   "When": {
-    //     "Scarlett_To_Skyler": "true"
+    //     "Scarlett_To_Skyler": "true",
+    //     "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
     //   }
     // },
     {
@@ -2691,7 +2760,8 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Soren/Soren_StringData.json, assets/BendG2B/Soren/Soren_ImageData.json",
       "When": {
-        "Sophia_To_Soren": "true"
+        "Sophia_To_Soren": "true",
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     }
   ]

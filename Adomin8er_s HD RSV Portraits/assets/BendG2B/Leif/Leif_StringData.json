@@ -2,69 +2,9 @@
     "Changes": [
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Faye",
+            "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "Fri": "Leif was telling me about some meal he made from forest forage? I guess people just... pick things off the ground? Is it safe?$s",
-                "Tue4": "I found these really interesting waxy leaves the other day, I wonder how I could replicate that texture with cloth?#$b#Don't worry, I made sure to ask Leif before I touched them. I learned my lesson!$h",
-                "Fri8": "Leif said he'd sculpt a mannequin if I made some clothes for it! I can't wait to see what he makes.#$b# Maybe it won't look human at all! What a challenge!$h"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Ian",
-            "Entries": {
-                "Tue4": "I practice wood sculpting and carpentry at night.#$b#I'm not as good as Leif or Robin, though.#$b#It's just a small hobby to get my mind off things."
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/June",
-            "Entries": {
-                "winter_7": "Robin and Leif make some truly exquisite ice sculptures. I can't wait to see their work.$1",
-                "fall_Sun8": "Hi, @!$1#$b#You know, Elliott and Leif are probably my closest friends in the valley.#$b#They're both artists too, so I guess it makes sense.#$b#And Faye and I are from the same country, so we have a lot in common.$1#$b#But you're my closest friend, for sure.$8"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/June",
-            "Entries": {
-                "winter_7": "Robin and Leif make some truly exquisite ice sculptures. I can't wait to see their work.$1",
-                "fall_Sun8": "Hi, @!$1#$b#You know, Elena and Leif are probably my closest friends in the valley.#$b#They're both artists too, so I guess it makes sense.#$b#And Faye and I are from the same country, so we have a lot in common.$1#$b#But you're my closest friend, for sure.$8"
-            },
-            "When": {
-                "Elliott_To_Elena": "true"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/MarriageDialogueShiro",
-            "Entries": {
-                "spouseRoom_Shiro": "{{Random: Philip and I were talking about what he's reading the other day, and he lent it to me. Do you want to give it a try? It's pretty funny., It's a little easier for me to just sit still and not try and strain myself when you're around. I feel like I don't have to prove that I'm okay to you., Since I'm stuck at home a lot, I've been trying to find some new hobbies.#$e#Leif has been teaching me to paint, and Robin has been teaching me some whittling. Maybe I can show you sometime!$h, I think I'll write Yuuma some letters. It'll help put his mind at ease if I send him some nice stories about the farm.$h, Ow!$s#$b#No, I'm fine... just stubbed my toe. Really!}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Ysabelle",
-            "Entries": {
-                "Fri2": "I admire Leif's attitude. He specializes in abstractions, but there's a certain class to his work.$h"
-            }
-        },
-        {
-            "LogName": "Ridgeside Gathering",
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall20",
-            "Entries": {
-                "Anton": "Ian has a good eye for wood sculptures.#$b#Alhough he's a bit rough around the edges, I bet he could catch up to Leif's level if he took the time.$h",
-                "Ian": "Phew! This wood sculpture is almost done.$h#$b#It's not as good as Leif's though.#$b#Oh well, I still hope someone buys it.$h",
-                "Maddie": "This little bear clock is soooo cute!$9#$b#I want to buy it!$h#$e#Hey Leif! Did you make this?$h"
-            }
-        },
-        {
-            "LogName": "IceFest",
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
-            "Entries": {
-                "Richard": "Brr!$a#$b#I should have bundled up more.#$b#The cold doesn't mesh well with these old bones of mine.$h#$e#It's well worth it to see the beautiful ice sculptures Leif and Robin create, though.$4"
+                "PlaceholderString": "Placeholder String Data"
             }
         }
     ]

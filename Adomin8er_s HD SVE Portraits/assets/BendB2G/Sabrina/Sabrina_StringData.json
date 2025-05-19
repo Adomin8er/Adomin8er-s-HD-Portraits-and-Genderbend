@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Elliott",
+            "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
                 "Placeholder": "Placeholder Data"
             }

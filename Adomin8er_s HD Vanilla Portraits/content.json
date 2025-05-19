@@ -4,258 +4,321 @@
     //Portraits
     "Abigail_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Alex_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "AnsweringMachine_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Bear_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Birdie_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Bouncer_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Caroline_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Clint_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Demetrius_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Dobson_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Dwarf_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Elliott_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Emily_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Evelyn_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "George_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Gil_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Grandpa_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Governor_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Gunther_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Gus_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Haley_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Harvey_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Henchman_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Jas_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Jodi_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Kent_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Krobus_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Leah_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Lewis_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Linus_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Marlon_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Maru_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Marnie_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "MrQi_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Morris_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Pam_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "ParrotBoy_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Penny_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Pierre_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Robin_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "SafariGuy_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Sandy_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Sam_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Sebastian_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Shane_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Vincent_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Willy_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     "Wizard_HD_portrait": {
       "AllowValues": "true,false",
-      "Default": "true"
+      "Default": "true",
+      "Section": "HD Portraits"
     },
     // Female Gender Bend
     "Alex_To_Alexis": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Elliott_To_Elena": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Harvey_To_Harriet": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Sam_To_Samantha": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Sebastian_To_Sabrina": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     "Shane_To_Shaylin": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
     },
     // Male Gender Bend
     "Abigail_To_Abel": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Emily_To_Emmett": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Haley_To_Hayden": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Leah_To_Leif": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Maru_To_Micah": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
     "Penny_To_Peter": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
+    },
+    "Wizard_To_Sorceress": {
+      "AllowValues": "true,false",
+      "Default": "false",
+      "Section": "Male Genderbend - Vanilla"
     },
 
     // Other
-    "Wizard_To_Sorceress": {
-      "AllowValues": "true,false",
-      "Default": "false"
-    },
     "MatureEvents": {
       "AllowValues": "true,false",
-      "Default": "false"
+      "Default": "false",
+      "Section": "Other"
     }
   },
   "DynamicTokens": [
+
     // Gender words DTs:
     {
       "Name": "GenderWords_lower",
