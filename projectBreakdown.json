@@ -34,7 +34,6 @@
                 },
                 "StringData": {
                     "Details": "The majority of the string data that will be manipulated in this mod.",
-                    "Logic": "Sets game data to i18n value. Updates i18n value token based on character gender.",
                     "Character_Dialogue.json": "All strings from JSON files in the Characters/Dialogue folder.",
                     "Data_Events.json": "All strings from JSON files in the Data/Events folder.",
                     "Data_Festivals.json": "All strings from JSON files in the Data/Festivals folder.",

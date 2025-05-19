@@ -1,7 +1,6 @@
 Adomin8ers_HD_Portraits_and_Genderbend
 
 :: REQUIREMENTS ::
-• Platonymous.Portraiture
 • FlashShifter.StardewValleyExpandedCP (Adomin8er_s HD SVE Portraits)
 • Rafseazz.RSVCP (Adomin8er_s HD RSV Portraits)
 
