@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "LogName": "Harriet personal/family data",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Harvey": {
+                    "DisplayName": "Harriet",
+                    "Gender": "Female"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Harriet gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Harvey": {
+                    "DisplayName": "Harriet",
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

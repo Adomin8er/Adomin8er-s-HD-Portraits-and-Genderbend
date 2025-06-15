@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "LogName": "Arcana personal/family data",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Wizard": {
+                    "DisplayName": "Arcana",
+                    "Gender": "Female",
+                    "CanBeRomanced": "true"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Arcana gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Wizard": {
+                    "DisplayName": "Arcana",
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

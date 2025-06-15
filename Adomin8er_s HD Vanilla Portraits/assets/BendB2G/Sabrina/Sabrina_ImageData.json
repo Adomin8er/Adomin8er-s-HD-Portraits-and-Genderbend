@@ -1,0 +1,70 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Sabrina standard outfit.",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Sabrina winter outfit.",
+            "Target": "Characters/Sebastian_Winter",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Sabrina beach outfit.",
+            "Target": "Characters/Sebastian_Beach",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Sabrina wedding outfit.",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Wedding.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        {
+            "LogName": "Cursors",
+        
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/BendB2G/Cursors.png",
+            "When": {"Sebastian_To_Sabrina": "true" },
+            "ToArea":
+            {
+                "X": 405,
+                "Y": 1853,
+                "Width": 47,
+                "Height": 34
+            },
+            "FromArea":
+            {
+                "X": 405,
+                "Y": 1853,
+                "Width": 47,
+                "Height": 34
+            },
+            "PatchMode": "Replace"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Sabrina purchasable painting image.",
+            "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Sabrina purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "SebastianPortrait": "SabrinaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:SebastianPortrait]/253/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\B2G_Portraits/true"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Oliver standard outfit.",
+            "Target": "Characters/Olivia",
+            "FromFile": "assets/BendG2B/Oliver/OliverOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Oliver winter outfit.",
+            "Target": "Characters/Olivia_Winter",
+            "FromFile": "assets/BendG2B/Oliver/OliverOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Oliver beach outfit.",
+            "Target": "Characters/Olivia_Beach",
+            "FromFile": "assets/BendG2B/Oliver/OliverOW_Beach.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Olivia's purchasable painting image.",
+            "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/G2B_Portraits_SVE",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Olivia's purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_OliviaPortrait": "OliverPortrait/painting/2 2/2 2/1/999/-1/Oliver Portrait/2/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\G2B_Portraits_SVE/true"
+            }
+        }
+    ]
+}

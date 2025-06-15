@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "Placeholder": "Placeholder Data"
+            }
+        }
+    ]
+}

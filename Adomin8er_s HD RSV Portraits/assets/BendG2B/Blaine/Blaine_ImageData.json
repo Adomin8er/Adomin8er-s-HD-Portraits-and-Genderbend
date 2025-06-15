@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Blair",
+            "Entries": {
+                "PlaceholderImage": "Placeholder Image Data"
+            }
+        }
+    ]
+}

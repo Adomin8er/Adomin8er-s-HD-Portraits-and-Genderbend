@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Clayton standard outfit.",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Clayton winter outfit.",
+            "Target": "Characters/Claire_Winter",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Clayton beach outfit.",
+            "Target": "Characters/Claire_Beach",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Clayton Joja outfit.",
+            "Target": "Characters/Claire_Joja",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Joja.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Clayton Theater outfit.",
+            "Target": "Characters/Claire_Theater",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Clayton's purchasable painting image.",
+            "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/G2B_Portraits_SVE",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Clayton's purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_ClairePortrait": "ClaytonPortrait/painting/2 2/2 2/1/999/-1/Clayton Portrait/4/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\G2B_Portraits_SVE/true"
+            }
+        }
+    ]
+}

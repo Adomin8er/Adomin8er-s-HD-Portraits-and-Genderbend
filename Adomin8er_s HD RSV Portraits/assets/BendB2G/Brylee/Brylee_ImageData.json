@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Bryle",
+            "Entries": {
+                "PlaceholderImage": "Placeholder Image Data"
+            }
+        }
+    ]
+}

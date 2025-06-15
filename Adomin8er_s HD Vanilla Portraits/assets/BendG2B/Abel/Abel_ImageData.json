@@ -1,0 +1,46 @@
+{
+    "Changes": [ 
+        {
+            "Action": "EditImage",
+            "LogName": "Abel standard outfit.",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/BendG2B/Abel/AbelOW.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Abel winter outfit.",
+            "Target": "Characters/Abigail_Winter",
+            "FromFile": "assets/BendG2B/Abel/AbelOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Abel beach outfit.",
+            "Target": "Characters/Abigail_Beach",
+            "FromFile": "assets/BendG2B/Abel/AbelOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Abel wedding outfit.",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/BendG2B/Abel/AbelOW.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Abel purchasable painting image.",
+            "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/G2B_Portraits",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Abel purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "AbigailPortrait": "AbelPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:AbigailPortrait]/221/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\G2B_Portraits/true"
+            }
+        }
+    ]
+}

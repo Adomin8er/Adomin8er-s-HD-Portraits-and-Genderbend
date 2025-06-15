@@ -1,0 +1,412 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Abigail",
+            "Entries": {
+                "dating_Abigail": "{{i18n:Characters_Dialogue.Abigail.dating_Abigail |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+                "dating_Sam": "{{i18n:Characters_Dialogue.Abigail.dating_Sam |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Upper00={{AHDPnG_Samantha_Upper_T |valueAt=0}} |AHDPnG_Samantha_Lower58={{AHDPnG_Samantha_Lower_T |valueAt=58}} |AHDPnG_Samantha_Lower02={{AHDPnG_Samantha_Lower_T |valueAt=2}} }}",
+                "dating_Sebastian_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.dating_Sebastian_memory_oneday |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+                "eventSeen_2_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.eventSeen_2_memory_oneday |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}",
+                "eventSeen_733330_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.eventSeen_733330_memory_oneday |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+                "married_Sam": "{{i18n:Characters_Dialogue.Abigail.married_Sam |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower08={{AHDPnG_Samantha_Lower_T |valueAt=8}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} |AHDPnG_Samantha_Lower14={{AHDPnG_Samantha_Lower_T |valueAt=14}} }}",
+                "married_Sebastian": "{{i18n:Characters_Dialogue.Abigail.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Alex.Introduction |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+                "dating_Alex": "{{i18n:Characters_Dialogue.Alex.dating_Alex |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+                "married_Haley": "{{i18n:Characters_Dialogue.Alex.married_Haley |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower01={{AHDPnG_Hayden_Lower_T |valueAt=1}} }}",
+                "winter_Sat": "{{i18n:Characters_Dialogue.Alex.winter_Sat |AHDPnG_Sabrina_Lower58={{AHDPnG_Sabrina_Lower_T |valueAt=58}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} }}",
+                "winter_Tue": "{{i18n:Characters_Dialogue.Alex.winter_Tue |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} }}",
+                "winter_Tue4": "{{i18n:Characters_Dialogue.Alex.winter_Tue |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} 4}}",
+                "winter_Tue4_inlaw_Haley": "{{i18n:Characters_Dialogue.Alex.winter_Tue |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} 4_inlaw_Haley}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Caroline",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Caroline.Introduction |AHDPnG_Abel_Lower23={{AHDPnG_Abel_Lower_T |valueAt=23}} |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Upper01={{AHDPnG_Abel_Upper_T |valueAt=1}} }}",
+                "Mon": "{{i18n:Characters_Dialogue.Caroline.Mon |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T |valueAt=4}} }}",
+                "Mon8": "{{i18n:Characters_Dialogue.Caroline.Mon8 |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+                "Sat": "{{i18n:Characters_Dialogue.Caroline.Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "Sat_inlaw_Abigail": "{{i18n:Characters_Dialogue.Caroline.Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _inlaw_Abigail}}",
+                "Sat2": "{{i18n:Characters_Dialogue.Caroline.Sat2 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+                "Sat4": "{{i18n:Characters_Dialogue.Caroline.Sat4 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "dating_Abigail_memory_oneday": "{{i18n:Characters_Dialogue.Abigail.dating_Abigail_memory_oneday |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+                "fall_Mon": "{{i18n:Characters_Dialogue.Caroline.fall_Mon |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} }}",
+                "fall_Mon_inlaw_Abigail": "{{i18n:Characters_Dialogue.Caroline.fall_Mon_inlaw_Abigail |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}",
+                "fall_Sat": "{{i18n:Characters_Dialogue.Caroline.fall_Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "summer_Sat": "{{i18n:Characters_Dialogue.Caroline.summer_Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}",
+                "summer_Sat_inlaw_Abigail": "{{i18n:Characters_Dialogue.Caroline.summer_Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} _inlaw_Abigail}}",
+                "winter_Sat": "{{i18n:Characters_Dialogue.Caroline.winter_Sat |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Clint",
+            "Entries": {
+                "Thu8": "{{i18n:Characters_Dialogue.Clint.Thu8 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "dating_Emily": "{{i18n:Characters_Dialogue.Clint.dating_Emily |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "eventSeen_101_memory_oneweek": "{{i18n:Characters_Dialogue.Clint.eventSeen_101_memory_oneweek |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Demetrius.Introduction |AHDPnG_Micah_Lower23={{AHDPnG_Micah_Lower_T |valueAt=23}} |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Upper01={{AHDPnG_Micah_Upper_T |valueAt=1}} }}",
+                "Mon": "{{i18n:Characters_Dialogue.Demetrius.Mon |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Upper01={{AHDPnG_Micah_Upper_T |valueAt=1}} }}",
+                "Mon_inlaw_Maru": "{{i18n:Characters_Dialogue.Demetrius.Mon |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Upper01={{AHDPnG_Micah_Upper_T |valueAt=1}} _inlaw_Maru}}",
+                "dating_Maru": "{{i18n:Characters_Dialogue.Demetrius.dating_Maru |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "fall_Fri": "{{i18n:Characters_Dialogue.Demetrius.fall_Fri |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}",
+                "fall_Fri_inlaw_Maru": "{{i18n:Characters_Dialogue.Demetrius.fall_Fri |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} _inlaw_Maru}}",
+                "summer_Fri": "{{i18n:Characters_Dialogue.Demetrius.summer_Fri |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Elliott",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Elliott.Introduction |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
+                "dating_Elliott_memory_oneday": "{{i18n:Characters_Dialogue.Elliott.dating_Elliott_memory_oneday |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Emily",
+            "Entries": {
+                "Mon": "{{i18n:Characters_Dialogue.Emily.Mon |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "Mon6": "{{i18n:Characters_Dialogue.Emily.Mon |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} 6}}",
+                "Mon6_inlaw_Haley": "{{i18n:Characters_Dialogue.Emily.Mon |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} 6_inlaw_Haley}}",
+                "Resort_Dance": "{{i18n:Characters_Dialogue.Emily.Resort_Dance |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "dating_Emily": "{{i18n:Characters_Dialogue.Emily.dating_Emily |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T |valueAt=4}} }}",
+                "divorced_Haley": "{{i18n:Characters_Dialogue.Emily.divorced_Haley |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "eventSeen_4081148": "{{i18n:Characters_Dialogue.Emily.eventSeen_4081148 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "married_Haley": "{{i18n:Characters_Dialogue.Emily.married_Haley |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "married_Shane": "{{i18n:Characters_Dialogue.Emily.married_Shane |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+                "summer_Mon": "{{i18n:Characters_Dialogue.Emily.summer_Mon |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} }}",
+                "summer_Mon_inlaw_Haley": "{{i18n:Characters_Dialogue.Emily.summer_Mon |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} _inlaw_Haley}}",
+                "summer_Sat": "{{i18n:Characters_Dialogue.Emily.summer_Sat |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+                "winter_Sat": "{{i18n:Characters_Dialogue.Emily.winter_Sat}}",
+                "winter_Wed": "{{i18n:Characters_Dialogue.Emily.winter_Wed |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Evelyn",
+            "Entries": {
+                "GreenRain": "{{i18n:Characters_Dialogue.Evelyn.GreenRain |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Lower05={{AHDPnG_Alexis_Lower_T |valueAt=5}} }}",
+                "fall_Sat": "{{i18n:Characters_Dialogue.Evelyn.fall_Sat |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Lower00={{AHDPnG_Alexis_Lower_T |valueAt=0}} }}",
+                "reject_866": "{{i18n:Characters_Dialogue.Evelyn.reject_866 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/George",
+            "Entries": {
+                "Wed": "{{i18n:Characters_Dialogue.George.Wed |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Lower24={{AHDPnG_Alexis_Lower_T |valueAt=24}} }}",
+                "Wed8": "{{i18n:Characters_Dialogue.George.Wed |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Lower24={{AHDPnG_Alexis_Lower_T |valueAt=24}} 8}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Gus",
+            "Entries": {
+                "Thu6": "{{i18n:Characters_Dialogue.Gus.Thu6 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "Wed": "{{i18n:Characters_Dialogue.Gus.Wed |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}",
+                "dating_Emily_memory_oneweek": "{{i18n:Characters_Dialogue.Gus.dating_Emily_memory_oneweek |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T |valueAt=4}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "Event_room1": "{{i18n:Characters_Dialogue.Haley.Event_room1 |AHDPnG_Alexis_Upper02={{AHDPnG_Alexis_Upper_T |valueAt=2}} |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Upper00={{AHDPnG_Alexis_Upper_T |valueAt=0}} }}",
+                "Fri": "{{i18n:Characters_Dialogue.Haley.Fri |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "Introduction": "{{i18n:Characters_Dialogue.Haley.Introduction |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+                "Resort_Towel_3": "{{i18n:Characters_Dialogue.Haley.Resort_Towel_3 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "divorced_Emily": "{{i18n:Characters_Dialogue.Haley.divorced_Emily |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "eventSeen_11_memory_oneweek": "{{i18n:Characters_Dialogue.Haley.eventSeen_11_memory_oneweek |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "eventSeen_12_memory_twoweeks": "{{i18n:Characters_Dialogue.Haley.eventSeen_12_memory_twoweeks |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "eventSeen_13_memory_oneweek": "{{i18n:Characters_Dialogue.Haley.eventSeen_13_memory_oneweek |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower01={{AHDPnG_Hayden_Lower_T |valueAt=1}} |AHDPnG_Hayden_Lower04={{AHDPnG_Hayden_Lower_T |valueAt=4}} |AHDPnG_Hayden_Upper21={{AHDPnG_Hayden_Upper_T |valueAt=21}} }}",
+                "married_Emily_memory_oneweek": "{{i18n:Characters_Dialogue.Haley.married_Emily_memory_oneweek |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+                "summer_Fri": "{{i18n:Characters_Dialogue.Haley.summer_Fri |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+                "summer_Sun": "{{i18n:Characters_Dialogue.Haley.summer_Sun |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}",
+                "summer_Sun6": "{{i18n:Characters_Dialogue.Haley.summer_Sun |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} 6}}",
+                "winter_Sun": "{{i18n:Characters_Dialogue.Haley.winter_Sun |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+                "winter_Sun6": "{{i18n:Characters_Dialogue.Haley.winter_Sun |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} 6}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Harvey",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Harvey.Introduction |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+                "dating_Maru_memory_oneday": "{{i18n:Characters_Dialogue.Harvey.dating_Maru_memory_oneday |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "married_Maru": "{{i18n:Characters_Dialogue.Harvey.married_Maru |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jas",
+            "Entries": {
+                "Sun10": "{{i18n:Characters_Dialogue.Jas.Sun10 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
+                "Sun2": "{{i18n:Characters_Dialogue.Jas.Sun2 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+                "Thu2": "{{i18n:Characters_Dialogue.Jas.Thu2 |AHDPnG_Peter_Lower61={{AHDPnG_Peter_Lower_T |valueAt=61}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Upper01={{AHDPnG_Peter_Upper_T |valueAt=1}} }}",
+                "eventSeen_3910975": "{{i18n:Characters_Dialogue.Jas.eventSeen_3910975 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+                "married_Shane": "{{i18n:Characters_Dialogue.Jas.married_Shane |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "Sun8": "{{i18n:Characters_Dialogue.Jodi.Sun8 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "Thu6": "{{i18n:Characters_Dialogue.Jodi.Thu6 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Upper00={{AHDPnG_Samantha_Upper_T |valueAt=0}} |AHDPnG_Samantha_Lower02={{AHDPnG_Samantha_Lower_T |valueAt=2}} }}",
+                "dating_Sam_memory_oneday": "{{i18n:Characters_Dialogue.Jodi.dating_Sam_memory_oneday |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} }}",
+                "eventSeen_101": "{{i18n:Characters_Dialogue.Jodi.eventSeen_101 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}",
+                "eventSeen_3102768": "{{i18n:Characters_Dialogue.Jodi.eventSeen_3102768 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower13={{AHDPnG_Peter_Lower_T |valueAt=13}} |AHDPnG_Peter_Upper01={{AHDPnG_Peter_Upper_T |valueAt=1}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "eventSeen_3910975": "{{i18n:Characters_Dialogue.Jodi.eventSeen_3910975 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T |valueAt=0}} }}",
+                "fall_Thu": "{{i18n:Characters_Dialogue.Jodi.fall_Thu |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower08={{AHDPnG_Samantha_Lower_T |valueAt=8}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} }}",
+                "fall_Thu_inlaw_Sam": "{{i18n:Characters_Dialogue.Jodi.fall_Thu |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower08={{AHDPnG_Samantha_Lower_T |valueAt=8}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} _inlaw_Sam}}",
+                "married_Sam": "{{i18n:Characters_Dialogue.Jodi.married_Sam |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "summer_Tue_inlaw_Sam": "{{i18n:Characters_Dialogue.Jodi.summer_Tue_inlaw_Sam}}",
+                "winter_Thu": "{{i18n:Characters_Dialogue.Jodi.winter_Thu |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower06={{AHDPnG_Samantha_Lower_T |valueAt=6}} }}",
+                "winter_Thu_inlaw_Sam": "{{i18n:Characters_Dialogue.Jodi.winter_Thu |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower06={{AHDPnG_Samantha_Lower_T |valueAt=6}} _inlaw_Sam}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kent",
+            "Entries": {
+                "Thu6": "{{i18n:Characters_Dialogue.Kent.Thu6 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Upper00={{AHDPnG_Samantha_Upper_T |valueAt=0}} |AHDPnG_Samantha_Lower08={{AHDPnG_Samantha_Lower_T |valueAt=8}} |AHDPnG_Samantha_Lower02={{AHDPnG_Samantha_Lower_T |valueAt=2}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Krobus",
+            "Entries": {
+                "reject_868": "{{i18n:Characters_Dialogue.Krobus.reject_868 |AHDPnG_Sorceress_Lower56={{AHDPnG_Sorceress_Lower_T |valueAt=56}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Leah",
+            "Entries": {
+                "married_Elliott": "{{i18n:Characters_Dialogue.Leah.married_Elliott |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
+                "married_Shane": "{{i18n:Characters_Dialogue.Leah.married_Shane |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower02={{AHDPnG_Shaylin_Lower_T |valueAt=2}} |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T |valueAt=0}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/LeoMainland",
+            "Entries": {
+                "Tue": "{{i18n:Characters_Dialogue.LeoMainland.Tue |AHDPnG_Peter_Lower61={{AHDPnG_Peter_Lower_T |valueAt=61}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower04={{AHDPnG_Peter_Lower_T |valueAt=4}} |AHDPnG_Peter_Upper01={{AHDPnG_Peter_Upper_T |valueAt=1}} |AHDPnG_Peter_Lower61={{AHDPnG_Peter_Lower_T |valueAt=61}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} }}",
+                "Wed": "{{i18n:Characters_Dialogue.LeoMainland.Wed |AHDPnG_Peter_Lower61={{AHDPnG_Peter_Lower_T |valueAt=61}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lewis",
+            "Entries": {
+                "pamHouseUpgrade": "{{i18n:Characters_Dialogue.Lewis.pamHouseUpgrade |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+                "pamHouseUpgradeAnonymous": "{{i18n:Characters_Dialogue.Lewis.pamHouseUpgrade |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} Anonymous}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Marnie",
+            "Entries": {
+                "Tue": "{{i18n:Characters_Dialogue.Marnie.Tue |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower50={{AHDPnG_Shaylin_Lower_T |valueAt=50}} |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
+                "dating_Shane_memory_oneweek": "{{i18n:Characters_Dialogue.Marnie.dating_Shane_memory_oneweek |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+                "married_Shane": "{{i18n:Characters_Dialogue.Marnie.married_Shane |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T |valueAt=0}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue",
+            "Entries": {
+                "winter_Sebastian": "{{i18n:Characters_Dialogue.MarriageDialogue.winter_Sebastian |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+            "Entries": {
+                "Bad_9": "{{i18n:Characters_Dialogue.MarriageDialogueAbigail.Bad_9 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} }}",
+                "patio_Abigail": "{{i18n:Characters_Dialogue.MarriageDialogueAbigail.patio_Abigail |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T |valueAt=4}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueHaley",
+            "Entries": {
+                "Rainy_Night_2": "{{i18n:Characters_Dialogue.MarriageDialogueHaley.Rainy_Night_2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueMaru",
+            "Entries": {
+                "Rainy_Day_0": "{{i18n:Characters_Dialogue.MarriageDialogueMaru.Rainy_Day_0 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "summer_20": "{{i18n:Characters_Dialogue.MarriageDialogueMaru.summer_20 |AHDPnG_Sabrina_Lower26={{AHDPnG_Sabrina_Lower_T |valueAt=26}} |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialoguePenny",
+            "Entries": {
+                "Rainy_Day_1": "{{i18n:Characters_Dialogue.MarriageDialoguePenny.Rainy_Day_1 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Harriet_Lower03={{AHDPnG_Harriet_Lower_T |valueAt=3}} |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSam",
+            "Entries": {
+                "Rainy_Day_1": "{{i18n:Characters_Dialogue.MarriageDialogueSam.Rainy_Day_1 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "spring_12": "{{i18n:Characters_Dialogue.MarriageDialogueSam.spring_12 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSebastian",
+            "Entries": {
+                "Indoor_Night_2": "{{i18n:Characters_Dialogue.MarriageDialogueSebastian.Indoor_Night_2 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "TwoKids_1": "{{i18n:Characters_Dialogue.MarriageDialogueSebastian.TwoKids_1 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "fall_15": "{{i18n:Characters_Dialogue.MarriageDialogueSebastian.fall_15 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower02={{AHDPnG_Samantha_Lower_T |valueAt=2}} }}",
+                "spring_12": "{{i18n:Characters_Dialogue.MarriageDialogueSebastian.spring_12 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueShane",
+            "Entries": {
+                "Good_2": "{{i18n:Characters_Dialogue.MarriageDialogueShane.Good_2 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+                "OneKid_3": "{{i18n:Characters_Dialogue.MarriageDialogueShane.OneKid_3 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maru",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Maru.Introduction |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "Wed": "{{i18n:Characters_Dialogue.Maru.Wed |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Harriet_Upper00={{AHDPnG_Harriet_Upper_T |valueAt=0}} |AHDPnG_Harriet_Lower00={{AHDPnG_Harriet_Lower_T |valueAt=0}} |AHDPnG_Harriet_Lower05={{AHDPnG_Harriet_Lower_T |valueAt=5}} }}",
+                "Wed8": "{{i18n:Characters_Dialogue.Maru.Wed |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Harriet_Upper00={{AHDPnG_Harriet_Upper_T |valueAt=0}} |AHDPnG_Harriet_Lower00={{AHDPnG_Harriet_Lower_T |valueAt=0}} |AHDPnG_Harriet_Lower05={{AHDPnG_Harriet_Lower_T |valueAt=5}} 8}}",
+                "married_Penny": "{{i18n:Characters_Dialogue.Maru.married_Penny |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} |AHDPnG_Peter_Upper01={{AHDPnG_Peter_Upper_T |valueAt=1}} |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} }}",
+                "married_Sebastian": "{{i18n:Characters_Dialogue.Maru.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+                "summer_Tue": "{{i18n:Characters_Dialogue.Maru.summer_Tue |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower26={{AHDPnG_Sabrina_Lower_T |valueAt=26}} }}",
+                "summer_Tue4": "{{i18n:Characters_Dialogue.Maru.summer_Tue |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower26={{AHDPnG_Sabrina_Lower_T |valueAt=26}} 4}}",
+                "summer_Wed4": "{{i18n:Characters_Dialogue.Maru.summer_Wed4 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pam",
+            "Entries": {
+                "Thu": "{{i18n:Characters_Dialogue.Pam.Thu |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower13={{AHDPnG_Peter_Lower_T |valueAt=13}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "Thu4": "{{i18n:Characters_Dialogue.Pam.Thu |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower13={{AHDPnG_Peter_Lower_T |valueAt=13}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} 4}}",
+                "divorced_Penny": "{{i18n:Characters_Dialogue.Pam.divorced_Penny |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "fall_Thu": "{{i18n:Characters_Dialogue.Pam.fall_Thu |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "married_Penny": "{{i18n:Characters_Dialogue.Pam.married_Penny |AHDPnG_Peter_Lower13={{AHDPnG_Peter_Lower_T |valueAt=13}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+                "winter_Fri": "{{i18n:Characters_Dialogue.Pam.winter_Fri |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} }}",
+                "winter_Tue4": "{{i18n:Characters_Dialogue.Pam.winter_Tue4 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "winter_Tue4_inlaw_Penny": "{{i18n:Characters_Dialogue.Pam.winter_Tue4 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} _inlaw_Penny}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Penny",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Penny.Introduction |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+                "dating_Maru_memory_oneday": "{{i18n:Characters_Dialogue.Penny.dating_Maru_memory_oneday |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "eventSeen_36_memory_oneweek": "{{i18n:Characters_Dialogue.Penny.eventSeen_36_memory_oneweek |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}",
+                "married_Maru": "{{i18n:Characters_Dialogue.Penny.married_Maru |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}",
+                "married_Sam": "{{i18n:Characters_Dialogue.Penny.married_Sam |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pierre",
+            "Entries": {
+                "Mon4_inlaw_Abigail": "{{i18n:Characters_Dialogue.Pierre.Mon4_inlaw_Abigail |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}",
+                "Thu8": "{{i18n:Characters_Dialogue.Pierre.Thu8 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "eventSeen_4": "{{i18n:Characters_Dialogue.Pierre.eventSeen_4 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Abel_Upper01={{AHDPnG_Abel_Upper_T |valueAt=1}} |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}} |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T |valueAt=4}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Robin",
+            "Entries": {
+                "Fri": "{{i18n:Characters_Dialogue.Robin.Fri |AHDPnG_Sabrina_Lower22={{AHDPnG_Sabrina_Lower_T |valueAt=22}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}",
+                "Fri4": "{{i18n:Characters_Dialogue.Robin.Fri |AHDPnG_Sabrina_Lower22={{AHDPnG_Sabrina_Lower_T |valueAt=22}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} 4}}",
+                "Fri4_inlaw_Sebastian": "{{i18n:Characters_Dialogue.Robin.Fri |AHDPnG_Sabrina_Lower22={{AHDPnG_Sabrina_Lower_T |valueAt=22}} |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} 4_inlaw_Sebastian}}",
+                "divorced_Maru": "{{i18n:Characters_Dialogue.Robin.divorced_Maru |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "divorced_Sebastian": "{{i18n:Characters_Dialogue.Robin.divorced_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+                "fall_Mon": "{{i18n:Characters_Dialogue.Robin.fall_Mon |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Upper01={{AHDPnG_Micah_Upper_T |valueAt=1}} |AHDPnG_Micah_Lower04={{AHDPnG_Micah_Lower_T |valueAt=4}} |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "married_Maru": "{{i18n:Characters_Dialogue.Robin.married_Maru |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower03={{AHDPnG_Micah_Lower_T |valueAt=3}} }}",
+                "married_Sebastian": "{{i18n:Characters_Dialogue.Robin.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+                "pamHouseUpgrade": "{{i18n:Characters_Dialogue.Robin.pamHouseUpgrade |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+                "pamHouseUpgradeAnonymous": "{{i18n:Characters_Dialogue.Robin.pamHouseUpgrade |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} Anonymous}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sam",
+            "Entries": {
+                "Introduction": "{{i18n:Characters_Dialogue.Sam.Introduction |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "Mon8": "{{i18n:Characters_Dialogue.Sam.Mon8 |AHDPnG_Samantha_Lower26={{AHDPnG_Samantha_Lower_T |valueAt=26}} }}",
+                "Resort_Towel": "{{i18n:Characters_Dialogue.Sam.Resort_Towel |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower05={{AHDPnG_Samantha_Lower_T |valueAt=5}} }}",
+                "Resort_Towel_2": "{{i18n:Characters_Dialogue.Sam.Resort_Towel_2 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "Wed6": "{{i18n:Characters_Dialogue.Sam.Wed6 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} |AHDPnG_Sabrina_Lower58={{AHDPnG_Sabrina_Lower_T |valueAt=58}} }}",
+                "dating_Sebastian": "{{i18n:Characters_Dialogue.Sam.dating_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} }}",
+                "married_Sebastian": "{{i18n:Characters_Dialogue.Sam.married_Sebastian |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} |AHDPnG_Sabrina_Lower00={{AHDPnG_Sabrina_Lower_T |valueAt=0}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sandy",
+            "Entries": {
+                "Wed": "{{i18n:Characters_Dialogue.Sandy.Wed |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}",
+                "married_Emily": "{{i18n:Characters_Dialogue.Sandy.married_Emily |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "Fri8": "{{i18n:Characters_Dialogue.Sebastian.Fri8 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "Thu4": "{{i18n:Characters_Dialogue.Sebastian.Thu4 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} |AHDPnG_Micah_Lower01={{AHDPnG_Micah_Lower_T |valueAt=1}} }}",
+                "Thu8": "{{i18n:Characters_Dialogue.Sebastian.Thu8}}",
+                "Tue6": "{{i18n:Characters_Dialogue.Sebastian.Tue6 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Samantha_Lower00={{AHDPnG_Samantha_Lower_T |valueAt=0}} |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "Wed2": "{{i18n:Characters_Dialogue.Sebastian.Wed2 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+                "Wed2_inlaw_Abigail": "{{i18n:Characters_Dialogue.Sebastian.Wed2_inlaw_Abigail |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} _inlaw_Abigail}}",
+                "Wed6": "{{i18n:Characters_Dialogue.Sebastian.Wed6 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+                "winter_Sun6": "{{i18n:Characters_Dialogue.Sebastian.winter_Sun6 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+                "winter_Wed": "{{i18n:Characters_Dialogue.Sebastian.winter_Wed |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "JojaMart": "{{i18n:Characters_Dialogue.Shane.JojaMart |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
+                "dumped_Guys": "{{i18n:Characters_Dialogue.Shane.dumped_Guys |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
+                "event_room1": "{{i18n:Characters_Dialogue.Shane.event_room1 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} |AHDPnG_Elena_Lower02={{AHDPnG_Elena_Lower_T |valueAt=2}} }}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "Sat_1": "{{i18n:Characters_Dialogue.Vincent.Sat_1 |AHDPnG_Peter_Lower61={{AHDPnG_Peter_Lower_T |valueAt=61}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} }}",
+                "Tue6": "{{i18n:Characters_Dialogue.Vincent.Tue6 |AHDPnG_Peter_Lower61={{AHDPnG_Peter_Lower_T |valueAt=61}} |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} |AHDPnG_Peter_Lower03={{AHDPnG_Peter_Lower_T |valueAt=3}} }}",
+                "married_Sam": "{{i18n:Characters_Dialogue.Vincent.married_Sam}}"
+            }
+        }
+    ]
+}

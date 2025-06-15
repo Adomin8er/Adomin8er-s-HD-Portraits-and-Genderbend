@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "LogName": "Emmett personal/family data",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Emily": {
+                    "DisplayName": "Emmett",
+                    "Gender": "Male"
+                },
+                "Haley": {
+                    "FriendsAndFamily": {
+                        "Emily": "[LocalizedText Strings\\Characters:Relative_Brother]"
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Emmett gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Emily": {
+                    "DisplayName": "Emmett",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

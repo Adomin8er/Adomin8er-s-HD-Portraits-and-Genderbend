@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "LogName": "Sorceress personal/family data",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Wizard": {
+                    "DisplayName": "Sorceress",
+                    "Gender": "Female"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "Mods": {
+        "Adomin8er_s HD (MOD) Portraits": {
+            "requirements" : {
+                "spacechase0.SpaceCore": "Used to insert/use HD portraits.",
+                "Spiderbuttons.CMCT": "Used to import Dynamic Tokens and Configs from other mods."
+            },
+            "assets": {
+                "Details": "Main folder with files that are always required in mods.",
+                "BaseImages": {
+                    "Details": "Image sheets for all characters."
+                },
+                "BendX2X": {
+                    "Details": "Boy to Girl gateway for all assets and logic",
+                    "Character": {
+                        "Required": {
+                            "Character.png": "Image atlas for a given character. Used in conversation.",
+                            "CharacterOW.png": "Sprite atlas for a given character. Used in the overworld",
+                            "Character_ImageData.json": "Gateway containing logic for sprites and images.",
+                            "Character_StringData.json": "Gateway containing logic for unique genderbend string data that is easier to maintain in a separate location."
+                        },
+                        "Optional": {
+                            "Character_Beach.png": "Image atlas for characters that go to Ginger Island. Used in conversation.",
+                            "Character_Winter.png": "Image atlas for characters that have winter outfits. Used in conversation.",
+                            "CharacterOW_Beach.png": "Sprite atlas for characters that go to Ginger Island.",
+                            "CharacterOW_WeddingDance.png": "Sprite atlas used for the wedding or Flower Dance scenes.",
+                            "CharacterOW_Winter.png": "Sprite atlas for characters that have winter outfits.",
+                            "Location.tbin": "TO BE UPDATED BUT I BELIEVE IT IS FOR MAP UPDATES."
+                        }
+                    },
+                    "B2G_Portraits.png": "Image data to be used for updating purchaseable portraits.",
+                    "Cursors.png": "Extra images to be used in replacements."
+                }
+            },
+            "code": {
+                "ModSupport": {
+                    "Details": "Provides logic for when additional mods are applied."
+                },
+                "StringData": {
+                    "Details": "The majority of the string data that will be manipulated in this mod.",
+                    "Character_Dialogue.json": "All strings from JSON files in the Characters/Dialogue folder.",
+                    "Data_Events.json": "All strings from JSON files in the Data/Events folder.",
+                    "Data_Festivals.json": "All strings from JSON files in the Data/Festivals folder.",
+                    "Data.json": "All strings from JSON files DIRECTLY in the Data folder.",
+                    "Strings.json": "All strings from JSON files in the Characters/Dialogue folder."
+                }
+            },
+            "i18n": {
+                "Details": "A central location for all strings to enable easier language support.",
+                "default.json": "The complete collection of modified strings."
+            },
+            "config.json": "Mod settings and preferences.",
+            "content.json": "Main gateway for all assets and logic.",
+            "manifest.json": "Mod metadata, dependencies, and version info."
+        }
+    }
+}

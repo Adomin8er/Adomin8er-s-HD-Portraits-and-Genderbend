@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Haley",
+            "Entries": {
+                "Placeholder": "Placeholder Data"
+            }
+        }
+    ]
+}

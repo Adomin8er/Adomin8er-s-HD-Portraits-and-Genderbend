@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Victoria standard outfit.",
+            "Target": "Characters/Victor",
+            "FromFile": "assets/BendB2G/Victoria/VictoriaOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Victoria winter outfit.",
+            "Target": "Characters/Victor_Winter",
+            "FromFile": "assets/BendB2G/Victoria/VictoriaOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Victoria beach outfit.",
+            "Target": "Characters/Victor_Beach",
+            "FromFile": "assets/BendB2G/Victoria/VictoriaOW_Beach.png"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Victoria's purchasable painting image.",
+            "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/B2G_Portraits_SVE",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Victoria's purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_VictorPortrait": "VictoriaPortrait/painting/2 2/2 2/1/999/-1/Victoria Portrait/6/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\B2G_Portraits_SVE/true"
+            }
+        }
+    ]
+}

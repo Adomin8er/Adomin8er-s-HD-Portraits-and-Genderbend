@@ -1,0 +1,89 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "LogName": "Micah personal/family data for Sebastian",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Maru": {
+                    "DisplayName": "Micah",
+                    "Gender": "Male"
+                },
+                "Robin": {
+                    "FriendsAndFamily": {
+                        "Demetrius": "[LocalizedText Strings\\Characters:Relative_Husband]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_Son]",
+                        "Sebastian": "[LocalizedText Strings\\Characters:Relative_Son]"
+                    }
+                },
+                "Demetrius": {
+                    "FriendsAndFamily": {
+                        "Robin": "[LocalizedText Strings\\Characters:Relative_Wife]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_Son]"
+                    }
+                },
+                "Sebastian": {
+                    "FriendsAndFamily": {
+                        "Robin": "[LocalizedText Strings\\Characters:Relative_Mom]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_HalfBrother]",
+                        "Sam": ""
+                    }
+                }
+            },
+            "When":{
+                "Sebastian_To_Sabrina":"false"
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Micah personal/family data for Sabrina",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Maru": {
+                    "DisplayName": "Micah",
+                    "Gender": "Male"
+                },
+                "Robin": {
+                    "FriendsAndFamily": {
+                        "Demetrius": "[LocalizedText Strings\\Characters:Relative_Husband]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_Son]",
+                        "Sebastian": "[LocalizedText Strings\\Characters:Relative_Daughter]"
+                    }
+                },
+                "Demetrius": {
+                    "FriendsAndFamily": {
+                        "Robin": "[LocalizedText Strings\\Characters:Relative_Wife]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_Son]",
+                        "Sebastian": "[LocalizedText Strings\\Characters:Relative_Daughter]"
+                    }
+                },
+                "Sebastian": {
+                    "FriendsAndFamily": {
+                        "Robin": "[LocalizedText Strings\\Characters:Relative_Mom]",
+                        "Maru": "[LocalizedText Strings\\Characters:Relative_HalfBrother]",
+                        "Sam": ""
+                    }
+                }
+            },
+            "When":{
+                "Sebastian_To_Sabrina":"true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Micah gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Maru": {
+                    "DisplayName": "Micah",
+                    "Gender": "Female"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

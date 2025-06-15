@@ -1,0 +1,16 @@
+{
+    "Required": {
+    },
+    "Optional": {
+    },
+    "Templates": {
+    },
+    "Remeber": {
+        "WeddingDance": {
+            "Originally a boy": "Will be facing upwards: Needs boy dance sprite template.",
+            "Originally a girl": "Will be facing downwards: Needs girl dance sprite template.",
+            "Currently a boy partner": "Needs to face downwards: Set to gender girl sprite during festival.",
+            "Currently a girl partner": "Needs to face upwards: Set to gender boy sprite during festival."
+        }
+    }
+}

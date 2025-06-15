@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiarra",
+            "Entries": {
+                "PlaceholderString": "Placeholder String Data"
+            }
+        }
+    ]
+}

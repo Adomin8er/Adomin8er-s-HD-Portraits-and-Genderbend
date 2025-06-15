@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Arcana standard outfit.",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/BendB2G/Arcana/ArcanaOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Arcana's purchasable painting image.",
+            "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/B2G_Portraits_SVE",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Arcana's purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "ArcanaPortrait/painting/2 2/2 2/1/999/-1/Arcana Portrait/8/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\B2G_Portraits_SVE/true"
+            }
+        }
+    ]
+}

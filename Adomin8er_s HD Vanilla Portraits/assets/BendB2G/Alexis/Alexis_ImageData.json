@@ -1,0 +1,56 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "LogName": "Alexis standard outfit.",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Alexis winter outfit.",
+            "Target": "Characters/Alex_Winter",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Alex_Beach",
+            "LogName": "Alexis beach outfit.",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Alexis wedding outfit.",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/BendB2G/Alexis/AlexisOW_Wedding.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        {
+            "Action": "EditMap",
+            "LogName": "Alexis's locker location.",
+            "Target": "Maps/BathHouse_WomensLocker",
+            "FromFile": "assets/BendB2G/Alexis/BathHouse_WomensLocker.tbin",
+            "FromArea": { "X": 16, "Y": 9, "Width": 12, "Height": 9},
+            "ToArea": { "X": 16, "Y": 9, "Width": 12, "Height": 9},
+            "PatchMode": "Replace"
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Alexis's purchasable painting image.",
+            "Target": "Mods/Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Alexis's purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "AlexPortrait": "AlexPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:AlexPortrait]/249/Mods\\Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend\\B2G_Portraits/true"
+            }
+        }
+    ]
+}

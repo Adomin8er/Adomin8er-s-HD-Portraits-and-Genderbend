@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ysabelle",
+            "Entries": {
+                "PlaceholderString": "Placeholder String Data"
+            }
+        }
+    ]
+}
