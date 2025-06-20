@@ -1,27 +1,27 @@
 {
     "Changes": [
         {
+            ".LogName": "Elena standard outfit.",
             "Action": "EditImage",
-            "LogName": "Elena standard outfit.",
             "Target": "Characters/Elliott",
             "FromFile": "assets/BendB2G/Elena/ElenaOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
+            ".LogName": "Elena winter outfit.",
             "Action": "EditImage",
-            "LogName": "Elena winter outfit.",
             "Target": "Characters/Elliott_Winter",
             "FromFile": "assets/BendB2G/Elena/ElenaOW_Winter.png"
         },
         {
+            ".LogName": "Elena beach outfit.",
             "Action": "EditImage",
-            "LogName": "Elena beach outfit.",
             "Target": "Characters/Elliott_Beach",
             "FromFile": "assets/BendB2G/Elena/ElenaOW_Beach.png"
         },
         {
+            ".LogName": "Elena wedding outfit.",
             "Action": "EditImage",
-            "LogName": "Elena wedding outfit.",
             "Target": "Characters/Elliott",
             "FromFile": "assets/BendB2G/Elena/ElenaOW_Wedding.png",
             "When": {
@@ -30,14 +30,33 @@
         },
         
         {
+            ".LogName": "Elena special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 9,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 99,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Elena purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Elena purchasable painting image.",
             "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
         },
         {
+            ".LogName": "Elena purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Elena purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "ElliottPortrait": "ElenaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:ElliottPortrait]/255/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\B2G_Portraits/true"

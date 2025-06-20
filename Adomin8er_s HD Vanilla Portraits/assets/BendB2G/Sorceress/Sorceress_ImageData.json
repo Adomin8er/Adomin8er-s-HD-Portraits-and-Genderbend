@@ -1,10 +1,29 @@
 {
     "Changes": [
         {
+            ".LogName": "Sorceress standard outfit",
             "Action": "EditImage",
-            "LogName": "Sorceress standard outfit",
             "Target": "Characters/Wizard",
             "FromFile": "assets/BendB2G/Sorceress/SorceressOW.png"
+        },
+        
+        {
+            ".LogName": "Sorceress special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 54,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 90,
+                "Y": 108,
+                "Width": 9,
+                "Height": 9
+            }
         }
     ]
 }
