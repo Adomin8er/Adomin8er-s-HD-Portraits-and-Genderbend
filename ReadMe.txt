@@ -20,9 +20,11 @@ Adomin8ers_HD_Portraits_and_Genderbend
 
 :: CREDITS ::
 ♦ Concerned Ape for Stardew Valley.
-♦ tlitookilakin for HD Portraits.
-♦ Platonymous for Portraiture which is used if HD Portraits is not up to date.
 ♦ Jier for the inspiration and idea.
+♦ spacechase0 for Space Core.
+♦ Spiderbuttons for Cross-Mod Compatibility Tokens.
 ♦ FlashShifter for Stardew Valley Expanded.
 ♦ Rafseazz for Ridgeside Village.
 ♦ TroubleDarkness for the DivineEleganceMix model.
+♦ tlitookilakin for HD Portraits (even though it is no longer being used).
+♦ Platonymous for Portraiture (even though it is no longer being used).
