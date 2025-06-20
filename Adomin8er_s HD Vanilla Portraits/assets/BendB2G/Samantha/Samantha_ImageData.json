@@ -1,27 +1,27 @@
 {
     "Changes": [
         {
+            ".LogName": "Samantha standard outfit.",
             "Action": "EditImage",
-            "LogName": "Samantha standard outfit.",
             "Target": "Characters/Sam",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
+            ".LogName": "Samantha winter outfit.",
             "Action": "EditImage",
-            "LogName": "Samantha winter outfit.",
             "Target": "Characters/Sam_Winter",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Winter.png"
         },
         {
+            ".LogName": "Samantha beach outfit.",
             "Action": "EditImage",
-            "LogName": "Samantha beach outfit.",
             "Target": "Characters/Sam_Beach",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Beach.png"
         },
         {
+            ".LogName": "Samantha wedding outfit.",
             "Action": "EditImage",
-            "LogName": "Samantha wedding outfit.",
             "Target": "Characters/Sam",
             "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Wedding.png",
             "When": {
@@ -30,14 +30,33 @@
         },
         
         {
+            ".LogName": "Samantha special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 36,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 81,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Samantha purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Samantha purchasable painting image.",
             "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
         },
         {
+            ".LogName": "Samantha purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Samantha purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "SamPortrait": "SamanthaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:SamPortrait]/304/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\B2G_Portraits/true"

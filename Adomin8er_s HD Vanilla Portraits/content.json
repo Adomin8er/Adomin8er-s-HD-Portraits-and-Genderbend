@@ -308,13 +308,6 @@
       "AllowValues": "true,false",
       "Default": "false",
       "Section": "Male Genderbend - Vanilla"
-    },
-
-    // Other
-    "MatureEvents": {
-      "AllowValues": "true,false",
-      "Default": "false",
-      "Section": "Other"
     }
   },
   "DynamicTokens": [

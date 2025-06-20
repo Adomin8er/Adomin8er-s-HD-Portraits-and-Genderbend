@@ -30,6 +30,25 @@
         },
         
         {
+            ".LogName": "Harriet special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 18,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 90,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
             "Action": "Load", "Priority": "Low",
             "LogName": "Harriet purchasable painting image.",
             "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",

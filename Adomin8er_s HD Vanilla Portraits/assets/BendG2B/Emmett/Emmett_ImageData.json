@@ -1,26 +1,26 @@
 {
     "Changes": [ 
         {
+            ".LogName": "Emmett standard outfit.",
             "Action": "EditImage",
-            "LogName": "Emmett standard outfit.",
             "Target": "Characters/Emily",
             "FromFile": "assets/BendG2B/Emmett/EmmettOW.png"
         },
         {
+            ".LogName": "Emmett winter outfit.",
             "Action": "EditImage",
-            "LogName": "Emmett winter outfit.",
             "Target": "Characters/Emily_Winter",
             "FromFile": "assets/BendG2B/Emmett/EmmettOW_Winter.png"
         },
         {
+            ".LogName": "Emmett beach outfit.",
             "Action": "EditImage",
-            "LogName": "Emmett beach outfit.",
             "Target": "Characters/Emily_Beach",
             "FromFile": "assets/BendG2B/Emmett/EmmettOW_Beach.png"
         },
         {
+            ".LogName": "Emmett wedding outfit.",
             "Action": "EditImage",
-            "LogName": "Emmett wedding outfit.",
             "Target": "Characters/Emily",
             "FromFile": "assets/BendG2B/Emmett/EmmettOW_Wedding.png",
             "When": {
@@ -29,14 +29,33 @@
         },
         
         {
+            ".LogName": "Alexis special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 9,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 45,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Emmett purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Emmett purchasable painting image.",
             "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/G2B_Portraits",
             "FromFile": "assets/BendG2B/G2B_Portraits.png"
         },
         {
+            ".LogName": "Emmett purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Emmett purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "EmilyPortrait": "EmmettPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:EmilyPortrait]/225/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\G2B_Portraits/true"

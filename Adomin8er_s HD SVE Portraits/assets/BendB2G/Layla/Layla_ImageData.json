@@ -1,34 +1,53 @@
 {
     "Changes": [
         {
+            ".LogName": "Layla standard outfit.",
             "Action": "EditImage",
-            "LogName": "Layla standard outfit.",
             "Target": "Characters/Lance",
             "FromFile": "assets/BendB2G/Layla/LaylaOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
+            ".LogName": "Layla winter outfit.",
             "Action": "EditImage",
-            "LogName": "Layla winter outfit.",
             "Target": "Characters/Lance_Winter",
             "FromFile": "assets/BendB2G/Layla/LaylaOW_Winter.png"
         },
         {
+            ".LogName": "Layla beach outfit.",
             "Action": "EditImage",
-            "LogName": "Layla beach outfit.",
             "Target": "Characters/Lance_Beach",
             "FromFile": "assets/BendB2G/Layla/LaylaOW_Beach.png"
         },
         
         {
+            ".LogName": "Sorceress special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 9,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 54,
+                "Y": 126,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Layla's purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Layla's purchasable painting image.",
             "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/B2G_Portraits_SVE",
             "FromFile": "assets/BendB2G/B2G_Portraits.png"
         },
         {
+            ".LogName": "Layla's purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Layla's purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "FlashShifter.StardewValleyExpandedCP_LancePortrait": "LaylaPortrait/painting/2 2/2 2/1/999/-1/Layla Portrait/10/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\B2G_Portraits_SVE/true"

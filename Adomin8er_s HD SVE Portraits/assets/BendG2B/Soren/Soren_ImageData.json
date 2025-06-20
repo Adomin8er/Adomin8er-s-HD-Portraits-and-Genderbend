@@ -1,34 +1,53 @@
 {
     "Changes": [
         {
+            ".LogName": "Soren standard outfit.",
             "Action": "EditImage",
-            "LogName": "Soren standard outfit.",
             "Target": "Characters/Sophia",
             "FromFile": "assets/BendG2B/Soren/SorenOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
+            ".LogName": "Soren winter outfit.",
             "Action": "EditImage",
-            "LogName": "Soren winter outfit.",
             "Target": "Characters/Sophia_Winter",
             "FromFile": "assets/BendG2B/Soren/SorenOW_Winter.png"
         },
         {
+            ".LogName": "Soren beach outfit.",
             "Action": "EditImage",
-            "LogName": "Soren beach outfit.",
             "Target": "Characters/Sophia_Beach",
             "FromFile": "assets/BendG2B/Soren/SorenOW_Beach.png"
         },
         
         {
+            ".LogName": "Sorceress special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 27,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 126,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Sophia's purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Sophia's purchasable painting image.",
             "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/G2B_Portraits_SVE",
             "FromFile": "assets/BendG2B/G2B_Portraits.png"
         },
         {
+            ".LogName": "Sophia's purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Sophia's purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SorenPortrait/painting/2 2/2 2/1/999/-1/Soren Portrait/0/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\G2B_Portraits_SVE/true"

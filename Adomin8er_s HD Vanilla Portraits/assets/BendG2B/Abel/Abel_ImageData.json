@@ -1,26 +1,26 @@
 {
     "Changes": [ 
         {
+            ".LogName": "Abel standard outfit.",
             "Action": "EditImage",
-            "LogName": "Abel standard outfit.",
             "Target": "Characters/Abigail",
             "FromFile": "assets/BendG2B/Abel/AbelOW.png"
         },
         {
+            ".LogName": "Abel winter outfit.",
             "Action": "EditImage",
-            "LogName": "Abel winter outfit.",
             "Target": "Characters/Abigail_Winter",
             "FromFile": "assets/BendG2B/Abel/AbelOW_Winter.png"
         },
         {
+            ".LogName": "Abel beach outfit.",
             "Action": "EditImage",
-            "LogName": "Abel beach outfit.",
             "Target": "Characters/Abigail_Beach",
             "FromFile": "assets/BendG2B/Abel/AbelOW_Beach.png"
         },
         {
+            ".LogName": "Abel wedding outfit.",
             "Action": "EditImage",
-            "LogName": "Abel wedding outfit.",
             "Target": "Characters/Abigail",
             "FromFile": "assets/BendG2B/Abel/AbelOW.png",
             "When": {
@@ -29,14 +29,33 @@
         },
         
         {
+            ".LogName": "Alexis special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 0,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Abel purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Abel purchasable painting image.",
             "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/G2B_Portraits",
             "FromFile": "assets/BendG2B/G2B_Portraits.png"
         },
         {
+            ".LogName": "Abel purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Abel purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "AbigailPortrait": "AbelPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:AbigailPortrait]/221/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\G2B_Portraits/true"

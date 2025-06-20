@@ -1,46 +1,65 @@
 {
     "Changes": [
         {
+            ".LogName": "Clayton standard outfit.",
             "Action": "EditImage",
-            "LogName": "Clayton standard outfit.",
             "Target": "Characters/Claire",
             "FromFile": "assets/BendG2B/Clayton/ClaytonOW.png",
             "When": {"DayEvent |contains=wedding": false}
         },
         {
+            ".LogName": "Clayton winter outfit.",
             "Action": "EditImage",
-            "LogName": "Clayton winter outfit.",
             "Target": "Characters/Claire_Winter",
             "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Winter.png"
         },
         {
+            ".LogName": "Clayton beach outfit.",
             "Action": "EditImage",
-            "LogName": "Clayton beach outfit.",
             "Target": "Characters/Claire_Beach",
             "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Beach.png"
         },
         {
+            ".LogName": "Clayton Joja outfit.",
             "Action": "EditImage",
-            "LogName": "Clayton Joja outfit.",
             "Target": "Characters/Claire_Joja",
             "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Joja.png"
         },
         {
+            ".LogName": "Clayton Theater outfit.",
             "Action": "EditImage",
-            "LogName": "Clayton Theater outfit.",
             "Target": "Characters/Claire_Theater",
             "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png"
         },
         
         {
+            ".LogName": "Sorceress special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 45,
+                "Y": 126,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Clayton's purchasable painting image.",
             "Action": "Load", "Priority": "Low",
-            "LogName": "Clayton's purchasable painting image.",
             "Target": "Mods/Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend/G2B_Portraits_SVE",
             "FromFile": "assets/BendG2B/G2B_Portraits.png"
         },
         {
+            ".LogName": "Clayton's purchasable painting string data.",
             "Action": "EditData",
-            "LogName": "Clayton's purchasable painting string data.",
             "Target": "Data/Furniture",
             "Entries": {
                 "FlashShifter.StardewValleyExpandedCP_ClairePortrait": "ClaytonPortrait/painting/2 2/2 2/1/999/-1/Clayton Portrait/4/Mods\\Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend\\G2B_Portraits_SVE/true"
