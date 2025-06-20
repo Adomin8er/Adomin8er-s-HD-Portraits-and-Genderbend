@@ -934,14 +934,14 @@
     },
     {
       "Name": "AHDPnG_Allister_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Alissa_To_Allister": false
       }
     },
     {
       "Name": "AHDPnG_Allister_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Alissa_To_Allister": false
       }
@@ -956,14 +956,14 @@
     },
     {
       "Name": "AHDPnG_Blaine_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Blair_To_Blaine": false
       }
     },
     {
       "Name": "AHDPnG_Blaine_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Blair_To_Blaine": false
       }
@@ -978,14 +978,14 @@
     },
     {
       "Name": "AHDPnG_Corbin_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Corine_To_Corbin": false
       }
     },
     {
       "Name": "AHDPnG_Corbin_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Corine_To_Corbin": false
       }
@@ -1000,14 +1000,14 @@
     },
     {
       "Name": "AHDPnG_Dain_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Daia_To_Dain": false
       }
     },
     {
       "Name": "AHDPnG_Dain_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Daia_To_Dain": false
       }
@@ -1022,14 +1022,14 @@
     },
     {
       "Name": "AHDPnG_Felix_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Faye_To_Felix": false
       }
     },
     {
       "Name": "AHDPnG_Felix_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Faye_To_Felix": false
       }
@@ -1044,14 +1044,14 @@
     },
     {
       "Name": "AHDPnG_Florian_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Flor_To_Florian": false
       }
     },
     {
       "Name": "AHDPnG_Florian_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Flor_To_Florian": false
       }
@@ -1066,14 +1066,14 @@
     },
     {
       "Name": "AHDPnG_Irwin_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Irene_To_Irwin": false
       }
     },
     {
       "Name": "AHDPnG_Irwin_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Irene_To_Irwin": false
       }
@@ -1088,14 +1088,14 @@
     },
     {
       "Name": "AHDPnG_Kian_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Kiarra_To_Kian": false
       }
     },
     {
       "Name": "AHDPnG_Kian_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Kiarra_To_Kian": false
       }
@@ -1110,14 +1110,14 @@
     },
     {
       "Name": "AHDPnG_Matthew_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Maddie_To_Matthew": false
       }
     },
     {
       "Name": "AHDPnG_Matthew_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Maddie_To_Matthew": false
       }
@@ -1132,14 +1132,14 @@
     },
     {
       "Name": "AHDPnG_Pablo_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Paula_To_Pablo": false
       }
     },
     {
       "Name": "AHDPnG_Pablo_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Paula_To_Pablo": false
       }
@@ -1154,14 +1154,14 @@
     },
     {
       "Name": "AHDPnG_Ysai_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Ysabelle_To_Ysai": false
       }
     },
     {
       "Name": "AHDPnG_Ysai_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Ysabelle_To_Ysai": false
       }
@@ -1176,14 +1176,14 @@
     },
     {
       "Name": "AHDPnG_Anya_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Anton_To_Anya": false
       }
     },
     {
       "Name": "AHDPnG_Anya_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Anton_To_Anya": false
       }
@@ -1198,14 +1198,14 @@
     },
     {
       "Name": "AHDPnG_Brylee_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Bryle_To_Brylee": false
       }
     },
     {
       "Name": "AHDPnG_Brylee_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Bryle_To_Brylee": false
       }
@@ -1220,14 +1220,14 @@
     },
     {
       "Name": "AHDPnG_Ivy_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Ian_To_Ivy": false
       }
     },
     {
       "Name": "AHDPnG_Ivy_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Ian_To_Ivy": false
       }
@@ -1242,14 +1242,14 @@
     },
     {
       "Name": "AHDPnG_Jerica_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Jeric_To_Jerica": false
       }
     },
     {
       "Name": "AHDPnG_Jerica_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Jeric_To_Jerica": false
       }
@@ -1264,14 +1264,14 @@
     },
     {
       "Name": "AHDPnG_Jiya_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Jio_To_Jiya": false
       }
     },
     {
       "Name": "AHDPnG_Jiya_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Jio_To_Jiya": false
       }
@@ -1286,14 +1286,14 @@
     },
     {
       "Name": "AHDPnG_Juniper_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "June_To_Juniper": false
       }
     },
     {
       "Name": "AHDPnG_Juniper_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "June_To_Juniper": false
       }
@@ -1308,14 +1308,14 @@
     },
     {
       "Name": "AHDPnG_Kendra_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Kenneth_To_Kendra": false
       }
     },
     {
       "Name": "AHDPnG_Kendra_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Kenneth_To_Kendra": false
       }
@@ -1330,14 +1330,14 @@
     },
     {
       "Name": "AHDPnG_Phoebe_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Philip_To_Phoebe": false
       }
     },
     {
       "Name": "AHDPnG_Phoebe_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Philip_To_Phoebe": false
       }
@@ -1352,14 +1352,14 @@
     },
     {
       "Name": "AHDPnG_Shauna_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Sean_To_Shauna": false
       }
     },
     {
       "Name": "AHDPnG_Shauna_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Sean_To_Shauna": false
       }
@@ -1374,14 +1374,14 @@
     },
     {
       "Name": "AHDPnG_Shiori_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Shiro_To_Shiori": false
       }
     },
     {
       "Name": "AHDPnG_Shiori_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Shiro_To_Shiori": false
       }
@@ -1396,14 +1396,14 @@
     },
     {
       "Name": "AHDPnG_Zaria_Lower_T",
-      "Value": "{{GenderWordsSwapped_Lower}}",
+      "Value": "{{GenderWords_Lower}}",
       "When": {
           "Zayne_To_Zaria": false
       }
     },
     {
       "Name": "AHDPnG_Zaria_Upper_T",
-      "Value": "{{GenderWordsSwapped_Upper}}",
+      "Value": "{{GenderWords_Upper}}",
       "When": {
           "Zayne_To_Zaria": false
       }
