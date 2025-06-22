@@ -860,6 +860,10 @@
     {
       "Name": "IsOddYear",
       "Value": "{{Query: {{Year}} % 2 = 1}}"
+    },
+    {
+      "Name": "GuntherUnlocked",
+      "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=103042015}}"
     }
 
   ],

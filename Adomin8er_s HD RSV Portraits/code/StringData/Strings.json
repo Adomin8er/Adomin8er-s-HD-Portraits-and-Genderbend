@@ -1,299 +1,299 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Strings/Animationdescriptions",
-            "When": {},
-            "Entries": {
-                "alissa.sing": "{{i18n:Animations.Alissa.Sing |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "corine.slash": "{{i18n:Animations.Corine.Slash |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
-                "irene.relax": "{{i18n:Animations.irene.relax |AHDPnG_Irwin_Lower04={{AHDPnG_Irwin_Lower_T | valueAt=4}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Specialorderstrings",
-            "When": {},
-            "Entries": {
-                "RSV.SpecialOrder.TownFish_Text": "{{i18n:RSV.SpecialOrder.TownFish_Text |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "RSV.SpecialOrder.TownFish_Objective2_Text": "{{i18n:RSV.SpecialOrder.TownFish_Objective2_Text |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Greeting1-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Greeting1-pastel |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Greeting1-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Greeting1-jackets |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Greeting1-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Greeting1-misc |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective1_Text-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective2_Text-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective3_Text-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective1_Text-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective2_Text-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective3_Text-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective1_Text-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective2_Text-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "RSV.SpecialOrder.FayeClothes_Objective3_Text-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "LocationName": "Custom_Ridgeside_PaulaClinic"
-            },
-            "Entries": {
-                "Event.cs.1068": "{{i18n:RSV.Event.cs.1068 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Event.cs.1070": "{{i18n:RSV.Event.cs.1070 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Alissa": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Alissa |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Alissa |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Alissa |AHDPnG_Allister_Lower29={{AHDPnG_Allister_Lower_T | valueAt=29}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Alissa |AHDPnG_Allister_Lower29={{AHDPnG_Allister_Lower_T | valueAt=29}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Blair": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Blair |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Blair |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Blair |AHDPnG_Blaire_Lower29={{AHDPnG_Blaire_Lower_T | valueAt=29}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Blair |AHDPnG_Blaire_Lower29={{AHDPnG_Blaire_Lower_T | valueAt=29}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Corine": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Corine |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Corine |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Corine |AHDPnG_Corbin_Lower29={{AHDPnG_Corbin_Lower_T | valueAt=29}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Corine |AHDPnG_Corbin_Lower29={{AHDPnG_Corbin_Lower_T | valueAt=29}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Daia": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Daia |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Daia |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Daia |AHDPnG_Dain_Lower29={{AHDPnG_Dain_Lower_T | valueAt=29}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Daia |AHDPnG_Dain_Lower29={{AHDPnG_Dain_Lower_T | valueAt=29}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Faye": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Faye |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Faye |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Faye |AHDPnG_Felix_Lower29={{AHDPnG_Felix_Lower_T | valueAt=29}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Faye |AHDPnG_Felix_Lower29={{AHDPnG_Felix_Lower_T | valueAt=29}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Flor": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Flor |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Flor |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Flor |AHDPnG_Florian_Lower29={{AHDPnG_Florian_Lower_T | valueAt=29}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Flor |AHDPnG_Florian_Lower29={{AHDPnG_Florian_Lower_T | valueAt=29}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Irene": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Irene |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Irene |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Irene |AHDPnG_Irwin_Lower29={{AHDPnG_Irwin_Lower_T | valueAt=29}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Irene |AHDPnG_Irwin_Lower29={{AHDPnG_Irwin_Lower_T | valueAt=29}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Kiarra": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Kiarra |AHDPnG_Kian_Lower29={{AHDPnG_Kian_Lower_T | valueAt=29}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Kiarra |AHDPnG_Kian_Lower29={{AHDPnG_Kian_Lower_T | valueAt=29}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Maddie": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Maddie |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Maddie |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Maddie |AHDPnG_Matthew_Lower29={{AHDPnG_Matthew_Lower_T | valueAt=29}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Maddie |AHDPnG_Matthew_Lower29={{AHDPnG_Matthew_Lower_T | valueAt=29}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Paula": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Paula |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Paula |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Paula |AHDPnG_Pablo_Lower29={{AHDPnG_Pablo_Lower_T | valueAt=29}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Paula |AHDPnG_Pablo_Lower29={{AHDPnG_Pablo_Lower_T | valueAt=29}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Ysabelle": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Ysabelle |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Ysabelle |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Ysabelle |AHDPnG_Ysai_Lower29={{AHDPnG_Ysai_Lower_T | valueAt=29}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Ysabelle |AHDPnG_Ysai_Lower29={{AHDPnG_Ysai_Lower_T | valueAt=29}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfrommaps",
-            "When": {},
-            "Entries": {
-                "rsv.6": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "rsv.36": "{{i18n:MapString.rsv.36 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "rsv.37": "{{i18n:MapString.rsv.37 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "rsv.39": "{{i18n:MapString.rsv.39 |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "rsv.42": "{{i18n:MapString.rsv.42 |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "rsv.54": "{{i18n:MapString.rsv.54 |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "rsv.60": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 0}}",
-                "rsv.61": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 1}}",
-                "rsv.62": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 2}}",
-                "rsv.aguarlab19": "{{i18n:MapString.rsv.aguarlab19 |AHDPnG_Matthew_Lower52={{AHDPnG_Matthew_Lower_T | valueAt=52}} }}",
-                "rsv.alissa2": "{{i18n:MapString.rsv.alissa2 |AHDPnG_Allister_Lower13={{AHDPnG_Allister_Lower_T | valueAt=13}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "rsv.alissa4": "{{i18n:MapString.rsv.alissa4 |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "rsv.alissa6": "{{i18n:MapString.rsv.alissa6 |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "rsv.ezekiel14": "{{i18n:MapString.rsv.ezekiel14 |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "rsv.ezekiel16": "{{i18n:MapString.rsv.ezekiel16 |AHDPnG_Corbin_Lower04={{AHDPnG_Corbin_Lower_T | valueAt=4}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "rsv.ezekiel18": "{{i18n:MapString.rsv.ezekiel18 |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "rsv.ian2": "{{i18n:MapString.rsv.ian2 |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "rsv.ian13": "{{i18n:MapString.rsv.ian13 |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "rsv.jeric5": "{{i18n:MapString.rsv.jeric5 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "rsv.kenneth1": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "rsv.kenneth2": "{{i18n:MapString.rsv.kenneth2 |AHDPnG_Kendra_Upper00={{AHDPnG_Kendra_Upper_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "rsv.kenneth10": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 0}}",
-                "rsv.kenneth11": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 1}}",
-                "rsv.kenneth12": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 2}}",
-                "rsv.kenneth13": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 3}}",
-                "rsv.kenneth14": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 4}}",
-                "rsv.kenneth15": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 5}}",
-                "rsv.hotel13": "{{i18n:MapString.rsv.hotel13 |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "rsv.hotel15": "{{i18n:MapString.rsv.hotel15 |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "rsv.hotel19": "{{i18n:MapString.rsv.hotel19 |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "rsv.hotel22": "{{i18n:MapString.rsv.hotel22 |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "rsv.maddie11": "{{i18n:MapString.rsv.maddie11 |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "rsv.faye2": "{{i18n:MapString.rsv.faye2 |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "rsv.faye12": "{{i18n:MapString.rsv.faye12 |AHDPnG_Felix_Lower52={{AHDPnG_Felix_Lower_T | valueAt=52}} }}",
-                "rsv.clinic5": "{{i18n:MapString.rsv.clinic5 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "rsv.3bros8": "{{i18n:MapString.rsv.3bros8 |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "rsv.3bros15": "{{i18n:MapString.rsv.3bros15 |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "rsv.purplemansion29": "{{i18n:MapString.rsv.purplemansion29 |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "rsv.purplemansion64": "{{i18n:MapString.rsv.purplemansion64 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
-                "rsv.blairhouse1": "{{i18n:MapString.rsv.blairhouse1 |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "rsv.blairhouse2": "{{i18n:MapString.rsv.blairhouse2 |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower13={{AHDPnG_Blaine_Lower_T | valueAt=13}} }}",
-                "Alissa.room.0": "{{i18n:MapString.SpouseRoom.Alissa.0 |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Alissa.room.1": "{{i18n:MapString.SpouseRoom.Alissa.1 |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Lower03={{AHDPnG_Allister_Lower_T | valueAt=3}}  |AHDPnG_Allister_Lower04={{AHDPnG_Allister_Lower_T | valueAt=4}}  |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Alissa.room.2": "{{i18n:MapString.SpouseRoom.Alissa.2 |AHDPnG_Allister_Lower04={{AHDPnG_Allister_Lower_T | valueAt=4}}  |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Alissa.room.3": "{{i18n:MapString.SpouseRoom.Alissa.3 |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Anton.room.2": "{{i18n:MapString.SpouseRoom.Anton.2 |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
-                "Anton.room.3": "{{i18n:MapString.SpouseRoom.Anton.3 |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
-                "Blair.room.0": "{{i18n:MapString.SpouseRoom.Blair.0 |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Blair.room.1": "{{i18n:MapString.SpouseRoom.Blair.1 |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower03={{AHDPnG_Blaine_Lower_T | valueAt=3}}  |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Blair.room.2": "{{i18n:MapString.SpouseRoom.Blair.2 |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower03={{AHDPnG_Blaine_Lower_T | valueAt=3}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Blair.room.3": "{{i18n:MapString.SpouseRoom.Blair.3 |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Bryle.room.1": "{{i18n:MapString.SpouseRoom.Bryle.1 |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}} }}",
-                "Bryle.room.3": "{{i18n:MapString.SpouseRoom.Bryle.3 |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}} }}",
-                "Corine.room.0": "{{i18n:MapString.SpouseRoom.Corine.0 |AHDPnG_Corbin_Lower03={{AHDPnG_Corbin_Lower_T | valueAt=3}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Corine.room.2": "{{i18n:MapString.SpouseRoom.Corine.2 |AHDPnG_Corbin_Lower03={{AHDPnG_Corbin_Lower_T | valueAt=3}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Corine.room.3": "{{i18n:MapString.SpouseRoom.Corine.3 |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}}  |AHDPnG_Corbin_Lower04={{AHDPnG_Corbin_Lower_T | valueAt=4}}  |AHDPnG_Corbin_Lower04={{AHDPnG_Corbin_Lower_T | valueAt=4}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Daia.room.1": "{{i18n:MapString.SpouseRoom.Daia.1 |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "Daia.room.2": "{{i18n:MapString.SpouseRoom.Daia.2 |AHDPnG_Dain_Lower04={{AHDPnG_Dain_Lower_T | valueAt=4}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "Faye.room.0": "{{i18n:MapString.SpouseRoom.Faye.0 |AHDPnG_Felix_Lower03={{AHDPnG_Felix_Lower_T | valueAt=3}}  |AHDPnG_Felix_Lower04={{AHDPnG_Felix_Lower_T | valueAt=4}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Faye.room.1": "{{i18n:MapString.SpouseRoom.Faye.1 |AHDPnG_Felix_Lower04={{AHDPnG_Felix_Lower_T | valueAt=4}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Faye.room.2": "{{i18n:MapString.SpouseRoom.Faye.2 |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Upper01={{AHDPnG_Felix_Upper_T | valueAt=1}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Faye.room.3": "{{i18n:MapString.SpouseRoom.Faye.3 |AHDPnG_Felix_Lower04={{AHDPnG_Felix_Lower_T | valueAt=4}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Flor.room.2": "{{i18n:MapString.SpouseRoom.Flor.2 |AHDPnG_Florian_Lower04={{AHDPnG_Florian_Lower_T | valueAt=4}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Flor.room.3": "{{i18n:MapString.SpouseRoom.Flor.3 |AHDPnG_Florian_Upper01={{AHDPnG_Florian_Upper_T | valueAt=1}}  |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Lower01={{AHDPnG_Florian_Lower_T | valueAt=1}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Ian.room.0": "{{i18n:MapString.SpouseRoom.Ian.0 |AHDPnG_Ivy_Lower63={{AHDPnG_Ivy_Lower_T | valueAt=63}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Ian.room.1": "{{i18n:MapString.SpouseRoom.Ian.1 |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Ian.room.3": "{{i18n:MapString.SpouseRoom.Ian.3 |AHDPnG_Ivy_Lower02={{AHDPnG_Ivy_Lower_T | valueAt=2}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Irene.room.0": "{{i18n:MapString.SpouseRoom.Irene.0 |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Irene.room.1": "{{i18n:MapString.SpouseRoom.Irene.1 |AHDPnG_Irwin_Lower04={{AHDPnG_Irwin_Lower_T | valueAt=4}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Irene.room.3": "{{i18n:MapString.SpouseRoom.Irene.3 |AHDPnG_Irwin_Lower01={{AHDPnG_Irwin_Lower_T | valueAt=1}}  |AHDPnG_Irwin_Lower04={{AHDPnG_Irwin_Lower_T | valueAt=4}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Jeric.room.0": "{{i18n:MapString.SpouseRoom.Jeric.0 |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Jeric.room.1": "{{i18n:MapString.SpouseRoom.Jeric.1 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Jeric.room.3": "{{i18n:MapString.SpouseRoom.Jeric.3 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Jio.room.1": "{{i18n:MapString.SpouseRoom.Jio.1 |AHDPnG_Jiya_Lower05={{AHDPnG_Jiya_Lower_T | valueAt=5}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
-                "Jio.room.2": "{{i18n:MapString.SpouseRoom.Jio.2 |AHDPnG_Jiya_Lower00={{AHDPnG_Jiya_Lower_T | valueAt=0}}  |AHDPnG_Jiya_Lower00={{AHDPnG_Jiya_Lower_T | valueAt=0}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
-                "Jio.room.3": "{{i18n:MapString.SpouseRoom.Jio.3 |AHDPnG_Jiya_Lower00={{AHDPnG_Jiya_Lower_T | valueAt=0}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
-                "June.room.0": "{{i18n:MapString.SpouseRoom.June.0 |AHDPnG_Juniper_Lower00={{AHDPnG_Juniper_Lower_T | valueAt=0}}  |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}",
-                "Kenneth.room.0": "{{i18n:MapString.SpouseRoom.Kenneth.0 |AHDPnG_Kendra_Lower00={{AHDPnG_Kendra_Lower_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "Kenneth.room.1": "{{i18n:MapString.SpouseRoom.Kenneth.1 |AHDPnG_Kendra_Upper00={{AHDPnG_Kendra_Upper_T | valueAt=0}}  |AHDPnG_Kendra_Upper00={{AHDPnG_Kendra_Upper_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "Kenneth.room.2": "{{i18n:MapString.SpouseRoom.Kenneth.2 |AHDPnG_Kendra_Lower00={{AHDPnG_Kendra_Lower_T | valueAt=0}} }}",
-                "Kenneth.room.3": "{{i18n:MapString.SpouseRoom.Kenneth.3 |AHDPnG_Kendra_Lower00={{AHDPnG_Kendra_Lower_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "Kiarra.room.0": "{{i18n:MapString.SpouseRoom.Kiarra.0 |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Upper04={{AHDPnG_Kian_Upper_T | valueAt=4}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Kiarra.room.1": "{{i18n:MapString.SpouseRoom.Kiarra.1 |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Maddie.room.0": "{{i18n:MapString.SpouseRoom.Maddie.0 |AHDPnG_Matthew_Lower01={{AHDPnG_Matthew_Lower_T | valueAt=1}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Maddie.room.1": "{{i18n:MapString.SpouseRoom.Maddie.1 |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Lower00={{AHDPnG_Matthew_Lower_T | valueAt=0}}  |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Upper01={{AHDPnG_Matthew_Upper_T | valueAt=1}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Maddie.room.2": "{{i18n:MapString.SpouseRoom.Maddie.2 |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Maddie.room.3": "{{i18n:MapString.SpouseRoom.Maddie.3 |AHDPnG_Matthew_Lower01={{AHDPnG_Matthew_Lower_T | valueAt=1}}  |AHDPnG_Matthew_Upper01={{AHDPnG_Matthew_Upper_T | valueAt=1}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Paula.room.1": "{{i18n:MapString.SpouseRoom.Paula.1 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Paula.room.3": "{{i18n:MapString.SpouseRoom.Paula.3 |AHDPnG_Pablo_Lower04={{AHDPnG_Pablo_Lower_T | valueAt=4}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Philip.room.0": "{{i18n:MapString.SpouseRoom.Philip.0 |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Philip.room.2": "{{i18n:MapString.SpouseRoom.Philip.2 |AHDPnG_Phoebe_Lower02={{AHDPnG_Phoebe_Lower_T | valueAt=2}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Sean.room.0": "{{i18n:MapString.SpouseRoom.Sean.0 |AHDPnG_Shauna_Lower00={{AHDPnG_Shauna_Lower_T | valueAt=0}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "Sean.room.1": "{{i18n:MapString.SpouseRoom.Sean.1 |AHDPnG_Shauna_Lower02={{AHDPnG_Shauna_Lower_T | valueAt=2}}  |AHDPnG_Shauna_Lower00={{AHDPnG_Shauna_Lower_T | valueAt=0}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "Sean.room.2": "{{i18n:MapString.SpouseRoom.Sean.2 |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "Shiro.room.0": "{{i18n:MapString.SpouseRoom.Shiro.0 |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Shiro.room.1": "{{i18n:MapString.SpouseRoom.Shiro.1 |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Shiro.room.2": "{{i18n:MapString.SpouseRoom.Shiro.2 |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Shiro.room.3": "{{i18n:MapString.SpouseRoom.Shiro.3 |AHDPnG_Shiori_Upper00={{AHDPnG_Shiori_Upper_T | valueAt=0}}  |AHDPnG_Shiori_Lower05={{AHDPnG_Shiori_Lower_T | valueAt=5}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Ysabelle.room.0": "{{i18n:MapString.SpouseRoom.Ysabelle.0 |AHDPnG_Ysai_Lower04={{AHDPnG_Ysai_Lower_T | valueAt=4}}  |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Ysabelle.room.2": "{{i18n:MapString.SpouseRoom.Ysabelle.2 |AHDPnG_Ysai_Lower02={{AHDPnG_Ysai_Lower_T | valueAt=2}}  |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Lower04={{AHDPnG_Ysai_Lower_T | valueAt=4}}  |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Zayne.room.0": "{{i18n:MapString.SpouseRoom.Zayne.0 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
-                "Zayne.room.1": "{{i18n:MapString.SpouseRoom.Zayne.1 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
-                "Zayne.room.2": "{{i18n:MapString.SpouseRoom.Zayne.2 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/Animationdescriptions",
+      "When": {},
+      "Entries": {
+        "alissa.sing": "{{i18n:Animations.Alissa.Sing |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "corine.slash": "{{i18n:Animations.Corine.Slash |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
+        "irene.relax": "{{i18n:Animations.irene.relax |AHDPnG_Irwin_Lower04={{AHDPnG_Irwin_Lower_T | valueAt=4}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Specialorderstrings",
+      "When": {},
+      "Entries": {
+        "RSV.SpecialOrder.TownFish_Text": "{{i18n:RSV.SpecialOrder.TownFish_Text |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "RSV.SpecialOrder.TownFish_Objective2_Text": "{{i18n:RSV.SpecialOrder.TownFish_Objective2_Text |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Greeting1-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Greeting1-pastel |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Greeting1-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Greeting1-jackets |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Greeting1-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Greeting1-misc |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective1_Text-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective2_Text-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective3_Text-pastel": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective1_Text-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective2_Text-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective3_Text-jackets": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective1_Text-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective2_Text-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "RSV.SpecialOrder.FayeClothes_Objective3_Text-misc": "{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-start}}{{i18n:RSV.SpecialOrder.FayeClothes_Objective_Text-end |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "LocationName": "Custom_Ridgeside_PaulaClinic"
+      },
+      "Entries": {
+        "Event.cs.1068": "{{i18n:RSV.Event.cs.1068 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Event.cs.1070": "{{i18n:RSV.Event.cs.1070 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Alissa": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Alissa |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Alissa |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Alissa |AHDPnG_Allister_Lower29={{AHDPnG_Allister_Lower_T | valueAt=29}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Alissa |AHDPnG_Allister_Lower29={{AHDPnG_Allister_Lower_T | valueAt=29}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Blair": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Blair |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Blair |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Blair |AHDPnG_Blaire_Lower29={{AHDPnG_Blaire_Lower_T | valueAt=29}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Blair |AHDPnG_Blaire_Lower29={{AHDPnG_Blaire_Lower_T | valueAt=29}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Corine": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Corine |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Corine |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Corine |AHDPnG_Corbin_Lower29={{AHDPnG_Corbin_Lower_T | valueAt=29}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Corine |AHDPnG_Corbin_Lower29={{AHDPnG_Corbin_Lower_T | valueAt=29}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Daia": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Daia |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Daia |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Daia |AHDPnG_Dain_Lower29={{AHDPnG_Dain_Lower_T | valueAt=29}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Daia |AHDPnG_Dain_Lower29={{AHDPnG_Dain_Lower_T | valueAt=29}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Faye": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Faye |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Faye |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Faye |AHDPnG_Felix_Lower29={{AHDPnG_Felix_Lower_T | valueAt=29}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Faye |AHDPnG_Felix_Lower29={{AHDPnG_Felix_Lower_T | valueAt=29}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Flor": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Flor |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Flor |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Flor |AHDPnG_Florian_Lower29={{AHDPnG_Florian_Lower_T | valueAt=29}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Flor |AHDPnG_Florian_Lower29={{AHDPnG_Florian_Lower_T | valueAt=29}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Irene": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Irene |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Irene |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Irene |AHDPnG_Irwin_Lower29={{AHDPnG_Irwin_Lower_T | valueAt=29}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Irene |AHDPnG_Irwin_Lower29={{AHDPnG_Irwin_Lower_T | valueAt=29}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Kiarra": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Kiarra |AHDPnG_Kian_Lower29={{AHDPnG_Kian_Lower_T | valueAt=29}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Kiarra |AHDPnG_Kian_Lower29={{AHDPnG_Kian_Lower_T | valueAt=29}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Maddie": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Maddie |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Maddie |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Maddie |AHDPnG_Matthew_Lower29={{AHDPnG_Matthew_Lower_T | valueAt=29}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Maddie |AHDPnG_Matthew_Lower29={{AHDPnG_Matthew_Lower_T | valueAt=29}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Paula": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Paula |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Paula |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Paula |AHDPnG_Pablo_Lower29={{AHDPnG_Pablo_Lower_T | valueAt=29}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Paula |AHDPnG_Pablo_Lower29={{AHDPnG_Pablo_Lower_T | valueAt=29}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Ysabelle": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer1.Ysabelle |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer1.Ysabelle |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Romance.FemaleWeddingFix.MaleFarmer2.Ysabelle |AHDPnG_Ysai_Lower29={{AHDPnG_Ysai_Lower_T | valueAt=29}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Romance.FemaleWeddingFix.FemaleFarmer2.Ysabelle |AHDPnG_Ysai_Lower29={{AHDPnG_Ysai_Lower_T | valueAt=29}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfrommaps",
+      "When": {},
+      "Entries": {
+        "rsv.6": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "rsv.36": "{{i18n:MapString.rsv.36 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "rsv.37": "{{i18n:MapString.rsv.37 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "rsv.39": "{{i18n:MapString.rsv.39 |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "rsv.42": "{{i18n:MapString.rsv.42 |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "rsv.54": "{{i18n:MapString.rsv.54 |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "rsv.60": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 0}}",
+        "rsv.61": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 1}}",
+        "rsv.62": "{{i18n:MapString.rsv.6 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 2}}",
+        "rsv.aguarlab19": "{{i18n:MapString.rsv.aguarlab19 |AHDPnG_Matthew_Lower52={{AHDPnG_Matthew_Lower_T | valueAt=52}} }}",
+        "rsv.alissa2": "{{i18n:MapString.rsv.alissa2 |AHDPnG_Allister_Lower13={{AHDPnG_Allister_Lower_T | valueAt=13}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "rsv.alissa4": "{{i18n:MapString.rsv.alissa4 |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "rsv.alissa6": "{{i18n:MapString.rsv.alissa6 |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "rsv.ezekiel14": "{{i18n:MapString.rsv.ezekiel14 |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "rsv.ezekiel16": "{{i18n:MapString.rsv.ezekiel16 |AHDPnG_Corbin_Lower04={{AHDPnG_Corbin_Lower_T | valueAt=4}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "rsv.ezekiel18": "{{i18n:MapString.rsv.ezekiel18 |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "rsv.ian2": "{{i18n:MapString.rsv.ian2 |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "rsv.ian13": "{{i18n:MapString.rsv.ian13 |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "rsv.jeric5": "{{i18n:MapString.rsv.jeric5 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "rsv.kenneth1": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "rsv.kenneth2": "{{i18n:MapString.rsv.kenneth2 |AHDPnG_Kendra_Upper00={{AHDPnG_Kendra_Upper_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "rsv.kenneth10": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 0}}",
+        "rsv.kenneth11": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 1}}",
+        "rsv.kenneth12": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 2}}",
+        "rsv.kenneth13": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 3}}",
+        "rsv.kenneth14": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 4}}",
+        "rsv.kenneth15": "{{i18n:MapString.rsv.kenneth1 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} 5}}",
+        "rsv.hotel13": "{{i18n:MapString.rsv.hotel13 |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "rsv.hotel15": "{{i18n:MapString.rsv.hotel15 |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "rsv.hotel19": "{{i18n:MapString.rsv.hotel19 |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "rsv.hotel22": "{{i18n:MapString.rsv.hotel22 |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "rsv.maddie11": "{{i18n:MapString.rsv.maddie11 |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "rsv.faye2": "{{i18n:MapString.rsv.faye2 |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "rsv.faye12": "{{i18n:MapString.rsv.faye12 |AHDPnG_Felix_Lower52={{AHDPnG_Felix_Lower_T | valueAt=52}} }}",
+        "rsv.clinic5": "{{i18n:MapString.rsv.clinic5 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "rsv.3bros8": "{{i18n:MapString.rsv.3bros8 |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "rsv.3bros15": "{{i18n:MapString.rsv.3bros15 |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "rsv.purplemansion29": "{{i18n:MapString.rsv.purplemansion29 |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "rsv.purplemansion64": "{{i18n:MapString.rsv.purplemansion64 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
+        "rsv.blairhouse1": "{{i18n:MapString.rsv.blairhouse1 |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "rsv.blairhouse2": "{{i18n:MapString.rsv.blairhouse2 |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower13={{AHDPnG_Blaine_Lower_T | valueAt=13}} }}",
+        "Alissa.room.0": "{{i18n:MapString.SpouseRoom.Alissa.0 |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Alissa.room.1": "{{i18n:MapString.SpouseRoom.Alissa.1 |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Lower03={{AHDPnG_Allister_Lower_T | valueAt=3}}  |AHDPnG_Allister_Lower04={{AHDPnG_Allister_Lower_T | valueAt=4}}  |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Alissa.room.2": "{{i18n:MapString.SpouseRoom.Alissa.2 |AHDPnG_Allister_Lower04={{AHDPnG_Allister_Lower_T | valueAt=4}}  |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Alissa.room.3": "{{i18n:MapString.SpouseRoom.Alissa.3 |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Anton.room.2": "{{i18n:MapString.SpouseRoom.Anton.2 |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
+        "Anton.room.3": "{{i18n:MapString.SpouseRoom.Anton.3 |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
+        "Blair.room.0": "{{i18n:MapString.SpouseRoom.Blair.0 |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Blair.room.1": "{{i18n:MapString.SpouseRoom.Blair.1 |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower03={{AHDPnG_Blaine_Lower_T | valueAt=3}}  |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Blair.room.2": "{{i18n:MapString.SpouseRoom.Blair.2 |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower03={{AHDPnG_Blaine_Lower_T | valueAt=3}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Blair.room.3": "{{i18n:MapString.SpouseRoom.Blair.3 |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Bryle.room.1": "{{i18n:MapString.SpouseRoom.Bryle.1 |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}} }}",
+        "Bryle.room.3": "{{i18n:MapString.SpouseRoom.Bryle.3 |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}} }}",
+        "Corine.room.0": "{{i18n:MapString.SpouseRoom.Corine.0 |AHDPnG_Corbin_Lower03={{AHDPnG_Corbin_Lower_T | valueAt=3}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Corine.room.2": "{{i18n:MapString.SpouseRoom.Corine.2 |AHDPnG_Corbin_Lower03={{AHDPnG_Corbin_Lower_T | valueAt=3}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Corine.room.3": "{{i18n:MapString.SpouseRoom.Corine.3 |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}}  |AHDPnG_Corbin_Lower04={{AHDPnG_Corbin_Lower_T | valueAt=4}}  |AHDPnG_Corbin_Lower04={{AHDPnG_Corbin_Lower_T | valueAt=4}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Daia.room.1": "{{i18n:MapString.SpouseRoom.Daia.1 |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "Daia.room.2": "{{i18n:MapString.SpouseRoom.Daia.2 |AHDPnG_Dain_Lower04={{AHDPnG_Dain_Lower_T | valueAt=4}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "Faye.room.0": "{{i18n:MapString.SpouseRoom.Faye.0 |AHDPnG_Felix_Lower03={{AHDPnG_Felix_Lower_T | valueAt=3}}  |AHDPnG_Felix_Lower04={{AHDPnG_Felix_Lower_T | valueAt=4}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Faye.room.1": "{{i18n:MapString.SpouseRoom.Faye.1 |AHDPnG_Felix_Lower04={{AHDPnG_Felix_Lower_T | valueAt=4}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Faye.room.2": "{{i18n:MapString.SpouseRoom.Faye.2 |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Upper01={{AHDPnG_Felix_Upper_T | valueAt=1}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Faye.room.3": "{{i18n:MapString.SpouseRoom.Faye.3 |AHDPnG_Felix_Lower04={{AHDPnG_Felix_Lower_T | valueAt=4}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Flor.room.2": "{{i18n:MapString.SpouseRoom.Flor.2 |AHDPnG_Florian_Lower04={{AHDPnG_Florian_Lower_T | valueAt=4}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Flor.room.3": "{{i18n:MapString.SpouseRoom.Flor.3 |AHDPnG_Florian_Upper01={{AHDPnG_Florian_Upper_T | valueAt=1}}  |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Lower01={{AHDPnG_Florian_Lower_T | valueAt=1}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Ian.room.0": "{{i18n:MapString.SpouseRoom.Ian.0 |AHDPnG_Ivy_Lower63={{AHDPnG_Ivy_Lower_T | valueAt=63}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Ian.room.1": "{{i18n:MapString.SpouseRoom.Ian.1 |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Ian.room.3": "{{i18n:MapString.SpouseRoom.Ian.3 |AHDPnG_Ivy_Lower02={{AHDPnG_Ivy_Lower_T | valueAt=2}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Irene.room.0": "{{i18n:MapString.SpouseRoom.Irene.0 |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Irene.room.1": "{{i18n:MapString.SpouseRoom.Irene.1 |AHDPnG_Irwin_Lower04={{AHDPnG_Irwin_Lower_T | valueAt=4}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Irene.room.3": "{{i18n:MapString.SpouseRoom.Irene.3 |AHDPnG_Irwin_Lower01={{AHDPnG_Irwin_Lower_T | valueAt=1}}  |AHDPnG_Irwin_Lower04={{AHDPnG_Irwin_Lower_T | valueAt=4}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Jeric.room.0": "{{i18n:MapString.SpouseRoom.Jeric.0 |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Jeric.room.1": "{{i18n:MapString.SpouseRoom.Jeric.1 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Jeric.room.3": "{{i18n:MapString.SpouseRoom.Jeric.3 |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Jio.room.1": "{{i18n:MapString.SpouseRoom.Jio.1 |AHDPnG_Jiya_Lower05={{AHDPnG_Jiya_Lower_T | valueAt=5}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
+        "Jio.room.2": "{{i18n:MapString.SpouseRoom.Jio.2 |AHDPnG_Jiya_Lower00={{AHDPnG_Jiya_Lower_T | valueAt=0}}  |AHDPnG_Jiya_Lower00={{AHDPnG_Jiya_Lower_T | valueAt=0}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
+        "Jio.room.3": "{{i18n:MapString.SpouseRoom.Jio.3 |AHDPnG_Jiya_Lower00={{AHDPnG_Jiya_Lower_T | valueAt=0}}  |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
+        "June.room.0": "{{i18n:MapString.SpouseRoom.June.0 |AHDPnG_Juniper_Lower00={{AHDPnG_Juniper_Lower_T | valueAt=0}}  |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}",
+        "Kenneth.room.0": "{{i18n:MapString.SpouseRoom.Kenneth.0 |AHDPnG_Kendra_Lower00={{AHDPnG_Kendra_Lower_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "Kenneth.room.1": "{{i18n:MapString.SpouseRoom.Kenneth.1 |AHDPnG_Kendra_Upper00={{AHDPnG_Kendra_Upper_T | valueAt=0}}  |AHDPnG_Kendra_Upper00={{AHDPnG_Kendra_Upper_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "Kenneth.room.2": "{{i18n:MapString.SpouseRoom.Kenneth.2 |AHDPnG_Kendra_Lower00={{AHDPnG_Kendra_Lower_T | valueAt=0}} }}",
+        "Kenneth.room.3": "{{i18n:MapString.SpouseRoom.Kenneth.3 |AHDPnG_Kendra_Lower00={{AHDPnG_Kendra_Lower_T | valueAt=0}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "Kiarra.room.0": "{{i18n:MapString.SpouseRoom.Kiarra.0 |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Upper04={{AHDPnG_Kian_Upper_T | valueAt=4}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Kiarra.room.1": "{{i18n:MapString.SpouseRoom.Kiarra.1 |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Maddie.room.0": "{{i18n:MapString.SpouseRoom.Maddie.0 |AHDPnG_Matthew_Lower01={{AHDPnG_Matthew_Lower_T | valueAt=1}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Maddie.room.1": "{{i18n:MapString.SpouseRoom.Maddie.1 |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Lower00={{AHDPnG_Matthew_Lower_T | valueAt=0}}  |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Upper01={{AHDPnG_Matthew_Upper_T | valueAt=1}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Maddie.room.2": "{{i18n:MapString.SpouseRoom.Maddie.2 |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Maddie.room.3": "{{i18n:MapString.SpouseRoom.Maddie.3 |AHDPnG_Matthew_Lower01={{AHDPnG_Matthew_Lower_T | valueAt=1}}  |AHDPnG_Matthew_Upper01={{AHDPnG_Matthew_Upper_T | valueAt=1}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Paula.room.1": "{{i18n:MapString.SpouseRoom.Paula.1 |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Paula.room.3": "{{i18n:MapString.SpouseRoom.Paula.3 |AHDPnG_Pablo_Lower04={{AHDPnG_Pablo_Lower_T | valueAt=4}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Philip.room.0": "{{i18n:MapString.SpouseRoom.Philip.0 |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Philip.room.2": "{{i18n:MapString.SpouseRoom.Philip.2 |AHDPnG_Phoebe_Lower02={{AHDPnG_Phoebe_Lower_T | valueAt=2}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Sean.room.0": "{{i18n:MapString.SpouseRoom.Sean.0 |AHDPnG_Shauna_Lower00={{AHDPnG_Shauna_Lower_T | valueAt=0}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "Sean.room.1": "{{i18n:MapString.SpouseRoom.Sean.1 |AHDPnG_Shauna_Lower02={{AHDPnG_Shauna_Lower_T | valueAt=2}}  |AHDPnG_Shauna_Lower00={{AHDPnG_Shauna_Lower_T | valueAt=0}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "Sean.room.2": "{{i18n:MapString.SpouseRoom.Sean.2 |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "Shiro.room.0": "{{i18n:MapString.SpouseRoom.Shiro.0 |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Shiro.room.1": "{{i18n:MapString.SpouseRoom.Shiro.1 |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Shiro.room.2": "{{i18n:MapString.SpouseRoom.Shiro.2 |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Shiro.room.3": "{{i18n:MapString.SpouseRoom.Shiro.3 |AHDPnG_Shiori_Upper00={{AHDPnG_Shiori_Upper_T | valueAt=0}}  |AHDPnG_Shiori_Lower05={{AHDPnG_Shiori_Lower_T | valueAt=5}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Ysabelle.room.0": "{{i18n:MapString.SpouseRoom.Ysabelle.0 |AHDPnG_Ysai_Lower04={{AHDPnG_Ysai_Lower_T | valueAt=4}}  |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Ysabelle.room.2": "{{i18n:MapString.SpouseRoom.Ysabelle.2 |AHDPnG_Ysai_Lower02={{AHDPnG_Ysai_Lower_T | valueAt=2}}  |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Lower04={{AHDPnG_Ysai_Lower_T | valueAt=4}}  |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Zayne.room.0": "{{i18n:MapString.SpouseRoom.Zayne.0 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
+        "Zayne.room.1": "{{i18n:MapString.SpouseRoom.Zayne.1 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
+        "Zayne.room.2": "{{i18n:MapString.SpouseRoom.Zayne.2 |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}"
+      }
+    }
+  ]
 }

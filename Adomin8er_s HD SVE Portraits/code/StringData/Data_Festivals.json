@@ -1,175 +1,173 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {},
-            "Entries": {
-                "Olivia": "{{i18n:fair.Olivia.1 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}",
-                "Scarlett": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Claire_y2": "{{i18n:Claire.Fair2 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
-                "Scarlett_y2": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 2}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Spouse": "Olivia"
-            },
-            "Entries": {
-                "Olivia": "{{i18n:fair.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}",
-                "Olivia_y2": "{{i18n:fair.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall27",
-            "When": {},
-            "Entries": {
-                "Scarlett": "{{i18n:Scarlett.Spirit |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Claire_y2": "{{i18n:Claire.Halloween2 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "Susan_y2": "{{i18n:Susan.Halloween2 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T | valueAt=56}} }}",
-                "Morgan_y2": "{{i18n:Morgan.Halloween2 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}}  |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T | valueAt=5}} }}",
-                "Lance_y2": "{{i18n:Lance.Halloween2 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall27",
-            "When": {
-                "Year": "1, 5, 9, 13, 17, 21, 25,  29, 33, 37, 41, 45, 49, 53, 56, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99"
-            },
-            "Entries": {
-                "Lance": "{{i18n:spirit.lance.1 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {},
-            "Entries": {
-                "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"{{i18n:EggFestival.05 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
-                "GuntherSilvian": "{{i18n:Gunther.Egg |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Lance": "{{i18n:eggfestival.lance.1 |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T | valueAt=3}}  |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T | valueAt=4}}  |AHDPnG_Abel_Lower13={{AHDPnG_Abel_Lower_T | valueAt=13}} }}",
-                "Martin": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "GuntherSilvian_y2": "{{i18n:Gunther.Egg |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}",
-                "Sandy_y2": "{{i18n:Sandy.Egg2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "HasSeenEvent": "8185290",
-                "Year": "1"
-            },
-            "Entries": {
-                "AbbyWin": "pause 100/showFrame Sophia 39/jump Sophia/faceDirection Vincent 3/pause 800/speak Sophia \"!!!$9\"/pause 200/faceDirection Vincent 0/pause 200/speak Lewis \"{{i18n:EggFestival.AltA.05 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}\"/pause 200/showFrame Sophia 0/pause 200/faceDirection Sophia 1 true/move Sophia 3 0 0/pause 500/playSound coin/pause 600/move Sophia -3 0 3/pause 120/faceDirection Sophia 2 true/pause 150/faceDirection Sophia 1 true/pause 400/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "IsOddYear": false
-            },
-            "Entries": {
-                "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/faceDirection Vincent 0/pause 300/move Abigail 0 -1 0/move Abigail 2 0 0/pause 300/speak Lewis \"{{i18n:EggFestival.05 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}\"/pause 300/playSound coin/pause 300/move Abigail -2 0 3/move Abigail 0 1 2/pause 250/faceDirection Abigail 1/pause 500/faceDirection Lewis 1/pause 400/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Spouse": "Olivia"
-            },
-            "Entries": {
-                "Olivia": "{{i18n:eggfestival.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}",
-                "Olivia_y2": "{{i18n:eggfestival.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {},
-            "Entries": {
-                "Lance": "{{i18n:flowerdance.lance.1 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
-                "MorrisTod": "{{i18n:Morris.Flower.1 |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T | valueAt=3}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "Sandy": "{{i18n:Sandy.Flower |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T | valueAt=4}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Martin": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "Martin_y2": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} 2}}",
-                "Sandy_y2": "{{i18n:Sandy.Flower |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T | valueAt=4}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "HasSeenEvent": "1005014"
-            },
-            "Entries": {
-                "Clint": "{{i18n:Clint.Dialogue.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Clint_y2": "{{i18n:Clint.Dialogue.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer12",
-            "When": {},
-            "Entries": {
-                "Claire": "{{i18n:luau.claire.1 |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}} }}",
-                "Sandy": "{{i18n:Sandy.Luau |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Scarlett": "{{i18n:Scarlett.Luau |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Victor": "{{i18n:luau.victor.1 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T | valueAt=15}} }}",
-                "Scarlett_y2": "{{i18n:Scarlett.Luau |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 2}}",
-                "Olivia_y2": "{{i18n:Olivia.Luau2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}",
-                "Sandy_y2": "{{i18n:Sandy.Luau |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer12",
-            "When": {
-                "Spouse": "Olivia"
-            },
-            "Entries": {
-                "Olivia": "{{i18n:luau.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}",
-                "Olivia_y2": "{{i18n:luau.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer12",
-            "When": {
-                "Spouse": "Victor"
-            },
-            "Entries": {
-                "Victor": "{{i18n:luau.victor.2 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T | valueAt=15}} }}",
-                "Victor_y2": "{{i18n:luau.victor.2 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T | valueAt=15}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer29",
-            "When": {
-                "Spouse": "Sophia"
-            },
-            "Entries": {
-                "Sophia": "{{i18n:moonlight.Sophia.2 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Sophia_y2": "{{i18n:moonlight.Sophia.2 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter8",
-            "When": {
-                "Spouse": "Claire"
-            },
-            "Entries": {
-                "Claire": "{{i18n:ice.claire.2 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "Claire_y2": "{{i18n:ice.claire.2 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {},
+      "Entries": {
+        "Scarlett": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "Claire_y2": "{{i18n:Claire.Fair2 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+        "Scarlett_y2": "{{i18n:Scarlett.Fair2 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "Olivia": "{{i18n:fair.Olivia.1 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Olivia": "{{i18n:fair.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt62}} }}"
+      },
+      "When": {
+        "Spouse": "Olivia"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {},
+      "Entries": {
+        "Scarlett": "{{i18n:Scarlett.Spirit |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Claire_y2": "{{i18n:Claire.Halloween2 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Susan_y2": "{{i18n:Susan.Halloween2 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "Morgan_y2": "{{i18n:Morgan.Halloween2 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "Lance": "{{i18n:spirit.lance.1 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Lance_y2": "{{i18n:Lance.Halloween2 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {},
+      "Entries": {
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/move Abigail 0 -1 0/faceDirection Vincent 0/speak Lewis \"{{i18n:EggFestival.05 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}\"/pause 500/move Abigail 0 -1 0/playSound coin/pause 400/move Abigail 0 2 0/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end",
+        "GuntherSilvian": "{{i18n:Gunther.Egg |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "Martin": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "GuntherSilvian_y2": "{{i18n:Gunther.Egg2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "Sandy_y2": "{{i18n:Sandy.Egg2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Lance": "{{i18n:eggfestival.lance.1 |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T |valueAt=4}} |AHDPnG_Abel_Lower13={{AHDPnG_Abel_Lower_T |valueAt=13}} }}",
+        "Olivia": "{{i18n:eggfestival.Olivia.1 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Olivia": "{{i18n:eggfestival.Olivia.2}}"
+      },
+      "When": {
+        "Spouse": "Olivia"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "HasSeenEvent": "8185290",
+        "Year": "1"
+      },
+      "Entries": {
+        "AbbyWin": "pause 100/showFrame Sophia 39/jump Sophia/faceDirection Vincent 3/pause 800/speak Sophia \"!!!$9\"/pause 200/faceDirection Vincent 0/pause 200/speak Lewis \"{{i18n:EggFestival.AltA.05 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}\"/pause 200/showFrame Sophia 0/pause 200/faceDirection Sophia 1 true/move Sophia 3 0 0/pause 500/playSound coin/pause 600/move Sophia -3 0 3/pause 120/faceDirection Sophia 2 true/pause 150/faceDirection Sophia 1 true/pause 400/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "IsOddYear": false
+      },
+      "Entries": {
+        "AbbyWin": "pause 100/jump Abigail/faceDirection Vincent 3/pause 800/faceDirection Vincent 0/pause 300/move Abigail 0 -1 0/move Abigail 2 0 0/pause 300/speak Lewis \"{{i18n:EggFestival.05 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}\"/pause 300/playSound coin/pause 300/move Abigail -2 0 3/move Abigail 0 1 2/pause 250/faceDirection Abigail 1/pause 500/faceDirection Lewis 1/pause 400/faceDirection Lewis 0/speak Lewis \"{{i18n:EggFestival.06}}\"/pause 1000/viewport move 1 -1 5000/pause 2000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/end"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {},
+      "Entries": {
+        "MorrisTod": "{{i18n:Morris.Flower.1 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "Sandy": "{{i18n:Sandy.Flower |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T |valueAt=4}} }}",
+        "Martin": "{{i18n:Martin.Flower |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Martin_y2": "{{i18n:Martin.Flower2 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Sandy_y2": "{{i18n:Sandy.Flower2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T |valueAt=4}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "HasSeenEvent": "1005014"
+      },
+      "Entries": {
+        "Clint": "{{i18n:Clint.Dialogue.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Clint_y2": "{{i18n:Clint.Dialogue.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {},
+      "Entries": {
+        "Sandy": "{{i18n:Sandy.Luau |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Scarlett": "{{i18n:Scarlett.Luau |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Scarlett_y2": "{{i18n:Scarlett.Luau2 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Olivia_y2": "{{i18n:Olivia.Luau2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Sandy_y2": "{{i18n:Sandy.Luau2 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Claire": "{{i18n:luau.claire.1 |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Victor": "{{i18n:luau.victor.1 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Olivia": "{{i18n:luau.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      },
+      "When": {
+        "Spouse": "Olivia"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Victor": "{{i18n:luau.victor.2 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}"
+      },
+      "When": {
+        "Spouse": "Victor"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Sophia": "{{i18n:moonlight.Sophia.2 |AHDPnG_Soren_Name{{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Sophia_y2": "{{i18n:moonlight.Sophia.2 |AHDPnG_Soren_Name{{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}"
+      },
+      "When": {
+        "Spouse": "Sophia"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Spouse": "Olivia"
+      },
+      "Entries": {
+        "Olivia": "{{i18n:Ice.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Olivia_y2": "{{i18n:Ice.Olivia.2 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Claire": "{{i18n:ice.claire.2 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt3}} }}",
+        "Claire_y2": "{{i18n:ice.claire.2 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt3}} }}"
+      },
+      "When": {
+        "Spouse": "Claire"
+      }
+    }
+  ]
 }

@@ -1,1007 +1,1007 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {},
-            "Entries": {
-                "Keahi": "{{i18n:Festivals.StardewFair.Keahi |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Upper60={{AHDPnG_Jerica_Upper_T | valueAt=60}} }}",
-                "Yuuma": "{{i18n:Festivals.StardewFair.Yuuma |AHDPnG_Shiori_Upper00={{AHDPnG_Shiori_Upper_T | valueAt=0}}  |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}",
-                "Irene": "{{i18n:Festivals.StardewFair.Irene |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Blair": "{{i18n:Festivals.StardewFair.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "Kiarra": "{{i18n:Festivals.StardewFair.Kiarra |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
-                "Sean": "{{i18n:Festivals.StardewFair.Sean |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "Philip": "{{i18n:Festivals.StardewFair.Philip |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
-                "Philip_spouse": "{{i18n:Festivals.StardewFair.Philip |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} _spouse}}",
-                "Ysabelle": "{{i18n:Festivals.StardewFair.Ysabelle |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Ysabelle_spouse": "{{i18n:Festivals.StardewFair.Ysabelle |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}",
-                "Kiarra_spouse": "{{i18n:Festivals.StardewFair.Kiarra |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} _spouse}}",
-                "Sean_spouse": "{{i18n:Festivals.StardewFair.Sean |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} _spouse}}",
-                "Blair_spouse": "{{i18n:Festivals.StardewFair.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}",
-                "Irene_spouse": "{{i18n:Festivals.StardewFair.Irene |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Relationship:Blair |contains= married": true
-            },
-            "Entries": {
-                "Blair": "{{i18n:Festivals.StardewFair.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Relationship:Irene |contains= married": true
-            },
-            "Entries": {
-                "Irene": "{{i18n:Festivals.StardewFair.Irene |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Relationship:Kiarra |contains= married": true
-            },
-            "Entries": {
-                "Kiarra": "{{i18n:Festivals.StardewFair.Kiarra |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Relationship:Philip |contains= married": true
-            },
-            "Entries": {
-                "Philip": "{{i18n:Festivals.StardewFair.Philip |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Relationship:Sean |contains= married": true
-            },
-            "Entries": {
-                "Sean": "{{i18n:Festivals.StardewFair.Sean |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall16",
-            "When": {
-                "Relationship:Ysabelle |contains= married": true
-            },
-            "Entries": {
-                "Ysabelle": "{{i18n:Festivals.StardewFair.Ysabelle |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {},
-            "Entries": {
-                "mainEvent": "fade/viewport -1000 -1000/loadActors MainEvent/warp Abigail 70 36/warp Sebastian 78 38/warp Sam 76 37/positionOffset Sebastian 20 -18/positionOffset Abigail 20 18/stopMusic/pause 100/warp farmer1 75 44/warp farmer2 76 44/warp farmer3 77 44/warp farmer4 78 44/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/warp Lenny 75 38/warp Lewis 73 38/faceDirection Lenny 2/faceDirection Lewis 2/speak Lenny \"{{i18n:RSVG.01 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}\"/pause 1000/fade/viewport 74 39/pause 3000/speak Lewis \"{{i18n:RSVG.02}}\"/speak Lenny \"{{i18n:RSVG.03}}\"/speak Lewis \"{{i18n:RSVG.04}}\"/speak Lenny \"{{i18n:RSVG.05}}\"/speak Lewis \"{{i18n:RSVG.06}}\"/textAboveHead Shane \"{{i18n:RSVG.07}}\"/textAboveHead Clint \"{{i18n:RSVG.08}}\"/textAboveHead Jodi \"{{i18n:RSVG.09}}\"/pause 1500/textAboveHead Keahi \"{{i18n:RSVG.10}}\"/textAboveHead Bert \"{{i18n:RSVG.11}}\"/textAboveHead Leah \"{{i18n:RSVG.12}}\"/pause 3000/emote Lenny 20 true/emote Lewis 32/pause 1000/faceDirection Lenny 3/faceDirection Lewis 1/pause 2000/faceDirection Lenny 2/faceDirection Lewis 2/speak Lenny \"{{i18n:RSVG.13}}\"/globalFade/viewport -1000 -1000/warp Lenny 70 44/faceDirection Lenny 0/warp Lewis 72 43/faceDirection Lewis 0/faceDirection Elliott 1/faceDirection Leah 3/faceDirection Bert 1/faceDirection Olga 3/faceDirection Demetrius 1/faceDirection Robin 3{{RSVGATHER}}playMusic {{RANDOMMUSIC}}/animate Kiwi false true 100 16 16 17 17 17 17 17 17 18 19 20 21 22 23 24 25 26 17 17 27 27 27 16{{RSVGATHERDANCE}}animate Robin true true 500 20 21 20 22/animate Demetrius true true 500 24 25 24 26/animate Keahi false true 236 16 17 18 17/animate Vincent false true 236 20 8 21 8/animate Emily false true 236 16 17/animate Maru false true 236 29 30/animate Olga false true 300 24 25/animate Bert false true 300 24 25/animate Emily false true 236 16 17/animate Leah false true 236 30 31/animate Elliott false true 236 36 37/animate Ysabelle false true 200 34 35/animate Corine false true 300 34 35/animate Shanice false true 500 16 17/animate Lorenzo false true 500 16 17/pause 25000/pause 2000/viewport move -1 -1 8000000/pause 8000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/pause 600/message \"{{i18n:RSVG.15}}\"/waitForOtherPlayers festivalEnd/end",
-                "Ezekiel": "{{i18n:Festivals.Gathering.Ezekiel |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Paula": "{{i18n:Festivals.Gathering.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-                "Blair": "{{i18n:Festivals.Gathering.Blair |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
-                "Anton": "{{i18n:Festivals.Gathering.Anton |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Bryle": "{{i18n:Festivals.Gathering.Bryle |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Pierre": "{{i18n:GatheringDialogue.Pierre |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "Caroline": "{{i18n:GatheringDialogue.Caroline |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Clint": "{{i18n:GatheringDialogue.Clint |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Alissa": "{{i18n:Festivals.Gathering.Alissa |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Alissa_spouse": "{{i18n:Festivals.Gathering.Alissa |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}",
-                "Corine": "{{i18n:Festivals.Gathering.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "Corine_spouse": "{{i18n:Festivals.Gathering.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}",
-                "Flor_spouse": "{{i18n:Festivals.Gathering.Flor_spouse |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
-                "Ian": "{{i18n:Festivals.Gathering.Ian |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "Ian_spouse": "{{i18n:Festivals.Gathering.Ian |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}",
-                "Jeric": "{{i18n:Festivals.Gathering.Jeric |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
-                "Jeric_spouse": "{{i18n:Festivals.Gathering.Jeric |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}",
-                "Kenneth": "{{i18n:Festivals.Gathering.Kenneth |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
-                "Kenneth_spouse": "{{i18n:Festivals.Gathering.Kenneth |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}",
-                "Maddie": "{{i18n:Festivals.Gathering.Maddie |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "Maddie_spouse": "{{i18n:Festivals.Gathering.Maddie |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}",
-                "Philip": "{{i18n:Festivals.Gathering.Philip |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
-                "Philip_spouse": "{{i18n:Festivals.Gathering.Philip |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}",
-                "Shiro": "{{i18n:Festivals.Gathering.Shiro |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
-                "Shiro_spouse": "{{i18n:Festivals.Gathering.Shiro |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} _spouse}}",
-                "Ysabelle": "{{i18n:Festivals.Gathering.Ysabelle |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
-                "Ysabelle_spouse": "{{i18n:Festivals.Gathering.Ysabelle |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} _spouse}}",
-                "Anton_spouse": "{{i18n:Festivals.Gathering.Anton |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}",
-                "Sean_spouse": "{{i18n:Festivals.Gathering.Sean_spouse |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Paula_spouse": "{{i18n:Festivals.Gathering.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} _spouse}}",
-                "Blair_spouse": "{{i18n:Festivals.Gathering.Blair |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}",
-                "Bryle_spouse": "{{i18n:Festivals.Gathering.Bryle |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}",
-                "Abigail_spouse": "{{i18n:GatheringDialogue.Abigail |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}",
-                "Abigail": "{{i18n:GatheringDialogue.Abigail |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Leah": "{{i18n:GatheringDialogue.Leah |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower05={{AHDPnG_Jerica_Lower_T | valueAt=5}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Leah_spouse": "{{i18n:GatheringDialogue.Leah |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower05={{AHDPnG_Jerica_Lower_T | valueAt=5}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}",
-                "Maru": "{{i18n:GatheringDialogue.Maru |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Maru_spouse": "{{i18n:GatheringDialogue.Maru |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}",
-                "Penny": "{{i18n:GatheringDialogue.Penny |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Penny_spouse": "{{i18n:GatheringDialogue.Penny |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}",
-                "Haley": "{{i18n:GatheringDialogue.Haley |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Haley_spouse": "{{i18n:GatheringDialogue.Haley |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}",
-                "Sebastian": "{{i18n:GatheringDialogue.Sebastian |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "Sebastian_spouse": "{{i18n:GatheringDialogue.Sebastian |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}",
-                "Sam": "{{i18n:GatheringDialogue.Sam |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Sam_spouse": "{{i18n:GatheringDialogue.Sam |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} .spouse}}",
-                "Alex": "{{i18n:GatheringDialogue.Alex |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Alex_spouse": "{{i18n:GatheringDialogue.Alex |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}",
-                "Harvey": "{{i18n:GatheringDialogue.Harvey |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Harvey_spouse": "{{i18n:GatheringDialogue.Harvey |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} .spouse}}",
-                "Shane": "{{i18n:GatheringDialogue.Shane |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Shane_spouse": "{{i18n:GatheringDialogue.Shane |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
-            },
-            "Entries": {
-                "Sophia": "{{i18n:InterModDialogue.GatheringDialogue.Sophia |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Victor": "{{i18n:InterModDialogue.GatheringDialogue.Victor |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower00={{AHDPnG_Jerica_Lower_T | valueAt=0}} }}",
-                "Olivia": "{{i18n:InterModDialogue.GatheringDialogue.Olivia |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "Sophia_spouse": "{{i18n:InterModDialogue.GatheringDialogue.Sophia |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
-                "Victor_spouse": "{{i18n:InterModDialogue.GatheringDialogue.Victor |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower00={{AHDPnG_Jerica_Lower_T | valueAt=0}} _spouse}}",
-                "Olivia_spouse": "{{i18n:InterModDialogue.GatheringDialogue.Olivia |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "Relationship:Olivia": "married"
-            },
-            "Entries": {
-                "Olivia": "{{i18n:InterModDialogue.GatheringDialogue.Olivia |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "Relationship:Sophia": "married"
-            },
-            "Entries": {
-                "Sophia": "{{i18n:InterModDialogue.GatheringDialogue.Sophia |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "Relationship:Victor": "married"
-            },
-            "Entries": {
-                "Victor": "{{i18n:InterModDialogue.GatheringDialogue.Victor |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower00={{AHDPnG_Jerica_Lower_T | valueAt=0}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Abigail |contains= married": true
-            },
-            "Entries": {
-                "Abigail": "{{i18n:GatheringDialogue.Abigail |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Alex |contains= married": true
-            },
-            "Entries": {
-                "Alex": "{{i18n:GatheringDialogue.Alex |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Alissa |contains= married": true
-            },
-            "Entries": {
-                "Alissa": "{{i18n:Festivals.Gathering.Alissa |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Anton |contains= married": true
-            },
-            "Entries": {
-                "Anton": "{{i18n:Festivals.Gathering.Anton |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Blair |contains= married": true
-            },
-            "Entries": {
-                "Blair": "{{i18n:Festivals.Gathering.Blair |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Bryle |contains= married": true
-            },
-            "Entries": {
-                "Bryle": "{{i18n:Festivals.Gathering.Bryle |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Corine |contains= married": true
-            },
-            "Entries": {
-                "Corine": "{{i18n:Festivals.Gathering.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Flor |contains= married": true
-            },
-            "Entries": {
-                "Flor": "{{i18n:Festivals.Gathering.Flor_spouse |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Haley |contains= married": true
-            },
-            "Entries": {
-                "Haley": "{{i18n:GatheringDialogue.Haley |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Harvey |contains= married": true
-            },
-            "Entries": {
-                "Harvey": "{{i18n:GatheringDialogue.Harvey |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Ian |contains= married": true
-            },
-            "Entries": {
-                "Ian": "{{i18n:Festivals.Gathering.Ian |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Jeric |contains= married": true
-            },
-            "Entries": {
-                "Jeric": "{{i18n:Festivals.Gathering.Jeric |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Kenneth |contains= married": true
-            },
-            "Entries": {
-                "Kenneth": "{{i18n:Festivals.Gathering.Kenneth |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Leah |contains= married": true
-            },
-            "Entries": {
-                "Leah": "{{i18n:GatheringDialogue.Leah |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower05={{AHDPnG_Jerica_Lower_T | valueAt=5}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Maddie |contains= married": true
-            },
-            "Entries": {
-                "Maddie": "{{i18n:Festivals.Gathering.Maddie |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Maru |contains= married": true
-            },
-            "Entries": {
-                "Maru": "{{i18n:GatheringDialogue.Maru |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Paula |contains= married": true
-            },
-            "Entries": {
-                "Paula": "{{i18n:Festivals.Gathering.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Penny |contains= married": true
-            },
-            "Entries": {
-                "Penny": "{{i18n:GatheringDialogue.Penny |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Philip |contains= married": true
-            },
-            "Entries": {
-                "Philip": "{{i18n:Festivals.Gathering.Philip |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Sam |contains= married": true
-            },
-            "Entries": {
-                "Sam": "{{i18n:GatheringDialogue.Sam |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Sean |contains= married": true
-            },
-            "Entries": {
-                "Sean": "{{i18n:Festivals.Gathering.Sean_spouse |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Sebastian |contains= married": true
-            },
-            "Entries": {
-                "Sebastian": "{{i18n:GatheringDialogue.Sebastian |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Shane |contains= married": true
-            },
-            "Entries": {
-                "Shane": "{{i18n:GatheringDialogue.Shane |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Shiro |contains= married": true
-            },
-            "Entries": {
-                "Shiro": "{{i18n:Festivals.Gathering.Shiro |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall20",
-            "When": {
-                "Relationship:Ysabelle |contains= married": true
-            },
-            "Entries": {
-                "Ysabelle": "{{i18n:Festivals.Gathering.Ysabelle |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall27",
-            "When": {},
-            "Entries": {
-                "Yuuma": "{{i18n:Festivals.SpiritEve.Yuuma |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Kiarra": "{{i18n:Festivals.SpiritEve.Kiarra |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "Jeric_spouse": "{{i18n:Festivals.SpiritEve.Jeric_spouse |AHDPnG_Sorceress_Lower63={{AHDPnG_Sorceress_Lower_T | valueAt=63}}  |AHDPnG_Sorceress_Lower00={{AHDPnG_Sorceress_Lower_T | valueAt=0}} }}",
-                "Kenneth": "{{i18n:Festivals.SpiritEve.Kenneth |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Kenneth_spouse": "{{i18n:Festivals.SpiritEve.Kenneth |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}",
-                "Kiarra_spouse": "{{i18n:Festivals.SpiritEve.Kiarra |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall27",
-            "When": {
-                "Relationship:Jeric |contains= married": true
-            },
-            "Entries": {
-                "Jeric": "{{i18n:Festivals.SpiritEve.Jeric_spouse |AHDPnG_Sorceress_Lower63={{AHDPnG_Sorceress_Lower_T | valueAt=63}}  |AHDPnG_Sorceress_Lower00={{AHDPnG_Sorceress_Lower_T | valueAt=0}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall27",
-            "When": {
-                "Relationship:Kenneth |contains= married": true
-            },
-            "Entries": {
-                "Kenneth": "{{i18n:Festivals.SpiritEve.Kenneth |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Fall27",
-            "When": {
-                "Relationship:Kiarra |contains= married": true
-            },
-            "Entries": {
-                "Kiarra": "{{i18n:Festivals.SpiritEve.Kiarra |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {},
-            "Entries": {
-                "Paula": "{{i18n:Festivals.EggFest.Paula |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
-                "Blair": "{{i18n:Festivals.EggFest.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "Anton": "{{i18n:Festivals.EggFest.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Sean": "{{i18n:Festivals.EggFest.Sean |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "Faye": "{{i18n:Festivals.EggFest.Faye |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Malaya": "{{i18n:Festivals.EggFest.Malaya |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Lower64={{AHDPnG_Allister_Lower_T | valueAt=64}}  |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Kimpoi": "{{i18n:Festivals.EggFest.Kimpoi |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Lower13={{AHDPnG_Allister_Lower_T | valueAt=13}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "Naomi": "{{i18n:Festivals.EggFest.Naomi |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower12={{AHDPnG_Shiori_Lower_T | valueAt=12}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Upper00={{AHDPnG_Shiori_Upper_T | valueAt=0}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Corine": "{{i18n:Festivals.EggFest.Corine |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Corine_spouse": "{{i18n:Festivals.EggFest.Corine |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}",
-                "Flor": "{{i18n:Festivals.EggFest.Flor |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "Flor_spouse": "{{i18n:Festivals.EggFest.Flor |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}",
-                "Anton_spouse": "{{i18n:Festivals.EggFest.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}",
-                "Kiarra_spouse": "{{i18n:Festivals.EggFest.Kiarra_spouse |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
-                "Sean_spouse": "{{i18n:Festivals.EggFest.Sean |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}",
-                "Paula_spouse": "{{i18n:Festivals.EggFest.Paula |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} _spouse}}",
-                "Blair_spouse": "{{i18n:Festivals.EggFest.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}",
-                "Faye_spouse": "{{i18n:Festivals.EggFest.Faye |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Anton |contains= married": true
-            },
-            "Entries": {
-                "Anton": "{{i18n:Festivals.EggFest.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Blair |contains= married": true
-            },
-            "Entries": {
-                "Blair": "{{i18n:Festivals.EggFest.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Corine |contains= married": true
-            },
-            "Entries": {
-                "Corine": "{{i18n:Festivals.EggFest.Corine |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Faye |contains= married": true
-            },
-            "Entries": {
-                "Faye": "{{i18n:Festivals.EggFest.Faye |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Flor |contains= married": true
-            },
-            "Entries": {
-                "Flor": "{{i18n:Festivals.EggFest.Flor |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Kiarra |contains= married": true
-            },
-            "Entries": {
-                "Kiarra": "{{i18n:Festivals.EggFest.Kiarra_spouse |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Paula |contains= married": true
-            },
-            "Entries": {
-                "Paula": "{{i18n:Festivals.EggFest.Paula |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring13",
-            "When": {
-                "Relationship:Sean |contains= married": true
-            },
-            "Entries": {
-                "Sean": "{{i18n:Festivals.EggFest.Sean |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {},
-            "Entries": {
-                "Aguar": "{{i18n:Festivals.FlowerDance.Aguar |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "Ezekiel": "{{i18n:Festivals.FlowerDance.Ezekiel |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Corbin_Lower13={{AHDPnG_Corbin_Lower_T | valueAt=13}} }}",
-                "Yuuma": "{{i18n:Festivals.FlowerDance.Yuuma |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Paula": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Lorenzo": "{{i18n:Festivals.FlowerDance.Lorenzo |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}}  |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
-                "Anton": "{{i18n:Festivals.FlowerDance.Anton |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Kiarra": "{{i18n:Festivals.FlowerDance.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Faye": "{{i18n:Festivals.FlowerDance.Faye |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
-                "Naomi": "{{i18n:Festivals.FlowerDance.Naomi |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Philip": "{{i18n:Festivals.FlowerDance.Philip |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Philip_spouse": "{{i18n:Festivals.FlowerDance.Philip |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
-                "Anton_spouse": "{{i18n:Festivals.FlowerDance.Anton |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}",
-                "Kiarra_spouse": "{{i18n:Festivals.FlowerDance.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}",
-                "Sean_spouse": "{{i18n:Festivals.FlowerDance.Sean_spouse |AHDPnG_Shauna_Lower28={{AHDPnG_Shauna_Lower_T | valueAt=28}} }}",
-                "Paula_spouse": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}",
-                "Faye_spouse": "{{i18n:Festivals.FlowerDance.Faye |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "HasDialogueAnswer": "75163521, 75163041"
-            },
-            "Entries": {
-                "Paula": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} .change}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "Relationship:Anton |contains= married": true
-            },
-            "Entries": {
-                "Anton": "{{i18n:Festivals.FlowerDance.Anton |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "Relationship:Faye |contains= married": true
-            },
-            "Entries": {
-                "Faye": "{{i18n:Festivals.FlowerDance.Faye |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "Relationship:Kiarra |contains= married": true
-            },
-            "Entries": {
-                "Kiarra": "{{i18n:Festivals.FlowerDance.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "Relationship:Paula |contains= married": true
-            },
-            "Entries": {
-                "Paula": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "Relationship:Philip |contains= married": true
-            },
-            "Entries": {
-                "Philip": "{{i18n:Festivals.FlowerDance.Philip |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Spring24",
-            "When": {
-                "Relationship:Sean |contains= married": true
-            },
-            "Entries": {
-                "Sean": "{{i18n:Festivals.FlowerDance.Sean_spouse |AHDPnG_Shauna_Lower28={{AHDPnG_Shauna_Lower_T | valueAt=28}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer11",
-            "When": {},
-            "Entries": {
-                "Kiwi": "{{i18n:Festivals.Luau.Kiwi |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
-                "Yuuma": "{{i18n:Festivals.Luau.Yuuma |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}",
-                "Sean": "{{i18n:Festivals.Luau.Sean |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Kenneth_spouse": "{{i18n:Festivals.Luau.Kenneth_spouse |AHDPnG_Ivy_Lower05={{AHDPnG_Ivy_Lower_T | valueAt=5}}  |AHDPnG_Ivy_Lower08={{AHDPnG_Ivy_Lower_T | valueAt=8}}  |AHDPnG_Ivy_Lower58={{AHDPnG_Ivy_Lower_T | valueAt=58}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
-                "Ysabelle": "{{i18n:Festivals.Luau.Ysabelle |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Ysabelle_spouse": "{{i18n:Festivals.Luau.Ysabelle |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}",
-                "Daia_spouse": "{{i18n:Festivals.Luau.Daia_spouse |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "Sean_spouse": "{{i18n:Festivals.Luau.Sean |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}",
-                "Blair_spouse": "{{i18n:Festivals.Luau.Blair_spouse |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower13={{AHDPnG_Blaine_Lower_T | valueAt=13}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer11",
-            "When": {
-                "Relationship:Blair |contains= married": true
-            },
-            "Entries": {
-                "Blair": "{{i18n:Festivals.Luau.Blair_spouse |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower13={{AHDPnG_Blaine_Lower_T | valueAt=13}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer11",
-            "When": {
-                "Relationship:Daia |contains= married": true
-            },
-            "Entries": {
-                "Daia": "{{i18n:Festivals.Luau.Daia_spouse |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer11",
-            "When": {
-                "Relationship:Kenneth |contains= married": true
-            },
-            "Entries": {
-                "Kenneth": "{{i18n:Festivals.Luau.Kenneth_spouse |AHDPnG_Ivy_Lower05={{AHDPnG_Ivy_Lower_T | valueAt=5}}  |AHDPnG_Ivy_Lower08={{AHDPnG_Ivy_Lower_T | valueAt=8}}  |AHDPnG_Ivy_Lower58={{AHDPnG_Ivy_Lower_T | valueAt=58}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer11",
-            "When": {
-                "Relationship:Sean |contains= married": true
-            },
-            "Entries": {
-                "Sean": "{{i18n:Festivals.Luau.Sean |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer11",
-            "When": {
-                "Relationship:Ysabelle |contains= married": true
-            },
-            "Entries": {
-                "Ysabelle": "{{i18n:Festivals.Luau.Ysabelle |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer28",
-            "When": {},
-            "Entries": {
-                "Ezekiel": "{{i18n:Festivals.Jellies.Ezekiel |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Carmen": "{{i18n:Festivals.Jellies.Carmen |AHDPnG_Blaine_Lower65={{AHDPnG_Blaine_Lower_T | valueAt=65}} }}",
-                "Philip_spouse": "{{i18n:Festivals.Jellies.Philip_spouse |AHDPnG_Phoebe_Upper00={{AHDPnG_Phoebe_Upper_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Blair_spouse": "{{i18n:Festivals.Jellies.Blair_spouse |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Faye_spouse": "{{i18n:Festivals.Jellies.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer28",
-            "When": {
-                "Relationship:Blair |contains= married": true
-            },
-            "Entries": {
-                "Blair": "{{i18n:Festivals.Jellies.Blair_spouse |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer28",
-            "When": {
-                "Relationship:Faye |contains= married": true
-            },
-            "Entries": {
-                "Faye": "{{i18n:Festivals.Jellies.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Summer28",
-            "When": {
-                "Relationship:Philip |contains= married": true
-            },
-            "Entries": {
-                "Philip": "{{i18n:Festivals.Jellies.Philip_spouse |AHDPnG_Phoebe_Upper00={{AHDPnG_Phoebe_Upper_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter25",
-            "When": {},
-            "Entries": {
-                "Richard": "{{i18n:Festivals.WinterStar.Richard |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Yuuma": "{{i18n:Festivals.WinterStar.Yuuma |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
-                "Carmen": "{{i18n:Festivals.WinterStar.Carmen |AHDPnG_Blaine_Lower65={{AHDPnG_Blaine_Lower_T | valueAt=65}} }}",
-                "Lorenzo": "{{i18n:Festivals.WinterStar.Lorenzo |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Lower27={{AHDPnG_Kian_Lower_T | valueAt=27}}  |AHDPnG_Kian_Lower01={{AHDPnG_Kian_Lower_T | valueAt=1}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Anton": "{{i18n:Festivals.WinterStar.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "Jeric": "{{i18n:Festivals.WinterStar.Jeric |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Jeric_spouse": "{{i18n:Festivals.WinterStar.Jeric |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}",
-                "Anton_spouse": "{{i18n:Festivals.WinterStar.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter25",
-            "When": {
-                "Relationship:Anton |contains= married": true
-            },
-            "Entries": {
-                "Anton": "{{i18n:Festivals.WinterStar.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter25",
-            "When": {
-                "Relationship:Jeric |contains= married": true
-            },
-            "Entries": {
-                "Jeric": "{{i18n:Festivals.WinterStar.Jeric |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {},
-            "Entries": {
-                "mainEvent": "fade/viewport 39 46/stopAdvancedMoves/loadActors MainEvent/addTemporaryActor RSVBonfireLeft 64 96 36 41 2 false/addTemporaryActor RSVBonfireRight 64 96 40 41 2 false/positionOffset RSVBonfireLeft 0 16/positionOffset RSVBonfireRight 0 16/stopMusic/warp farmer1 40 49/warp farmer2 39 49/warp farmer3 38 49/warp farmer4 41 49/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/speak Lewis \"{{i18n:EoR.01}}\"/emote Lenny 56/pause 500/speak Lenny \"{{i18n:EoR.02}}\"/speak Lewis \"{{i18n:EoR.03}}\"/textAboveHead Marnie \"{{i18n:EoR.04}}\"/textAboveHead Robin \"{{i18n:EoR.05}}\"/pause 1000/textAboveHead Leah \"{{i18n:EoR.06}}\"/pause 1000/textAboveHead Gus \"{{i18n:EoR.07}}\"/pause 1000/textAboveHead Penny \"{{i18n:EoR.08}}\"/textAboveHead Vincent \"{{i18n:EoR.09}}\"/pause 1000/textAboveHead Willy \"{{i18n:EoR.10}}\"/textAboveHead Richard \"{{i18n:EoR.11}}\"/pause 1000/speak Lewis \"{{i18n:EoR.12}}\"/move Lenny 0 1 2/pause 1000/speak Lenny \"{{i18n:EoR.13}}\"/emote farmer 32 true/pause 1000/speak Lenny \"{{i18n:EoR.14 |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}}  |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}\"/textAboveHead Abigail \"{{i18n:EoR.15}}\"/textAboveHead Keahi \"{{i18n:EoR.16}}\"/pause 800/textAboveHead Robin \"{{i18n:EoR.17}}\"/textAboveHead Maddie \"{{i18n:EoR.18}}\"/emote Harvey 28 true/emote Philip 28 true/emote Maru 28/pause 1000/globalFade/viewport -1000 -1000/warp Lenny 42 46/warp Lewis 42 47/faceDirection Lenny 3/faceDirection Lewis 3{{BONFIREEVENT}}warp Lenny 39 45/warp Lewis 40 45/faceDirection Lenny 2/faceDirection Lewis 2/fade/viewport 39 46/pause 2000/speak Lenny \"{{i18n:EoR.20}}\"/faceDirection Lewis 0/move Lenny 0 -2 0/pause 1000/playSound furnace/pause 1000/playSound cracklingFire/playMusic EmberNight/animate RSVBonfireLeft false false 300 0 1 0 1 0 1 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 3 4 3 4 3 4 3 4 3 4 3 4 3 4 5 4 5 4 5 4 5 4 5 4 5 6 5 6 5 6 5 6 5 6 5 6 5 6 7 6 7 6 7 6 7 6 7 6 7 8 7 8 7 8 7 8 7 8 7 8 9 8 9 8 9 8 9 8 9 8 9 10 11/animate RSVBonfireRight false false 300 0 1 0 1 0 1 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 3 4 3 4 3 4 3 4 3 4 3 4 3 4 5 4 5 4 5 4 5 4 5 4 5 6 5 6 5 6 5 6 5 6 5 6 5 6 7 6 7 6 7 6 7 6 7 6 7 8 7 8 7 8 7 8 7 8 7 8 9 8 9 8 9 8 9 8 9 8 9 10 11/pause 3000/move Lenny 0 2 0/textAboveHead Lewis \"{{i18n:EoR.21}}\"/textAboveHead Vincent \"{{i18n:EoR.22}}\"/textAboveHead Jas \"{{i18n:EoR.23}}\"/pause 3000/textAboveHead Corine \"{{i18n:EoR.24}}\"/textAboveHead Jodi \"{{i18n:EoR.25}}\"/pause 3000/move Jas 0 -1 0/textAboveHead Shane \"{{i18n:EoR.26}}\"/textAboveHead Pika \"{{i18n:EoR.27}}\"/move Keahi 0 -1 0/move Abigail -1 0 3/pause 3000/move Robin 1 0 1/textAboveHead Elliott \"{{i18n:EoR.28}}\"/textAboveHead Pierre \"{{i18n:EoR.29}}\"/pause 3000/stopAnimation RSVBonfireLeft 11/stopAnimation RSVBonfireRight 11/pause 200/animate RSVBonfireLeft false true 300 9 10 11 10 9 11 10/animate RSVBonfireRight false true 300 9 10 11 10 9 11 10/pause 1000/faceDirection Lenny 1/pause 1000/faceDirection Lewis 3/faceDirection Lenny 2/faceDirection Lewis 2/speak Lenny \"{{i18n:EoR.30}}\"/faceDirection Lewis 2/faceDirection Lenny 2/speak Lewis \"{{i18n:EoR.31}}\"/pause 2000/viewport move 0 -1 8000000/pause 8000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/pause 600/message \"{{i18n:EoR.32}}\"/waitForOtherPlayers festivalEnd/end",
-                "Corine": "{{i18n:Festivals.EoR.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Corine_spouse": "{{i18n:Festivals.EoR.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}",
-                "Philip": "{{i18n:Festivals.EoR.Philip |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Philip_spouse": "{{i18n:Festivals.EoR.Philip |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
-                "Ysabelle": "{{i18n:Festivals.EoR.Ysabelle |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Ysabelle_spouse": "{{i18n:Festivals.EoR.Ysabelle |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}",
-                "Faye_spouse": "{{i18n:Festivals.EoR.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}",
-                "Abigail": "{{i18n:EmberNightDialogue.Abigail |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
-                "Abigail_spouse": "{{i18n:EmberNightDialogue.Abigail |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}",
-                "Leah_spouse": "{{i18n:EmberNightDialogue.Leah.spouse |AHDPnG_Leif_Lower62={{AHDPnG_Leif_Lower_T | valueAt=62}} }}",
-                "Maru": "{{i18n:EmberNightDialogue.Maru |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "Maru_spouse": "{{i18n:EmberNightDialogue.Maru |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}",
-                "Haley": "{{i18n:EmberNightDialogue.Haley |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
-                "Haley_spouse": "{{i18n:EmberNightDialogue.Haley |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
-            },
-            "Entries": {
-                "Victor": "{{i18n:InterModDialogue.EmberNightDialogue.Victor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "Victor_spouse": "{{i18n:InterModDialogue.EmberNightDialogue.Victor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "Relationship:Victor": "married"
-            },
-            "Entries": {
-                "Victor": "{{i18n:InterModDialogue.EmberNightDialogue.Victor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Abigail |contains= married": true
-            },
-            "Entries": {
-                "Abigail": "{{i18n:EmberNightDialogue.Abigail |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Corine |contains= married": true
-            },
-            "Entries": {
-                "Corine": "{{i18n:Festivals.EoR.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Faye |contains= married": true
-            },
-            "Entries": {
-                "Faye": "{{i18n:Festivals.EoR.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Haley |contains= married": true
-            },
-            "Entries": {
-                "Haley": "{{i18n:EmberNightDialogue.Haley |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Leah |contains= married": true
-            },
-            "Entries": {
-                "Leah": "{{i18n:EmberNightDialogue.Leah.spouse |AHDPnG_Leif_Lower62={{AHDPnG_Leif_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Maru |contains= married": true
-            },
-            "Entries": {
-                "Maru": "{{i18n:EmberNightDialogue.Maru |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Philip |contains= married": true
-            },
-            "Entries": {
-                "Philip": "{{i18n:Festivals.EoR.Philip |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter28",
-            "When": {
-                "Relationship:Ysabelle |contains= married": true
-            },
-            "Entries": {
-                "Ysabelle": "{{i18n:Festivals.EoR.Ysabelle |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter8",
-            "When": {},
-            "Entries": {
-                "Richard": "{{i18n:Festivals.IceFest.Richard |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "Yuuma": "{{i18n:Festivals.IceFest.Yuuma |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}",
-                "Paula": "{{i18n:Festivals.IceFest.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
-                "Carmen": "{{i18n:Festivals.IceFest.Carmen |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower23={{AHDPnG_Blaine_Lower_T | valueAt=23}} }}",
-                "Ian": "{{i18n:Festivals.IceFest.Ian |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Ian_spouse": "{{i18n:Festivals.IceFest.Ian |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}",
-                "Anton_spouse": "{{i18n:Festivals.IceFest.Anton_spouse |AHDPnG_Kian_Lower01={{AHDPnG_Kian_Lower_T | valueAt=1}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
-                "Paula_spouse": "{{i18n:Festivals.IceFest.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
-                "Faye_spouse": "{{i18n:Festivals.IceFest.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter8",
-            "When": {
-                "Relationship:Anton |contains= married": true
-            },
-            "Entries": {
-                "Anton": "{{i18n:Festivals.IceFest.Anton_spouse |AHDPnG_Kian_Lower01={{AHDPnG_Kian_Lower_T | valueAt=1}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter8",
-            "When": {
-                "Relationship:Faye |contains= married": true
-            },
-            "Entries": {
-                "Faye": "{{i18n:Festivals.IceFest.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter8",
-            "When": {
-                "Relationship:Ian |contains= married": true
-            },
-            "Entries": {
-                "Ian": "{{i18n:Festivals.IceFest.Ian |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/Winter8",
-            "When": {
-                "Relationship:Paula |contains= married": true
-            },
-            "Entries": {
-                "Paula": "{{i18n:Festivals.IceFest.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {},
+      "Entries": {
+        "Keahi": "{{i18n:Festivals.StardewFair.Keahi |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Upper60={{AHDPnG_Jerica_Upper_T | valueAt=60}} }}",
+        "Yuuma": "{{i18n:Festivals.StardewFair.Yuuma |AHDPnG_Shiori_Upper00={{AHDPnG_Shiori_Upper_T | valueAt=0}}  |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}",
+        "Irene": "{{i18n:Festivals.StardewFair.Irene |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Blair": "{{i18n:Festivals.StardewFair.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "Kiarra": "{{i18n:Festivals.StardewFair.Kiarra |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}",
+        "Sean": "{{i18n:Festivals.StardewFair.Sean |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "Philip": "{{i18n:Festivals.StardewFair.Philip |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "Philip_spouse": "{{i18n:Festivals.StardewFair.Philip |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} _spouse}}",
+        "Ysabelle": "{{i18n:Festivals.StardewFair.Ysabelle |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Ysabelle_spouse": "{{i18n:Festivals.StardewFair.Ysabelle |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}",
+        "Kiarra_spouse": "{{i18n:Festivals.StardewFair.Kiarra |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} _spouse}}",
+        "Sean_spouse": "{{i18n:Festivals.StardewFair.Sean |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} _spouse}}",
+        "Blair_spouse": "{{i18n:Festivals.StardewFair.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}",
+        "Irene_spouse": "{{i18n:Festivals.StardewFair.Irene |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Relationship:Blair |contains= married": true
+      },
+      "Entries": {
+        "Blair": "{{i18n:Festivals.StardewFair.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Relationship:Irene |contains= married": true
+      },
+      "Entries": {
+        "Irene": "{{i18n:Festivals.StardewFair.Irene |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Relationship:Kiarra |contains= married": true
+      },
+      "Entries": {
+        "Kiarra": "{{i18n:Festivals.StardewFair.Kiarra |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Lower02={{AHDPnG_Alexis_Lower_T | valueAt=2}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Relationship:Philip |contains= married": true
+      },
+      "Entries": {
+        "Philip": "{{i18n:Festivals.StardewFair.Philip |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Relationship:Sean |contains= married": true
+      },
+      "Entries": {
+        "Sean": "{{i18n:Festivals.StardewFair.Sean |AHDPnG_Blaine_Upper01={{AHDPnG_Blaine_Upper_T | valueAt=1}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall16",
+      "When": {
+        "Relationship:Ysabelle |contains= married": true
+      },
+      "Entries": {
+        "Ysabelle": "{{i18n:Festivals.StardewFair.Ysabelle |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {},
+      "Entries": {
+        "mainEvent": "fade/viewport -1000 -1000/loadActors MainEvent/warp Abigail 70 36/warp Sebastian 78 38/warp Sam 76 37/positionOffset Sebastian 20 -18/positionOffset Abigail 20 18/stopMusic/pause 100/warp farmer1 75 44/warp farmer2 76 44/warp farmer3 77 44/warp farmer4 78 44/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/warp Lenny 75 38/warp Lewis 73 38/faceDirection Lenny 2/faceDirection Lewis 2/speak Lenny \"{{i18n:RSVG.01 |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}\"/pause 1000/fade/viewport 74 39/pause 3000/speak Lewis \"{{i18n:RSVG.02}}\"/speak Lenny \"{{i18n:RSVG.03}}\"/speak Lewis \"{{i18n:RSVG.04}}\"/speak Lenny \"{{i18n:RSVG.05}}\"/speak Lewis \"{{i18n:RSVG.06}}\"/textAboveHead Shane \"{{i18n:RSVG.07}}\"/textAboveHead Clint \"{{i18n:RSVG.08}}\"/textAboveHead Jodi \"{{i18n:RSVG.09}}\"/pause 1500/textAboveHead Keahi \"{{i18n:RSVG.10}}\"/textAboveHead Bert \"{{i18n:RSVG.11}}\"/textAboveHead Leah \"{{i18n:RSVG.12}}\"/pause 3000/emote Lenny 20 true/emote Lewis 32/pause 1000/faceDirection Lenny 3/faceDirection Lewis 1/pause 2000/faceDirection Lenny 2/faceDirection Lewis 2/speak Lenny \"{{i18n:RSVG.13}}\"/globalFade/viewport -1000 -1000/warp Lenny 70 44/faceDirection Lenny 0/warp Lewis 72 43/faceDirection Lewis 0/faceDirection Elliott 1/faceDirection Leah 3/faceDirection Bert 1/faceDirection Olga 3/faceDirection Demetrius 1/faceDirection Robin 3{{RSVGATHER}}playMusic {{RANDOMMUSIC}}/animate Kiwi false true 100 16 16 17 17 17 17 17 17 18 19 20 21 22 23 24 25 26 17 17 27 27 27 16{{RSVGATHERDANCE}}animate Robin true true 500 20 21 20 22/animate Demetrius true true 500 24 25 24 26/animate Keahi false true 236 16 17 18 17/animate Vincent false true 236 20 8 21 8/animate Emily false true 236 16 17/animate Maru false true 236 29 30/animate Olga false true 300 24 25/animate Bert false true 300 24 25/animate Emily false true 236 16 17/animate Leah false true 236 30 31/animate Elliott false true 236 36 37/animate Ysabelle false true 200 34 35/animate Corine false true 300 34 35/animate Shanice false true 500 16 17/animate Lorenzo false true 500 16 17/pause 25000/pause 2000/viewport move -1 -1 8000000/pause 8000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/pause 600/message \"{{i18n:RSVG.15}}\"/waitForOtherPlayers festivalEnd/end",
+        "Ezekiel": "{{i18n:Festivals.Gathering.Ezekiel |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Paula": "{{i18n:Festivals.Gathering.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "Blair": "{{i18n:Festivals.Gathering.Blair |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+        "Anton": "{{i18n:Festivals.Gathering.Anton |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Bryle": "{{i18n:Festivals.Gathering.Bryle |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Pierre": "{{i18n:GatheringDialogue.Pierre |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "Caroline": "{{i18n:GatheringDialogue.Caroline |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Clint": "{{i18n:GatheringDialogue.Clint |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Alissa": "{{i18n:Festivals.Gathering.Alissa |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Alissa_spouse": "{{i18n:Festivals.Gathering.Alissa |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}",
+        "Corine": "{{i18n:Festivals.Gathering.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "Corine_spouse": "{{i18n:Festivals.Gathering.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}",
+        "Flor_spouse": "{{i18n:Festivals.Gathering.Flor_spouse |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}",
+        "Ian": "{{i18n:Festivals.Gathering.Ian |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Ian_spouse": "{{i18n:Festivals.Gathering.Ian |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}",
+        "Jeric": "{{i18n:Festivals.Gathering.Jeric |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+        "Jeric_spouse": "{{i18n:Festivals.Gathering.Jeric |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}",
+        "Kenneth": "{{i18n:Festivals.Gathering.Kenneth |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+        "Kenneth_spouse": "{{i18n:Festivals.Gathering.Kenneth |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}",
+        "Maddie": "{{i18n:Festivals.Gathering.Maddie |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Maddie_spouse": "{{i18n:Festivals.Gathering.Maddie |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}",
+        "Philip": "{{i18n:Festivals.Gathering.Philip |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+        "Philip_spouse": "{{i18n:Festivals.Gathering.Philip |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}",
+        "Shiro": "{{i18n:Festivals.Gathering.Shiro |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+        "Shiro_spouse": "{{i18n:Festivals.Gathering.Shiro |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} _spouse}}",
+        "Ysabelle": "{{i18n:Festivals.Gathering.Ysabelle |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "Ysabelle_spouse": "{{i18n:Festivals.Gathering.Ysabelle |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} _spouse}}",
+        "Anton_spouse": "{{i18n:Festivals.Gathering.Anton |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}",
+        "Sean_spouse": "{{i18n:Festivals.Gathering.Sean_spouse |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Paula_spouse": "{{i18n:Festivals.Gathering.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} _spouse}}",
+        "Blair_spouse": "{{i18n:Festivals.Gathering.Blair |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}",
+        "Bryle_spouse": "{{i18n:Festivals.Gathering.Bryle |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}",
+        "Abigail_spouse": "{{i18n:GatheringDialogue.Abigail |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}",
+        "Abigail": "{{i18n:GatheringDialogue.Abigail |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Leah": "{{i18n:GatheringDialogue.Leah |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower05={{AHDPnG_Jerica_Lower_T | valueAt=5}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Leah_spouse": "{{i18n:GatheringDialogue.Leah |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower05={{AHDPnG_Jerica_Lower_T | valueAt=5}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}",
+        "Maru": "{{i18n:GatheringDialogue.Maru |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Maru_spouse": "{{i18n:GatheringDialogue.Maru |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}",
+        "Penny": "{{i18n:GatheringDialogue.Penny |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Penny_spouse": "{{i18n:GatheringDialogue.Penny |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}",
+        "Haley": "{{i18n:GatheringDialogue.Haley |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Haley_spouse": "{{i18n:GatheringDialogue.Haley |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}",
+        "Sebastian": "{{i18n:GatheringDialogue.Sebastian |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "Sebastian_spouse": "{{i18n:GatheringDialogue.Sebastian |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}",
+        "Sam": "{{i18n:GatheringDialogue.Sam |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Sam_spouse": "{{i18n:GatheringDialogue.Sam |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} .spouse}}",
+        "Alex": "{{i18n:GatheringDialogue.Alex |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Alex_spouse": "{{i18n:GatheringDialogue.Alex |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}",
+        "Harvey": "{{i18n:GatheringDialogue.Harvey |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Harvey_spouse": "{{i18n:GatheringDialogue.Harvey |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} .spouse}}",
+        "Shane": "{{i18n:GatheringDialogue.Shane |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Shane_spouse": "{{i18n:GatheringDialogue.Shane |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Entries": {
+        "Sophia": "{{i18n:InterModDialogue.GatheringDialogue.Sophia |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Victor": "{{i18n:InterModDialogue.GatheringDialogue.Victor |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower00={{AHDPnG_Jerica_Lower_T | valueAt=0}} }}",
+        "Olivia": "{{i18n:InterModDialogue.GatheringDialogue.Olivia |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Sophia_spouse": "{{i18n:InterModDialogue.GatheringDialogue.Sophia |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
+        "Victor_spouse": "{{i18n:InterModDialogue.GatheringDialogue.Victor |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower00={{AHDPnG_Jerica_Lower_T | valueAt=0}} _spouse}}",
+        "Olivia_spouse": "{{i18n:InterModDialogue.GatheringDialogue.Olivia |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Relationship:Olivia": "married"
+      },
+      "Entries": {
+        "Olivia": "{{i18n:InterModDialogue.GatheringDialogue.Olivia |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Relationship:Sophia": "married"
+      },
+      "Entries": {
+        "Sophia": "{{i18n:InterModDialogue.GatheringDialogue.Sophia |AHDPnG_Phoebe_Lower05={{AHDPnG_Phoebe_Lower_T | valueAt=5}}  |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Relationship:Victor": "married"
+      },
+      "Entries": {
+        "Victor": "{{i18n:InterModDialogue.GatheringDialogue.Victor |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower00={{AHDPnG_Jerica_Lower_T | valueAt=0}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Abigail |contains= married": true
+      },
+      "Entries": {
+        "Abigail": "{{i18n:GatheringDialogue.Abigail |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Alex |contains= married": true
+      },
+      "Entries": {
+        "Alex": "{{i18n:GatheringDialogue.Alex |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Alissa |contains= married": true
+      },
+      "Entries": {
+        "Alissa": "{{i18n:Festivals.Gathering.Alissa |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Anton |contains= married": true
+      },
+      "Entries": {
+        "Anton": "{{i18n:Festivals.Gathering.Anton |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Lower00={{AHDPnG_Ivy_Lower_T | valueAt=0}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Blair |contains= married": true
+      },
+      "Entries": {
+        "Blair": "{{i18n:Festivals.Gathering.Blair |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Bryle |contains= married": true
+      },
+      "Entries": {
+        "Bryle": "{{i18n:Festivals.Gathering.Bryle |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Corine |contains= married": true
+      },
+      "Entries": {
+        "Corine": "{{i18n:Festivals.Gathering.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Flor |contains= married": true
+      },
+      "Entries": {
+        "Flor": "{{i18n:Festivals.Gathering.Flor_spouse |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Haley |contains= married": true
+      },
+      "Entries": {
+        "Haley": "{{i18n:GatheringDialogue.Haley |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Harvey |contains= married": true
+      },
+      "Entries": {
+        "Harvey": "{{i18n:GatheringDialogue.Harvey |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Ian |contains= married": true
+      },
+      "Entries": {
+        "Ian": "{{i18n:Festivals.Gathering.Ian |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Jeric |contains= married": true
+      },
+      "Entries": {
+        "Jeric": "{{i18n:Festivals.Gathering.Jeric |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Kenneth |contains= married": true
+      },
+      "Entries": {
+        "Kenneth": "{{i18n:Festivals.Gathering.Kenneth |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Leah |contains= married": true
+      },
+      "Entries": {
+        "Leah": "{{i18n:GatheringDialogue.Leah |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Lower05={{AHDPnG_Jerica_Lower_T | valueAt=5}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Maddie |contains= married": true
+      },
+      "Entries": {
+        "Maddie": "{{i18n:Festivals.Gathering.Maddie |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Maru |contains= married": true
+      },
+      "Entries": {
+        "Maru": "{{i18n:GatheringDialogue.Maru |AHDPnG_Florian_Lower03={{AHDPnG_Florian_Lower_T | valueAt=3}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Paula |contains= married": true
+      },
+      "Entries": {
+        "Paula": "{{i18n:Festivals.Gathering.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Penny |contains= married": true
+      },
+      "Entries": {
+        "Penny": "{{i18n:GatheringDialogue.Penny |AHDPnG_Matthew_Lower03={{AHDPnG_Matthew_Lower_T | valueAt=3}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Philip |contains= married": true
+      },
+      "Entries": {
+        "Philip": "{{i18n:Festivals.Gathering.Philip |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Sam |contains= married": true
+      },
+      "Entries": {
+        "Sam": "{{i18n:GatheringDialogue.Sam |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Sean |contains= married": true
+      },
+      "Entries": {
+        "Sean": "{{i18n:Festivals.Gathering.Sean_spouse |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Sebastian |contains= married": true
+      },
+      "Entries": {
+        "Sebastian": "{{i18n:GatheringDialogue.Sebastian |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}}  |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Shane |contains= married": true
+      },
+      "Entries": {
+        "Shane": "{{i18n:GatheringDialogue.Shane |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Shiro |contains= married": true
+      },
+      "Entries": {
+        "Shiro": "{{i18n:Festivals.Gathering.Shiro |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall20",
+      "When": {
+        "Relationship:Ysabelle |contains= married": true
+      },
+      "Entries": {
+        "Ysabelle": "{{i18n:Festivals.Gathering.Ysabelle |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {},
+      "Entries": {
+        "Yuuma": "{{i18n:Festivals.SpiritEve.Yuuma |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Kiarra": "{{i18n:Festivals.SpiritEve.Kiarra |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "Jeric_spouse": "{{i18n:Festivals.SpiritEve.Jeric_spouse |AHDPnG_Sorceress_Lower63={{AHDPnG_Sorceress_Lower_T | valueAt=63}}  |AHDPnG_Sorceress_Lower00={{AHDPnG_Sorceress_Lower_T | valueAt=0}} }}",
+        "Kenneth": "{{i18n:Festivals.SpiritEve.Kenneth |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Kenneth_spouse": "{{i18n:Festivals.SpiritEve.Kenneth |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}",
+        "Kiarra_spouse": "{{i18n:Festivals.SpiritEve.Kiarra |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Relationship:Jeric |contains= married": true
+      },
+      "Entries": {
+        "Jeric": "{{i18n:Festivals.SpiritEve.Jeric_spouse |AHDPnG_Sorceress_Lower63={{AHDPnG_Sorceress_Lower_T | valueAt=63}}  |AHDPnG_Sorceress_Lower00={{AHDPnG_Sorceress_Lower_T | valueAt=0}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Relationship:Kenneth |contains= married": true
+      },
+      "Entries": {
+        "Kenneth": "{{i18n:Festivals.SpiritEve.Kenneth |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Fall27",
+      "When": {
+        "Relationship:Kiarra |contains= married": true
+      },
+      "Entries": {
+        "Kiarra": "{{i18n:Festivals.SpiritEve.Kiarra |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {},
+      "Entries": {
+        "Paula": "{{i18n:Festivals.EggFest.Paula |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
+        "Blair": "{{i18n:Festivals.EggFest.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "Anton": "{{i18n:Festivals.EggFest.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Sean": "{{i18n:Festivals.EggFest.Sean |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "Faye": "{{i18n:Festivals.EggFest.Faye |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Malaya": "{{i18n:Festivals.EggFest.Malaya |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Lower64={{AHDPnG_Allister_Lower_T | valueAt=64}}  |AHDPnG_Allister_Upper01={{AHDPnG_Allister_Upper_T | valueAt=1}}  |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Kimpoi": "{{i18n:Festivals.EggFest.Kimpoi |AHDPnG_Allister_Lower01={{AHDPnG_Allister_Lower_T | valueAt=1}}  |AHDPnG_Allister_Lower13={{AHDPnG_Allister_Lower_T | valueAt=13}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "Naomi": "{{i18n:Festivals.EggFest.Naomi |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower12={{AHDPnG_Shiori_Lower_T | valueAt=12}}  |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Upper00={{AHDPnG_Shiori_Upper_T | valueAt=0}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Corine": "{{i18n:Festivals.EggFest.Corine |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Corine_spouse": "{{i18n:Festivals.EggFest.Corine |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}",
+        "Flor": "{{i18n:Festivals.EggFest.Flor |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "Flor_spouse": "{{i18n:Festivals.EggFest.Flor |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}",
+        "Anton_spouse": "{{i18n:Festivals.EggFest.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}",
+        "Kiarra_spouse": "{{i18n:Festivals.EggFest.Kiarra_spouse |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}",
+        "Sean_spouse": "{{i18n:Festivals.EggFest.Sean |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}",
+        "Paula_spouse": "{{i18n:Festivals.EggFest.Paula |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} _spouse}}",
+        "Blair_spouse": "{{i18n:Festivals.EggFest.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}",
+        "Faye_spouse": "{{i18n:Festivals.EggFest.Faye |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Anton |contains= married": true
+      },
+      "Entries": {
+        "Anton": "{{i18n:Festivals.EggFest.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Blair |contains= married": true
+      },
+      "Entries": {
+        "Blair": "{{i18n:Festivals.EggFest.Blair |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Corine |contains= married": true
+      },
+      "Entries": {
+        "Corine": "{{i18n:Festivals.EggFest.Corine |AHDPnG_Ysai_Upper01={{AHDPnG_Ysai_Upper_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Faye |contains= married": true
+      },
+      "Entries": {
+        "Faye": "{{i18n:Festivals.EggFest.Faye |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Flor |contains= married": true
+      },
+      "Entries": {
+        "Flor": "{{i18n:Festivals.EggFest.Flor |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Kiarra |contains= married": true
+      },
+      "Entries": {
+        "Kiarra": "{{i18n:Festivals.EggFest.Kiarra_spouse |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}}  |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Paula |contains= married": true
+      },
+      "Entries": {
+        "Paula": "{{i18n:Festivals.EggFest.Paula |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring13",
+      "When": {
+        "Relationship:Sean |contains= married": true
+      },
+      "Entries": {
+        "Sean": "{{i18n:Festivals.EggFest.Sean |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {},
+      "Entries": {
+        "Aguar": "{{i18n:Festivals.FlowerDance.Aguar |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "Ezekiel": "{{i18n:Festivals.FlowerDance.Ezekiel |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Corbin_Lower13={{AHDPnG_Corbin_Lower_T | valueAt=13}} }}",
+        "Yuuma": "{{i18n:Festivals.FlowerDance.Yuuma |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Paula": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Lorenzo": "{{i18n:Festivals.FlowerDance.Lorenzo |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}}  |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}",
+        "Anton": "{{i18n:Festivals.FlowerDance.Anton |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Kiarra": "{{i18n:Festivals.FlowerDance.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Faye": "{{i18n:Festivals.FlowerDance.Faye |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}",
+        "Naomi": "{{i18n:Festivals.FlowerDance.Naomi |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Philip": "{{i18n:Festivals.FlowerDance.Philip |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Philip_spouse": "{{i18n:Festivals.FlowerDance.Philip |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
+        "Anton_spouse": "{{i18n:Festivals.FlowerDance.Anton |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}",
+        "Kiarra_spouse": "{{i18n:Festivals.FlowerDance.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}",
+        "Sean_spouse": "{{i18n:Festivals.FlowerDance.Sean_spouse |AHDPnG_Shauna_Lower28={{AHDPnG_Shauna_Lower_T | valueAt=28}} }}",
+        "Paula_spouse": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}",
+        "Faye_spouse": "{{i18n:Festivals.FlowerDance.Faye |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "HasDialogueAnswer": "75163521, 75163041"
+      },
+      "Entries": {
+        "Paula": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} .change}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Relationship:Anton |contains= married": true
+      },
+      "Entries": {
+        "Anton": "{{i18n:Festivals.FlowerDance.Anton |AHDPnG_Pablo_Lower03={{AHDPnG_Pablo_Lower_T | valueAt=3}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Relationship:Faye |contains= married": true
+      },
+      "Entries": {
+        "Faye": "{{i18n:Festivals.FlowerDance.Faye |AHDPnG_Felix_Lower64={{AHDPnG_Felix_Lower_T | valueAt=64}}  |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Relationship:Kiarra |contains= married": true
+      },
+      "Entries": {
+        "Kiarra": "{{i18n:Festivals.FlowerDance.Kiarra |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Relationship:Paula |contains= married": true
+      },
+      "Entries": {
+        "Paula": "{{i18n:Festivals.FlowerDance.Paula |AHDPnG_Pablo_Lower02={{AHDPnG_Pablo_Lower_T | valueAt=2}}  |AHDPnG_Pablo_Lower64={{AHDPnG_Pablo_Lower_T | valueAt=64}}  |AHDPnG_Pablo_Upper01={{AHDPnG_Pablo_Upper_T | valueAt=1}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Relationship:Philip |contains= married": true
+      },
+      "Entries": {
+        "Philip": "{{i18n:Festivals.FlowerDance.Philip |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Spring24",
+      "When": {
+        "Relationship:Sean |contains= married": true
+      },
+      "Entries": {
+        "Sean": "{{i18n:Festivals.FlowerDance.Sean_spouse |AHDPnG_Shauna_Lower28={{AHDPnG_Shauna_Lower_T | valueAt=28}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {},
+      "Entries": {
+        "Kiwi": "{{i18n:Festivals.Luau.Kiwi |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}",
+        "Yuuma": "{{i18n:Festivals.Luau.Yuuma |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}",
+        "Sean": "{{i18n:Festivals.Luau.Sean |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Kenneth_spouse": "{{i18n:Festivals.Luau.Kenneth_spouse |AHDPnG_Ivy_Lower05={{AHDPnG_Ivy_Lower_T | valueAt=5}}  |AHDPnG_Ivy_Lower08={{AHDPnG_Ivy_Lower_T | valueAt=8}}  |AHDPnG_Ivy_Lower58={{AHDPnG_Ivy_Lower_T | valueAt=58}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}",
+        "Ysabelle": "{{i18n:Festivals.Luau.Ysabelle |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Ysabelle_spouse": "{{i18n:Festivals.Luau.Ysabelle |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}",
+        "Daia_spouse": "{{i18n:Festivals.Luau.Daia_spouse |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "Sean_spouse": "{{i18n:Festivals.Luau.Sean |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}",
+        "Blair_spouse": "{{i18n:Festivals.Luau.Blair_spouse |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower13={{AHDPnG_Blaine_Lower_T | valueAt=13}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Relationship:Blair |contains= married": true
+      },
+      "Entries": {
+        "Blair": "{{i18n:Festivals.Luau.Blair_spouse |AHDPnG_Blaine_Lower04={{AHDPnG_Blaine_Lower_T | valueAt=4}}  |AHDPnG_Blaine_Lower13={{AHDPnG_Blaine_Lower_T | valueAt=13}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Relationship:Daia |contains= married": true
+      },
+      "Entries": {
+        "Daia": "{{i18n:Festivals.Luau.Daia_spouse |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Relationship:Kenneth |contains= married": true
+      },
+      "Entries": {
+        "Kenneth": "{{i18n:Festivals.Luau.Kenneth_spouse |AHDPnG_Ivy_Lower05={{AHDPnG_Ivy_Lower_T | valueAt=5}}  |AHDPnG_Ivy_Lower08={{AHDPnG_Ivy_Lower_T | valueAt=8}}  |AHDPnG_Ivy_Lower58={{AHDPnG_Ivy_Lower_T | valueAt=58}}  |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Relationship:Sean |contains= married": true
+      },
+      "Entries": {
+        "Sean": "{{i18n:Festivals.Luau.Sean |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer11",
+      "When": {
+        "Relationship:Ysabelle |contains= married": true
+      },
+      "Entries": {
+        "Ysabelle": "{{i18n:Festivals.Luau.Ysabelle |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {},
+      "Entries": {
+        "Ezekiel": "{{i18n:Festivals.Jellies.Ezekiel |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Carmen": "{{i18n:Festivals.Jellies.Carmen |AHDPnG_Blaine_Lower65={{AHDPnG_Blaine_Lower_T | valueAt=65}} }}",
+        "Philip_spouse": "{{i18n:Festivals.Jellies.Philip_spouse |AHDPnG_Phoebe_Upper00={{AHDPnG_Phoebe_Upper_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Blair_spouse": "{{i18n:Festivals.Jellies.Blair_spouse |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Faye_spouse": "{{i18n:Festivals.Jellies.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {
+        "Relationship:Blair |contains= married": true
+      },
+      "Entries": {
+        "Blair": "{{i18n:Festivals.Jellies.Blair_spouse |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {
+        "Relationship:Faye |contains= married": true
+      },
+      "Entries": {
+        "Faye": "{{i18n:Festivals.Jellies.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Summer28",
+      "When": {
+        "Relationship:Philip |contains= married": true
+      },
+      "Entries": {
+        "Philip": "{{i18n:Festivals.Jellies.Philip_spouse |AHDPnG_Phoebe_Upper00={{AHDPnG_Phoebe_Upper_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter25",
+      "When": {},
+      "Entries": {
+        "Richard": "{{i18n:Festivals.WinterStar.Richard |AHDPnG_Ysai_Lower01={{AHDPnG_Ysai_Lower_T | valueAt=1}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Yuuma": "{{i18n:Festivals.WinterStar.Yuuma |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}",
+        "Carmen": "{{i18n:Festivals.WinterStar.Carmen |AHDPnG_Blaine_Lower65={{AHDPnG_Blaine_Lower_T | valueAt=65}} }}",
+        "Lorenzo": "{{i18n:Festivals.WinterStar.Lorenzo |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Lower04={{AHDPnG_Kian_Lower_T | valueAt=4}}  |AHDPnG_Kian_Lower27={{AHDPnG_Kian_Lower_T | valueAt=27}}  |AHDPnG_Kian_Lower01={{AHDPnG_Kian_Lower_T | valueAt=1}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Anton": "{{i18n:Festivals.WinterStar.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "Jeric": "{{i18n:Festivals.WinterStar.Jeric |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Jeric_spouse": "{{i18n:Festivals.WinterStar.Jeric |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}",
+        "Anton_spouse": "{{i18n:Festivals.WinterStar.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter25",
+      "When": {
+        "Relationship:Anton |contains= married": true
+      },
+      "Entries": {
+        "Anton": "{{i18n:Festivals.WinterStar.Anton |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter25",
+      "When": {
+        "Relationship:Jeric |contains= married": true
+      },
+      "Entries": {
+        "Jeric": "{{i18n:Festivals.WinterStar.Jeric |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {},
+      "Entries": {
+        "mainEvent": "fade/viewport 39 46/stopAdvancedMoves/loadActors MainEvent/addTemporaryActor RSVBonfireLeft 64 96 36 41 2 false/addTemporaryActor RSVBonfireRight 64 96 40 41 2 false/positionOffset RSVBonfireLeft 0 16/positionOffset RSVBonfireRight 0 16/stopMusic/warp farmer1 40 49/warp farmer2 39 49/warp farmer3 38 49/warp farmer4 41 49/faceDirection farmer1 0/faceDirection farmer2 0/faceDirection farmer3 0/faceDirection farmer4 0/pause 1000/speak Lewis \"{{i18n:EoR.01}}\"/emote Lenny 56/pause 500/speak Lenny \"{{i18n:EoR.02}}\"/speak Lewis \"{{i18n:EoR.03}}\"/textAboveHead Marnie \"{{i18n:EoR.04}}\"/textAboveHead Robin \"{{i18n:EoR.05}}\"/pause 1000/textAboveHead Leah \"{{i18n:EoR.06}}\"/pause 1000/textAboveHead Gus \"{{i18n:EoR.07}}\"/pause 1000/textAboveHead Penny \"{{i18n:EoR.08}}\"/textAboveHead Vincent \"{{i18n:EoR.09}}\"/pause 1000/textAboveHead Willy \"{{i18n:EoR.10}}\"/textAboveHead Richard \"{{i18n:EoR.11}}\"/pause 1000/speak Lewis \"{{i18n:EoR.12}}\"/move Lenny 0 1 2/pause 1000/speak Lenny \"{{i18n:EoR.13}}\"/emote farmer 32 true/pause 1000/speak Lenny \"{{i18n:EoR.14 |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}}  |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}\"/textAboveHead Abigail \"{{i18n:EoR.15}}\"/textAboveHead Keahi \"{{i18n:EoR.16}}\"/pause 800/textAboveHead Robin \"{{i18n:EoR.17}}\"/textAboveHead Maddie \"{{i18n:EoR.18}}\"/emote Harvey 28 true/emote Philip 28 true/emote Maru 28/pause 1000/globalFade/viewport -1000 -1000/warp Lenny 42 46/warp Lewis 42 47/faceDirection Lenny 3/faceDirection Lewis 3{{BONFIREEVENT}}warp Lenny 39 45/warp Lewis 40 45/faceDirection Lenny 2/faceDirection Lewis 2/fade/viewport 39 46/pause 2000/speak Lenny \"{{i18n:EoR.20}}\"/faceDirection Lewis 0/move Lenny 0 -2 0/pause 1000/playSound furnace/pause 1000/playSound cracklingFire/playMusic EmberNight/animate RSVBonfireLeft false false 300 0 1 0 1 0 1 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 3 4 3 4 3 4 3 4 3 4 3 4 3 4 5 4 5 4 5 4 5 4 5 4 5 6 5 6 5 6 5 6 5 6 5 6 5 6 7 6 7 6 7 6 7 6 7 6 7 8 7 8 7 8 7 8 7 8 7 8 9 8 9 8 9 8 9 8 9 8 9 10 11/animate RSVBonfireRight false false 300 0 1 0 1 0 1 0 1 0 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 3 4 3 4 3 4 3 4 3 4 3 4 3 4 5 4 5 4 5 4 5 4 5 4 5 6 5 6 5 6 5 6 5 6 5 6 5 6 7 6 7 6 7 6 7 6 7 6 7 8 7 8 7 8 7 8 7 8 7 8 9 8 9 8 9 8 9 8 9 8 9 10 11/pause 3000/move Lenny 0 2 0/textAboveHead Lewis \"{{i18n:EoR.21}}\"/textAboveHead Vincent \"{{i18n:EoR.22}}\"/textAboveHead Jas \"{{i18n:EoR.23}}\"/pause 3000/textAboveHead Corine \"{{i18n:EoR.24}}\"/textAboveHead Jodi \"{{i18n:EoR.25}}\"/pause 3000/move Jas 0 -1 0/textAboveHead Shane \"{{i18n:EoR.26}}\"/textAboveHead Pika \"{{i18n:EoR.27}}\"/move Keahi 0 -1 0/move Abigail -1 0 3/pause 3000/move Robin 1 0 1/textAboveHead Elliott \"{{i18n:EoR.28}}\"/textAboveHead Pierre \"{{i18n:EoR.29}}\"/pause 3000/stopAnimation RSVBonfireLeft 11/stopAnimation RSVBonfireRight 11/pause 200/animate RSVBonfireLeft false true 300 9 10 11 10 9 11 10/animate RSVBonfireRight false true 300 9 10 11 10 9 11 10/pause 1000/faceDirection Lenny 1/pause 1000/faceDirection Lewis 3/faceDirection Lenny 2/faceDirection Lewis 2/speak Lenny \"{{i18n:EoR.30}}\"/faceDirection Lewis 2/faceDirection Lenny 2/speak Lewis \"{{i18n:EoR.31}}\"/pause 2000/viewport move 0 -1 8000000/pause 8000/globalFade/viewport -1000 -1000/waitForOtherPlayers festivalEnd/pause 600/message \"{{i18n:EoR.32}}\"/waitForOtherPlayers festivalEnd/end",
+        "Corine": "{{i18n:Festivals.EoR.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Corine_spouse": "{{i18n:Festivals.EoR.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}",
+        "Philip": "{{i18n:Festivals.EoR.Philip |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Philip_spouse": "{{i18n:Festivals.EoR.Philip |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
+        "Ysabelle": "{{i18n:Festivals.EoR.Ysabelle |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Ysabelle_spouse": "{{i18n:Festivals.EoR.Ysabelle |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}",
+        "Faye_spouse": "{{i18n:Festivals.EoR.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}",
+        "Abigail": "{{i18n:EmberNightDialogue.Abigail |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}",
+        "Abigail_spouse": "{{i18n:EmberNightDialogue.Abigail |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}",
+        "Leah_spouse": "{{i18n:EmberNightDialogue.Leah.spouse |AHDPnG_Leif_Lower62={{AHDPnG_Leif_Lower_T | valueAt=62}} }}",
+        "Maru": "{{i18n:EmberNightDialogue.Maru |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "Maru_spouse": "{{i18n:EmberNightDialogue.Maru |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}",
+        "Haley": "{{i18n:EmberNightDialogue.Haley |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}",
+        "Haley_spouse": "{{i18n:EmberNightDialogue.Haley |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Entries": {
+        "Victor": "{{i18n:InterModDialogue.EmberNightDialogue.Victor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Victor_spouse": "{{i18n:InterModDialogue.EmberNightDialogue.Victor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Relationship:Victor": "married"
+      },
+      "Entries": {
+        "Victor": "{{i18n:InterModDialogue.EmberNightDialogue.Victor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Abigail |contains= married": true
+      },
+      "Entries": {
+        "Abigail": "{{i18n:EmberNightDialogue.Abigail |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Corine |contains= married": true
+      },
+      "Entries": {
+        "Corine": "{{i18n:Festivals.EoR.Corine |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Faye |contains= married": true
+      },
+      "Entries": {
+        "Faye": "{{i18n:Festivals.EoR.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Haley |contains= married": true
+      },
+      "Entries": {
+        "Haley": "{{i18n:EmberNightDialogue.Haley |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}}  |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Leah |contains= married": true
+      },
+      "Entries": {
+        "Leah": "{{i18n:EmberNightDialogue.Leah.spouse |AHDPnG_Leif_Lower62={{AHDPnG_Leif_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Maru |contains= married": true
+      },
+      "Entries": {
+        "Maru": "{{i18n:EmberNightDialogue.Maru |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} .spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Philip |contains= married": true
+      },
+      "Entries": {
+        "Philip": "{{i18n:Festivals.EoR.Philip |AHDPnG_Phoebe_Lower00={{AHDPnG_Phoebe_Lower_T | valueAt=0}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter28",
+      "When": {
+        "Relationship:Ysabelle |contains= married": true
+      },
+      "Entries": {
+        "Ysabelle": "{{i18n:Festivals.EoR.Ysabelle |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Lower01={{AHDPnG_Corbin_Lower_T | valueAt=1}}  |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {},
+      "Entries": {
+        "Richard": "{{i18n:Festivals.IceFest.Richard |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Yuuma": "{{i18n:Festivals.IceFest.Yuuma |AHDPnG_Shiori_Lower00={{AHDPnG_Shiori_Lower_T | valueAt=0}}  |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}",
+        "Paula": "{{i18n:Festivals.IceFest.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}",
+        "Carmen": "{{i18n:Festivals.IceFest.Carmen |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower01={{AHDPnG_Blaine_Lower_T | valueAt=1}}  |AHDPnG_Blaine_Lower23={{AHDPnG_Blaine_Lower_T | valueAt=23}} }}",
+        "Ian": "{{i18n:Festivals.IceFest.Ian |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Ian_spouse": "{{i18n:Festivals.IceFest.Ian |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}",
+        "Anton_spouse": "{{i18n:Festivals.IceFest.Anton_spouse |AHDPnG_Kian_Lower01={{AHDPnG_Kian_Lower_T | valueAt=1}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}",
+        "Paula_spouse": "{{i18n:Festivals.IceFest.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}",
+        "Faye_spouse": "{{i18n:Festivals.IceFest.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Relationship:Anton |contains= married": true
+      },
+      "Entries": {
+        "Anton": "{{i18n:Festivals.IceFest.Anton_spouse |AHDPnG_Kian_Lower01={{AHDPnG_Kian_Lower_T | valueAt=1}}  |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Relationship:Faye |contains= married": true
+      },
+      "Entries": {
+        "Faye": "{{i18n:Festivals.IceFest.Faye_spouse |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Relationship:Ian |contains= married": true
+      },
+      "Entries": {
+        "Ian": "{{i18n:Festivals.IceFest.Ian |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} _spouse}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/Winter8",
+      "When": {
+        "Relationship:Paula |contains= married": true
+      },
+      "Entries": {
+        "Paula": "{{i18n:Festivals.IceFest.Paula |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} _spouse}}"
+      }
+    }
+  ]
 }

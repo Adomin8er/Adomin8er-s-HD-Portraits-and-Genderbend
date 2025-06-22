@@ -1,5 +1,16 @@
 {
     "Required": {
+        "No Translation SVE": {
+            "Images": [
+                "Sam Work",
+                "Claires Joja Portrait works only in cutscenes/events",
+                "Martins doesn't show at all",
+                "Sams Joja Portrait doesn't show",
+                "Philip needs new portrait",
+                "Philip needs work portrait"
+            ],
+            "RSV Dialogue Tokens": "Insert dialogue tokens as needed."
+        }
     },
     "Optional": {
     },

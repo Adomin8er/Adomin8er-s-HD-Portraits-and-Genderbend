@@ -1,442 +1,1019 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Abigail",
-            "When": {},
-            "Entries": {
-                "Town_53_69": "{{i18n:Abigail.Dialogue.02 |AHDPnG_Alexis_Lower00={{AHDPnG_Alexis_Lower_T | valueAt=0}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
-                "abigail_event5": "{{i18n:Abigail.Dialogue.06 |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} }}",
-                "abigail_event12": "{{i18n:Abigail.Dialogue.13 |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T | valueAt=0}}  |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
-                "abigail_event13": "{{i18n:Abigail.Dialogue.14 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T | valueAt=5}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} }}",
-                "abigail_event14": "{{i18n:Abigail.Dialogue.15 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T | valueAt=5}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T | valueAt=2}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Alex",
-            "When": {},
-            "Entries": {
-                "JoshHouse_10_19": "{{i18n:Alex.Dialogue.02 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
-                "Saloon_34_18": "{{i18n:Alex.Dialogue.03 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
-                "alex_event2": "{{i18n:Alex.Dialogue.07 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Alex",
-            "When": {
-                "HasSeenEvent": "8185295"
-            },
-            "Entries": {
-                "fall_Thu2": "{{i18n:Alex.Dialogue.04 |AHDPnG_Soren_Lower13={{AHDPnG_Soren_Lower_T | valueAt=13}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Andy",
-            "When": {},
-            "Entries": {
-                "ScarlettFarmhand": "{{i18n:Scarlett.Farmhand.Andy |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T | valueAt=4}} }}",
-                "scarlettFairhavenFarm": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} haven.CT.02}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Caroline",
-            "When": {},
-            "Entries": {
-                "claireAerobics": "{{i18n:Claire.6hearts.Caroline |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T | valueAt=1}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper04={{AHDPnG_Clayton_Upper_T | valueAt=4}} }}",
-                "ClaireMovie": "{{i18n:Claire.14hearts3.Caroline |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Clint",
-            "When": {},
-            "Entries": {
-                "ClaireMovie": "{{i18n:Claire.14hearts3.Clint |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Clint |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T | valueAt=28}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Demetrius",
-            "When": {},
-            "Entries": {
-                "SebastianDinner": "{{i18n:Sebastian.Event.25 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Elliott",
-            "When": {},
-            "Entries": {
-                "LeahHouse_7_5": "{{i18n:Elliott.Dialogue.01 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Emily",
-            "When": {},
-            "Entries": {
-                "claireAerobics": "{{i18n:Claire.6hearts.Emily |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "ClaireMovie": "{{i18n:Claire.14hearts3.Emily |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Emily",
-            "When": {
-                "HasSeenEvent": "8185295"
-            },
-            "Entries": {
-                "HaleyHouse_14_23": "{{i18n:Sophia.HaleyHouse.05 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "HaleyHouse_16_25": "{{i18n:Sophia.HaleyHouse.06 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "HaleyHouse_14_7": "{{i18n:Sophia.HaleyHouse.08 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Gus",
-            "When": {},
-            "Entries": {
-                "gus_event1": "{{i18n:Gus.Dialogue.05 |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}}  |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T | valueAt=1}} }}",
-                "gus_event4": "{{i18n:Gus.Dialogue.08 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "gus_event5": "{{i18n:Gus.Dialogue.09 |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T | valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "claireSaloon": "{{i18n:Gus.Dialogue.03 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Lower09={{AHDPnG_Clayton_Lower_T | valueAt=9}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Haley",
-            "When": {},
-            "Entries": {
-                "JoshHouse_10_21": "{{i18n:Haley.Dialogue.01 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Haley",
-            "When": {
-                "HasSeenEvent": "8185295"
-            },
-            "Entries": {
-                "HaleyHouse_2_18": "{{i18n:Sophia.HaleyHouse.01 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "HaleyHouse_7_5": "{{i18n:Sophia.HaleyHouse.02 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "HaleyHouse_6_20": "{{i18n:Sophia.HaleyHouse.04 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Jas",
-            "When": {},
-            "Entries": {
-                "Town_16_13": "{{i18n:Jas.Dialogue.01 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Jodi",
-            "When": {},
-            "Entries": {
-                "fall_Sun": "{{i18n:Jodi.Dialogue.01 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "Tue4": "{{i18n:Jodi.Dialogue.02 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "jodi_event2": "{{i18n:Jodi.Dialogue.06 |AHDPnG_Harriet_Lower00={{AHDPnG_Harriet_Lower_T | valueAt=0}}  |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-                "Thu": "{{i18n:Jodi.Dialogue.04 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Leah",
-            "When": {},
-            "Entries": {
-                "Forest_112_34": "{{i18n:Leah.Dialogue.02 |AHDPnG_Leif_Lower04={{AHDPnG_Leif_Lower_T | valueAt=4}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "LeahHouse_5_5": "{{i18n:Leah.Dialogue.06 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Lewis",
-            "When": {},
-            "Entries": {
-                "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Lewis |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T | valueAt=28}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Marlonfay",
-            "When": {},
-            "Entries": {
-                "LanceMetKrobus": "{{i18n:LanceKrobus.Marlon |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Marriagedialogueemily",
-            "When": {
-                "HasSeenEvent": "502261",
-                "Spouse": "Emily",
-                "Day": "22",
-                "HasSeenEvent |contains=3219873": false
-            },
-            "Entries": {
-                "funLeave_Emily": "{{i18n:JojaDay.Dialogue.47 |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T | valueAt=3}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Marriagedialogueemily",
-            "When": {
-                "HasSeenEvent": "502261",
-                "Spouse": "Emily",
-                "Day": "22",
-                "HasSeenEvent |contains=3219873": true
-            },
-            "Entries": {
-                "funLeave_Emily": "{{i18n:JojaDay.Dialogue.49 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T | valueAt=3}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Martin",
-            "When": {},
-            "Entries": {
-                "ClaireMovie": "{{i18n:Claire.14hearts3.Martin |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T | valueAt=3}}  |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T | valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "ClaireSick": "{{i18n:Martin.6hearts.Martin |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Martin",
-            "When": {
-                "HasFlag": "ccMovieTheater",
-                "HasSeenEvent": "191393"
-            },
-            "Entries": {
-                "summer_Tue2": "{{i18n:Martin.MoviePatch.01 |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Martin",
-            "When": {
-                "Spouse": "Claire"
-            },
-            "Entries": {
-                "Thu8": "{{i18n:Martin.MarriedClaire.07 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Maru",
-            "When": {},
-            "Entries": {
-                "SebastianDinner": "{{i18n:Sebastian.Event.26 |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T | valueAt=0}}  |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Olivia",
-            "When": {},
-            "Entries": {
-                "claireAerobics": "{{i18n:Claire.6hearts.Olivia |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T | valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper04={{AHDPnG_Clayton_Upper_T | valueAt=4}} Theater}}",
-                "ClaireMovie": "{{i18n:Claire.14hearts3.Olivia |AHDPnG_Clayton_Lower04={{AHDPnG_Clayton_Lower_T | valueAt=4}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "DeweyIsOkay": "{{i18n:deweyisokay.olivia |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "ShearwaterBridgeRenovationStart": "{{i18n:ShearwaterBridgeRenovationStart.Olivia |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T | valueAt=2}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Olivia |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Penny",
-            "When": {},
-            "Entries": {
-                "SamHouse_5_15": "{{i18n:Penny.Dialogue.01 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
-            "When": {},
-            "Entries": {
-                "claireAerobics": "{{i18n:Claire.6hearts.Robin |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T | valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "SebastianDinner": "{{i18n:Sebastian.Event.24 |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T | valueAt=0}} }}",
-                "DeweyIsOkay": "{{i18n:deweyisokay.robin |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T | valueAt=0}}  |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T | valueAt=28}} }}",
-                "ShearwaterBridgeRenovationStart": "{{i18n:ShearwaterBridgeRenovationStart.Robin |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T | valueAt=28}} }}",
-                "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Robin |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T | valueAt=5}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T | valueAt=0}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sam",
-            "When": {},
-            "Entries": {
-                "ShearwaterBridgeRenovationStart": "{{i18n:ShearwaterBridgeRenovationStart.Sam |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T | valueAt=2}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "ArchaeologyHouse_44_13": "{{i18n:Sam.Dialogue.01 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
-                "SamHouse_7_15": "{{i18n:Sam.Dialogue.03 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sandy",
-            "When": {
-                "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
-            },
-            "Entries": {
-                "HaleyHouse_13_20": "{{i18n:Sandy.Visit.02 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "HaleyHouse_19_4": "{{i18n:Sandy.Visit.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "HaleyHouse_7_16": "{{i18n:Sandy.Visit.05 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "HaleyHouse_5_20": "{{i18n:Sandy.Visit.05 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "Thu4": "{{i18n:Sandy.Visit.12 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Scarlett",
-            "When": {},
-            "Entries": {
-                "scarlettFairhavenFarm": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} haven.CT.01}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Scarlettfake",
-            "When": {
-                "Season": "Fall",
-                "Day": "1,2,3",
-                "HasSeenEvent |contains=3691371": false
-            },
-            "Entries": {
-                "Mon": "{{i18n:FakeScarlett.Farmhand.01 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Tue": "{{i18n:FakeScarlett.Farmhand.02 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Scarlettfake",
-            "When": {
-                "Season": "Fall",
-                "Day": "15,16,17",
-                "HasSeenEvent |contains=3691371": false
-            },
-            "Entries": {
-                "Tue": "{{i18n:FakeScarlett.Farmhand.14 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Wed": "{{i18n:FakeScarlett.Farmhand.15 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Scarlettfake",
-            "When": {
-                "Season": "Fall",
-                "Day": "22,23,24",
-                "HasSeenEvent |contains=3691371": false
-            },
-            "Entries": {
-                "Tue": "{{i18n:FakeScarlett.Farmhand.20 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Scarlettfake",
-            "When": {
-                "Season": "Fall",
-                "Day": "8,9,10",
-                "HasSeenEvent |contains=3691371": false
-            },
-            "Entries": {
-                "Tue": "{{i18n:FakeScarlett.Farmhand.08 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sebastian",
-            "When": {},
-            "Entries": {
-                "SebastianDinner": "{{i18n:Sebastian.Event.27 |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T | valueAt=2}} }}",
-                "SebastianRoom_3_7": "{{i18n:Sebastian.Dialogue.01 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Shane",
-            "When": {
-                "HasSeenEvent": "502261",
-                "Spouse": "Shane",
-                "Day": 22
-            },
-            "Entries": {
-                "JojaMart": "{{i18n:JojaDay.Dialogue.13 |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T | valueAt=0}}  |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sophia",
-            "When": {},
-            "Entries": {
-                "ScarlettFarmhand": "{{i18n:Scarlett.Farmhand.Sophia |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T | valueAt=1}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
-                "stompedGrapes": "{{i18n:Scarlett.Bluemoon.CT.02 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Susan",
-            "When": {},
-            "Entries": {
-                "ScarlettFarmhand": "{{i18n:Scarlett.Farmhand.Susan |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T | valueAt=1}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Upper04={{AHDPnG_Skyler_Upper_T | valueAt=4}} }}",
-                "scarlettEmeraldFarm": "{{i18n:Scarlett.Emerald.CT.02 |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T | valueAt=1}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T | valueAt=13}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Victor",
-            "When": {
-                "Spouse": "Olivia",
-                "PlayerGender": "Female"
-            },
-            "Entries": {
-                "fall_Fri8": "{{i18n:victor.stepmom12 |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T | valueAt=1}}  |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T | valueAt=15}} }}",
-                "fall_Sun8": "{{i18n:victor.stepmom13 |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T | valueAt=1}} }}",
-                "winter_Tue8": "{{i18n:victor.stepmom14 |AHDPnG_Victoria_Lower22={{AHDPnG_Victoria_Lower_T | valueAt=22}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Victor",
-            "When": {
-                "Spouse": "Olivia",
-                "PlayerGender": "Male"
-            },
-            "Entries": {
-                "fall_Fri8": "{{i18n:victor.stepdad12 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T | valueAt=15}} }}",
-                "fall_Sun8": "{{i18n:victor.stepdad13 |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T | valueAt=1}}  |AHDPnG_Oliver_Upper15={{AHDPnG_Oliver_Upper_T | valueAt=15}} }}",
-                "winter_Tue8": "{{i18n:victor.stepdad14 |AHDPnG_Victoria_Lower22={{AHDPnG_Victoria_Lower_T | valueAt=22}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Vincent",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityCenter_25_10": "{{i18n:CommunityDay.Dialogue.151 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} }}",
-                "CommunityCenter_15_20": "{{i18n:CommunityDay.Dialogue.151 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} }}",
-                "CommunityCenter_14_19": "{{i18n:CommunityDay.Dialogue.151 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Wizard",
-            "When": {},
-            "Entries": {
-                "Mon8": "{{i18n:WizardDialogue.02 |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T | valueAt=3}}  |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T | valueAt=3}}  |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
-                "Sat2": "{{i18n:WizardDialogue.10 |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T | valueAt=1}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T | valueAt=3}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T | valueAt=3}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "Custom_ForestWest_52_117": "{{i18n:WizardDialogue.Forest West |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
-                "wizardsComplicatedRelationship": "{{i18n:Pierre.MatureEvent.Magnus |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/**martin**",
+      "When": {},
+      "Entries": {
+        "martin_event6": "{{i18n:TempMartin.CharacterDialogue.002 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "When": {},
+      "Entries": {
+        "Town_53_69": "{{i18n:Abigail.Dialogue.02 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Alexis_Lower00={{AHDPnG_Alexis_Lower_T |valueAt=0}} }}",
+        "abigail_event5": "{{i18n:Abigail.Dialogue.06 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}} }}",
+        "abigail_event12": "{{i18n:Abigail.Dialogue.13 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}}  |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} }}",
+        "abigail_event13": "{{i18n:Abigail.Dialogue.14 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}}  |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}} }}",
+        "abigail_event14": "{{i18n:Abigail.Dialogue.15 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}}  |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "When": {},
+      "Entries": {
+        "JoshHouse_10_19": "{{i18n:Alex.Dialogue.02 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "Saloon_34_18": "{{i18n:Alex.Dialogue.03 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "alex_event2": "{{i18n:Alex.Dialogue.07 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Alex",
+      "When": {
+        "HasSeenEvent": "8185295"
+      },
+      "Entries": {
+        "fall_Thu2": "{{i18n:Alex.Dialogue.04 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower13={{AHDPnG_Soren_Lower_T |valueAt=13}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Andy",
+      "When": {},
+      "Entries": {
+        "claireSaloonPaid": "{{i18n:Andy.CharacterDialogue.002 |AHDPnG_Clayton_Lower09={{AHDPnG_Clayton_Lower_T |valueAt=9}} }}",
+        "claireSaloon": "{{i18n:Andy.CharacterDialogue.003 |AHDPnG_Clayton_Lower09={{AHDPnG_Clayton_Lower_T |valueAt=9}} }}",
+        "married_Sophia": "{{i18n:Andy.MarriedSophia |AHDPnG_Soren_Lower13={{AHDPnG_Soren_Lower_T |valueAt=13}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "married_Victor": "{{i18n:Andy.MarriedVictor |AHDPnG_Victoria_Lower12={{AHDPnG_Victoria_Lower_T |valueAt=12}} }}",
+        "spring_12": "{{i18n:Andy.CharacterDialogue.019 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}}  |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "fall_10": "{{i18n:Andy.CharacterDialogue.069 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower13={{AHDPnG_Soren_Lower_T |valueAt=13}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
+        "fall_23": "{{i18n:Andy.CharacterDialogue.071 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "winter_12": "{{i18n:Andy.CharacterDialogue.094 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Lower39={{AHDPnG_Oliver_Lower_T |valueAt=39}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "winter_Wed": "{{i18n:Andy.CharacterDialogue.102 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "winter_Sat": "{{i18n:Andy.CharacterDialogue.109 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}}  |AHDPnG_Arcana_Lower00={{AHDPnG_Arcana_Lower_T |valueAt=0}} }}",
+        "ScarlettFarmhand": "{{i18n:Scarlett.Farmhand.Andy |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "scarlettFairhavenFarm": "{{i18n:Scarlett.Fairhaven.CT.02 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Apples",
+      "When": {},
+      "Entries": {
+        "summer_Sat": "{{i18n:Apples.CharacterDialogue.028 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "summer_Sat6": "{{i18n:Apples.CharacterDialogue.029 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "summer_Sat10": "{{i18n:Apples.CharacterDialogue.030 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}}  |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "fall_Thu10": "{{i18n:Apples.CharacterDialogue.040 |AHDPnG_Abel_Lower13={{AHDPnG_Abel_Lower_T |valueAt=13}}  |AHDPnG_Abel_Upper13={{AHDPnG_Abel_Upper_T |valueAt=13}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Brianna",
+      "When": {},
+      "Entries": {
+        "Wed": "{{i18n:Brianna.CharacterDialogue.003 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Upper00={{AHDPnG_Layla_Upper_T |valueAt=0}}  |AHDPnG_Layla_Lower26={{AHDPnG_Layla_Lower_T |valueAt=26}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Caroline",
+      "When": {},
+      "Entries": {
+        "claireAerobics": "{{i18n:Claire.6hearts.Caroline |AHDPnG_Clayton_Upper04={{AHDPnG_Clayton_Upper_T |valueAt=4}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}}  |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T |valueAt=1}} }}",
+        "ClaireMovie": "{{i18n:Claire.14hearts3.Caroline |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Claire",
+      "When": {},
+      "Entries": {
+        "Introduction": "{{i18n:Claire.CharacterDialogue.001 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "breakUp": "{{i18n:Claire.CharacterDialogue.008 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "dumped_Girls": "{{i18n:Claire.CharacterDialogue.009 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "divorced": "{{i18n:Claire.CharacterDialogue.011 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Thu": "{{i18n:Claire.CharacterDialogue.027 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "summer_Mon": "{{i18n:Claire.CharacterDialogue.043 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "summer_Fri8": "{{i18n:Claire.CharacterDialogue.052 |AHDPnG_Clayton_Lower13={{AHDPnG_Clayton_Lower_T |valueAt=13}} }}",
+        "fall_26": "{{i18n:Claire.CharacterDialogue.059 |AHDPnG_Clayton_Lower13={{AHDPnG_Clayton_Lower_T |valueAt=13}} }}",
+        "fall_Fri": "{{i18n:Claire.CharacterDialogue.069 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "winter_4": "{{i18n:Claire.CharacterDialogue.077 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "winter_21": "{{i18n:Claire.CharacterDialogue.079 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "winter_Sun": "{{i18n:Claire.CharacterDialogue.090 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Clint",
+      "When": {},
+      "Entries": {
+        "ClaireMovie": "{{i18n:Claire.14hearts3.Clint |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Clint |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T |valueAt=28}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Demetrius",
+      "When": {},
+      "Entries": {
+        "SebastianDinner": "{{i18n:Sebastian.Event.25 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Drake",
+      "When": {},
+      "Entries": {
+        "Fri": "{{i18n:Drake.CharacterDialogue.005 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Upper00={{AHDPnG_Layla_Upper_T |valueAt=0}}  |AHDPnG_Layla_Upper00={{AHDPnG_Layla_Upper_T |valueAt=0}}  |AHDPnG_Layla_Lower02={{AHDPnG_Layla_Lower_T |valueAt=2}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "When": {},
+      "Entries": {
+        "LeahHouse_7_5": "{{i18n:Elliott.Dialogue.01 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "When": {},
+      "Entries": {
+        "claireAerobics": "{{i18n:Claire.6hearts.Emily |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "ClaireMovie": "{{i18n:Claire.14hearts3.Emily |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Emily",
+      "When": {
+        "HasSeenEvent": "8185295"
+      },
+      "Entries": {
+        "HaleyHouse_14_23": "{{i18n:Sophia.HaleyHouse.05 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HaleyHouse_16_25": "{{i18n:Sophia.HaleyHouse.06 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HaleyHouse_14_7": "{{i18n:Sophia.HaleyHouse.08 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gunthersilvian",
+      "When": {
+        "GuntherUnlocked": "true"
+      },
+      "Entries": {
+        "spring_12": "{{i18n:Gunther.CharacterDialogue.010 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "Sat": "{{i18n:Gunther.CharacterDialogue.023 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "When": {},
+      "Entries": {
+        "gus_event1": "{{i18n:Gus.Dialogue.05 |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T |valueAt=1}}  |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T |valueAt=1}} }}",
+        "gus_event4": "{{i18n:Gus.Dialogue.08 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "gus_event5": "{{i18n:Gus.Dialogue.09 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "claireSaloon": "{{i18n:Gus.Dialogue.03 |AHDPnG_Clayton_Lower09={{AHDPnG_Clayton_Lower_T |valueAt=9}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "When": {},
+      "Entries": {
+        "JoshHouse_10_21": "{{i18n:Haley.Dialogue.01 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Haley",
+      "When": {
+        "HasSeenEvent": "8185295"
+      },
+      "Entries": {
+        "HaleyHouse_2_18": "{{i18n:Sophia.HaleyHouse.01 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HaleyHouse_7_5": "{{i18n:Sophia.HaleyHouse.02 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HaleyHouse_6_20": "{{i18n:Sophia.HaleyHouse.04 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Hanksve",
+      "When": {
+        "HasSeenEvent |contains=3691373": false
+      },
+      "Entries": {
+        "Mon": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Tue": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Wed": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Thu": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Fri": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Sat": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Sun": "{{i18n:Hank.IntroductionDialogue.001 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Hanksve",
+      "When": {
+        "HasSeenEvent |contains=3691373": true
+      },
+      "Entries": {
+        "married_Scarlett": "{{i18n:Hank.MarriedScarlett |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "spring_Sun": "{{i18n:Hank.CharacterDialogue.007 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "summer_Fri": "{{i18n:Hank.CharacterDialogue.012 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}} }}",
+        "winter_Tue": "{{i18n:Hank.CharacterDialogue.023 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}}  |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}} }}",
+        "winter_Sun": "{{i18n:Hank.CharacterDialogue.028 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jas",
+      "When": {},
+      "Entries": {
+        "Town_16_13": "{{i18n:Jas.Dialogue.01 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "When": {},
+      "Entries": {
+        "fall_Sun": "{{i18n:Jodi.Dialogue.01 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Tue4": "{{i18n:Jodi.Dialogue.02 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "jodi_event2": "{{i18n:Jodi.Dialogue.06 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}}  |AHDPnG_Harriet_Lower00={{AHDPnG_Harriet_Lower_T |valueAt=0}} }}",
+        "Thu": "{{i18n:Jodi.Dialogue.04 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lance",
+      "When": {},
+      "Entries": {
+        "divorced": "{{i18n:Lance.CharacterDialogue.002 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "married_Wizard": "{{i18n:Lance.MarriedWizard |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}} }}",
+        "fall_Tue8": "{{i18n:Lance.CharacterDialogue.024 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}}  |AHDPnG_Arcana_Lower00={{AHDPnG_Arcana_Lower_T |valueAt=0}} }}",
+        "Tue10": "{{i18n:Lance.CharacterDialogue.025A |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "When": {},
+      "Entries": {
+        "Forest_112_34": "{{i18n:Leah.Dialogue.02 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Leif_Lower04={{AHDPnG_Leif_Lower_T |valueAt=4}} }}",
+        "LeahHouse_5_5": "{{i18n:Leah.Dialogue.06 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "When": {},
+      "Entries": {
+        "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Lewis |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T |valueAt=28}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marlonfay",
+      "When": {},
+      "Entries": {
+        "married_Lance": "{{i18n:Marlon.MarriedLance |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "Sat4": "{{i18n:Marlon.CharacterDialogue.029 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}} }}",
+        "summer_Thu8": "{{i18n:Marlon.CharacterDialogue.042 |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}} }}",
+        "winter_Sat": "{{i18n:Marlon.CharacterDialogue.082 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}}  |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Lower00={{AHDPnG_Arcana_Lower_T |valueAt=0}} }}",
+        "winter_Sat4": "{{i18n:Marlon.CharacterDialogue.083 |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}}  |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}} }}",
+        "LanceMetKrobus": "{{i18n:LanceKrobus.Marlon |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialogueapples",
+      "When": {},
+      "Entries": {
+        "Neutral_3": "{{i18n:Apples.RoommateDialogue.049 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}}  |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialogueclaire",
+      "When": {},
+      "Entries": {
+        "TwoKids_3": "{{i18n:Claire.MarriageDialogue.012 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "fall_27": "{{i18n:Claire.MarriageDialogue.025 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "winter_25": "{{i18n:Claire.MarriageDialogue.030 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Good_4": "{{i18n:Claire.MarriageDialogue.061 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "Neutral_1": "{{i18n:Claire.MarriageDialogue.068 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Neutral_4": "{{i18n:Claire.MarriageDialogue.071 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Neutral_5": "{{i18n:Claire.MarriageDialogue.072 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Bad_0": "{{i18n:Claire.MarriageDialogue.076 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Bad_4": "{{i18n:Claire.MarriageDialogue.080 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Bad_6": "{{i18n:Claire.MarriageDialogue.082 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Bad_8": "{{i18n:Claire.MarriageDialogue.084 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Bad_9": "{{i18n:Claire.MarriageDialogue.085 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "funLeave_Claire": "{{i18n:Claire.funLeave.{{Season}}_{{Day}} |default={{i18n:Claire.funLeave.{{DayOfWeek}}.{{Random:{{Range:1,10}}}} |default={{i18n:Claire.funLeave.{{DayOfWeek}}.{{HasSeenEvent|contains=4269704}}.{{Random:{{Range:1,10}}}} |default={{i18n:Claire.funLeave.{{Season}}.{{Random:{{Range:1,15}}}} |default={{i18n:Claire.funLeave.{{Random:{{Range:1,31}}}}}}}}}}}} |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}",
+        "funReturn_Claire": "{{i18n:Claire.funReturn.{{Season}}_{{Day}} |default={{i18n:Claire.funReturn.{{DayOfWeek}}.{{Random:{{Range:1,10}}}} |default={{i18n:Claire.funReturn.{{DayOfWeek}}.{{HasSeenEvent|contains=4269704}}.{{Random:{{Range:1,10}}}} |default={{i18n:Claire.funReturn.{{Season}}.{{Random:{{Range:1,15}}}} |default={{i18n:Claire.funReturn.{{Random:{{Range:1,26}}}}}}}}}}}} |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} |AHDPnG_Clayton_Lower13={{AHDPnG_Clayton_Lower_T |valueAt=13}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialogueemily",
+      "When": {
+        "HasSeenEvent": "502261",
+        "Spouse": "Emily",
+        "Day": "22",
+        "HasSeenEvent |contains=3219873": false
+      },
+      "Entries": {
+        "funLeave_Emily": "{{i18n:JojaDay.Dialogue.47 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialogueemily",
+      "When": {
+        "HasSeenEvent": "502261",
+        "Spouse": "Emily",
+        "Day": "22",
+        "HasSeenEvent |contains=3219873": true
+      },
+      "Entries": {
+        "funLeave_Emily": "{{i18n:JojaDay.Dialogue.49 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialoguelance",
+      "When": {},
+      "Entries": {
+        "Indoor_Day_1": "{{i18n:Lance.MarriageDialogue.036 |AHDPnG_Layla_Lower32={{AHDPnG_Layla_Lower_T |valueAt=32}} }}",
+        "Indoor_Day_3": "{{i18n:Lance.MarriageDialogue.038 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Lower63={{AHDPnG_Layla_Lower_T |valueAt=63}} }}",
+        "Indoor_Night_3": "{{i18n:Lance.MarriageDialogue.054 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Neutral_2": "{{i18n:Lance.MarriageDialogue.072 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Bad_6": "{{i18n:Lance.MarriageDialogue.084 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "funLeave_Lance": "{{i18n:Lance.funLeave.{{season}}_{{day}} |default={{i18n:Lance.funLeave.{{DayOfWeek}}.{{Random:{{Range:1,9}}}} |default={{i18n:Lance.funLeave.default}}}} |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} |AHDPnG_Arcana_Upper00={{AHDPnG_Arcana_Upper_T |valueAt=0}} |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}} }}",
+        "funReturn_Lance": "{{i18n:Lance.funReturn.{{season}}_{{day}} |default={{i18n:Lance.funReturn.{{DayOfWeek}}.{{Random:{{Range:1,5}}}} |default={{i18n:Lance.funReturn.default}}}} |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialogueolivia",
+      "When": {},
+      "Entries": {
+        "OneKid_2": "{{i18n:Olivia.MarriageDialogue.007 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "OneKid_3": "{{i18n:Olivia.MarriageDialogue.008 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "TwoKids_1": "{{i18n:Olivia.MarriageDialogue.011 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "TwoKids_2": "{{i18n:Olivia.MarriageDialogue.012 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "TwoKids_3": "{{i18n:Olivia.MarriageDialogue.013 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "TwoKids_4": "{{i18n:Olivia.MarriageDialogue.014 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "spring_1": "{{i18n:Olivia.MarriageDialogue.016 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "spring_13": "{{i18n:Olivia.MarriageDialogue.017 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "spring_24": "{{i18n:Olivia.MarriageDialogue.018 |AHDPnG_Oliver_Lower52={{AHDPnG_Oliver_Lower_T |valueAt=52}} }}",
+        "summer_1": "{{i18n:Olivia.MarriageDialogue.020 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "fall_Olivia": "{{i18n:Olivia.MarriageDialogue.023 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "winter_12": "{{i18n:Olivia.MarriageDialogue.030 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Rainy_Night_Olivia": "{{i18n:Olivia.MarriageDialogue.052 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} }}",
+        "Indoor_Day_2": "{{i18n:Olivia.MarriageDialogue.034 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Indoor_Day_4": "{{i18n:Olivia.MarriageDialogue.036 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Outdoor_1": "{{i18n:Olivia.MarriageDialogue.039 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}} }}",
+        "Outdoor_2": "{{i18n:Olivia.MarriageDialogue.040 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Rainy_Day_2": "{{i18n:Olivia.MarriageDialogue.045 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Indoor_Night_4": "{{i18n:Olivia.MarriageDialogue.051 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Rainy_Night_0": "{{i18n:Olivia.MarriageDialogue.052 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} }}",
+        "Good_2": "{{i18n:Olivia.MarriageDialogue.059 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Good_5": "{{i18n:Olivia.MarriageDialogue.062 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Good_9": "{{i18n:Olivia.MarriageDialogue.066 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Neutral_2": "{{i18n:Olivia.MarriageDialogue.069 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Neutral_3": "{{i18n:Olivia.MarriageDialogue.070 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "Neutral_5": "{{i18n:Olivia.MarriageDialogue.072 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} }}",
+        "Neutral_7": "{{i18n:Olivia.MarriageDialogue.074 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T |valueAt=2}}  |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T |valueAt=2}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}} }}",
+        "Bad_2": "{{i18n:Olivia.MarriageDialogue.079 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "Bad_3": "{{i18n:Olivia.MarriageDialogue.080 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Bad_7": "{{i18n:Olivia.MarriageDialogue.084 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "funLeave_Olivia": "{{i18n:Olivia.funLeave.{{DayCheck}}|default={{i18n:Olivia.funLeave.{{DayOfWeek}}.{{Random:{{Range:1,16}}}}|default={{i18n:Olivia.funLeave.default}}}} |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}} }}",
+        "funReturn_Olivia": "{{i18n:Olivia.funReturn.{{DayCheck}}|default={{i18n:Olivia.funReturn.{{DayOfWeek}}.{{Random:{{Range:1,10}}}}|default={{i18n:Olivia.funReturn.default}}}} |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T |valueAt=2}} |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}} }}",
+        "spouseRoom_Olivia": "{{i18n:Olivia.spouseRoom.{{Random:{{Range:1,16}}}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialoguescarlett",
+      "When": {},
+      "Entries": {
+        "spring_13": "{{i18n:Scarlett.MarriageDialogue.023 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}",
+        "fall_16": "{{i18n:Scarlett.MarriageDialogue.030 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "fall_27": "{{i18n:Scarlett.MarriageDialogue.031 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} }}",
+        "Indoor_Day_3": "{{i18n:Scarlett.MarriageDialogue.040 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower64={{AHDPnG_Skyler_Lower_T |valueAt=64}} }}",
+        "Rainy_Day_2": "{{i18n:Scarlett.MarriageDialogue.049 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Rainy_Night_0": "{{i18n:Scarlett.MarriageDialogue.057 |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}} }}",
+        "Rainy_Night_2": "{{i18n:Scarlett.MarriageDialogue.059 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Good_3": "{{i18n:Scarlett.MarriageDialogue.065 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_0": "{{i18n:Scarlett.MarriageDialogue.082 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Bad_4": "{{i18n:Scarlett.MarriageDialogue.086 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_5": "{{i18n:Scarlett.MarriageDialogue.087 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Bad_6": "{{i18n:Scarlett.MarriageDialogue.088 |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "funLeave_Scarlett": "$query SEASON Spring Summer Fall, DAY_OF_MONTH 8 9 10 11 12 22 23 24 25 26#{{i18n:Scarlett.funLeave.{{Season}}.{{Random:{{Range:1,10}}}} |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }} | {{i18n:Scarlett.funLeave.default}}",
+        "funReturn_Scarlett": "$query SEASON Spring Summer Fall, DAY_OF_MONTH 8 9 10 11 12 22 23 24 25 26#{{i18n:Scarlett.funReturn.{{Season}}.{{Random:{{Range:1,10}}}} |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }} | {{i18n:Scarlett.funReturn.default}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialoguesophia",
+      "When": {},
+      "Entries": {
+        "fall_4": "{{i18n:Sophia.MarriageDialogue.021 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Rainy_Day_2": "{{i18n:Sophia.MarriageDialogue.041 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Hayden_Lower00={{AHDPnG_Hayden_Lower_T |valueAt=0}} }}",
+        "Indoor_Night_4": "{{i18n:Sophia.MarriageDialogue.048 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}",
+        "Good_3": "{{i18n:Sophia.MarriageDialogue.057 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Neutral_0": "{{i18n:Sophia.MarriageDialogue.064 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Bad_0": "{{i18n:Sophia.MarriageDialogue.074 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_1": "{{i18n:Sophia.MarriageDialogue.075 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_2": "{{i18n:Sophia.MarriageDialogue.076 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_3": "{{i18n:Sophia.MarriageDialogue.077 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_5": "{{i18n:Sophia.MarriageDialogue.079 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_7": "{{i18n:Sophia.MarriageDialogue.081 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Bad_8": "{{i18n:Sophia.MarriageDialogue.082 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Bad_9": "{{i18n:Sophia.MarriageDialogue.083 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialoguevictor",
+      "When": {},
+      "Entries": {
+        "OneKid_3": "{{i18n:Victor.MarriageDialogue.008 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "spring_13": "{{i18n:Victor.MarriageDialogue.017 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Abel_Upper01={{AHDPnG_Abel_Upper_T |valueAt=1}}  |AHDPnG_Abel_Lower04={{AHDPnG_Abel_Lower_T |valueAt=4}}  |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}",
+        "spring_24": "{{i18n:Victor.MarriageDialogue.018 |AHDPnG_Victoria_Lower53={{AHDPnG_Victoria_Lower_T |valueAt=53}} }}",
+        "summer_Victor": "{{i18n:Victor.MarriageDialogue.019 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "Outdoor_Victor": "{{i18n:Victor.MarriageDialogue.038 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "Indoor_Night_3": "{{i18n:Victor.MarriageDialogue.052 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "Good_8": "{{i18n:Victor.MarriageDialogue.068 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=4}} }}",
+        "Neutral_0": "{{i18n:Victor.MarriageDialogue.070 |AHDPnG_Oliver_Lower17={{AHDPnG_Oliver_Lower_T |valueAt=17}} }}",
+        "Neutral_2": "{{i18n:Victor.MarriageDialogue.072 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "Neutral_8": "{{i18n:Victor.MarriageDialogue.078 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "Bad_2": "{{i18n:Victor.MarriageDialogue.082 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "Bad_4": "{{i18n:Victor.MarriageDialogue.084 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "Bad_8": "{{i18n:Victor.MarriageDialogue.088 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marriagedialoguewizard",
+      "When": {},
+      "Entries": {
+        "TwoKids_0": "{{i18n:Magnus.MarriageDialogue.010 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "TwoKids_3": "{{i18n:Magnus.MarriageDialogue.013 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}",
+        "fall_16": "{{i18n:Magnus.MarriageDialogue.025 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Indoor_Night_1": "{{i18n:Magnus.MarriageDialogue.051 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Good_2": "{{i18n:Magnus.MarriageDialogue.063 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "Bad_4": "{{i18n:Magnus.MarriageDialogue.085 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "funReturn_Wizard": "{{i18n:Wizard.funReturn.{{season}}_{{day}} |default={{i18n:Wizard.funReturn.{{Random:{{Range: 1,57}}}}}} |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Martin",
+      "When": {},
+      "Entries": {
+        "married_Claire": "{{i18n:Martin.MarriedClaire |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "divorced_Claire": "{{i18n:Martin.DivorcedClaire |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Mon": "{{i18n:Martin.CharacterDialogue.011 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Sat2": "{{i18n:Martin.CharacterDialogue.016 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "summer_Tue2": "{{i18n:Martin.CharacterDialogue.022 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}",
+        "winter_Tue8": "{{i18n:Martin.CharacterDialogue.038 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower64={{AHDPnG_Clayton_Lower_T |valueAt=64}} }}",
+        "martin_event5": "{{i18n:Martin.CharacterDialogue.047 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}",
+        "martin_event6": "{{i18n:Martin.CharacterDialogue.048 |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}",
+        "ClaireMovie": "{{i18n:Claire.14hearts3.Martin |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T |valueAt=1}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}} }}",
+        "ClaireSick": "{{i18n:Martin.6hearts.Martin |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Martin",
+      "When": {
+        "HasFlag": "ccMovieTheater",
+        "HasSeenEvent": "191393"
+      },
+      "Entries": {
+        "summer_Tue2": "{{i18n:Martin.MoviePatch.01 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Martin",
+      "When": {
+        "Spouse": "Claire"
+      },
+      "Entries": {
+        "Mon": "{{i18n:Martin.MarriedClaire.01 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Mon2": "{{i18n:Martin.MarriedClaire.02 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Mon6": "{{i18n:Martin.MarriedClaire.03 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Wed": "{{i18n:Martin.MarriedClaire.04 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Wed6": "{{i18n:Martin.MarriedClaire.05 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Thu": "{{i18n:Martin.MarriedClaire.06 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Thu8": "{{i18n:Martin.MarriedClaire.07 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Fri": "{{i18n:Martin.MarriedClaire.08 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "Fri6": "{{i18n:Martin.MarriedClaire.09 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Lower03={{AHDPnG_Clayton_Lower_T |valueAt=3}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "When": {},
+      "Entries": {
+        "SebastianDinner": "{{i18n:Sebastian.Event.26 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}}  |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Morgan",
+      "When": {},
+      "Entries": {
+        "Introduction": "{{i18n:Morgan.CharacterDialogue.001 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "divorced_Wizard": "{{i18n:Morgan.DivorcedMagnus |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "spring_12": "{{i18n:Morgan.CharacterDialogue.006 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Upper00={{AHDPnG_Arcana_Upper_T |valueAt=0}} }}",
+        "Mon4": "{{i18n:Morgan.CharacterDialogue.009 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Upper00={{AHDPnG_Arcana_Upper_T |valueAt=0}} }}",
+        "Tue2": "{{i18n:Morgan.CharacterDialogue.011 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Thu": "{{i18n:Morgan.CharacterDialogue.015 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Thu2": "{{i18n:Morgan.CharacterDialogue.016 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "Sat10": "{{i18n:Morgan.CharacterDialogue.022 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}} }}",
+        "Sun4": "{{i18n:Morgan.CharacterDialogue.024 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "summer_Mon": "{{i18n:Morgan.CharacterDialogue.028 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "summer_Tue": "{{i18n:Morgan.CharacterDialogue.030 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Upper00={{AHDPnG_Arcana_Upper_T |valueAt=0}} }}",
+        "summer_Wed8": "{{i18n:Morgan.CharacterDialogue.034 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "summer_Thu": "{{i18n:Morgan.CharacterDialogue.035 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "fall_15": "{{i18n:Morgan.CharacterDialogue.043 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "fall_Mon": "{{i18n:Morgan.CharacterDialogue.046 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Lower02={{AHDPnG_Arcana_Lower_T |valueAt=2}}  |AHDPnG_Arcana_Lower05={{AHDPnG_Arcana_Lower_T |valueAt=5}} }}",
+        "fall_Tue": "{{i18n:Morgan.CharacterDialogue.048 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "fall_Thu": "{{i18n:Morgan.CharacterDialogue.053 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "fall_Fri": "{{i18n:Morgan.CharacterDialogue.055 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "fall_Sat6": "{{i18n:Morgan.CharacterDialogue.057 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Lower00={{AHDPnG_Arcana_Lower_T |valueAt=0}} }}",
+        "fall_Sun": "{{i18n:Morgan.CharacterDialogue.058 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "fall_Sun8": "{{i18n:Morgan.CharacterDialogue.059 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "winter_7": "{{i18n:Morgan.CharacterDialogue.061 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "winter_24": "{{i18n:Morgan.CharacterDialogue.062 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "winter_Tue": "{{i18n:Morgan.CharacterDialogue.066 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "winter_Thu": "{{i18n:Morgan.CharacterDialogue.070 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}}  |AHDPnG_Arcana_Upper00={{AHDPnG_Arcana_Upper_T |valueAt=0}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Morristod",
+      "When": {},
+      "Entries": {
+        "married_Shane": "{{i18n:Morris.MarriedShane |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}}  |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}}  |AHDPnG_Shaylin_Upper00={{AHDPnG_Shaylin_Upper_T |valueAt=0}} }}",
+        "married_Claire": "{{i18n:Morris.MarriedClaire |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Mon": "{{i18n:Morris.CharacterDialogue.016 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}}  |AHDPnG_Shaylin_Lower12={{AHDPnG_Shaylin_Lower_T |valueAt=12}}  |AHDPnG_Shaylin_Lower05={{AHDPnG_Shaylin_Lower_T |valueAt=5}} }}",
+        "summer_Sat": "{{i18n:Morris.CharacterDialogue.051 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Alexis_Lower12={{AHDPnG_Alexis_Lower_T |valueAt=12}} }}",
+        "summer_Sat6": "{{i18n:Morris.CharacterDialogue.052 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Olivia",
+      "When": {},
+      "Entries": {
+        "Introduction": "{{i18n:Olivia.CharacterDialogue.001 |AHDPnG_Victoria_Lower22={{AHDPnG_Victoria_Lower_T |valueAt=22}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "secondChance_Girls": "{{i18n:Olivia.CharacterDialogue.004 |AHDPnG_Oliver_Upper62={{AHDPnG_Oliver_Upper_T |valueAt=62}}  |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "stardrop_gift": "{{i18n:Olivia.CharacterDialogue.009 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "give_flowersB": "{{i18n:Olivia.CharacterDialogue.011 |AHDPnG_Oliver_Upper62={{AHDPnG_Oliver_Upper_T |valueAt=62}} }}",
+        "rejectNPCA": "{{i18n:Olivia.CharacterDialogue.013 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "reject_two_heartB": "{{i18n:Olivia.CharacterDialogue.016 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "reject_four_heartA": "{{i18n:Olivia.CharacterDialogue.017 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "reject_four_heartB": "{{i18n:Olivia.CharacterDialogue.018 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "engageB": "{{i18n:Olivia.CharacterDialogue.020 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "refusal_no_heartsB": "{{i18n:Olivia.CharacterDialogue.028 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "married_Victor": "{{i18n:Olivia.MarriedVictor |AHDPnG_Victoria_Lower22={{AHDPnG_Victoria_Lower_T |valueAt=22}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}} }}",
+        "married_Sophia": "{{i18n:Olivia.MarriedSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "divorced_Victor": "{{i18n:Olivia.DivorcedVictor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}} }}",
+        "joja_yes": "{{i18n:Olivia.CharacterDialogue.036 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "joja_followup": "{{i18n:Olivia.CharacterDialogue.038 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Custom_JenkinsHouse_20_9": "{{i18n:Olivia.CharacterDialogue.039 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=4}} }}",
+        "SeedShop_21_20": "{{i18n:Olivia.CharacterDialogue.042 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=4}} }}",
+        "Custom_SophiaHouse_6_22": "{{i18n:Olivia.CharacterDialogue.043 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Mon": "{{i18n:Olivia.CharacterDialogue.049 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Wed": "{{i18n:Olivia.CharacterDialogue.057 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Thu6": "{{i18n:Olivia.CharacterDialogue.062 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}} }}",
+        "Fri2": "{{i18n:Olivia.CharacterDialogue.065 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Sat2": "{{i18n:Olivia.CharacterDialogue.069 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Leif_Upper01={{AHDPnG_Leif_Upper_T |valueAt=1}} }}",
+        "summer_5": "{{i18n:Olivia.CharacterDialogue.077 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_17": "{{i18n:Olivia.CharacterDialogue.079 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_Mon8": "{{i18n:Olivia.CharacterDialogue.085 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_Tue8": "{{i18n:Olivia.CharacterDialogue.090 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_Wed": "{{i18n:Olivia.CharacterDialogue.091 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
+        "summer_Thu8": "{{i18n:Olivia.CharacterDialogue.096 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_Thu10": "{{i18n:Olivia.CharacterDialogue.097 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_Sat4": "{{i18n:Olivia.CharacterDialogue.103 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "summer_Sat8": "{{i18n:Olivia.CharacterDialogue.104 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Leif_Lower04={{AHDPnG_Leif_Lower_T |valueAt=4}} }}",
+        "summer_Sun4": "{{i18n:Olivia.CharacterDialogue.106 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} }}",
+        "fall_9": "{{i18n:Olivia.CharacterDialogue.109 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "fall_15": "{{i18n:Olivia.CharacterDialogue.110 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "fall_26": "{{i18n:Olivia.CharacterDialogue.113 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}} }}",
+        "fall_28": "{{i18n:Olivia.CharacterDialogue.114 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "fall_Mon": "{{i18n:Olivia.CharacterDialogue.115 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "fall_Mon4": "{{i18n:Olivia.CharacterDialogue.116 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}} }}",
+        "fall_Mon8": "{{i18n:Olivia.CharacterDialogue.117 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "fall_Tue6": "{{i18n:Olivia.CharacterDialogue.120 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "fall_Wed": "{{i18n:Olivia.CharacterDialogue.123 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "fall_Fri6": "{{i18n:Olivia.CharacterDialogue.130 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "fall_Sat": "{{i18n:Olivia.CharacterDialogue.131 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "fall_Sat6": "{{i18n:Olivia.CharacterDialogue.132 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "fall_Sat10": "{{i18n:Olivia.CharacterDialogue.133 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "fall_Sun6": "{{i18n:Olivia.CharacterDialogue.135 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "winter_1": "{{i18n:Olivia.CharacterDialogue.136 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "winter_Mon4": "{{i18n:Olivia.CharacterDialogue.143 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "winter_Tue2": "{{i18n:Olivia.CharacterDialogue.147 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "winter_Wed4": "{{i18n:Olivia.CharacterDialogue.151 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "winter_Sun": "{{i18n:Olivia.CharacterDialogue.161 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "winter_Sun8": "{{i18n:Olivia.CharacterDialogue.163 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "claireAerobics": "{{i18n:Claire.6hearts.Olivia |AHDPnG_Clayton_Upper04={{AHDPnG_Clayton_Upper_T |valueAt=4}}  |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T |valueAt=1}} Theater}}",
+        "ClaireMovie": "{{i18n:Claire.14hearts3.Olivia |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower04={{AHDPnG_Clayton_Lower_T |valueAt=4}} }}",
+        "ShearwaterBridgeRenovationStart": "{{i18n:ShearwaterBridgeRenovationStart.Olivia |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}}  |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T |valueAt=2}} }}",
+        "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Olivia |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "DeweyIsOkay": "{{i18n:deweyisokay.olivia |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "AcceptBirthdayGift_Negative": "{{i18n:Olivia.GiftBDneg |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "When": {},
+      "Entries": {
+        "SamHouse_5_15": "{{i18n:Penny.Dialogue.01 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "When": {},
+      "Entries": {
+        "claireAerobics": "{{i18n:Claire.6hearts.Robin |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}}  |AHDPnG_Clayton_Upper01={{AHDPnG_Clayton_Upper_T |valueAt=1}} }}",
+        "SebastianDinner": "{{i18n:Sebastian.Event.24 |AHDPnG_Sabrina_Upper00={{AHDPnG_Sabrina_Upper_T |valueAt=0}} }}",
+        "ShearwaterBridgeRenovationStart": "{{i18n:ShearwaterBridgeRenovationStart.Robin |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T |valueAt=28}} }}",
+        "ShearwaterBridgeRenovationComplete": "{{i18n:ShearwaterBridgeRenovationComplete.Robin |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}}  |AHDPnG_Victoria_Lower05={{AHDPnG_Victoria_Lower_T |valueAt=5}} }}",
+        "DeweyIsOkay": "{{i18n:deweyisokay.robin |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} |AHDPnG_Victoria_Lower28={{AHDPnG_Victoria_Lower_T |valueAt=28}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "When": {},
+      "Entries": {
+        "ShearwaterBridgeRenovationStart": "{{i18n:ShearwaterBridgeRenovationStart.Sam |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T |valueAt=2}} }}",
+        "ArchaeologyHouse_44_13": "{{i18n:Sam.Dialogue.01 |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+        "SamHouse_7_15": "{{i18n:Sam.Dialogue.03 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sandy",
+      "When": {
+        "Hearts:Sandy": "5, 6, 7, 8, 9, 10"
+      },
+      "Entries": {
+        "HaleyHouse_13_20": "{{i18n:Sandy.Visit.02 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "HaleyHouse_19_4": "{{i18n:Sandy.Visit.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "HaleyHouse_7_16": "{{i18n:Sandy.Visit.05 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "HaleyHouse_5_20": "{{i18n:Sandy.Visit.05 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "Thu4": "{{i18n:Sandy.Visit.12 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Scarlett",
+      "When": {},
+      "Entries": {
+        "GreenRainFinished": "{{i18n:Scarlett.GreenRainFinished |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "married_Sophia": "{{i18n:Scarlett.MarriedSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "divorced_Sophia": "{{i18n:Scarlett.DivorcedSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "divorced": "{{i18n:Scarlett.Divorced |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Mon4": "{{i18n:Scarlett.CharacterDialogue.002 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Wed4": "{{i18n:Scarlett.CharacterDialogue.007 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "summer_Thu": "{{i18n:Scarlett.CharacterDialogue.010 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "spring_Fri8": "{{i18n:Scarlett.CharacterDialogue.016 |AHDPnG_Skyler_Lower59={{AHDPnG_Skyler_Lower_T |valueAt=59}} }}",
+        "winter_Sat2": "{{i18n:Scarlett.CharacterDialogue.023 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "winter_Sat8": "{{i18n:Scarlett.CharacterDialogue.024 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
+        "summer_Sun8": "{{i18n:Scarlett.CharacterDialogue.028 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Custom_BlueMoonVineyard_27_33": "{{i18n:Scarlett.CharacterDialogue.031 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Custom_SophiaHouse_3_25": "{{i18n:Scarlett.CharacterDialogue.032 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Custom_SophiaHouse_15_24": "{{i18n:Scarlett.CharacterDialogue.034 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Custom_SophiaHouse_5_22": "{{i18n:Scarlett.CharacterDialogue.035 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Custom_SophiaHouse_20_7": "{{i18n:Scarlett.CharacterDialogue.037 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} }}",
+        "scarlettFairhavenFarm": "{{i18n:Scarlett.Fair |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} haven.CT.01}}",
+        "AcceptBirthdayGift_Negative": "{{i18n:Scarlett.GiftBDneg |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Scarlettfake",
+      "When": {},
+      "Entries": {
+        "Tue": "{{i18n:FakeScarlett.CharacterDialogue.002 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Thu": "{{i18n:FakeScarlett.CharacterDialogue.002 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Sat": "{{i18n:FakeScarlett.CharacterDialogue.002 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Scarlettfake",
+      "When": {
+        "Season": "Fall",
+        "Day": "1,2,3",
+        "HasSeenEvent |contains=3691371": false
+      },
+      "Entries": {
+        "Mon": "{{i18n:FakeScarlett.Farmhand.01 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Tue": "{{i18n:FakeScarlett.Farmhand.02 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Scarlettfake",
+      "When": {
+        "Season": "Fall",
+        "Day": "15,16,17",
+        "HasSeenEvent |contains=3691371": false
+      },
+      "Entries": {
+        "Tue": "{{i18n:FakeScarlett.Farmhand.14 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Wed": "{{i18n:FakeScarlett.Farmhand.15 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Scarlettfake",
+      "When": {
+        "Season": "Fall",
+        "Day": "22,23,24",
+        "HasSeenEvent |contains=3691371": false
+      },
+      "Entries": {
+        "Tue": "{{i18n:FakeScarlett.Farmhand.20 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Scarlettfake",
+      "When": {
+        "Season": "Fall",
+        "Day": "8,9,10",
+        "HasSeenEvent |contains=3691371": false
+      },
+      "Entries": {
+        "Tue": "{{i18n:FakeScarlett.Farmhand.08 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sebastian",
+      "When": {},
+      "Entries": {
+        "SebastianDinner": "{{i18n:Sebastian.Event.27 |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}",
+        "SebastianRoom_3_7": "{{i18n:Sebastian.Dialogue.01 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "When": {
+        "HasSeenEvent": "502261",
+        "Spouse": "Shane",
+        "Day": 22
+      },
+      "Entries": {
+        "JojaMart": "{{i18n:JojaDay.Dialogue.13 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}}  |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T |valueAt=0}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sophia",
+      "When": {},
+      "Entries": {
+        "Introduction": "{{i18n:Sophia.CharacterDialogue.001 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "divorced": "{{i18n:Sophia.CharacterDialogue.004 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "breakUp": "{{i18n:Sophia.CharacterDialogue.005 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "pamHouseUpgrade": "{{i18n:Sophia.CharacterDialogue.008 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "pamHouseUpgradeAnonymous": "{{i18n:Sophia.CharacterDialogue.009 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "rejectNPCB": "{{i18n:Sophia.CharacterDialogue.015 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "reject_two_heartA": "{{i18n:Sophia.CharacterDialogue.016 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "marriedA": "{{i18n:Sophia.CharacterDialogue.022 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "married_Victor": "{{i18n:Sophia.MarriedVictor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}} }}",
+        "divorced_Victor": "{{i18n:Sophia.DivorcedVictor |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "married_Scarlett": "{{i18n:Sophia.MarriedScarlett |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "divorced_Scarlett": "{{i18n:Sophia.DivorcedScarlett |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "Custom_SophiaHouse_12_24": "{{i18n:Sophia.CharacterDialogue.037 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Custom_SophiaHouse_20_9": "{{i18n:Sophia.CharacterDialogue.038 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Custom_SophiaHouse_26_25": "{{i18n:Sophia.CharacterDialogue.039 |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Hospital_5_17": "{{i18n:Sophia.CharacterDialogue.041 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "Custom_JenkinsHouse_23_27": "{{i18n:Sophia.CharacterDialogue.044 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Custom_JenkinsHouse_19_39": "{{i18n:Sophia.CharacterDialogue.046 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "HaleyHouse_2_21": "{{i18n:Sophia.CharacterDialogue.050 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "HaleyHouse_4_20": "{{i18n:Sophia.CharacterDialogue.053 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "HaleyHouse_14_21": "{{i18n:Sophia.CharacterDialogue.054 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "HaleyHouse_13_24": "{{i18n:Sophia.CharacterDialogue.055 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "HaleyHouse_16_8": "{{i18n:Sophia.CharacterDialogue.056 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "makeup_no": "{{i18n:Sophia.CharacterDialogue.059 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "makeup_followup": "{{i18n:Sophia.CharacterDialogue.060 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "Mon2": "{{i18n:Sophia.CharacterDialogue.067 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Tue2": "{{i18n:Sophia.CharacterDialogue.072 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "Tue6": "{{i18n:Sophia.CharacterDialogue.073 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower04={{AHDPnG_Emmett_Lower_T |valueAt=4}}  |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}",
+        "Wed4": "{{i18n:Sophia.CharacterDialogue.076 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "Wed10": "{{i18n:Sophia.CharacterDialogue.077 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Sat2": "{{i18n:Sophia.CharacterDialogue.088 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "Sat6": "{{i18n:Sophia.CharacterDialogue.088A |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "Sat10": "{{i18n:Sophia.CharacterDialogue.089 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "Sun4": "{{i18n:Sophia.CharacterDialogue.091 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "summer_Mon": "{{i18n:Sophia.CharacterDialogue.099 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "summer_Tue10": "{{i18n:Sophia.CharacterDialogue.105 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "summer_Wed": "{{i18n:Sophia.CharacterDialogue.106 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "summer_Thu": "{{i18n:Sophia.CharacterDialogue.110 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "summer_Thu8": "{{i18n:Sophia.CharacterDialogue.113 |AHDPnG_Oliver_Upper61={{AHDPnG_Oliver_Upper_T |valueAt=61}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "summer_Sun8": "{{i18n:Sophia.CharacterDialogue.121 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "fall_4": "{{i18n:Sophia.CharacterDialogue.124 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "fall_27": "{{i18n:Sophia.CharacterDialogue.127 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Lower63={{AHDPnG_Arcana_Lower_T |valueAt=63}} }}",
+        "fall_Mon": "{{i18n:Sophia.CharacterDialogue.129 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "fall_Mon4": "{{i18n:Sophia.CharacterDialogue.130 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "fall_Wed6": "{{i18n:Sophia.CharacterDialogue.136 |AHDPnG_Soren_Lower36={{AHDPnG_Soren_Lower_T |valueAt=36}}  |AHDPnG_Soren_Lower36={{AHDPnG_Soren_Lower_T |valueAt=36}} }}",
+        "fall_Thu": "{{i18n:Sophia.CharacterDialogue.137 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "fall_Sat6": "{{i18n:Sophia.CharacterDialogue.144 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}",
+        "fall_Sat10": "{{i18n:Sophia.CharacterDialogue.145 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "fall_Sun": "{{i18n:Sophia.CharacterDialogue.146 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "winter_13": "{{i18n:Sophia.CharacterDialogue.151 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "winter_24": "{{i18n:Sophia.CharacterDialogue.153 |AHDPnG_Skyler_Lower00={{AHDPnG_Skyler_Lower_T |valueAt=0}} }}",
+        "winter_Thu6": "{{i18n:Sophia.CharacterDialogue.166 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T |valueAt=1}} }}",
+        "winter_Fri10": "{{i18n:Sophia.CharacterDialogue.171 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} }}",
+        "winter_Sat": "{{i18n:Sophia.CharacterDialogue.172 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower00={{AHDPnG_Skyler_Lower_T |valueAt=0}} }}",
+        "winter_Sat10": "{{i18n:Sophia.CharacterDialogue.175 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "sophia_event2": "{{i18n:Sophia.CharacterDialogue.180 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "ScarlettFarmhand": "{{i18n:Scarlett.Farmhand.Sophia |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "stompedGrapes": "{{i18n:Scarlett.Bluemoon.CT.02 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "spouseRoom_Sophia": "{{i18n:Sophia.spouseRoom.{{Random:{{Range:1,11}}}} |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "funLeave_Sophia": "$query DAY_OF_WEEK Friday#{{i18n:Sophia.funLeave.Friday}}|{{i18n:Sophia.funLeave.{{DayCheck}}|default={{i18n:Sophia.funLeave.{{Random:{{Range:1,29}}}}}} |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} |AHDPnG_Hayden_Lower03={{AHDPnG_Hayden_Lower_T |valueAt=3}} |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}} |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} |AHDPnG_Soren_Upper64={{AHDPnG_Soren_Upper_T |valueAt=64}} |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} }}",
+        "funReturn_Sophia": "$query DAY_OF_WEEK Friday#{{i18n:Sophia.funReturn.Friday}}|{{i18n:Sophia.funReturn.{{DayCheck}}|default={{i18n:Sophia.funReturn.{{Random:{{Range:1,31}}}}}} |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} |AHDPnG_Soren_Lower64={{AHDPnG_Soren_Lower_T |valueAt=64}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Character/Dialogue/Sophia",
+      "When": {
+        "Spouse |contains=Sophia": true
+      },
+      "Entries": {
+        "SVE_GrangeJudging_Sophia": "{{i18n:Fair.Sophia3 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Susan",
+      "When": {},
+      "Entries": {
+        "Custom_SusanHouse_3_16": "{{i18n:Susan.CharacterDialogue.014 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "spring_12": "{{i18n:Susan.CharacterDialogue.017 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "fall_27": "{{i18n:Susan.CharacterDialogue.068 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "fall_Fri": "{{i18n:Susan.CharacterDialogue.080 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "fall_Sat": "{{i18n:Susan.CharacterDialogue.083 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}} }}",
+        "winter_12": "{{i18n:Susan.CharacterDialogue.090 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "winter_Thu": "{{i18n:Susan.CharacterDialogue.102 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}}  |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "ScarlettFarmhand": "{{i18n:Scarlett.Farmhand.Susan |AHDPnG_Skyler_Upper04={{AHDPnG_Skyler_Upper_T |valueAt=4}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}} }}",
+        "scarlettEmeraldFarm": "{{i18n:Scarlett.Emerald.CT.02 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Treyvon",
+      "When": {
+        "HasSeenEvent |contains=3691373": false
+      },
+      "Entries": {
+        "Mon": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Tue": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Wed": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Thu": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Fri": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Sat": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}",
+        "Sun": "{{i18n:Treyvon.IntroductionDialogue.001 |AHDPnG_Skyler_Lower23={{AHDPnG_Skyler_Lower_T |valueAt=23}}  |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Treyvon",
+      "When": {
+        "HasSeenEvent |contains=3691373": true
+      },
+      "Entries": {
+        "married_Scarlett": "{{i18n:Treyvon.MarriedScarlett |AHDPnG_Skyler_Lower13={{AHDPnG_Skyler_Lower_T |valueAt=13}}  |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}}  |AHDPnG_Skyler_Lower03={{AHDPnG_Skyler_Lower_T |valueAt=3}} }}",
+        "divorced_Scarlett": "{{i18n:Treyvon.DivorcedScarlett |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "summer_Tue": "{{i18n:Treyvon.CharacterDialogue.009 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "summer_Sun": "{{i18n:Treyvon.CharacterDialogue.014 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "fall_Wed": "{{i18n:Treyvon.CharacterDialogue.017 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Upper01={{AHDPnG_Skyler_Upper_T |valueAt=1}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "fall_Sat": "{{i18n:Treyvon.CharacterDialogue.020 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "winter_Sat": "{{i18n:Treyvon.CharacterDialogue.027 |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Victor",
+      "When": {},
+      "Entries": {
+        "Introduction": "{{i18n:Victor.CharacterDialogue.001 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "stardrop_gift": "{{i18n:Victor.CharacterDialogue.009 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "give_pendant": "{{i18n:Victor.CharacterDialogue.012 |AHDPnG_Oliver_Lower17={{AHDPnG_Oliver_Lower_T |valueAt=17}} }}",
+        "AcceptGift_(O)422": "{{i18n:Victor.Gift422 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "married_Sophia": "{{i18n:Victor.MarriedSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "divorced_Sophia": "{{i18n:Victor.DivorcedSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "divorced_Olivia": "{{i18n:Victor.DivorcedOlivia |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Custom_JenkinsHouse_23_25": "{{i18n:Victor.CharacterDialogue.035 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Custom_JenkinsHouse_31_11": "{{i18n:Victor.CharacterDialogue.036 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "spring_Wed_1": "{{i18n:Victor.CharacterDialogue.040 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Oliver_Lower17={{AHDPnG_Oliver_Lower_T |valueAt=17}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "city_no": "{{i18n:Victor.CharacterDialogue.047 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "BlueMoonVineyard": "{{i18n:Victor.CharacterDialogue.051 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "spring_23": "{{i18n:Victor.CharacterDialogue.054 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "Tue": "{{i18n:Victor.CharacterDialogue.059 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "Sat": "{{i18n:Victor.CharacterDialogue.070 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Sun10": "{{i18n:Victor.CharacterDialogue.077 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "summer_11": "{{i18n:Victor.CharacterDialogue.080 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "summer_15": "{{i18n:Victor.CharacterDialogue.081 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}} }}",
+        "summer_Mon4": "{{i18n:Victor.CharacterDialogue.086 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "summer_Wed4": "{{i18n:Victor.CharacterDialogue.094 |AHDPnG_Oliver_Lower17={{AHDPnG_Oliver_Lower_T |valueAt=17}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "summer_Fri4": "{{i18n:Victor.CharacterDialogue.101 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "summer_Fri8": "{{i18n:Victor.CharacterDialogue.102 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "summer_Sun": "{{i18n:Victor.CharacterDialogue.106 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "fall_27": "{{i18n:Victor.CharacterDialogue.112 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}}  |AHDPnG_Arcana_Lower00={{AHDPnG_Arcana_Lower_T |valueAt=0}} }}",
+        "fall_Mon": "{{i18n:Victor.CharacterDialogue.114 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "fall_Tue": "{{i18n:Victor.CharacterDialogue.117 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}}  |AHDPnG_Micah_Upper01={{AHDPnG_Micah_Upper_T |valueAt=1}} }}",
+        "fall_Wed": "{{i18n:Victor.CharacterDialogue.120 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}}  |AHDPnG_Soren_Lower15={{AHDPnG_Soren_Lower_T |valueAt=15}} }}",
+        "fall_Wed10": "{{i18n:Victor.CharacterDialogue.122 |AHDPnG_Soren_Lower15={{AHDPnG_Soren_Lower_T |valueAt=15}} }}",
+        "fall_Thu": "{{i18n:Victor.CharacterDialogue.123 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "fall_Thu2": "{{i18n:Victor.CharacterDialogue.124 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "fall_Fri6": "{{i18n:Victor.CharacterDialogue.127 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}} }}",
+        "fall_Fri8": "{{i18n:Victor.CharacterDialogue.128 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "fall_Sat": "{{i18n:Victor.CharacterDialogue.129 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "winter_7": "{{i18n:Victor.CharacterDialogue.136 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Samantha_Name={{AHDPnG_Samantha_Name_T}} }}",
+        "winter_24": "{{i18n:Victor.CharacterDialogue.138 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "winter_Sat": "{{i18n:Victor.CharacterDialogue.156 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "winter_Sat4": "{{i18n:Victor.CharacterDialogue.157 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "winter_Sat8": "{{i18n:Victor.CharacterDialogue.158 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "dating_Victor_memory_twoweeks": "{{i18n:Victor.DatingTwoWeeks |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "funLeave_Victor": "$query PLAYER_HAS_SEEN_EVENT Current 2000008, !PLAYER_HAS_SEEN_EVENT Current 2000009#{{i18n: Victor.funLeave.Shearwater.{{Random:{{Range: 1, 7}}}} |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}|{{i18n:Victor.funLeave.{{DayCheck}}|default={{i18n:Victor.funLeave.default}} |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T}} |valueAt=15 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "funReturn_Victor": "$query PLAYER_HAS_SEEN_EVENT Current 2000008, !PLAYER_HAS_SEEN_EVENT Current 2000009#{{i18n:Victor.funReturn.Shearwater.{{Random:{{Range:1,7}}}} |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}} |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}|{{i18n:Victor.funReturn.{{DayCheck}}|default={{i18n:Victor.funReturn.default}} |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}} |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Victor",
+      "When": {
+        "Spouse": "Olivia",
+        "PlayerGender": "Male"
+      },
+      "Entries": {
+        "fall_Fri8": "{{i18n:victor.stepdad12 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "fall_Sun8": "{{i18n:victor.stepdad13 |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}} |AHDPnG_Oliver_Upper15={{AHDPnG_Oliver_Upper_T |valueAt=15}} }}",
+        "winter_Tue8": "{{i18n:victor.stepdad14 |AHDPnG_Victoria_Lower22={{AHDPnG_Victoria_Lower_T |valueAt=22}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Victor",
+      "When": {
+        "Spouse": "Olivia",
+        "PlayerGender": "Female"
+      },
+      "Entries": {
+        "fall_Fri8": "{{i18n:victor.stepmom12 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "fall_Sun8": "{{i18n:victor.stepmom13 |AHDPnG_Oliver_Upper01={{AHDPnG_Oliver_Upper_T |valueAt=1}} |AHDPnG_Oliver_Upper15={{AHDPnG_Oliver_Upper_T |valueAt=15}} }}",
+        "winter_Tue8": "{{i18n:victor.stepmom14 |AHDPnG_Victoria_Lower22={{AHDPnG_Victoria_Lower_T |valueAt=22}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityCenter_25_10": "{{i18n:CommunityDay.Dialogue.151 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "CommunityCenter_15_20": "{{i18n:CommunityDay.Dialogue.151 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "CommunityCenter_14_19": "{{i18n:CommunityDay.Dialogue.151 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "When": {},
+      "Entries": {
+        "Mon8": "{{i18n:WizardDialogue.02 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}}  |AHDPnG_Abel_Lower03={{AHDPnG_Abel_Lower_T |valueAt=3}} }}",
+        "Sat2": "{{i18n:WizardDialogue.10 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}}  |AHDPnG_Oliver_Lower03={{AHDPnG_Oliver_Lower_T |valueAt=3}}  |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "Custom_ForestWest_52_117": "{{i18n:WizardDialogue.Forest West |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "married_Lance": "{{i18n:Magnus.MarriedLance |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "wizardsComplicatedRelationship": "{{i18n:Pierre.MatureEvent.Magnus |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
+      }
+    }
+  ]
 }
