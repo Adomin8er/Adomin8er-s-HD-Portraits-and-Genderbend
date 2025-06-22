@@ -102,7 +102,8 @@
             "Entries": {
                 "GreenRain": "{{i18n:Characters_Dialogue.Evelyn.GreenRain |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Lower05={{AHDPnG_Alexis_Lower_T |valueAt=5}} }}",
                 "fall_Sat": "{{i18n:Characters_Dialogue.Evelyn.fall_Sat |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} |AHDPnG_Alexis_Lower00={{AHDPnG_Alexis_Lower_T |valueAt=0}} }}",
-                "reject_866": "{{i18n:Characters_Dialogue.Evelyn.reject_866 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}"
+                "reject_866": "{{i18n:Characters_Dialogue.Evelyn.reject_866 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} |AHDPnG_Emmett_Lower03={{AHDPnG_Emmett_Lower_T |valueAt=3}} }}",
+                "summer_Mon_inlaw_Alex": "{{i18n:Characters_Dialogue.Evelyn.summer_Mon_inlaw_Alex |AHDPnG_Alexis_Upper00={{AHDPnG_Alexis_Upper_T |valueAt=0}} |AHDPnG_Alexis_Lower00={{AHDPnG_Alexis_Lower_T |valueAt=0}} |AHDPnG_Alexis_Lower12={{AHDPnG_Alexis_Lower_T |valueAt=12}} |AHDPnG_Alexis_Lower24={{AHDPnG_Alexis_Lower_T |valueAt=24}} }}"
             }
         },
         {
