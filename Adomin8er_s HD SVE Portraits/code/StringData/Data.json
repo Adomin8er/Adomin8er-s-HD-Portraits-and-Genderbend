@@ -315,7 +315,8 @@
           "Description": "{{i18n:object.blue-moon-wine.description |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
         },
         "FlashShifter.StardewValleyExpandedCP_Lance's_Schedule": {
-          "Description": "{{i18n:object.lance-schedule.name |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+          "DisplayName": "{{i18n:object.lance-schedule.name |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+          "Description": "{{i18n:object.lance-schedule.description |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
         }
       }
     },
