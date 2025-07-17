@@ -62,7 +62,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Claire": {
           "NPCName": "Claire",
           "Reactions": [
@@ -86,7 +86,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Morgan": {
           "NPCName": "Morgan",
           "Reactions": [
@@ -110,7 +110,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Lance": {
           "NPCName": "Lance",
           "Reactions": [
@@ -160,7 +160,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Olivia": {
           "NPCName": "Olivia",
           "Reactions": [
@@ -196,7 +196,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Scarlett": {
           "NPCName": "Scarlett",
           "Reactions": [
@@ -251,7 +251,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Sophia": {
           "NPCName": "Sophia",
           "Reactions": [
@@ -275,7 +275,7 @@
     {
       "Action": "EditData",
       "Target": "Data/MoviesReactions",
-      "Entries": {
+      "Fields": {
         "Victor": {
           "NPCName": "Victor",
           "Reactions": [
@@ -307,7 +307,7 @@
     {
       "Action": "EditData",
       "Target": "Data/Objects",
-      "Entries": {
+      "Fields": {
         "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": {
           "Description": "{{i18n:object.aged-blue-moon-wine.description |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
         },
@@ -322,7 +322,7 @@
     {
       "Action": "EditData",
       "Target": "Data/SpecialOrders",
-      "Entries": {
+      "Fields": {
         "Emily": {
           "Name": "[Emily_Name]",
           "Requester": "Emily",

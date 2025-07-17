@@ -273,6 +273,11 @@
       "Default": "false",
       "Section": "Female Genderbend - Vanilla"
     },
+    "Wizard_To_Sorceress": {
+      "AllowValues": "true,false",
+      "Default": "false",
+      "Section": "Female Genderbend - Vanilla"
+    },
     // Male Gender Bend
     "Abigail_To_Abel": {
       "AllowValues": "true,false",
@@ -303,11 +308,6 @@
       "AllowValues": "true,false",
       "Default": "false",
       "Section": "Male Genderbend - Vanilla"
-    },
-    "Wizard_To_Sorceress": {
-      "AllowValues": "true,false",
-      "Default": "false",
-      "Section": "Male Genderbend - Vanilla"
     }
   },
   "DynamicTokens": [
@@ -315,19 +315,19 @@
     // Gender words DTs:
     {
       "Name": "GenderWords_Lower",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}" 
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}" 
     },
     {
       "Name": "GenderWords_Upper",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
     },
     {
       "Name": "GenderWordsSwapped_Lower",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
     },
     {
       "Name": "GenderWordsSwapped_Upper",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
     },
 
     // Character based DTs TRUE:
@@ -335,7 +335,7 @@
     // Abel
     {
         "Name": "AHDPnG_Abel_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Abel}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Abel}}",
         "When": {
             "Abigail_To_Abel": "true"
         }
@@ -357,7 +357,7 @@
     // Emmett
     {
         "Name": "AHDPnG_Emmett_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Emmett}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Emmett}}",
         "When": {
             "Emily_To_Emmett": "true"
         }
@@ -379,7 +379,7 @@
     // Hayden
     {
         "Name": "AHDPnG_Hayden_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Hayden}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Hayden}}",
         "When": {
             "Haley_To_Hayden": "true"
         }
@@ -401,7 +401,7 @@
     // Leif
     {
         "Name": "AHDPnG_Leif_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Leif}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Leif}}",
         "When": {
             "Leah_To_Leif": "true"
         }
@@ -423,7 +423,7 @@
     // Micah
     {
         "Name": "AHDPnG_Micah_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Micah}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Micah}}",
         "When": {
             "Maru_To_Micah": "true"
         }
@@ -445,7 +445,7 @@
     // Peter
     {
         "Name": "AHDPnG_Peter_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Peter}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Peter}}",
         "When": {
             "Penny_To_Peter": "true"
         }
@@ -467,7 +467,7 @@
     // Alexis
     {
         "Name": "AHDPnG_Alexis_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Alexis}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Alexis}}",
         "When": {
             "Alex_To_Alexis": "true"
         }
@@ -489,7 +489,7 @@
     // Elena
     {
         "Name": "AHDPnG_Elena_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Elena}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Elena}}",
         "When": {
             "Elliott_To_Elena": "true"
         }
@@ -511,7 +511,7 @@
     // Harriet
     {
         "Name": "AHDPnG_Harriet_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Harriet}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Harriet}}",
         "When": {
             "Harvey_To_Harriet": "true"
         }
@@ -533,7 +533,7 @@
     // Sabrina
     {
         "Name": "AHDPnG_Sabrina_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Sabrina}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Sabrina}}",
         "When": {
             "Sebastian_To_Sabrina": "true"
         }
@@ -555,7 +555,7 @@
     // Samantha
     {
         "Name": "AHDPnG_Samantha_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Samantha}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Samantha}}",
         "When": {
             "Sam_To_Samantha": "true"
         }
@@ -577,7 +577,7 @@
     // Shaylin
     {
         "Name": "AHDPnG_Shaylin_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Shaylin}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Shaylin}}",
         "When": {
             "Shane_To_Shaylin": "true"
         }
@@ -599,7 +599,7 @@
     // Sorceress
     {
         "Name": "AHDPnG_Sorceress_Name_T",
-        "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Sorceress}}",
+        "Value": "{{i18n: Content.Dynamic_Tokens.Names.Sorceress}}",
         "When": {
             "Wizard_To_Sorceress": "true"
         }
@@ -623,7 +623,7 @@
     // Abel
     {
     "Name": "AHDPnG_Abel_Name_T",
-    "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Abigail}}",
+    "Value": "{{i18n: Content.Dynamic_Tokens.Names.Abigail}}",
     "When": {
       "Abigail_To_Abel": "false"
     }
@@ -645,7 +645,7 @@
     // Emmett
     {
       "Name": "AHDPnG_Emmett_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Emily}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Emily}}",
       "When": {
         "Emily_To_Emmett": "false"
       }
@@ -667,7 +667,7 @@
     // Hayden
     {
       "Name": "AHDPnG_Hayden_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Haley}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Haley}}",
       "When": {
         "Haley_To_Hayden": "false"
       }
@@ -689,7 +689,7 @@
     // Leif
     {
       "Name": "AHDPnG_Leif_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Leah}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Leah}}",
       "When": {
         "Leah_To_Leif": "false"
       }
@@ -711,7 +711,7 @@
     // Micah
     {
       "Name": "AHDPnG_Micah_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Maru}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Maru}}",
       "When": {
         "Maru_To_Micah": "false"
       }
@@ -733,7 +733,7 @@
     // Peter
     {
       "Name": "AHDPnG_Peter_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Penny}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Penny}}",
       "When": {
         "Penny_To_Peter": "false"
       }
@@ -755,7 +755,7 @@
     // Alexis
     {
       "Name": "AHDPnG_Alexis_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Alex}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Alex}}",
       "When": {
         "Alex_To_Alexis": "false"
       }
@@ -777,7 +777,7 @@
     // Elena
     {
       "Name": "AHDPnG_Elena_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Elliott}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Elliott}}",
       "When": {
         "Elliott_To_Elena": "false"
       }
@@ -799,7 +799,7 @@
     // Harriet
     {
       "Name": "AHDPnG_Harriet_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Harvey}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Harvey}}",
       "When": {
         "Harvey_To_Harriet": "false"
       }
@@ -821,7 +821,7 @@
     // Sabrina
     {
       "Name": "AHDPnG_Sabrina_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Sebastian}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Sebastian}}",
       "When": {
         "Sebastian_To_Sabrina": "false"
       }
@@ -843,7 +843,7 @@
     // Samantha
     {
       "Name": "AHDPnG_Samantha_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Sam}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Sam}}",
       "When": {
         "Sam_To_Samantha": "false"
       }
@@ -865,7 +865,7 @@
     // Shaylin
     {
       "Name": "AHDPnG_Shaylin_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Shane}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Shane}}",
       "When": {
         "Shane_To_Shaylin": "false"
       }
@@ -887,7 +887,7 @@
     // Sorceress
     {
       "Name": "AHDPnG_Sorceress_Name_T",
-      "Value": "{{i18n: Conent.Dynamic_Tokens.Names.Wizard}}",
+      "Value": "{{i18n: Content.Dynamic_Tokens.Names.Wizard}}",
       "When": {
         "Wizard_To_Sorceress": "false"
       }

@@ -234,19 +234,19 @@
     // Gender words DTs:
     {
       "Name": "GenderWords_Lower",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}"
     },
     {
       "Name": "GenderWords_Upper",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
     },
     {
       "Name": "GenderWordsSwapped_Lower",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
     },
     {
       "Name": "GenderWordsSwapped_Upper",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
     },
 
     // SVE character based DTs TRUE:
@@ -254,7 +254,7 @@
     // Clayton
     {
         "Name": "AHDPnG_Clayton_Name_T",
-        "Value": "Clayton",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Clayton}}",
         "When": {
             "Claire_To_Clayton": true
         }
@@ -276,7 +276,7 @@
     // Oliver
     {
         "Name": "AHDPnG_Oliver_Name_T",
-        "Value": "Oliver",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Oliver}}",
         "When": {
             "Olivia_To_Oliver": true
         }
@@ -298,7 +298,7 @@
     // // Skyler
     // {
     //     "Name": "AHDPnG_Skyler_Name_T",
-    //     "Value": "Skyler",
+    //     "Value": "{{i18n:Content.Dynamic_Tokens.Names.Skyler}}",
     //     "When": {
     //         "Scarlett_To_Skyler": true
     //     }
@@ -320,7 +320,7 @@
     // Soren
     {
         "Name": "AHDPnG_Soren_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Soren}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Soren}}",
         "When": {
             "Sophia_To_Soren": true
         }
@@ -342,7 +342,7 @@
     // Arcana
     {
         "Name": "AHDPnG_Arcana_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Arcana}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Arcana}}",
         "When": {
             "Magnus_To_Arcana": true
         }
@@ -364,7 +364,7 @@
     // Layla
     {
         "Name": "AHDPnG_Layla_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Layla}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Layla}}",
         "When": {
             "Lance_To_Layla": true
         }
@@ -386,7 +386,7 @@
     // Victoria
     {
         "Name": "AHDPnG_Victoria_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Victoria}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Victoria}}",
         "When": {
             "Victor_To_Victoria": true
         }
@@ -411,7 +411,7 @@
     // Clayton
     {
         "Name": "AHDPnG_Clayton_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Claire}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Claire}}",
         "When": {
             "Claire_To_Clayton": false
         }
@@ -433,7 +433,7 @@
     // Oliver
     {
         "Name": "AHDPnG_Oliver_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Olivia}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Olivia}}",
         "When": {
             "Olivia_To_Oliver": false
         }
@@ -455,7 +455,7 @@
     // Skyler
     {
         "Name": "AHDPnG_Skyler_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Scarlett}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Scarlett}}",
         "When": {
             "Scarlett_To_Skyler": false
         }
@@ -477,7 +477,7 @@
     // Soren
     {
         "Name": "AHDPnG_Soren_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Sophia}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Sophia}}",
         "When": {
             "Sophia_To_Soren": false
         }
@@ -499,7 +499,7 @@
     // Arcana
     {
         "Name": "AHDPnG_Arcana_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Magnus}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Magnus}}",
         "When": {
             "Magnus_To_Arcana": false
         }
@@ -521,7 +521,7 @@
     // Layla
     {
         "Name": "AHDPnG_Layla_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Lance}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Lance}}",
         "When": {
             "Lance_To_Layla": false
         }
@@ -543,7 +543,7 @@
     // Victoria
     {
         "Name": "AHDPnG_Victoria_Name_T",
-        "Value": "{{i18n:Conent.Dynamic_Tokens.Names.Victor}}",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Victor}}",
         "When": {
             "Victor_To_Victoria": false
         }

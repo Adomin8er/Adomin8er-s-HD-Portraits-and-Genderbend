@@ -906,7 +906,7 @@
       "Action": "EditData",
       "Target": "Strings/Stringsfromcsfiles",
       "When": {
-        "Relationship:Cliare": "Engaged"
+        "Relationship:Claire": "Engaged"
       },
       "Entries": {
         "Utility.cs.5367": "{{i18n:Utility.cs.5367.Claire.Husband}}{0}{{i18n:Utility.cs.5367.Claire.B}}{1}{{i18n:Utility.cs.5367.Claire.C |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",

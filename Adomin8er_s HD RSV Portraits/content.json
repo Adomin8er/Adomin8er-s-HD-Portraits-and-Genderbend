@@ -420,19 +420,19 @@
     // Gender words DTs:
     {
       "Name": "GenderWords_Lower",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}"
     },
     {
       "Name": "GenderWords_Upper",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
     },
     {
       "Name": "GenderWordsSwapped_Lower",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
     },
     {
       "Name": "GenderWordsSwapped_Upper",
-      "Value": "{{i18n:Conent.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
     },
 
     // // RSV character based DTs TRUE:
