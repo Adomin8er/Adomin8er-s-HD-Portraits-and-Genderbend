@@ -234,19 +234,19 @@
     // Gender words DTs:
     {
       "Name": "GenderWords_Lower",
-      "Value": "he, she, him, her, ${her^her}$, his, hers, ${his^his}$, man, woman, men, women, boy, girl, father, mother, dad, mom, grandfather, grandmother, grandpa, grandma, son, daughter, grandson, granddaughter, brother, sister, husband, wife, uncle, aunt, king, queen, prince, princess, male, female, gentleman, lady, sir, ma'am, lord, ${lady^lady}$, mr, mrs, ${son^son}$, hun, master, mistress, nephew, niece, dress, suit, skirt, shorts, wizard, sorceress, guy, gal, mister, miss, sweetie, himself, herself" 
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Lower}}"
     },
     {
       "Name": "GenderWords_Upper",
-      "Value": "He, She, Him, Her, ${Her^Her}$, His, Hers, ${His^His}$, Man, Woman, Men, Women, Boy, Girl, Father, Mother, Dad, Mom, Grandfather, Grandmother, Grandpa, Grandma, Son, Daughter, Grandson, Granddaughter, Brother, Sister, Husband, Wife, Uncle, Aunt, King, Queen, Prince, Princess, Male, Female, Gentleman, Lady, Sir, Ma'am, Lord, ${Lady^Lady}$, Mr, Mrs, ${Son^Son}$, Hun, Master, Mistress, Nephew, Niece, Dress, Suit, Skirt, Shorts, Wizard, Sorceress, Guy, Gal, Mister, Miss, Sweetie, Himself, Herself"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWords_Upper}}"
     },
     {
       "Name": "GenderWordsSwapped_Lower",
-      "Value": "she, he, her, him, his, ${her^her}$, ${his^his}$, hers, woman, man, women, men, girl, boy, mother, father, mom, dad, grandmother, grandfather, grandma, grandpa, daughter, son, granddaughter, grandson, sister, brother, wife, husband, aunt, uncle, queen, king, princess, prince, female, male, lady, gentleman, ma'am, sir, ${lady^lady}$, lord, mrs, mr, hun, ${son^son}$, mistress, master, niece, nephew, suit, dress, shorts, skirt, sorceress, wizard, gal, guy, miss, mister, ${dear^sweetie}$, herself, himself"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Lower}}"
     },
     {
       "Name": "GenderWordsSwapped_Upper",
-      "Value": "She, He, Her, Him, His, ${Her^Her}$, ${His^His}$, Hers, Woman, Man, Women, Men, Girl, Boy, Mother, Father, Mom, Dad, Grandmother, Grandfather, Grandma, Grandpa, Daughter, Son, Granddaughter, Grandson, Sister, Brother, Wife, Husband, Aunt, Uncle, Queen, King, Princess, Prince, Female, Male, Lady, Gentleman, Ma'am, Sir, ${Lady^Lady}$, Lord, Mrs, Mr, Hun, ${Son^Son}$, Mistress, Master, Niece, Nephew, Suit, Dress, Shorts, Skirt, Sorceress, Wizard, Gal, Guy, Miss, Mister, ${Dear^Sweetie}$, Herself, Himself"
+      "Value": "{{i18n:Content.Dynamic_Tokens.GenderTokens.GenderWordsSwapped_Upper}}"
     },
 
     // SVE character based DTs TRUE:
@@ -254,7 +254,7 @@
     // Clayton
     {
         "Name": "AHDPnG_Clayton_Name_T",
-        "Value": "Clayton",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Clayton}}",
         "When": {
             "Claire_To_Clayton": true
         }
@@ -276,7 +276,7 @@
     // Oliver
     {
         "Name": "AHDPnG_Oliver_Name_T",
-        "Value": "Oliver",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Oliver}}",
         "When": {
             "Olivia_To_Oliver": true
         }
@@ -298,7 +298,7 @@
     // // Skyler
     // {
     //     "Name": "AHDPnG_Skyler_Name_T",
-    //     "Value": "Skyler",
+    //     "Value": "{{i18n:Content.Dynamic_Tokens.Names.Skyler}}",
     //     "When": {
     //         "Scarlett_To_Skyler": true
     //     }
@@ -320,7 +320,7 @@
     // Soren
     {
         "Name": "AHDPnG_Soren_Name_T",
-        "Value": "Soren",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Soren}}",
         "When": {
             "Sophia_To_Soren": true
         }
@@ -342,7 +342,7 @@
     // Arcana
     {
         "Name": "AHDPnG_Arcana_Name_T",
-        "Value": "Arcana",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Arcana}}",
         "When": {
             "Magnus_To_Arcana": true
         }
@@ -364,7 +364,7 @@
     // Layla
     {
         "Name": "AHDPnG_Layla_Name_T",
-        "Value": "Layla",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Layla}}",
         "When": {
             "Lance_To_Layla": true
         }
@@ -386,7 +386,7 @@
     // Victoria
     {
         "Name": "AHDPnG_Victoria_Name_T",
-        "Value": "Victoria",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Victoria}}",
         "When": {
             "Victor_To_Victoria": true
         }
@@ -411,7 +411,7 @@
     // Clayton
     {
         "Name": "AHDPnG_Clayton_Name_T",
-        "Value": "Claire",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Claire}}",
         "When": {
             "Claire_To_Clayton": false
         }
@@ -433,7 +433,7 @@
     // Oliver
     {
         "Name": "AHDPnG_Oliver_Name_T",
-        "Value": "Olivia",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Olivia}}",
         "When": {
             "Olivia_To_Oliver": false
         }
@@ -455,7 +455,7 @@
     // Skyler
     {
         "Name": "AHDPnG_Skyler_Name_T",
-        "Value": "Scarlett",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Scarlett}}",
         "When": {
             "Scarlett_To_Skyler": false
         }
@@ -477,7 +477,7 @@
     // Soren
     {
         "Name": "AHDPnG_Soren_Name_T",
-        "Value": "Sophia",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Sophia}}",
         "When": {
             "Sophia_To_Soren": false
         }
@@ -499,7 +499,7 @@
     // Arcana
     {
         "Name": "AHDPnG_Arcana_Name_T",
-        "Value": "Magnus",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Magnus}}",
         "When": {
             "Magnus_To_Arcana": false
         }
@@ -521,7 +521,7 @@
     // Layla
     {
         "Name": "AHDPnG_Layla_Name_T",
-        "Value": "Lance",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Lance}}",
         "When": {
             "Lance_To_Layla": false
         }
@@ -543,7 +543,7 @@
     // Victoria
     {
         "Name": "AHDPnG_Victoria_Name_T",
-        "Value": "Victor",
+        "Value": "{{i18n:Content.Dynamic_Tokens.Names.Victor}}",
         "When": {
             "Victor_To_Victoria": false
         }
@@ -860,6 +860,10 @@
     {
       "Name": "IsOddYear",
       "Value": "{{Query: {{Year}} % 2 = 1}}"
+    },
+    {
+      "Name": "GuntherUnlocked",
+      "Value": "{{HasSeenEvent: currentPlayer, hostPlayer |contains=103042015}}"
     }
 
   ],

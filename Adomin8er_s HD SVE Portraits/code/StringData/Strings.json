@@ -1,916 +1,777 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Abigail",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Abigail": "{{i18n:CommunityDay.Dialogue.169 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
-                "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 3}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Abigail",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 1}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Abigail",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 2}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Abigail",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Abigail": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 0}}",
-                "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 4}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Alex",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 5}}",
-                "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 9}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Alex",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 3}}",
-                "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 7}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Alex",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 4}}",
-                "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 8}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Alex",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 6}}",
-                "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 0}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Caroline",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 7}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Caroline",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 5}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Caroline",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 6}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Caroline",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 8}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Demetrius",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Demetrius": "{{i18n:CommunityDay.Dialogue.73 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Demetrius",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Demetrius": "{{i18n:CommunityDay.Dialogue.74 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Elliott",
-            "When": {},
-            "Entries": {
-                "JojaDay_Elliott": "{{i18n:JojaDay.Dialogue.82 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Elliott",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Elliott": "{{i18n:CommunityDay.Dialogue.186 |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T | valueAt=0}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T | valueAt=0}}  |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T | valueAt=2}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "CommunityDay_Elliott_Married": "{{i18n:CommunityDay.Dialogue.190 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Emily",
-            "When": {
-                "HasSeenEvent |contains=3219873": false
-            },
-            "Entries": {
-                "JojaDay1_Emily": "{{i18n:JojaDay.Dialogue.44 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Emily",
-            "When": {
-                "HasSeenEvent |contains=3219873": true
-            },
-            "Entries": {
-                "JojaDay1_Emily": "{{i18n:JojaDay.Dialogue.46 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Emily",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 3}}",
-                "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 7}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Emily",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 1}}",
-                "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 5}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Emily",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 2}}",
-                "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 6}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Emily",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 4}}",
-                "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 8}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Evelyn",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 7}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Evelyn",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 5}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Evelyn",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 6}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Evelyn",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 8}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/George",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 3}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/George",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 1}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/George",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 2}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/George",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 4}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Haley",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Haley": "{{i18n:CommunityDay.Dialogue.94 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "CommunityDay_Haley_Married": "{{i18n:CommunityDay.Dialogue.98 |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Haley",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Haley_Married": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 0}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Jas",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Jas": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Jas",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Jas": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Jas",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Jas": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Jodi",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Jodi": "{{i18n:CommunityDay.Dialogue.147 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Leo",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Leo": "{{i18n:CommunityDay.Dialogue.30 |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T | valueAt=1}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Marnie",
-            "When": {},
-            "Entries": {
-                "JojaDay3_Marnie": "{{i18n:JojaDay.Dialogue.06 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Marnie",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Marnie": "{{i18n:CommunityDay.Dialogue.08 |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T | valueAt=0}}  |AHDPnG_Shaylin_Lower63={{AHDPnG_Shaylin_Lower_T | valueAt=63}}  |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Maru",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Maru": "{{i18n:CommunityDay.Dialogue.67 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
-                "CommunityDay_Maru_Married": "{{i18n:CommunityDay.Dialogue.71 |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T | valueAt=2}}  |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Maru",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Maru": "{{i18n:CommunityDay.Dialogue.68 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Morristod",
-            "When": {},
-            "Entries": {
-                "JojaDay1_MorrisTod": "{{i18n:JojaDay.Dialogue.100 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JojaDay2_MorrisTod": "{{i18n:JojaDay.Dialogue.100 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} A}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Olivia",
-            "When": {},
-            "Entries": {
-                "JojaDay2_Olivia": "{{i18n:JojaDay.Dialogue.63 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Olivia",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Olivia": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 9}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Olivia",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Olivia": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 7}}",
-                "CommunityDay_Olivia_Married": "{{i18n:CommunityDay.Dialogue.141 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Olivia",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Olivia": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 8}}",
-                "CommunityDay_Olivia_Married": "{{i18n:CommunityDay.Dialogue.142 |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T | valueAt=0}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T | valueAt=0}}  |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}}  |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Olivia",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Olivia_Married": "{{i18n:CommunityDay.Dialogue.144 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Pam",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Pam": "{{i18n:CommunityDay.Dialogue.42 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Pierre",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Pierre": "{{i18n:CommunityDay.Dialogue.181 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Pierre",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Pierre": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 9}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Pierre",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Pierre": "{{i18n:CommunityDay.Dialogue.182 |AHDPnG_Abel_Lower64={{AHDPnG_Abel_Lower_T | valueAt=64}}  |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T | valueAt=1}}  |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sam",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Sam_Married": "{{i18n:CommunityDay.Dialogue.165 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sam",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Sam": "{{i18n:CommunityDay.Dialogue.159 |AHDPnG_Samantha_Lower26={{AHDPnG_Samantha_Lower_T | valueAt=26}} }}",
-                "CommunityDay_Sam_Married": "{{i18n:CommunityDay.Dialogue.164 |AHDPnG_Samantha_Lower26={{AHDPnG_Samantha_Lower_T | valueAt=26}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sandy",
-            "When": {},
-            "Entries": {
-                "Sandy_Birthday_Bones": "{{i18n:Sandy.StringFix |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sandy",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 1}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sandy",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 9}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sandy",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 0}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Sandy",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T | valueAt=3}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} 2}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Scarlett",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Scarlett_Married": "{{i18n:CommunityDay.Dialogue.226 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Scarlett",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Scarlett": "{{i18n:CommunityDay.Dialogue.53 |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Shane",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Shane": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-                "CommunityDay_Shane_Married": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Susan",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Susan": "{{i18n:CommunityDay.Dialogue.208 |AHDPnG_Leif_Lower01={{AHDPnG_Leif_Lower_T | valueAt=1}}  |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Victor",
-            "When": {
-                "Season": "Fall",
-                "Season |contains=Spring, Summer, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 1}}",
-                "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 5}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Victor",
-            "When": {
-                "Season": "Spring",
-                "Season |contains=Summer, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T | valueAt=61}} 9}}",
-                "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 3}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Victor",
-            "When": {
-                "Season": "Summer",
-                "Season |contains=Spring, Fall, Winter": false
-            },
-            "Entries": {
-                "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 0}}",
-                "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 4}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Schedules/Victor",
-            "When": {
-                "Season": "Winter",
-                "Season |contains=Spring, Summer, Fall": false
-            },
-            "Entries": {
-                "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 2}}",
-                "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} 6}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Specialorderstrings",
-            "When": {},
-            "Entries": {
-                "Lance_Text": "{{i18n:Lance.SpecialOrderText |AHDPnG_Layla_Lower05={{AHDPnG_Layla_Lower_T | valueAt=5}}  |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "Lance_Objective_1_Text": "{{i18n:Lance.SpecialOrderSpring |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "Lance_Objective_2_Text": "{{i18n:Lance.SpecialOrderSummer |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "Lance_Objective_0_Text": "{{i18n:Lance.SpecialOrderFall |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "Lance_Objective_3_Text": "{{i18n:Lance.SpecialOrderWinter |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "Sophia_Text": "{{i18n:Sophia.SpecialOrder.02 |AHDPnG_Soren_Lower13={{AHDPnG_Soren_Lower_T | valueAt=13}} }}",
-                "Sophia_Objective_1_Text": "{{i18n:Sophia.SpecialOrder.03 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "HasSeenEvent": "8185290",
-                "Year": "1"
-            },
-            "Entries": {
-                "Event.cs.1862": "{{i18n:EggFestival.Winner.Sophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "LocationName": "Custom_Highlands, Custom_HighlandsCavern, Custom_HighlandsCavernPrison, Custom_HighlandsOutpost"
-            },
-            "Entries": {
-                "Event.cs.1068": "{{i18n:Lance.PlayerKilled.04 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "Event.cs.1070": "{{i18n:Lance.PlayerKilled.04 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Claire": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Utility.cs.5367.Claire.Husband}}{0}{{i18n:Utility.cs.5367.Claire.B}}{1}{{i18n:Utility.cs.5367.Claire.C |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Utility.cs.5369.Claire.Wife}}{0}{{i18n:Utility.cs.5367.Claire.B}}{1}{{i18n:Utility.cs.5367.Claire.C |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Utility.cs.5371 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Utility.cs.5377 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Olivia": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Utility.cs.5367.Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} .Husband}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.CS.5367.Olivia}}",
-                "Utility.cs.5371": "{{i18n:Utility.cs.5371 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} .Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "Utility.cs.5377": "{{i18n:Utility.cs.5377 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} .Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfromcsfiles",
-            "When": {
-                "Relationship:Sophia": "Engaged"
-            },
-            "Entries": {
-                "Utility.cs.5367": "{{i18n:Utility.cs.5367.Sophia.Husband}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.Sophia1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Utility.cs.5369": "{{i18n:Utility.cs.5369.Wife}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.Sophia1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "Utility.cs.5371": "{{i18n:Utility.cs.5371 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} A}}",
-                "Utility.cs.5377": "{{i18n:Utility.cs.5377 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} A}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfrommaps",
-            "When": {},
-            "Entries": {
-                "Forest.9": "{{i18n:String.09 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "Forest.11": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "Forest.42": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "Forest.50": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} }}",
-                "PelicanTown.5": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "PelicanTown.48": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 0}}",
-                "PelicanTown.49": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 1}}",
-                "PelicanTown.50": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 2}}",
-                "PelicanTown.51": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 3}}",
-                "PelicanTown.52": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 4}}",
-                "PelicanTown.53": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 5}}",
-                "PelicanTown.54": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 6}}",
-                "PelicanTown.55": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 7}}",
-                "PelicanTown.56": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 8}}",
-                "PelicanTown.57": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 9}}",
-                "Mountain.7": "{{i18n:String.136 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
-                "BlueMoonVineyard.2": "{{i18n:String.187 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "BlueMoonVineyard.9": "{{i18n:String.194 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "BlueMoonVineyard.10": "{{i18n:String.195 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiaHouse.3": "{{i18n:String.249 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiaHouse.20": "{{i18n:String.267 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiaHouse.29": "{{i18n:String.276 |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T | valueAt=4}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiaHouse.31": "{{i18n:String.278 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiaHouse.45": "{{i18n:String.291 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiaCellar.4": "{{i18n:String.306 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "JenkinsHouse.2": "{{i18n:String.391 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.7": "{{i18n:String.396 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.9": "{{i18n:String.398 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.23": "{{i18n:String.412 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.25": "{{i18n:String.414 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.31": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 0}}",
-                "JenkinsHouse.32": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 1}}",
-                "JenkinsHouse.33": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 2}}",
-                "JenkinsHouse.34": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 3}}",
-                "JenkinsHouse.35": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 4}}",
-                "JenkinsHouse.36": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 5}}",
-                "JenkinsHouse.37": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 6}}",
-                "JenkinsHouse.38": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 7}}",
-                "JenkinsHouse.39": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 8}}",
-                "JenkinsHouse.40": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} 9}}",
-                "JenkinsHouse.44": "{{i18n:String.433 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.45": "{{i18n:String.434 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.48": "{{i18n:String.437 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.51": "{{i18n:String.440 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.53": "{{i18n:String.442 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "JenkinsHouse.60": "{{i18n:String.449 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.62": "{{i18n:String.451 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.63": "{{i18n:String.452 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.64": "{{i18n:String.453 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.66": "{{i18n:String.455 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "JenkinsHouse.71": "{{i18n:String.460 |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T | valueAt=1}} }}",
-                "JenkinsHouse.73": "{{i18n:String.462 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "AuroraVineyard.1": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 0}}",
-                "AuroraVineyard.2": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 1}}",
-                "AuroraVineyard.3": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 2}}",
-                "AuroraVineyard.4": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 3}}",
-                "AuroraVineyard.5": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 4}}",
-                "AuroraVineyard.6": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 5}}",
-                "AuroraVineyard.7": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 6}}",
-                "AuroraVineyard.8": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 7}}",
-                "AuroraVineyard.9": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 8}}",
-                "AuroraVineyard.10": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T | valueAt=56}} 9}}",
-                "AuroraVineyard.28": "{{i18n:String.517 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T | valueAt=56}} }}",
-                "OliviaCellar.1": "{{i18n:String.518 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "Town-Fair.32": "{{i18n:String.570 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
-                "Town-Fair.42": "{{i18n:String.578 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "AnimalShopSVE.2": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 0}}",
-                "AnimalShopSVE.3": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 1}}",
-                "AnimalShopSVE.4": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 2}}",
-                "AnimalShopSVE.5": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 3}}",
-                "AnimalShopSVE.6": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 4}}",
-                "AnimalShopSVE.7": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 5}}",
-                "AnimalShopSVE.8": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 6}}",
-                "AnimalShopSVE.9": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 7}}",
-                "AnimalShopSVE.10": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 8}}",
-                "ArchaeologyHouseSVE.1": "{{i18n:String.67 |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} 9}}",
-                "JoshHouseSVE.3": "{{i18n:String.709 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
-                "LeahHouseSVE.1": "{{i18n:String.711 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "LeahHouseSVE.3": "{{i18n:String.713 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "LeahHouseSVE.4": "{{i18n:String.714 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
-                "ScienceHouseSVE.1": "{{i18n:String.717 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
-                "SebastianRoomSVE.5": "{{i18n:String.745 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
-                "SophiaParentsRoom.2": "{{i18n:String.810 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "HighlandsOutpost.1": "{{i18n:String.950 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "OliviaSpouseRoom.1": "{{i18n:String.964 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "OliviaSpouseRoom.3": "{{i18n:String.966 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "SophiasSpouseRoom.5": "{{i18n:String.972 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "SophiasSpouseRoom.6": "{{i18n:String.973 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "ScarlettHouse.3": "{{i18n:String.1010 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
-                "HanksGarage.3": "{{i18n:String.1033 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Strings/Stringsfrommaps",
-            "When": {
-                "Hearts:Martin": "8, 9, 10"
-            },
-            "Entries": {
-                "Martin_TheaterMessage_Rain": "{{i18n:Martin.MoviePatch.13 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Abigail",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Abigail": "{{i18n:CommunityDay.Dialogue.169 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.173 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Abigail",
+      "When": {
+        "Season": "Spring",
+        "Season |contains=Summer, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.171 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Abigail",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.172 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Alex",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.116 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Caroline",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.176 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Claire",
+      "When": {},
+      "Entries": {
+        "AerobicsClass.001": "{{i18n:Claire.AerobicsClass.001 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}}  |AHDPnG_Clayton_Lower01={{AHDPnG_Clayton_Lower_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Demetrius",
+      "When": {
+        "Season": "Spring",
+        "Season |contains=Summer, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Demetrius": "{{i18n:CommunityDay.Dialogue.73 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Demetrius",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Demetrius": "{{i18n:CommunityDay.Dialogue.74 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Elliott",
+      "When": {},
+      "Entries": {
+        "JojaDay_Elliott": "{{i18n:JojaDay.Dialogue.82 |AHDPnG_Elena_Name={{AHDPnG_Elena_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Elliott",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Elliott": "{{i18n:CommunityDay.Dialogue.186 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Victoria_Lower02={{AHDPnG_Victoria_Lower_T |valueAt=2}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} }}",
+        "CommunityDay_Elliott_Married": "{{i18n:CommunityDay.Dialogue.190 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Emily",
+      "When": {
+        "HasSeenEvent |contains=3219873": false
+      },
+      "Entries": {
+        "JojaDay1_Emily": "{{i18n:JojaDay.Dialogue.44 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Emily",
+      "When": {
+        "HasSeenEvent |contains=3219873": true
+      },
+      "Entries": {
+        "JojaDay1_Emily": "{{i18n:JojaDay.Dialogue.46 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Emily",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.103 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Emily",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.102 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
+        "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.106 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Haley",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Haley": "{{i18n:CommunityDay.Dialogue.94 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+        "CommunityDay_Haley_Married": "{{i18n:CommunityDay.Dialogue.98 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Jas",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Jas": "{{i18n:CommunityDay.Dialogue.11 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Jas",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Jas": "{{i18n:CommunityDay.Dialogue.10 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Jas",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Jas": "{{i18n:CommunityDay.Dialogue.12 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Jodi",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Jodi": "{{i18n:CommunityDay.Dialogue.147 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedules/Krobus",
+      "Entries": {
+        "LanceDialogue": "{{i18n:Krobus.LanceDialogue.{{Season}}_{{Day}} |default={{i18n:Krobus.LanceDialogue.{{Random:{{Range:1,5}}|key=LanceKrobusMeet}}}} |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedules/Lance",
+      "Entries": {
+        "KrobusDialogue": "{{i18n:Lance.KrobusDialogue.{{Season}}_{{Day}} |default={{i18n:Lance.KrobusDialogue.{{Random:{{Range:1,5}}|key=LanceKrobusMeet}}}} |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Leo",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Leo": "{{i18n:CommunityDay.Dialogue.30 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}}  |AHDPnG_Peter_Lower01={{AHDPnG_Peter_Lower_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Marnie",
+      "When": {},
+      "Entries": {
+        "JojaDay3_Marnie": "{{i18n:JojaDay.Dialogue.06 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Marnie",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Marnie": "{{i18n:CommunityDay.Dialogue.08 |AHDPnG_Shaylin_Name={{AHDPnG_Shaylin_Name_T}}  |AHDPnG_Shaylin_Lower63={{AHDPnG_Shaylin_Lower_T |valueAt=63}}  |AHDPnG_Shaylin_Lower00={{AHDPnG_Shaylin_Lower_T |valueAt=0}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Maru",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Maru": "{{i18n:CommunityDay.Dialogue.67 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+        "CommunityDay_Maru_Married": "{{i18n:CommunityDay.Dialogue.71 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}}  |AHDPnG_Sabrina_Lower02={{AHDPnG_Sabrina_Lower_T |valueAt=2}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Maru",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Maru": "{{i18n:CommunityDay.Dialogue.68 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Morristod",
+      "When": {},
+      "Entries": {
+        "JojaDay1_MorrisTod": "{{i18n:JojaDay.Dialogue.100 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JojaDay2_MorrisTod": "{{i18n:JojaDay.Dialogue.100 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} A}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Olivia",
+      "When": {},
+      "Entries": {
+        "Mon.001": "{{i18n:Olivia.Mon.001 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Mon.002": "{{i18n:Olivia.Mon.002 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Mon.003": "{{i18n:Olivia.Mon.003 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Tue.001": "{{i18n:Olivia.Tue.001 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=4}} }}",
+        "Thu.001": "{{i18n:Olivia.Thu.001 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Fri.001": "{{i18n:Olivia.Fri.001 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "Sat.001": "{{i18n:Olivia.Sat.001 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "10.001": "{{i18n:Olivia.10.001 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "22.001": "{{i18n:Olivia.22.001 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "marriage.001": "{{i18n:Olivia.Marriage.001 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "marriage.003": "{{i18n:Olivia.Marriage.003 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}",
+        "marriage.004": "{{i18n:Olivia.Marriage.004 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JojaDay2_Olivia": "{{i18n:JojaDay.Dialogue.63 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Olivia",
+      "When": {
+        "Season": "Spring",
+        "Season |contains=Summer, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Olivia": "{{i18n:CommunityDay.Dialogue.137 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "CommunityDay_Olivia_Married": "{{i18n:CommunityDay.Dialogue.141 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Olivia",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Olivia": "{{i18n:CommunityDay.Dialogue.138 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "CommunityDay_Olivia_Married": "{{i18n:CommunityDay.Dialogue.142 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}}  |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}}  |AHDPnG_Victoria_Upper00={{AHDPnG_Victoria_Upper_T |valueAt=0}}  |AHDPnG_Victoria_Lower00={{AHDPnG_Victoria_Lower_T |valueAt=0}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Olivia",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Olivia_Married": "{{i18n:CommunityDay.Dialogue.144 |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Pam",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Pam": "{{i18n:CommunityDay.Dialogue.42 |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Pierre",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Pierre": "{{i18n:CommunityDay.Dialogue.181 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Pierre",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Pierre": "{{i18n:CommunityDay.Dialogue.182 |AHDPnG_Abel_Name={{AHDPnG_Abel_Name_T}}  |AHDPnG_Abel_Lower01={{AHDPnG_Abel_Lower_T |valueAt=1}}  |AHDPnG_Abel_Lower64={{AHDPnG_Abel_Lower_T |valueAt=64}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sam",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Sam_Married": "{{i18n:CommunityDay.Dialogue.165 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sam",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Sam": "{{i18n:CommunityDay.Dialogue.159 |AHDPnG_Samantha_Lower26={{AHDPnG_Samantha_Lower_T |valueAt=26}} }}",
+        "CommunityDay_Sam_Married": "{{i18n:CommunityDay.Dialogue.164 |AHDPnG_Samantha_Lower26={{AHDPnG_Samantha_Lower_T |valueAt=26}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sandy",
+      "When": {},
+      "Entries": {
+        "Sandy_Birthday_Bones": "{{i18n:Sandy.StringFix |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sandy",
+      "When": {
+        "Season": "Spring",
+        "Season |contains=Summer, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.109 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sandy",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.110 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sandy",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.112 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Scarlett",
+      "When": {},
+      "Entries": {
+        "FairhavenFarm.000": "{{i18n:Scarlett.FairhavenFarm.000 }}",
+        "FairhavenFarm.001": "{{i18n:Scarlett.FairhavenFarm.001 }}",
+        "FairhavenFarm.002": "{{i18n:Scarlett.FairhavenFarm.002 }}",
+        "FairhavenFarm.003": "{{i18n:Scarlett.FairhavenFarm.003 }}",
+        "FairhavenFarm.004": "{{i18n:Scarlett.FairhavenFarm.004 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "FairhavenFarm.005": "{{i18n:Scarlett.FairhavenFarm.005 }}",
+        "FairhavenFarm.006": "{{i18n:Scarlett.FairhavenFarm.006 }}",
+        "FairhavenFarm.007": "{{i18n:Scarlett.FairhavenFarm.007 }}",
+        "FairhavenFarm.008": "{{i18n:Scarlett.FairhavenFarm.008 }}",
+        "FairhavenFarm.009": "{{i18n:Scarlett.FairhavenFarm.009 }}",
+        "FairhavenFarm.010": "{{i18n:Scarlett.FairhavenFarm.010 }}",
+        "FairhavenFarm.Marriage.00": "{{i18n:Scarlett.FairhavenFarm.Marriage.00}}",
+        "FairhavenFarm.Marriage.01": "{{i18n:Scarlett.FairhavenFarm.Marriage.01}}",
+        "FairhavenFarm.Marriage.02": "{{i18n:Scarlett.FairhavenFarm.Marriage.02}}",
+        "FairhavenFarm.Marriage.03": "{{i18n:Scarlett.FairhavenFarm.Marriage.03}}",
+        "FairhavenFarm.Marriage.04": "{{i18n:Scarlett.FairhavenFarm.Marriage.04}}",
+        "FairhavenFarm.Marriage.05": "{{i18n:Scarlett.FairhavenFarm.Marriage.05}}",
+        "FairhavenFarm.Marriage.06": "{{i18n:Scarlett.FairhavenFarm.Marriage.06}}",
+        "FairhavenFarm.Marriage.07": "{{i18n:Scarlett.FairhavenFarm.Marriage.07 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt1}} }}",
+        "FairhavenFarm.Marriage.08": "{{i18n:Scarlett.FairhavenFarm.Marriage.08}}",
+        "FairhavenFarm.Marriage.09": "{{i18n:Scarlett.FairhavenFarm.Marriage.09}}",
+        "FairhavenFarm.Marriage.10": "{{i18n:Scarlett.FairhavenFarm.Marriage.10}}",
+        "BlueMoonVineyard.000": "{{i18n:Scarlett.BluemoonVineyard.000 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.001": "{{i18n:Scarlett.BluemoonVineyard.001 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.004": "{{i18n:Scarlett.BluemoonVineyard.004 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.007": "{{i18n:Scarlett.BluemoonVineyard.007 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.008": "{{i18n:Scarlett.BluemoonVineyard.008 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
+        "BlueMoonVineyard.012": "{{i18n:Scarlett.BluemoonVineyard.012 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.013": "{{i18n:Scarlett.BluemoonVineyard.013 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} }}",
+        "BlueMoonVineyard.015": "{{i18n:Scarlett.BluemoonVineyard.015 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.016": "{{i18n:Scarlett.BluemoonVineyard.016 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.Marriage.00": "{{i18n:Scarlett.BlueMoonVineyard.Marriage.00 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}}  |AHDPnG_Skyler_Lower01={{AHDPnG_Skyler_Lower_T |valueAt=1}} }}",
+        "BlueMoonVineyard.Marriage.01": "{{i18n:Scarlett.BlueMoonVineyard.Marriage.01 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "BlueMoonVineyard.Marriage.06": "{{i18n:Scarlett.BlueMoonVineyard.Marriage.06 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.Marriage.07": "{{i18n:Scarlett.BlueMoonVineyard.Marriage.07 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Scarlett",
+      "When": {
+        "Season": "Fall",
+        "Season |contains=Spring, Summer, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Scarlett_Married": "{{i18n:CommunityDay.Dialogue.226 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Scarlett",
+      "When": {
+        "Season": "Spring",
+        "Season |contains=Summer, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Scarlett": "{{i18n:CommunityDay.Dialogue.53 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/schedules/ScarlettFake",
+      "Entries": {
+        "BlueMoonVineyard.000": "{{i18n:Scarlett.BluemoonVineyard.000 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.001": "{{i18n:Scarlett.BluemoonVineyard.001 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.004": "{{i18n:Scarlett.BluemoonVineyard.004 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.007": "{{i18n:Scarlett.BluemoonVineyard.007 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.008": "{{i18n:Scarlett.BluemoonVineyard.008 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
+        "BlueMoonVineyard.012": "{{i18n:Scarlett.BluemoonVineyard.012 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.013": "{{i18n:Scarlett.BluemoonVineyard.013 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Upper01={{AHDPnG_Soren_Upper_T |valueAt=1}}  |AHDPnG_Soren_Lower01={{AHDPnG_Soren_Lower_T |valueAt=1}} }}",
+        "BlueMoonVineyard.015": "{{i18n:Scarlett.BluemoonVineyard.015 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.016": "{{i18n:Scarlett.BluemoonVineyard.016 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Shane",
+      "When": {
+        "Season": "Spring",
+        "Season |contains=Summer, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Shane": "{{i18n:CommunityDay.Dialogue.13 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "CommunityDay_Shane_Married": "{{i18n:CommunityDay.Dialogue.17 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Sophia",
+      "When": {},
+      "Entries": {
+        "marriage.004": "{{i18n:Sophia.Marriage.004 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Upper01={{AHDPnG_Emmett_Upper_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Susan",
+      "When": {
+        "Season": "Summer",
+        "Season |contains=Spring, Fall, Winter": false
+      },
+      "Entries": {
+        "CommunityDay_Susan": "{{i18n:CommunityDay.Dialogue.208 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}}  |AHDPnG_Leif_Lower01={{AHDPnG_Leif_Lower_T |valueAt=1}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Victor",
+      "When": {},
+      "Entries": {
+        "13.000": "{{i18n:Victor.13.000 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "7.000": "{{i18n:Victor.Battleships |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Tue.001": "{{i18n:Victor.JunimoKart |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Fri.000": "{{i18n:Victor.JunimoKart |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Fri.001": "{{i18n:Victor.Pumpkin |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "spring_21_2.003": "{{i18n:Victor.Gazing |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "summmer_21.003": "{{i18n:Victor.Gazing |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "fall_21.003": "{{i18n:Victor.Gazing |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "winter_21.003": "{{i18n:Victor.Gazing |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Mon.000": "{{i18n:Victor.Lonk |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "Wed.000": "{{i18n:Victor.BlueAlive |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "winter_Thu.000": "{{i18n:Victor.SuperSmash |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "spring_4.000": "{{i18n:Victor.Personable |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "spring_21.000": "{{i18n:Victor.Lonk |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "summer_9.000": "{{i18n:Victor.BlueAlive |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "summer_21.000": "{{i18n:Victor.SuperSmash |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "fall_Thu.000": "{{i18n:Victor.Lonk |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "winter_9.000": "{{i18n:Victor.Lonk |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "rain8.001": "{{i18n:Victor.JunimoKart |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "marriage.001": "{{i18n:Victor.Marriage.001 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "marriage.002": "{{i18n:Victor.Marriage.002 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "marriage.003": "{{i18n:Victor.Marriage.003 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
+        "marriage.004": "{{i18n:Victor.Marriage.004 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Schedules/Victor",
+      "When": {
+        "Season": "Winter",
+        "Season |contains=Spring, Summer, Fall": false
+      },
+      "Entries": {
+        "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.132 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
+        "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.136 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Specialorderstrings",
+      "When": {},
+      "Entries": {
+        "Lance_Text": "{{i18n:Lance.SpecialOrderText |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Lower05={{AHDPnG_Layla_Lower_T |valueAt=5}} }}",
+        "Lance_Objective_1_Text": "{{i18n:Lance.SpecialOrderSpring |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "Lance_Objective_2_Text": "{{i18n:Lance.SpecialOrderSummer |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "Lance_Objective_0_Text": "{{i18n:Lance.SpecialOrderFall |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "Lance_Objective_3_Text": "{{i18n:Lance.SpecialOrderWinter |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "Olivia_Name": "{{i18n:Olivia.SpecialOrder.01}}",
+        "Olivia_Text": "{{i18n:Olivia.SpecialOrder.02 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Olivia_Objective_1_Text": "{{i18n:Olivia.SpecialOrder.03 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "Olivia_Objective_2_Text": "{{i18n:Olivia.SpecialOrder.04 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "Olivia_Objective_3_Text": "{{i18n:Olivia.SpecialOrder.05 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} |AHDPnG_Oliver_Lower04={{AHDPnG_Oliver_Lower_T |valueAt=3}} }}",
+        "Sophia_Text": "{{i18n:Sophia.SpecialOrder.02 |AHDPnG_Soren_Lower13={{AHDPnG_Soren_Lower_T |valueAt=13}} }}",
+        "Sophia_Objective_1_Text": "{{i18n:Sophia.SpecialOrder.03 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "HasSeenEvent": "8185290",
+        "Year": "1"
+      },
+      "Entries": {
+        "Event.cs.1862": "{{i18n:EggFestival.Winner.Sophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "LocationName": "Custom_Highlands, Custom_HighlandsCavern, Custom_HighlandsCavernPrison, Custom_HighlandsOutpost"
+      },
+      "Entries": {
+        "Event.cs.1068": "{{i18n:Lance.PlayerKilled.04 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "Event.cs.1070": "{{i18n:Lance.PlayerKilled.04 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Claire": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Utility.cs.5367.Claire.Husband}}{0}{{i18n:Utility.cs.5367.Claire.B}}{1}{{i18n:Utility.cs.5367.Claire.C |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Utility.cs.5369.Claire.Wife}}{0}{{i18n:Utility.cs.5367.Claire.B}}{1}{{i18n:Utility.cs.5367.Claire.C |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Utility.cs.5371 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Utility.cs.5377 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Olivia": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Utility.cs.5367.Olivia.Husband}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.CS.5367.Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Utility.cs.5369.Olivia.Wife}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.CS.5367.Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Utility.cs.5371.Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Utility.cs.5377.Olivia |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfromcsfiles",
+      "When": {
+        "Relationship:Sophia": "Engaged"
+      },
+      "Entries": {
+        "Utility.cs.5367": "{{i18n:Utility.cs.5367.Sophia.Husband}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.Sophia1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Utility.cs.5369": "{{i18n:Utility.cs.5369.Wife}}{0}{{i18n:Utility.of}}{1}{{i18n:Utility.Sophia1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Utility.cs.5371": "{{i18n:Utility.cs.5371A |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "Utility.cs.5377": "{{i18n:Utility.cs.5377A |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfrommaps",
+      "When": {},
+      "Entries": {
+        "Forest.9": "{{i18n:String.09 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Forest.11": "{{i18n:String.11 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Forest.42": "{{i18n:String.42 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Forest.50": "{{i18n:String.49 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "PelicanTown.5": "{{i18n:String.67 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "PelicanTown.48": "{{i18n:String.110 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.49": "{{i18n:String.111 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.50": "{{i18n:String.112 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.51": "{{i18n:String.113 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.52": "{{i18n:String.114 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.53": "{{i18n:String.115 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.54": "{{i18n:String.116 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.55": "{{i18n:String.117 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.56": "{{i18n:String.118 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "PelicanTown.57": "{{i18n:String.119 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "Mountain.7": "{{i18n:String.136 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+        "BlueMoonVineyard.2": "{{i18n:String.187 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.9": "{{i18n:String.194 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "BlueMoonVineyard.10": "{{i18n:String.195 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "SophiaHouse.3": "{{i18n:String.249 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "SophiaHouse.20": "{{i18n:String.267 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "SophiaHouse.29": "{{i18n:String.276 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower04={{AHDPnG_Soren_Lower_T |valueAt=4}} }}",
+        "SophiaHouse.31": "{{i18n:String.278 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "SophiaHouse.45": "{{i18n:String.291 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "SophiaCellar.4": "{{i18n:String.306 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "JenkinsHouse.2": "{{i18n:String.391 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.7": "{{i18n:String.396 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.9": "{{i18n:String.398 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.23": "{{i18n:String.412 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.25": "{{i18n:String.414 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.31": "{{i18n:String.420 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.32": "{{i18n:String.421 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.33": "{{i18n:String.422 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.34": "{{i18n:String.423 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.35": "{{i18n:String.424 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.36": "{{i18n:String.425 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.37": "{{i18n:String.426 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.38": "{{i18n:String.427 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.39": "{{i18n:String.428 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.40": "{{i18n:String.429 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "JenkinsHouse.44": "{{i18n:String.433 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.45": "{{i18n:String.434 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.48": "{{i18n:String.437 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.51": "{{i18n:String.440 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.53": "{{i18n:String.442 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "JenkinsHouse.60": "{{i18n:String.449 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.62": "{{i18n:String.451 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.63": "{{i18n:String.452 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.64": "{{i18n:String.453 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.66": "{{i18n:String.455 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "JenkinsHouse.71": "{{i18n:String.460 |AHDPnG_Oliver_Lower01={{AHDPnG_Oliver_Lower_T |valueAt=1}} }}",
+        "JenkinsHouse.73": "{{i18n:String.462 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "AuroraVineyard.1": "{{i18n:String.490 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.2": "{{i18n:String.491 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.3": "{{i18n:String.492 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.4": "{{i18n:String.493 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.5": "{{i18n:String.494 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.6": "{{i18n:String.495 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.7": "{{i18n:String.496 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.8": "{{i18n:String.497 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.9": "{{i18n:String.498 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.10": "{{i18n:String.499 |AHDPnG_Arcana_Upper56={{AHDPnG_Arcana_Upper_T |valueAt=56}} }}",
+        "AuroraVineyard.28": "{{i18n:String.517 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
+        "OliviaCellar.1": "{{i18n:String.518 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "Town-Fair.32": "{{i18n:String.570 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+        "Town-Fair.42": "{{i18n:String.578 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "AnimalShopSVE.2": "{{i18n:String.670 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.3": "{{i18n:String.671 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.4": "{{i18n:String.672 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.5": "{{i18n:String.673 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.6": "{{i18n:String.674 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.7": "{{i18n:String.675 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.8": "{{i18n:String.676 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.9": "{{i18n:String.677 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "AnimalShopSVE.10": "{{i18n:String.678 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "ArchaeologyHouseSVE.1": "{{i18n:String.679 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "JoshHouseSVE.3": "{{i18n:String.709 |AHDPnG_Alexis_Name={{AHDPnG_Alexis_Name_T}} }}",
+        "LeahHouseSVE.1": "{{i18n:String.711 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "LeahHouseSVE.3": "{{i18n:String.713 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "LeahHouseSVE.4": "{{i18n:String.714 |AHDPnG_Leif_Name={{AHDPnG_Leif_Name_T}} }}",
+        "ScienceHouseSVE.1": "{{i18n:String.717 |AHDPnG_Micah_Name={{AHDPnG_Micah_Name_T}} }}",
+        "SebastianRoomSVE.5": "{{i18n:String.745 |AHDPnG_Sabrina_Name={{AHDPnG_Sabrina_Name_T}} }}",
+        "SophiaParentsRoom.2": "{{i18n:String.810 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HighlandsOutpost.1": "{{i18n:String.950 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "OliviaSpouseRoom.1": "{{i18n:String.964 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "OliviaSpouseRoom.3": "{{i18n:String.966 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "SophiasSpouseRoom.5": "{{i18n:String.972 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "SophiasSpouseRoom.6": "{{i18n:String.973 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "ScarlettHouse.3": "{{i18n:String.1010 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "HanksGarage.3": "{{i18n:String.1033 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/Stringsfrommaps",
+      "When": {
+        "Hearts:Martin": "8, 9, 10"
+      },
+      "Entries": {
+        "Martin_TheaterMessage_Rain": "{{i18n:Martin.MoviePatch.13 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}"
+      }
+    }
+  ]
 }

@@ -1,58 +1,418 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Data/Furniture",
-            "When": {},
-            "Entries": {
-                "FlashShifter.StardewValleyExpandedCP_ClairePortrait": "ClairePortrait |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ClairePortrait |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}/4/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-                "FlashShifter.StardewValleyExpandedCP_OliviaPortrait": "OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}/2/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-                "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}/0/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-                "FlashShifter.StardewValleyExpandedCP_LancePortrait": "LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}/10/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-                "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "MagnusPortrait |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:MagnusPortrait |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}/8/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-                "FlashShifter.StardewValleyExpandedCP_VictorPortrait": "VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}/6/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
-                "FlashShifter.StardewValleyExpandedCP_ScarlettPortrait": "ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}/14/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true"
-            }
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "When": {},
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP_ClairePortrait": "ClairePortrait |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ClairePortrait |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}/4/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_OliviaPortrait": "OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:OliviaPortrait |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}/2/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_SophiaPortrait": "SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:SophiaPortrait |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}/0/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_LancePortrait": "LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:LancePortrait |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}/10/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_MagnusPortrait": "MagnusPortrait |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:MagnusPortrait |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}/8/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_VictorPortrait": "VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:VictorPortrait |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}/6/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true",
+        "FlashShifter.StardewValleyExpandedCP_ScarlettPortrait": "ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} /painting/2 2/2 2/1/999/-1/{{i18n:ScarlettPortrait |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}/14/Mods\\FlashShifter.StardewValleyExpandedCP\\SVE_Portraits/true"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/IncomingPhoneCalls",
+      "Entries": {
+        "FlashShifter.StardewValleyExpandedCP.Evelyn_Phone": {
+          "Dialogue": "{{i18n:Phone.Evelyn |AHDPnG_Alexis_Lower24={{AHDPnG_Alexis_Lower_T |valueAt=24}} }}"
         },
-        {
-            "Action": "EditData",
-            "Target": "Data/Mail",
-            "When": {},
-            "Entries": {
-                "VictorDewey": "{{i18n:Mail.VictorDewey |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "OliviaWine": "{{i18n:Mail.OliviaWine |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "OliviaCellar": "{{i18n:Mail.OliviaCellar |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "GusSophia": "{{i18n:Mail.GusSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "HaleyTalk": "{{i18n:Mail.HaleyTalk |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T | valueAt=1}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
-                "OliviaDatingLetter": "{{i18n:Mail.OliviaDatingLetter |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "OliviaPartyLetter": "{{i18n:Mail.OliviaPartyLetter |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "SophiaThankYouLetter": "{{i18n:Mail.SophiaThankYouLetter1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }} FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine {{i18n:Mail.SophiaThankYouLetter2 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
-                "MysteriousWizardLetter": "{{i18n:Mail.MysteriousWizardLetter |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
-                "LanceLifeElixirs": "{{i18n:Mail.LanceLifeElixirs |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
-                "VictorCooking": "{{i18n:Mail.VictorCooking |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
-                "OliviaCooking": "{{i18n:Mail.OliviaCooking |AHDPnG_Oliver_Upper15={{AHDPnG_Oliver_Upper_T | valueAt=15}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
-                "ClaireCooking": "{{i18n:Mail.ClaireCooking |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
-                "ScarlettCooking": "{{i18n:Mail.ScarlettCooking |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
-                "LanceCooking": "{{i18n:Mail.LanceCooking |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Mail",
-            "When": {
-                "HasSeenEvent": "6665292"
-            },
-            "Entries": {
-                "EmilyClothingTherapy": "{{i18n:Mail.Mayor.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Npcgifttastes",
-            "When": {},
-            "Entries": {
-                "Olivia": "{{i18n:Olivia.Gifts.Loved}}/348 124 125 220 221 FlashShifter.StardewValleyExpandedCP_Fish_Dumpling FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Goldenrod FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Olivia.Gifts.Liked |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T | valueAt=62}} }}/336 432 276 608 421 FlashShifter.StardewValleyExpandedCP_Amber FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:Olivia.Gifts.Disliked}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink/{{i18n:Olivia.Gifts.Hated}}/330 284 149 151 459 346 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Frog FlashShifter.StardewValleyExpandedCP_Daggerfish/{{i18n:Olivia.Gifts.Neutral}}/446 402 418/"
-            }
+        "FlashShifter.StardewValleyExpandedCP.Morgan_Phone": {
+          "Dialogue": "{{i18n:Phone.Morgan |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
         }
-    ]
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "When": {},
+      "Entries": {
+        "VictorDewey": "{{i18n:Mail.VictorDewey |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "OliviaWine": "{{i18n:Mail.OliviaWine |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "OliviaCellar": "{{i18n:Mail.OliviaCellar |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "GusSophia": "{{i18n:Mail.GusSophia |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "HaleyTalk": "{{i18n:Mail.HaleyTalk |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}}  |AHDPnG_Hayden_Name={{AHDPnG_Hayden_Name_T}} }}",
+        "OliviaDatingLetter": "{{i18n:Mail.OliviaDatingLetter |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "OliviaPartyLetter": "{{i18n:Mail.OliviaPartyLetter |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}",
+        "SophiaThankYouLetter": "{{i18n:Mail.SophiaThankYouLetter1 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }} FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine {{i18n:Mail.SophiaThankYouLetter2 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}",
+        "MysteriousWizardLetter": "{{i18n:Mail.MysteriousWizardLetter |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}",
+        "LanceLifeElixirs": "{{i18n:Mail.LanceLifeElixirs |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}}  |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "VictorCooking": "{{i18n:Mail.VictorCooking |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}",
+        "OliviaCooking": "{{i18n:Mail.OliviaCooking |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}}  |AHDPnG_Oliver_Upper15={{AHDPnG_Oliver_Upper_T |valueAt=15}} }}",
+        "ClaireCooking": "{{i18n:Mail.ClaireCooking |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "ScarlettCooking": "{{i18n:Mail.ScarlettCooking |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}",
+        "LanceCooking": "{{i18n:Mail.LanceCooking |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+        "harveyBalloon": "{{i18n:Mail.harveyBalloon |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "When": {
+        "HasSeenEvent": "6665292"
+      },
+      "Entries": {
+        "EmilyClothingTherapy": "{{i18n:Mail.Mayor.04 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Claire": {
+          "NPCName": "Claire",
+          "Reactions": [
+            {
+              "Tag": "love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/shake Claire 3000/pause 500/message \"{{i18n:Claire.Movies.13}}\"",
+                  "Text": "{{i18n:Claire.Movies.17}}"
+                }
+              },
+              "ID": "reaction_4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Morgan": {
+          "NPCName": "Morgan",
+          "Reactions": [
+            {
+              "Tag": "love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Morgan.Movies.12 |AHDPnG_Arcana_Name={{AHDPnG_Arcana_Name_T}} }}"
+                }
+              },
+              "ID": "reaction_4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Lance": {
+          "NPCName": "Lance",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:movies.lance.2 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+                }
+              },
+              "ID": "reaction_0"
+            },
+            {
+              "Tag": "spring_movie_1",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:movies.lance.5 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+                }
+              },
+              "ID": "reaction_1"
+            },
+            {
+              "Tag": "winter_movie_0",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "BeforeMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:movies.lance.18 |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+                }
+              },
+              "ID": "reaction_6"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Olivia": {
+          "NPCName": "Olivia",
+          "Reactions": [
+            {
+              "Tag": "winter_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Olivia.Movies.02 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}"
+                }
+              },
+              "ID": "reaction_2"
+            },
+            {
+              "Tag": "love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/shake Olivia 3000/pause 500/message \"{{i18n:Olivia.Movies.09 |AHDPnG_Oliver_Name={{AHDPnG_Oliver_Name_T}} }}\""
+                }
+              },
+              "ID": "reaction_4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Scarlett": {
+          "NPCName": "Scarlett",
+          "Reactions": [
+            {
+              "Tag": "spring_movie_1",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Scarlett.Movies.05 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}"
+                }
+              },
+              "ID": "reaction_1"
+            },
+            {
+              "Tag": "summer_movie_0",
+              "Response": "love",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/jump Scarlett/pause 400/playSound reward/message \"{{i18n:Scarlett.Movies.08 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} }}\"",
+                  "Text": ""
+                },
+                "AfterMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Scarlett.Movies.09 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
+                }
+              },
+              "ID": "reaction_2"
+            },
+            {
+              "Tag": "summer_movie_1",
+              "Response": "dislike",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "",
+                  "Text": "{{i18n:Scarlett.Movies.11 |AHDPnG_Skyler_Name={{AHDPnG_Skyler_Name_T}} |AHDPnG_Skyler_Lower04={{AHDPnG_Skyler_Lower_T |valueAt=4}} }}"
+                }
+              },
+              "ID": "reaction_3"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Sophia": {
+          "NPCName": "Sophia",
+          "Reactions": [
+            {
+              "Tag": "love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/shake Sophia 3000/pause 500/message \"{{i18n:Sophia.Movies.08 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}\"",
+                  "Text": "{{i18n:Sophia.Movies.09}}"
+                }
+              },
+              "ID": "reaction_4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Fields": {
+        "Victor": {
+          "NPCName": "Victor",
+          "Reactions": [
+            {
+              "Tag": "love",
+              "Response": "like",
+              "Whitelist": [],
+              "SpecialResponses": {
+                "DuringMovie": {
+                  "ResponsePoint": null,
+                  "Script": "/shake Victor 3000/pause 500/message\"{{i18n:movies.victor.14 |AHDPnG_Victoria_Name={{AHDPnG_Victoria_Name_T}} }}\"",
+                  "Text": "{{i18n:movies.victor.15}}"
+                }
+              },
+              "ID": "reaction_4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Npcgifttastes",
+      "When": {},
+      "Entries": {
+        "Olivia": "{{i18n:Olivia.Gifts.Loved}}/348 124 125 220 221 FlashShifter.StardewValleyExpandedCP_Fish_Dumpling FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Goldenrod FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Olivia.Gifts.Liked |AHDPnG_Oliver_Lower62={{AHDPnG_Oliver_Lower_T |valueAt=62}} }}/336 432 276 608 421 FlashShifter.StardewValleyExpandedCP_Amber FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:Olivia.Gifts.Disliked}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink/{{i18n:Olivia.Gifts.Hated}}/330 284 149 151 459 346 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Frog FlashShifter.StardewValleyExpandedCP_Daggerfish/{{i18n:Olivia.Gifts.Neutral}}/446 402 418/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": {
+          "Description": "{{i18n:object.aged-blue-moon-wine.description |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+        },
+        "FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine": {
+          "Description": "{{i18n:object.blue-moon-wine.description |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}} }}"
+        },
+        "FlashShifter.StardewValleyExpandedCP_Lance's_Schedule": {
+          "DisplayName": "{{i18n:object.lance-schedule.name |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}",
+          "Description": "{{i18n:object.lance-schedule.description |AHDPnG_Layla_Name={{AHDPnG_Layla_Name_T}} }}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Fields": {
+        "Emily": {
+          "Name": "[Emily_Name]",
+          "Requester": "Emily",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "event_992559",
+          "OrderType": "",
+          "SpecialRule": "",
+          "Text": "[Emily_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "[Emily_Objective_0_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_ruby",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[Emily_Objective_1_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_topaz",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[Emily_Objective_2_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_emerald",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[Emily_Objective_3_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_jade",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "[Emily_Objective_4_Text]",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_amethyst",
+                "TargetName": "Emily"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:SpecialOrder.Emily.01 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_diamond",
+                "TargetName": "Emily"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "2000"
+              }
+            },
+            {
+              "Type": "Friendship",
+              "Data": {}
+            },
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "emilyStones",
+                "NoLetter": "false"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
 }

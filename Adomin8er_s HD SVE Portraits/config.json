@@ -36,10 +36,10 @@
   "Lance_To_Layla": "true",
   "Magnus_To_Arcana": "true",
   "Victor_To_Victoria": "true",
-  "Claire_To_Clayton": "true",
-  "Olivia_To_Oliver": "true",
+  "Claire_To_Clayton": "false",
+  "Olivia_To_Oliver": "false",
   "Scarlett_To_Skyler": "false",
-  "Sophia_To_Soren": "true",
+  "Sophia_To_Soren": "false",
   "SVECommunityBundles": "true",
   "HardSVECommunityBundles": "false",
   "MatureEvents": "false"

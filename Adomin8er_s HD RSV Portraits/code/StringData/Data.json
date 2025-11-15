@@ -1,90 +1,90 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Data/Extradialogue",
-            "When": {},
-            "Entries": {
-                "SummitEvent_Dialogue3_Maddie": "{{i18n:Maddie.summit.1}}\"/faceDirection farmer 1/faceDirection Maddie 3/pause 300/speak Maddie \"{{i18n:Maddie.summit.2}}\"/pause 500/faceDirection farmer 0/faceDirection Maddie 0/pause 500/speak Maddie \"{{i18n:Maddie.summit.3}}\"/faceDirection Maddie 3/faceDirection farmer 1/emote farmer 20/pause 500/faceDirection Maddie 0/speak Maddie \"{{i18n:Maddie.summit.4 |AHDPnG_Matthew_Lower33={{AHDPnG_Matthew_Lower_T | valueAt=33}} }}\"/faceDirection Maddie 3/pause 300/speak Maddie \"{{i18n:Maddie.summit.5}}",
-                "SummitEvent_Dialogue3_Blair": "{{i18n:Blair.summit.1 |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}\"/faceDirection farmer 1/pause 300/faceDirection Blair 3/pause 400/speak Blair \"{{i18n:Blair.summit.2}}",
-                "SummitEvent_Dialogue3_Faye": "{{i18n:Faye.summit.1}}\"/faceDirection farmer 1/pause 300/faceDirection Faye 3/pause 400/speak Faye \"{{i18n:Faye.summit.2 |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Furniture",
-            "When": {},
-            "Entries": {
-                "Rafseazz.RSVCP_AlissaPortrait": "AlissaPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.alissaportrait.name |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}/0/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_AntonPortrait": "AntonPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.antonportrait.name |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}/2/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_BlairPortrait": "BlairPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.blairportrait.name |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}/4/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_BrylePortrait": "BrylePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.bryleportrait.name |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}} }}/6/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_CorinePortrait": "CorinePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.corineportrait.name |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}/8/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_DaiaPortrait": "DaiaPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.daiaportrait.name |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}/10/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_FayePortrait": "FayePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.fayeportrait.name |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}/24/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_FlorPortrait": "FlorPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.florportrait.name |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}/26/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_IanPortrait": "IanPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.ianportrait.name |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}/28/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_IrenePortrait": "IrenePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.ireneportrait.name |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}/30/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_JericPortrait": "JericPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.jericportrait.name |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}/32/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_JioPortrait": "JioPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.jioportrait.name |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}/34/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_JunePortrait": "JunePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.juneportrait.name |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}/48/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_KennethPortrait": "KennethPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.kennethportrait.name |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}/50/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_KiarraPortrait": "KiarraPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.kiarraportrait.name |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}/52/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_MaddiePortrait": "MaddiePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.maddieportrait.name |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}/54/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_PaulaPortrait": "PaulaPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.paulaportrait.name |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}/56/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_PhilipPortrait": "PhilipPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.philipportrait.name |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}/58/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_SeanPortrait": "SeanPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.seanportrait.name |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}/72/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_ShiroPortrait": "ShiroPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.shiroportrait.name |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}/74/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_YsabellePortrait": "YsabellePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.ysabelleportrait.name |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}/76/RSV\\Objects\\PortraitFrames",
-                "Rafseazz.RSVCP_ZaynePortrait": "ZaynePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.zayneportrait.name |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}/78/RSV\\Objects\\PortraitFrames"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Mail",
-            "When": {},
-            "Entries": {
-                "AlissaLetter": "{{i18n:Mail.AlissaLetter |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "AlissaPerform": "{{i18n:Mail.AlissaPerform |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
-                "FlorLetter": "{{i18n:Mail.FlorLetter |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "MaddieDate": "{{i18n:Mail.MaddieDate |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "JericLetter": "{{i18n:Mail.JericLetter |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
-                "DaiaDate": "{{i18n:Mail.DaiaDate |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
-                "RichardSOLetter": "{{i18n:Mail.RichardSOLetter |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
-                "SeanLetter": "{{i18n:Mail.SeanLetter |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
-                "BlairSOletter.temp": "{{i18n:Mail.BlairSOletter.temp |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
-                "MaddieSOLetter.temp": "{{i18n:Mail.MaddieSOLetter.temp |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
-                "ZayneLetter": "{{i18n:Mail.ZayneLetter |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}}  |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
-                "JuneLetter": "{{i18n:Mail.JuneLetter |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}",
-                "PaulaCooking": "{{i18n:paula.recipe.text |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }} %item cookingRecipe %%[#]{{i18n:paula.recipe.title |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
-                "BlairCooking": "{{i18n:blair.recipe.text |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }} %item cookingRecipe %%[#]{{i18n:blair.recipe.title}}",
-                "SeanCooking": "{{i18n:sean.recipe.text |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }} %item cookingRecipe %% [#]{{i18n:sean.recipe.title}}",
-                "KiarraCooking": "{{i18n:kiarra.recipe.text |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }} %item cookingRecipe %% [#]{{i18n:kiarra.recipe.title}}",
-                "IreneCooking": "{{i18n:irene.recipe.text |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }} %item cookingRecipe %% [#]{{i18n:irene.recipe.title}}",
-                "FayeCooking": "{{i18n:faye.recipe.text |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }} %item cookingRecipe %% [#]{{i18n:faye.recipe.title}}",
-                "JuneNPC.PlatonicDeparture": "{{i18n:June.PlatonicDeparture.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.PlatonicDeparture.title |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}",
-                "JuneNPC.RomanticArrival": "{{i18n:June.RomanticArrival.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.RomanticArrival.title}}",
-                "JuneNPC.RomanticDeparture": "{{i18n:June.RomanticDeparture.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.RomanticDeparture.title}}",
-                "JuneNPC.RomanticSummer": "{{i18n:June.RomanticSummer.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.RomanticSummer.title}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Npcgifttastes",
-            "When": {},
-            "Entries": {
-                "Yuuma": "{{i18n:Gift.Love.Yuuma}}/Rafseazz.RSVCP_Snowball_Slurpee Rafseazz.RSVCP_Paradise_Rangpur Rafseazz.RSVCP_Mountain_Chico Rafseazz.RSVCP_Hundred_Flavor_Doughnut Rafseazz.RSVCP_Highland_Ice_Cream Rafseazz.RSVCP_Highland_Butterwort Rafseazz.RSVCP_Forest_Halva Rafseazz.RSVCP_Cherry_Berry_Shakey Rafseazz.RSVCP_Autumnal_Serenity 194 613 398 216/{{i18n:Gift.Like.Yuuma}}/Rafseazz.RSVCP_Lava_Lily Rafseazz.RSVCP_Kedi_Delight 167 176 92 311 340 344/{{i18n:Gift.Dislike.Yuuma}}/247 346/{{i18n:Gift.Hate.Yuuma |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}/Rafseazz.RSVCP_Matcha_Latte Rafseazz.RSVCP_Jumpy_Coffee_Cake -26 alcohol_item 253 903 226 215 395/{{i18n:Gift.Neutral.Yuuma}}/-4/ "
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Quests",
-            "When": {},
-            "Entries": {
-                "72860005": "Basic/{{i18n:preparations_complete.title}}/{{i18n:preparations_complete.description |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}/{{i18n:preparations_complete.objective}}//-1/0/-1/true/",
-                "72861028": "ItemDelivery/{{i18n:yuuma_iron.title}}/{{i18n:yuuma_iron.description |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}/{{i18n:yuuma_iron.objective}}/Yuuma 335/-1/300/-1/true/{{i18n:yuuma_iron.reactiontext}}",
-                "72861029": "LostItem/{{i18n:yuuma_ring.title}}/{{i18n:yuuma_ring.description |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}/{{i18n:yuuma_ring.objective |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}/Yuuma Rafseazz.RSVCP_Yuuma_s_Ring Custom_Ridgeside_RidgesideVillage 19 20/-1/200/-1/true/{{i18n:yuuma_ring.reactiontext}}"
-            }
-        }
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Extradialogue",
+      "When": {},
+      "Entries": {
+        "SummitEvent_Dialogue3_Maddie": "{{i18n:Maddie.summit.1}}\"/faceDirection farmer 1/faceDirection Maddie 3/pause 300/speak Maddie \"{{i18n:Maddie.summit.2}}\"/pause 500/faceDirection farmer 0/faceDirection Maddie 0/pause 500/speak Maddie \"{{i18n:Maddie.summit.3}}\"/faceDirection Maddie 3/faceDirection farmer 1/emote farmer 20/pause 500/faceDirection Maddie 0/speak Maddie \"{{i18n:Maddie.summit.4 |AHDPnG_Matthew_Lower33={{AHDPnG_Matthew_Lower_T | valueAt=33}} }}\"/faceDirection Maddie 3/pause 300/speak Maddie \"{{i18n:Maddie.summit.5}}",
+        "SummitEvent_Dialogue3_Blair": "{{i18n:Blair.summit.1 |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}\"/faceDirection farmer 1/pause 300/faceDirection Blair 3/pause 400/speak Blair \"{{i18n:Blair.summit.2}}",
+        "SummitEvent_Dialogue3_Faye": "{{i18n:Faye.summit.1}}\"/faceDirection farmer 1/pause 300/faceDirection Faye 3/pause 400/speak Faye \"{{i18n:Faye.summit.2 |AHDPnG_Felix_Lower62={{AHDPnG_Felix_Lower_T | valueAt=62}} }}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "When": {},
+      "Entries": {
+        "Rafseazz.RSVCP_AlissaPortrait": "AlissaPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.alissaportrait.name |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}/0/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_AntonPortrait": "AntonPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.antonportrait.name |AHDPnG_Anya_Name={{AHDPnG_Anya_Name_T}} }}/2/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_BlairPortrait": "BlairPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.blairportrait.name |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}/4/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_BrylePortrait": "BrylePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.bryleportrait.name |AHDPnG_Brylee_Name={{AHDPnG_Brylee_Name_T}} }}/6/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_CorinePortrait": "CorinePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.corineportrait.name |AHDPnG_Corbin_Name={{AHDPnG_Corbin_Name_T}} }}/8/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_DaiaPortrait": "DaiaPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.daiaportrait.name |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}/10/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_FayePortrait": "FayePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.fayeportrait.name |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }}/24/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_FlorPortrait": "FlorPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.florportrait.name |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}/26/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_IanPortrait": "IanPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.ianportrait.name |AHDPnG_Ivy_Name={{AHDPnG_Ivy_Name_T}} }}/28/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_IrenePortrait": "IrenePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.ireneportrait.name |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }}/30/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_JericPortrait": "JericPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.jericportrait.name |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}/32/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_JioPortrait": "JioPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.jioportrait.name |AHDPnG_Jiya_Name={{AHDPnG_Jiya_Name_T}} }}/34/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_JunePortrait": "JunePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.juneportrait.name |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}/48/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_KennethPortrait": "KennethPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.kennethportrait.name |AHDPnG_Kendra_Name={{AHDPnG_Kendra_Name_T}} }}/50/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_KiarraPortrait": "KiarraPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.kiarraportrait.name |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }}/52/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_MaddiePortrait": "MaddiePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.maddieportrait.name |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}/54/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_PaulaPortrait": "PaulaPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.paulaportrait.name |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}/56/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_PhilipPortrait": "PhilipPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.philipportrait.name |AHDPnG_Phoebe_Name={{AHDPnG_Phoebe_Name_T}} }}/58/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_SeanPortrait": "SeanPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.seanportrait.name |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}/72/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_ShiroPortrait": "ShiroPortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.shiroportrait.name |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}/74/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_YsabellePortrait": "YsabellePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.ysabelleportrait.name |AHDPnG_Ysai_Name={{AHDPnG_Ysai_Name_T}} }}/76/RSV\\Objects\\PortraitFrames",
+        "Rafseazz.RSVCP_ZaynePortrait": "ZaynePortrait/painting/2 2/2 2/1/999/-1/{{i18n:furniture.zayneportrait.name |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}/78/RSV\\Objects\\PortraitFrames"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "When": {},
+      "Entries": {
+        "AlissaLetter": "{{i18n:Mail.AlissaLetter |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "AlissaPerform": "{{i18n:Mail.AlissaPerform |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}}  |AHDPnG_Allister_Name={{AHDPnG_Allister_Name_T}} }}",
+        "FlorLetter": "{{i18n:Mail.FlorLetter |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}}  |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "MaddieDate": "{{i18n:Mail.MaddieDate |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}}  |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "JericLetter": "{{i18n:Mail.JericLetter |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}",
+        "DaiaDate": "{{i18n:Mail.DaiaDate |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}}  |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}",
+        "RichardSOLetter": "{{i18n:Mail.RichardSOLetter |AHDPnG_Florian_Name={{AHDPnG_Florian_Name_T}} }}",
+        "SeanLetter": "{{i18n:Mail.SeanLetter |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}}  |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }}",
+        "BlairSOletter.temp": "{{i18n:Mail.BlairSOletter.temp |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }}",
+        "MaddieSOLetter.temp": "{{i18n:Mail.MaddieSOLetter.temp |AHDPnG_Matthew_Name={{AHDPnG_Matthew_Name_T}} }}",
+        "ZayneLetter": "{{i18n:Mail.ZayneLetter |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}}  |AHDPnG_Zaria_Name={{AHDPnG_Zaria_Name_T}} }}",
+        "JuneLetter": "{{i18n:Mail.JuneLetter |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}",
+        "PaulaCooking": "{{i18n:paula.recipe.text |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }} %item cookingRecipe %%[#]{{i18n:paula.recipe.title |AHDPnG_Pablo_Name={{AHDPnG_Pablo_Name_T}} }}",
+        "BlairCooking": "{{i18n:blair.recipe.text |AHDPnG_Blaine_Name={{AHDPnG_Blaine_Name_T}} }} %item cookingRecipe %%[#]{{i18n:blair.recipe.title}}",
+        "SeanCooking": "{{i18n:sean.recipe.text |AHDPnG_Shauna_Name={{AHDPnG_Shauna_Name_T}} }} %item cookingRecipe %% [#]{{i18n:sean.recipe.title}}",
+        "KiarraCooking": "{{i18n:kiarra.recipe.text |AHDPnG_Kian_Name={{AHDPnG_Kian_Name_T}} }} %item cookingRecipe %% [#]{{i18n:kiarra.recipe.title}}",
+        "IreneCooking": "{{i18n:irene.recipe.text |AHDPnG_Irwin_Name={{AHDPnG_Irwin_Name_T}} }} %item cookingRecipe %% [#]{{i18n:irene.recipe.title}}",
+        "FayeCooking": "{{i18n:faye.recipe.text |AHDPnG_Felix_Name={{AHDPnG_Felix_Name_T}} }} %item cookingRecipe %% [#]{{i18n:faye.recipe.title}}",
+        "JuneNPC.PlatonicDeparture": "{{i18n:June.PlatonicDeparture.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.PlatonicDeparture.title |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}",
+        "JuneNPC.RomanticArrival": "{{i18n:June.RomanticArrival.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.RomanticArrival.title}}",
+        "JuneNPC.RomanticDeparture": "{{i18n:June.RomanticDeparture.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.RomanticDeparture.title}}",
+        "JuneNPC.RomanticSummer": "{{i18n:June.RomanticSummer.text |AHDPnG_Juniper_Name={{AHDPnG_Juniper_Name_T}} }}[#]{{i18n:June.RomanticSummer.title}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Npcgifttastes",
+      "When": {},
+      "Entries": {
+        "Yuuma": "{{i18n:Gift.Love.Yuuma}}/Rafseazz.RSVCP_Snowball_Slurpee Rafseazz.RSVCP_Paradise_Rangpur Rafseazz.RSVCP_Mountain_Chico Rafseazz.RSVCP_Hundred_Flavor_Doughnut Rafseazz.RSVCP_Highland_Ice_Cream Rafseazz.RSVCP_Highland_Butterwort Rafseazz.RSVCP_Forest_Halva Rafseazz.RSVCP_Cherry_Berry_Shakey Rafseazz.RSVCP_Autumnal_Serenity 194 613 398 216/{{i18n:Gift.Like.Yuuma}}/Rafseazz.RSVCP_Lava_Lily Rafseazz.RSVCP_Kedi_Delight 167 176 92 311 340 344/{{i18n:Gift.Dislike.Yuuma}}/247 346/{{i18n:Gift.Hate.Yuuma |AHDPnG_Shiori_Lower26={{AHDPnG_Shiori_Lower_T | valueAt=26}} }}/Rafseazz.RSVCP_Matcha_Latte Rafseazz.RSVCP_Jumpy_Coffee_Cake -26 alcohol_item 253 903 226 215 395/{{i18n:Gift.Neutral.Yuuma}}/-4/ "
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "When": {},
+      "Entries": {
+        "72860005": "Basic/{{i18n:preparations_complete.title}}/{{i18n:preparations_complete.description |AHDPnG_Dain_Name={{AHDPnG_Dain_Name_T}} }}/{{i18n:preparations_complete.objective}}//-1/0/-1/true/",
+        "72861028": "ItemDelivery/{{i18n:yuuma_iron.title}}/{{i18n:yuuma_iron.description |AHDPnG_Shiori_Lower02={{AHDPnG_Shiori_Lower_T | valueAt=2}}  |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}/{{i18n:yuuma_iron.objective}}/Yuuma 335/-1/300/-1/true/{{i18n:yuuma_iron.reactiontext}}",
+        "72861029": "LostItem/{{i18n:yuuma_ring.title}}/{{i18n:yuuma_ring.description |AHDPnG_Shiori_Name={{AHDPnG_Shiori_Name_T}} }}/{{i18n:yuuma_ring.objective |AHDPnG_Jerica_Name={{AHDPnG_Jerica_Name_T}} }}/Yuuma Rafseazz.RSVCP_Yuuma_s_Ring Custom_Ridgeside_RidgesideVillage 19 20/-1/200/-1/true/{{i18n:yuuma_ring.reactiontext}}"
+      }
+    }
+  ]
 }

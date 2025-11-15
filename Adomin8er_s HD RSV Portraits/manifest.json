@@ -1,9 +1,9 @@
 ﻿{
-    "Name": "Adomin8ers_HD_RSV_Portraits_and_Genderbend",
+    "Name": "ADMT_TESTING_Adomin8ers_HD_RSV_Portraits_and_Genderbend",
     "Author": "Adomin8er",
-    "Version": "2.1.3",
+    "Version": "2.1.7",
     "Description": "Adds HD Portraits to Ridgeside Village and supports Vanilla changes for Bachelors to Bachelorettes. (Will add RSV genderbends later.)",
-    "UniqueID": "Adomin8er.Adomin8ersHDRSVPortraits_and_Genderbend",
+    "UniqueID": "ADMT_TESTING_Adomin8er.Adomin8ersHDRSVPortraits_and_Genderbend",
     "UpdateKeys": [ "Nexus:-1" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
