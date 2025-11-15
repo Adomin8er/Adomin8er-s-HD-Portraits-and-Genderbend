@@ -305,7 +305,7 @@
       "Target": "Characters/Dialogue/Marriagedialogueclaire",
       "When": {},
       "Entries": {
-        "TwoKids_3": "{{i18n:Claire.MarriageDialogue.012 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
+        "TwoKids_3": "{{i18n:Claire.MarriageDialogue.012 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} |AHDPnG_Clayton_Lower15={{AHDPnG_Clayton_Lower_T |valueAt=15}} }}",
         "fall_27": "{{i18n:Claire.MarriageDialogue.025 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",
         "winter_25": "{{i18n:Claire.MarriageDialogue.030 |AHDPnG_Clayton_Name={{AHDPnG_Clayton_Name_T}} }}",
         "Good_4": "{{i18n:Claire.MarriageDialogue.061 |AHDPnG_Arcana_Lower56={{AHDPnG_Arcana_Lower_T |valueAt=56}} }}",

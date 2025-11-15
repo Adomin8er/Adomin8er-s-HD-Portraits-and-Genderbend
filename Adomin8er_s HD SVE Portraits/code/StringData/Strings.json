@@ -36,84 +36,13 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/Schedules/Abigail",
-      "When": {
-        "Season": "Winter",
-        "Season |contains=Spring, Summer, Fall": false
-      },
-      "Entries": {
-        "CommunityDay_Abigail": "{{i18n:CommunityDay.Dialogue.170 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-        "CommunityDay_Abigail_Married": "{{i18n:CommunityDay.Dialogue.174 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Alex",
-      "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.115 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
-        "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.119 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Alex",
-      "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.113 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
-        "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.117 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Alex",
-      "When": {
-        "Season": "Summer",
-        "Season |contains=Spring, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.114 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
-        "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.118 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
       "Target": "Strings/Schedules/Alex",
       "When": {
         "Season": "Winter",
         "Season |contains=Spring, Summer, Fall": false
       },
       "Entries": {
-        "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.116 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}",
-        "CommunityDay_Alex_Married": "{{i18n:CommunityDay.Dialogue.120 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Caroline",
-      "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.177 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Caroline",
-      "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.175 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
+        "CommunityDay_Alex": "{{i18n:CommunityDay.Dialogue.116 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
       }
     },
     {
@@ -125,17 +54,6 @@
       },
       "Entries": {
         "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.176 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Caroline",
-      "When": {
-        "Season": "Winter",
-        "Season |contains=Spring, Summer, Fall": false
-      },
-      "Entries": {
-        "CommunityDay_Caroline": "{{i18n:CommunityDay.Dialogue.178 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
       }
     },
     {
@@ -216,20 +134,7 @@
         "Season |contains=Spring, Summer, Winter": false
       },
       "Entries": {
-        "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.103 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-        "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.107 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Emily",
-      "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.101 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-        "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.105 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
+        "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.103 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
       }
     },
     {
@@ -246,106 +151,6 @@
     },
     {
       "Action": "EditData",
-      "Target": "Strings/Schedules/Emily",
-      "When": {
-        "Season": "Winter",
-        "Season |contains=Spring, Summer, Fall": false
-      },
-      "Entries": {
-        "CommunityDay_Emily": "{{i18n:CommunityDay.Dialogue.104 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-        "CommunityDay_Emily_Married": "{{i18n:CommunityDay.Dialogue.108 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Evelyn",
-      "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.127 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Evelyn",
-      "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.125 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Evelyn",
-      "When": {
-        "Season": "Summer",
-        "Season |contains=Spring, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.126 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Evelyn",
-      "When": {
-        "Season": "Winter",
-        "Season |contains=Spring, Summer, Fall": false
-      },
-      "Entries": {
-        "CommunityDay_Evelyn": "{{i18n:CommunityDay.Dialogue.128 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/George",
-      "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.123 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/George",
-      "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.121 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/George",
-      "When": {
-        "Season": "Summer",
-        "Season |contains=Spring, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.122 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/George",
-      "When": {
-        "Season": "Winter",
-        "Season |contains=Spring, Summer, Fall": false
-      },
-      "Entries": {
-        "CommunityDay_George": "{{i18n:CommunityDay.Dialogue.124 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
       "Target": "Strings/Schedules/Haley",
       "When": {
         "Season": "Summer",
@@ -354,17 +159,6 @@
       "Entries": {
         "CommunityDay_Haley": "{{i18n:CommunityDay.Dialogue.94 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}",
         "CommunityDay_Haley_Married": "{{i18n:CommunityDay.Dialogue.98 |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}}  |AHDPnG_Emmett_Lower01={{AHDPnG_Emmett_Lower_T |valueAt=1}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Haley",
-      "When": {
-        "Season": "Winter",
-        "Season |contains=Spring, Summer, Fall": false
-      },
-      "Entries": {
-        "CommunityDay_Haley_Married": "{{i18n:CommunityDay.Dialogue.100 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}"
       }
     },
     {
@@ -512,17 +306,6 @@
       "Action": "EditData",
       "Target": "Strings/Schedules/Olivia",
       "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Olivia": "{{i18n:CommunityDay.Dialogue.139 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Olivia",
-      "When": {
         "Season": "Spring",
         "Season |contains=Summer, Fall, Winter": false
       },
@@ -580,17 +363,6 @@
       "Action": "EditData",
       "Target": "Strings/Schedules/Pierre",
       "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Pierre": "{{i18n:CommunityDay.Dialogue.179 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Pierre",
-      "When": {
         "Season": "Winter",
         "Season |contains=Spring, Summer, Fall": false
       },
@@ -627,17 +399,6 @@
       "When": {},
       "Entries": {
         "Sandy_Birthday_Bones": "{{i18n:Sandy.StringFix |AHDPnG_Emmett_Name={{AHDPnG_Emmett_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Sandy",
-      "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Sandy": "{{i18n:CommunityDay.Dialogue.111 |AHDPnG_Soren_Name={{AHDPnG_Soren_Name_T}}  |AHDPnG_Soren_Lower03={{AHDPnG_Soren_Lower_T |valueAt=3}} }}"
       }
     },
     {
@@ -811,42 +572,6 @@
         "marriage.002": "{{i18n:Victor.Marriage.002 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
         "marriage.003": "{{i18n:Victor.Marriage.003 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}",
         "marriage.004": "{{i18n:Victor.Marriage.004 |AHDPnG_Oliver_Lower15={{AHDPnG_Oliver_Lower_T |valueAt=15}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Victor",
-      "When": {
-        "Season": "Fall",
-        "Season |contains=Spring, Summer, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.131 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-        "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.135 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Victor",
-      "When": {
-        "Season": "Spring",
-        "Season |contains=Summer, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.129 |AHDPnG_Peter_Upper61={{AHDPnG_Peter_Upper_T |valueAt=61}}  |AHDPnG_Peter_Name={{AHDPnG_Peter_Name_T}} }}",
-        "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.133 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Strings/Schedules/Victor",
-      "When": {
-        "Season": "Summer",
-        "Season |contains=Spring, Fall, Winter": false
-      },
-      "Entries": {
-        "CommunityDay_Victor": "{{i18n:CommunityDay.Dialogue.130 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}",
-        "CommunityDay_Victor_Married": "{{i18n:CommunityDay.Dialogue.134 |AHDPnG_Harriet_Name={{AHDPnG_Harriet_Name_T}} }}"
       }
     },
     {
