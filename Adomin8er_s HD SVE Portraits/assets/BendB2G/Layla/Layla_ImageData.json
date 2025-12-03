@@ -21,7 +21,7 @@
         },
         
         {
-            ".LogName": "Sorceress special emoji.",
+            ".LogName": "Layla special order emoji.",
             "Action": "EditImage",
             "Target": "LooseSprites/emojis",
             "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
