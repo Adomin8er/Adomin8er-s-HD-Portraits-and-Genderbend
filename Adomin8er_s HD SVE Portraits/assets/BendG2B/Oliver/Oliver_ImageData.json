@@ -21,7 +21,7 @@
         },
         
         {
-            ".LogName": "Sorceress special emoji.",
+            ".LogName": "Oliver special order emoji.",
             "Action": "EditImage",
             "Target": "LooseSprites/emojis",
             "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",

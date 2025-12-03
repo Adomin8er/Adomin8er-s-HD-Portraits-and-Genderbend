@@ -26,14 +26,48 @@
             "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Joja.png"
         },
         {
-            ".LogName": "Clayton Theater outfit.",
+            ".LogName": "Clayton Theater outfit 1.",
             "Action": "EditImage",
             "Target": "Characters/Claire_Theater",
-            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png"
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png",
+            "When": {
+                "Spouse |contains=Claire": false,
+                "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday",
+                "HasSeenEvent |contains=502261": false,
+                "LocationName |contains=MovieTheater": true
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            ".LogName": "Clayton Theater outfit 2.",
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Theater",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW_Theater.png",
+            "When": {
+                "Spouse |contains=Claire": true,
+                "DayOfWeek": "Monday, Wednesday, Thursday, Sunday",
+                "HasSeenEvent |contains=502261": false,
+                "LocationName |contains=MovieTheater": true
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            ".LogName": "Clayton Theater outfit 3.",
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Theater",
+            "FromFile": "assets/BendG2B/Clayton/ClaytonOW.png",
+            "When": {
+                "Spouse |contains=Claire": true,
+                "LocationName |contains=MovieTheater": true,
+                "HasSeenEvent |contains=4269703": true,
+                "HasSeenEvent |contains=4269704": false,
+                "Time": "{{Range: 1600, 2000}}"
+            },
+            "Update": "OnLocationChange"
         },
         
         {
-            ".LogName": "Sorceress special emoji.",
+            ".LogName": "Clayton special order emoji.",
             "Action": "EditImage",
             "Target": "LooseSprites/emojis",
             "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",

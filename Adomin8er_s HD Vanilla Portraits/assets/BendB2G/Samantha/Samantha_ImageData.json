@@ -8,6 +8,12 @@
             "When": {"DayEvent |contains=wedding": false}
         },
         {
+            ".LogName": "Samantha Joja Mart outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Sam_JojaMart",
+            "FromFile": "assets/BendB2G/Samantha/SamanthaOW_Joja.png"
+        },
+        {
             ".LogName": "Samantha winter outfit.",
             "Action": "EditImage",
             "Target": "Characters/Sam_Winter",

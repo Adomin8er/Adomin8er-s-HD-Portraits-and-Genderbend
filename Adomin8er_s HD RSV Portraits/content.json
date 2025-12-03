@@ -1414,21 +1414,21 @@
     // Abel
     {
         "Name": "AHDPnG_Abel_Name_T",
-        "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Name_T}}",
+        "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Name_T}}",
         "When": {
             "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Abel_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Abel_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1436,21 +1436,21 @@
     // Emmett
     {
       "Name": "AHDPnG_Emmett_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Emmett_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Emmett_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1458,21 +1458,21 @@
     // Hayden
     {
       "Name": "AHDPnG_Hayden_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Hayden_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Hayden_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1480,21 +1480,21 @@
     // Leif
     {
       "Name": "AHDPnG_Leif_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Leif_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Leif_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1502,21 +1502,21 @@
     // Micah
     {
       "Name": "AHDPnG_Micah_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Micah_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Micah_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1524,21 +1524,21 @@
     // Peter
     {
       "Name": "AHDPnG_Peter_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Peter_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Peter_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1546,21 +1546,21 @@
     // Alexis
     {
       "Name": "AHDPnG_Alexis_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Alexis_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Alexis_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1568,21 +1568,21 @@
     // Elena
     {
       "Name": "AHDPnG_Elena_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Elena_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Elena_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1590,21 +1590,21 @@
     // Harriet
     {
       "Name": "AHDPnG_Harriet_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Harriet_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Harriet_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1612,21 +1612,21 @@
     // Sabrina
     {
       "Name": "AHDPnG_Sabrina_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Sabrina_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Sabrina_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1634,21 +1634,21 @@
     // Samantha
     {
       "Name": "AHDPnG_Samantha_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Samantha_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Samantha_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1656,21 +1656,21 @@
     // Shaylin
     {
       "Name": "AHDPnG_Shaylin_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Shaylin_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Shaylin_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1678,21 +1678,21 @@
     // Sorceress
     {
         "Name": "AHDPnG_Sorceress_Name_T",
-        "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Name_T}}",
+        "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Name_T}}",
         "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Sorceress_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1703,21 +1703,21 @@
     // Clayton
     {
       "Name": "AHDPnG_Clayton_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Clayton_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Clayton_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Clayton_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Clayton_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Clayton_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Clayton_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Clayton_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Clayton_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
@@ -1725,21 +1725,21 @@
     // Oliver
     {
       "Name": "AHDPnG_Oliver_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Oliver_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Oliver_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Oliver_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Oliver_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Oliver_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Oliver_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Oliver_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Oliver_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
@@ -1747,21 +1747,21 @@
     // // Skyler
     // {
     //   "Name": "AHDPnG_Skyler_Name_T",
-    //   "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Skyler_Name_T}}",
+    //   "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Skyler_Name_T}}",
     //   "When": {
     //     "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
     //   }
     // },
     // {
     //   "Name": "AHDPnG_Skyler_Lower_T",
-    //   "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Skyler_Lower_T}}",
+    //   "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Skyler_Lower_T}}",
     //   "When": {
     //     "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
     //   }
     // },
     // {
     //   "Name": "AHDPnG_Skyler_Upper_T",
-    //   "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Skyler_Upper_T}}",
+    //   "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Skyler_Upper_T}}",
     //   "When": {
     //     "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
     //   }
@@ -1769,21 +1769,21 @@
     // Soren
     {
       "Name": "AHDPnG_Soren_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Soren_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Soren_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Soren_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Soren_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Soren_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Soren_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Soren_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Soren_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
@@ -1791,21 +1791,21 @@
     // Sorceress
     {
       "Name": "AHDPnG_Sorceress_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Sorceress_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Sorceress_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Sorceress_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Sorceress_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Sorceress_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Sorceress_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
@@ -1813,21 +1813,21 @@
     // Layla
     {
       "Name": "AHDPnG_Layla_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Layla_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Layla_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Layla_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Layla_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Layla_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Layla_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Layla_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Layla_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
@@ -1835,21 +1835,21 @@
     // Victoria
     {
       "Name": "AHDPnG_Victoria_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Victoria_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Victoria_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Victoria_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Victoria_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Victoria_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Victoria_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Victoria_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend, AHDPnG_Victoria_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDSVEPortraits_and_Genderbend": true
       }
@@ -4362,6 +4362,18 @@
         "19742_HDPhilip_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
         "19742_HDPhilip_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
         "19742_HDPhilip_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDPhilip_Work_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Work", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
         "19742_HDPhilip_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDPhilip_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDPhilip_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Philip_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
@@ -4409,6 +4421,18 @@
     //     "19742_HDPhoebe_09": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Phoebe/Phoebe.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
     //     "19742_HDPhoebe_10": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Phoebe/Phoebe.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
     //     "19742_HDPhoebe_11": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Phoebe/Phoebe.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        // "19742_HDPhoebe_Work_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Phoebe.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Phoebe_Work", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
     //     "19742_HDPhoebe_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Phoebe/Phoebe_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
     //     "19742_HDPhoebe_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Phoebe/Phoebe_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
     //     "19742_HDPhoebe_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendB2G/Phoebe/Phoebe_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Philip_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
@@ -5292,7 +5316,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Alexis/Alexis_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Alex_To_Alexis": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Alex_To_Alexis": true
       }
     },
     {
@@ -5300,7 +5324,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Elena/Elena_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Elliott_To_Elena": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Elliott_To_Elena": true
       }
     },
     {
@@ -5308,7 +5332,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Harriet/Harriet_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Harvey_To_Harriet": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Harvey_To_Harriet": true
       }
     },
     {
@@ -5316,7 +5340,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Samantha/Samantha_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sam_To_Samantha": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sam_To_Samantha": true
       }
     },
     {
@@ -5324,7 +5348,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Sabrina/Sabrina_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sebastian_To_Sabrina": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sebastian_To_Sabrina": true
       }
     },
     {
@@ -5332,7 +5356,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Shaylin/Shaylin_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Shane_To_Shaylin": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Shane_To_Shaylin": true
       }
     },
     {
@@ -5340,7 +5364,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Sorceress/Sorceress_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Wizard_To_Sorceress": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Wizard_To_Sorceress": true
       }
     },
     {
@@ -5348,7 +5372,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Abel/Abel_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Abigail_To_Abel": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Abigail_To_Abel": true
       }
     },
     {
@@ -5356,7 +5380,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Emmett/Emmett_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Emily_To_Emmett": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Emily_To_Emmett": true
       }
     },
     {
@@ -5364,7 +5388,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Hayden/Hayden_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Haley_To_Hayden": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Haley_To_Hayden": true
       }
     },
     {
@@ -5372,7 +5396,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Leif/Leif_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Leah_To_Leif": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Leah_To_Leif": true
       }
     },
     {
@@ -5380,7 +5404,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Micah/Micah_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Maru_To_Micah": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Maru_To_Micah": true
       }
     },
     {
@@ -5388,7 +5412,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Peter/Peter_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Penny_To_Peter": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Penny_To_Peter": true
       }
     }
   ]
