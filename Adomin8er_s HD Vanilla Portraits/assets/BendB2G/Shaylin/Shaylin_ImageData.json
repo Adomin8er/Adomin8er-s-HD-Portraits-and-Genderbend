@@ -11,7 +11,7 @@
             ".LogName": "Shaylin Joja Mart outfit.",
             "Action": "EditImage",
             "Target": "Characters/Shane_JojaMart",
-            "FromFile": "assets/BendB2G/Shaylin/ShaylinJojaOW.png"
+            "FromFile": "assets/BendB2G/Shaylin/ShaylinOW_Joja.png"
         },
         {
             ".LogName": "Shaylin winter outfit.",

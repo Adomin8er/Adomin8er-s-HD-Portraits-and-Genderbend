@@ -568,21 +568,21 @@
     // Abel
     {
         "Name": "AHDPnG_Abel_Name_T",
-        "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Name_T}}",
+        "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Name_T}}",
         "When": {
             "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Abel_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Abel_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Abel_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -590,21 +590,21 @@
     // Emmett
     {
       "Name": "AHDPnG_Emmett_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Emmett_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Emmett_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Emmett_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -612,21 +612,21 @@
     // Hayden
     {
       "Name": "AHDPnG_Hayden_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Hayden_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Hayden_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Hayden_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -634,21 +634,21 @@
     // Leif
     {
       "Name": "AHDPnG_Leif_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Leif_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Leif_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Leif_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -656,21 +656,21 @@
     // Micah
     {
       "Name": "AHDPnG_Micah_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Micah_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Micah_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Micah_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -678,21 +678,21 @@
     // Peter
     {
       "Name": "AHDPnG_Peter_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Peter_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Peter_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Peter_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -700,21 +700,21 @@
     // Alexis
     {
       "Name": "AHDPnG_Alexis_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Alexis_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Alexis_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Alexis_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -722,21 +722,21 @@
     // Elena
     {
       "Name": "AHDPnG_Elena_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Elena_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Elena_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Elena_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -744,21 +744,21 @@
     // Harriet
     {
       "Name": "AHDPnG_Harriet_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Harriet_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Harriet_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Harriet_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -766,21 +766,21 @@
     // Sabrina
     {
       "Name": "AHDPnG_Sabrina_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Sabrina_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Sabrina_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sabrina_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -788,21 +788,21 @@
     // Samantha
     {
       "Name": "AHDPnG_Samantha_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Samantha_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Samantha_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Samantha_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -810,21 +810,21 @@
     // Shaylin
     {
       "Name": "AHDPnG_Shaylin_Name_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Name_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Name_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Shaylin_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Shaylin_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Shaylin_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -832,21 +832,21 @@
     // Sorceress
     {
         "Name": "AHDPnG_Sorceress_Name_T",
-        "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Name_T}}",
+        "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Name_T}}",
         "When": {
             "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
         }
     },
     {
       "Name": "AHDPnG_Sorceress_Lower_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Lower_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Lower_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
     },
     {
       "Name": "AHDPnG_Sorceress_Upper_T",
-      "Value": "{{Spiderbuttons.CMCT/Dynamic: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Upper_T}}",
+      "Value": "{{Spiderbuttons.CMCT/Dynamic: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, AHDPnG_Sorceress_Upper_T}}",
       "When": {
           "HasMod |contains=Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend": true
       }
@@ -1029,22 +1029,6 @@
         "19742_HDClaire_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
         "19742_HDClaire_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
         "19742_HDClaire_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
         "19742_HDClaire_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDClaire_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDClaire_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
@@ -1064,29 +1048,158 @@
       },
       "When": {
         "Claire_HD_portrait": true,
-        "Claire_To_Clayton": false
-      }
+        "Claire_To_Clayton": false,
+        "LocationName |contains=JojaMart": false,
+        "LocationName |contains=MovieTheater": false
+      },
+      "Update": "OnLocationChange"
+    },
+    // Claire_Joja
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClaire_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Joja_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": false,
+        "LocationName |contains=JojaMart": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Claire_Theater_1
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClaire_Theater_1_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_1_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": false,
+        "Spouse |contains=Claire": false,
+        "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Claire_Theater_2
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClaire_Theater_2_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_2_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": false,
+        "Spouse |contains=Claire": true,
+        "DayOfWeek": "Monday, Wednesday, Thursday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Claire_Theater_3
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClaire_Theater_3_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Theater_3_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": false,
+        "Spouse |contains=Claire": true,
+        "LocationName |contains=MovieTheater": true,
+        "HasSeenEvent |contains=4269703": true,
+        "HasSeenEvent |contains=4269704": false,
+        "Time": "{{Range: 1600, 2000}}"
+      },
+      "Update": "OnLocationChange"
     },
     // Claire_Vendor
     {
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/TextureOverrides",
       "Entries": {
-        "19742_HDClaire_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClaire_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+        "19742_HDClaire_Vendor_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClaire_Vendor_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Claire_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
       },
       "When": {
         "Claire_HD_portrait": true,
         "Claire_To_Clayton": false
       }
     },
-    // ClaireFake
+    // ClaireFake_Theater
     {
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/TextureOverrides",
@@ -1110,67 +1223,179 @@
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/TextureOverrides",
       "Entries": {
-        "19742_HDClayton_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
-        "19742_HDClayton_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
-        "19742_HDClayton_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
-        "19742_HDClayton_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
-        "19742_HDClayton_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
-        "19742_HDClayton_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
-        "19742_HDClayton_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
-        "19742_HDClayton_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Joja", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Theater", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_08": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_09": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_10": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_11": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_12": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_13": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_14": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
-        "19742_HDClayton_Winter_15": {"SourceTexture": "{{InternalAssetKey: assets/BendG2B/Clayton/Clayton_Winter.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Claire_Winter", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}}
+        "19742_HDClayton_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Beach_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Beach.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Beach", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Winter_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Winter.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton_Winter", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}}
       },
       "When": {
         "Claire_HD_portrait": true,
-        "Claire_To_Clayton": true
-      }
+        "Claire_To_Clayton": true,
+        "LocationName |contains=JojaMart": false
+      },
+      "Update": "OnLocationChange"
+    },
+    // Clayton_Joja
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClayton_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Joja_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": true,
+        "LocationName |contains=JojaMart": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Clayton_Theater_1
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClayton_Theater_1_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_1_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": true,
+        "Spouse |contains=Claire": false,
+        "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Clayton_Theater_2
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClayton_Theater_2_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_2_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": true,
+        "Spouse |contains=Claire": true,
+        "DayOfWeek": "Monday, Wednesday, Thursday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Clayton_Theater_3
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDClayton_Theater_3_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_08": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:8", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_09": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:9", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 256, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_10": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:10", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_11": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:11", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 320, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_12": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:12", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_13": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:13", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 384, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_14": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:14", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 0, "Y": 448, "Width": 64, "Height": 64}},
+        "19742_HDClayton_Theater_3_15": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Clayton.png}}:15", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Clayton", "TargetRect": {"X": 64, "Y": 448, "Width": 64, "Height": 64}},
+      },
+      "When": {
+        "Claire_HD_portrait": true,
+        "Claire_To_Clayton": true,
+        "Spouse |contains=Claire": true,
+        "LocationName |contains=MovieTheater": true,
+        "HasSeenEvent |contains=4269703": true,
+        "HasSeenEvent |contains=4269704": false,
+        "Time": "{{Range: 1600, 2000}}"
+      },
+      "Update": "OnLocationChange"
     },
     // Clayton_Vendor
     {
@@ -1517,22 +1742,6 @@
         "19742_HDMartin_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
         "19742_HDMartin_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
         "19742_HDMartin_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Joja", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
-        "19742_HDMartin_Theater_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Theater", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}},
         "19742_HDMartin_Winter_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Winter.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Winter", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDMartin_Winter_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Winter.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Winter", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
         "19742_HDMartin_Winter_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Winter.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Winter", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
@@ -1543,8 +1752,124 @@
         "19742_HDMartin_Winter_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Winter.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin_Winter", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
       },
       "When": {
-        "Martin_HD_portrait": true
-      }
+        "Martin_HD_portrait": true,
+        "LocationName |contains=JojaMart": false,
+        "LocationName |contains=MovieTheater": false
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin_Joja
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMartin_Joja_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Joja_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Joja.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Martin_HD_portrait": true,
+        "LocationName |contains=JojaMart": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin_Theater_1
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMartin_Theater_1_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_1_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Martin_HD_portrait": true,
+        "Spouse |contains=Claire": false,
+        "DayOfWeek": "Tuesday, Saturday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin_Theater_2
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMartin_Theater_2_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_2_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Martin_HD_portrait": true,
+        "Spouse |contains=Claire": true,
+        "DayOfWeek": "Tuesday, Friday, Saturday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin_Theater_3
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMartin_Theater_3_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_3_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Martin_HD_portrait": true,
+        "Spouse |contains=Claire": true,
+        "DayOfWeek": "Tuesday, Wednesday, Friday, Saturday",
+        "HasSeenEvent |contains=502261": false,
+        "HasSeenEvent |contains=4269703": true,
+        "LocationName |contains=MovieTheater": true
+      },
+      "Update": "OnLocationChange"
+    },
+    // Martin_Theater_4
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "19742_HDMartin_Theater_4_00": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:0", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_01": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:1", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 0, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_02": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:2", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_03": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:3", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 64, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_04": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:4", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_05": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:5", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 128, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_06": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:6", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 0, "Y": 192, "Width": 64, "Height": 64}},
+        "19742_HDMartin_Theater_4_07": {"SourceTexture": "{{InternalAssetKey: assets/BaseImages/Martin_Theater.png}}:7", "SourceSizeOverride": {"X": 256, "Y": 256}, "TargetTexture": "Portraits/Martin", "TargetRect": {"X": 64, "Y": 192, "Width": 64, "Height": 64}}
+      },
+      "When": {
+        "Martin_HD_portrait": true,
+        "HasSeenEvent |contains=191393": true,
+	      "HasSeenEvent |contains=3219873": true,
+        "LocationName |contains=MovieTheater": true,
+        "Day": "22" 
+      },
+      "Update": "OnLocationChange"
     },
     // MartinFake
     {
@@ -2279,7 +2604,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Alexis/Alexis_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Alex_To_Alexis": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Alex_To_Alexis": true
       }
     },
     {
@@ -2287,7 +2612,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Elena/Elena_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Elliott_To_Elena": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Elliott_To_Elena": true
       }
     },
     {
@@ -2295,7 +2620,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Harriet/Harriet_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Harvey_To_Harriet": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Harvey_To_Harriet": true
       }
     },
     {
@@ -2303,7 +2628,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Samantha/Samantha_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sam_To_Samantha": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sam_To_Samantha": true
       }
     },
     {
@@ -2311,7 +2636,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Sabrina/Sabrina_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sebastian_To_Sabrina": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Sebastian_To_Sabrina": true
       }
     },
     {
@@ -2319,7 +2644,7 @@
       "Action": "Include",
       "FromFile": "assets/BendB2G/Shaylin/Shaylin_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Shane_To_Shaylin": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Shane_To_Shaylin": true
       }
     },
     {
@@ -2327,7 +2652,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Abel/Abel_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Abigail_To_Abel": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Abigail_To_Abel": true
       }
     },
     {
@@ -2335,7 +2660,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Emmett/Emmett_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Emily_To_Emmett": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Emily_To_Emmett": true
       }
     },
     {
@@ -2343,7 +2668,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Hayden/Hayden_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Haley_To_Hayden": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Haley_To_Hayden": true
       }
     },
     {
@@ -2351,7 +2676,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Leif/Leif_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Leah_To_Leif": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Leah_To_Leif": true
       }
     },
     {
@@ -2359,7 +2684,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Micah/Micah_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Maru_To_Micah": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Maru_To_Micah": true
       }
     },
     {
@@ -2367,7 +2692,7 @@
       "Action": "Include",
       "FromFile": "assets/BendG2B/Peter/Peter_StringData.json",
       "When": {
-        "Spiderbuttons.CMCT/Config: Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Penny_To_Peter": true
+        "Spiderbuttons.CMCT/Config: ADMT_TESTING_Adomin8er.Adomin8ersHDVanillaPortraits_and_Genderbend, Penny_To_Peter": true
       }
     }
   ]
