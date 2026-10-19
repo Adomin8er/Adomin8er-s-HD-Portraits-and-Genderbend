@@ -1,0 +1,108 @@
+{
+    "Changes": [
+        {
+            ".LogName": "Sabrina standard portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/Sabrina.png"
+        },
+        {
+            ".LogName": "Sabrina beach portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Sebastian_Beach",
+            "FromFile": "assets/BendB2G/Sabrina/Sabrina_Beach.png"
+        },
+        {
+            ".LogName": "Sabrina winter portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Sebastian_Winter",
+            "FromFile": "assets/BendB2G/Sabrina/Sabrina_Winter.png"
+        },
+
+        {
+            ".LogName": "Sabrina standard outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW.png",
+            "When": {
+                "DayEvent |contains=wedding": false
+            }
+        },
+        {
+            ".LogName": "Sabrina winter outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian_Winter",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Winter.png"
+        },
+        {
+            ".LogName": "Sabrina beach outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian_Beach",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Beach.png"
+        },
+        {
+            ".LogName": "Sabrina wedding outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/BendB2G/Sabrina/SabrinaOW_Wedding.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        {
+            ".LogName": "Cursors",        
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/BendB2G/Cursors.png",
+            "When": {"Sebastian_To_Sabrina": "true" },
+            "ToArea":
+            {
+                "X": 405,
+                "Y": 1853,
+                "Width": 47,
+                "Height": 34
+            },
+            "FromArea":
+            {
+                "X": 405,
+                "Y": 1853,
+                "Width": 47,
+                "Height": 34
+            },
+            "PatchMode": "Replace"
+        },
+        {
+            ".LogName": "Sabrina special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 27,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 72,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Sabrina purchasable painting image.",
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            ".LogName": "Sabrina purchasable painting string data.",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "SebastianPortrait": "SabrinaPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:SebastianPortrait]/253/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\B2G_Portraits/true"
+            }
+        }
+    ]
+}

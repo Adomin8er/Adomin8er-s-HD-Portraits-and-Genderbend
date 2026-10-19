@@ -1,0 +1,87 @@
+{
+    "Changes": [
+        {
+            ".LogName": "Hayden standard portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Haley",
+            "FromFile": "assets/BendG2B/Hayden/Hayden.png"
+        },
+        {
+            ".LogName": "Hayden beach portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Haley_Beach",
+            "FromFile": "assets/BendG2B/Hayden/Hayden_Beach.png"
+        },
+        {
+            ".LogName": "Hayden winter portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Haley_Winter",
+            "FromFile": "assets/BendG2B/Hayden/Hayden_Winter.png"
+        },
+
+        {
+            ".LogName": "Hayden standard outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW.png",
+            "When": {
+                "DayEvent |contains=wedding": false
+            }
+        },
+        {
+            ".LogName": "Hayden winter outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Haley_Winter",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW_Winter.png"
+        },
+        {
+            ".LogName": "Hayden beach outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Haley_Beach",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW_Beach.png"
+        },
+        {
+            ".LogName": "Hayden wedding outfit.",
+            "Action": "EditImage",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/BendG2B/Hayden/HaydenOW_Wedding.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        
+        {
+            ".LogName": "Hayden special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendG2B/G2B_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 18,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 36,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            ".LogName": "Hayden purchasable painting image.",
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/G2B_Portraits",
+            "FromFile": "assets/BendG2B/G2B_Portraits.png"
+        },
+        {
+            ".LogName": "Hayden purchasable painting string data.",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "HaleyPortrait": "HaydenPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:HaleyPortrait]/223/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\G2B_Portraits/true"
+            }
+        }
+    ]
+}

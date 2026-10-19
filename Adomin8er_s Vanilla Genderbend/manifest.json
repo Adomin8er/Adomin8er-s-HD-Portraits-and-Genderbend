@@ -1,0 +1,17 @@
+﻿{
+    "Name": "ADMT_TESTING_Adomin8ers_Vanilla_Genderbend",
+    "Author": "Adomin8er",
+    "Version": "2.2.0",
+    "Description": "Choose to change Bachelors to Bachelorettes or Bachelorettes to Bachelors. (Does not have portraits for it yet.)",
+    "UniqueID": "ADMT_TESTING_Adomin8er.Adomin8ersVanillaGenderbend",
+    "UpdateKeys": [ "Nexus:42320" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+        {
+			"UniqueID": "spacechase0.SpaceCore",
+			"IsRequired": true
+		}
+    ]
+}

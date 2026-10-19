@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "LogName": "Abel personal/family data",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Sam": {
+                    "DisplayName": "Samantha",
+                    "Gender": "Female"
+                },
+                "Jodi": {
+                    "FriendsAndFamily": {
+                        "Sam": "[LocalizedText Strings\\Characters:Relative_EldestDaughter]",
+                        "Vincent": "[LocalizedText Strings\\Characters:Relative_YoungestSon]",
+                        "Kent": "[LocalizedText Strings\\Characters:Relative_Husband]"
+                    }
+                },
+                "Kent": {
+                    "FriendsAndFamily": {
+                        "Jodi": "[LocalizedText Strings\\Characters:Relative_Wife]",
+                        "Sam": "[LocalizedText Strings\\Characters:Relative_EldestDaughter]",
+                        "Vincent": "[LocalizedText Strings\\Characters:Relative_YoungestBoy]"
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Samantha gender for dance location.",
+            "Target": "Data/Characters",
+            "Fields": {
+                "Sam": {
+                    "DisplayName": "Samantha",
+                    "Gender": "Male"
+                }
+            },
+            "When": {
+                "DayEvent": "flower dance",
+                "LocationName |contains=Temp": "true"
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

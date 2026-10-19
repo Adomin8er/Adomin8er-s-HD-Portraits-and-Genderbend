@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            ".LogName": "Harriet standard portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/BendB2G/Harriet/Harriet.png"
+        },
+        {
+            ".LogName": "Harriet beach portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Beach",
+            "FromFile": "assets/BendB2G/Harriet/Harriet_Beach.png"
+        },
+        {
+            ".LogName": "Harriet winter portrait.",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Winter",
+            "FromFile": "assets/BendB2G/Harriet/Harriet_Winter.png"
+        },
+        
+        {
+            "Action": "EditImage",
+            "LogName": "Harriet standard outfit.",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW.png",
+            "When": {"DayEvent |contains=wedding": false}
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Harriet winter outfit.",
+            "Target": "Characters/Harvey_Winter",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Winter.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Harriet beach outfit.",
+            "Target": "Characters/Harvey_Beach",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Beach.png"
+        },
+        {
+            "Action": "EditImage",
+            "LogName": "Harriet wedding outfit.",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/BendB2G/Harriet/HarrietOW_Wedding.png",
+            "When": {
+                "DayEvent": "wedding"
+            }
+        },
+        
+        {
+            ".LogName": "Harriet special emoji.",
+            "Action": "EditImage",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/BendB2G/B2G_SpecialOrderEmojis.png",
+            "FromArea": {
+                "X": 18,
+                "Y": 0,
+                "Width": 9,
+                "Height": 9
+            },
+            "ToArea": {
+                "X": 90,
+                "Y": 99,
+                "Width": 9,
+                "Height": 9
+            }
+        },
+        
+        {
+            "Action": "Load", "Priority": "Low",
+            "LogName": "Harriet purchasable painting image.",
+            "Target": "Mods/Adomin8ersHDVanillaPortraits_and_Genderbend/B2G_Portraits",
+            "FromFile": "assets/BendB2G/B2G_Portraits.png"
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Harriet purchasable painting string data.",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "HarveyPortrait": "HarrietPortrait/painting/2 2/2 2/1/999/-1/[LocalizedText Strings\\Furniture:HarveyPortrait]/247/Mods\\Adomin8ersHDVanillaPortraits_and_Genderbend\\B2G_Portraits/true"
+            }
+        }
+    ]
+}
